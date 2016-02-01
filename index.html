@@ -2,9 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Home</title>
+    <title>Code Life - Alan</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css"/>
+    <style type="text/css"></style>
 </head>
 <body>
-<h1>Hello world.</h1>
+<ul class="breadcrumb">
+    <li>
+        <a href="https://github.com/Allen-Wei">Repositories</a>
+    </li>
+    <li>Summary</li>
+</ul>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <h3><a href="https://github.com/Allen-Wei/Alan.WeChat">Alan.WeChat</a>: 微信公众号开发</h3>
+            <p>
+                这个是年底公司需要做一些朋友圈活动的时候开发的，基本上实现了微信公众号的大部分接口. 当然了, 这个那个活动最后也没上.
+            </p>
+            <p>
+                安装: <b>Install-Package Alan.WeChat</b> <br/>
+            </p>
+        </div>
+
+        <div class="col-sm-6">
+            <!--<h3>业务开发的几个常用的库</h3>-->
+            <h3><a href="https://github.com/Allen-Wei/WebApiDoc">WebApiDoc</a>: Web API接口文档自动生成.</h3>
+            <p>
+                在给移动端开发接口的时候, 需要些文档, 后来接口太多, 就写了一个自动生成接口文档的小工具, 接口文档上还有一个接口调试工具.
+                里面的接口都提供了异步和同步两种调用方式. 这里面一个比较麻烦的接口是调用微信的素材上传接口.
+            </p>
+            <p>
+                安装: <b>Install-Package Install-Package Alan.WebApiDoc</b> <br/>
+                使用: <a href="http://allen-wei.github.io/WebApiDoc/">http://allen-wei.github.io/WebApiDoc/</a>
+            </p>
+        </div>
+
+        <div class="col-sm-6">
+            <h3><a href="https://github.com/Allen-Wei/Alan.Utils">Alan.WeChat</a>: .Net使用类库</h3>
+            <p>
+                这个主要是一些扩展方法, 包括序列化工具, 数据类型转换, SQL查询. 其实这个用的有点过份了, 有点滥用扩展方法的嫌疑了.
+            </p>
+            <p>
+                安装: <b>Install-Package Alan.Utils</b> <br/>
+            </p>
+        </div>
+
+        <div class="col-sm-6">
+            <h3><a href="https://github.com/Allen-Wei/Alan.YiBaoPay">Alan.YiBaoPay</a>: .Net使用类库</h3>
+            <p>
+                开发的易宝支付的类库, 类库都写好了, 公司又不用易宝支付了, so sad !!!
+            </p>
+            <p>
+                安装: <b>Install-Package Alan.YiBaoPay</b> <br/>
+            </p>
+        </div>
+
+
+        <div class="col-sm-6">
+            <h3><a href="https://github.com/Allen-Wei/Alan.LargeFileUpload">Alan.LargeFileUpload</a>: 大文件异步上传</h3>
+            <p>
+                这个是JavaScript库(就干一件事), 主要思路是利用HTML 5的FileData在客户端将文件切割成小块, 然后转成base64传到后端, 后端接口这些块转成字节数组写进文件.
+                之前用jQuery File Upload库, 上传进度完全忽悠人啊, 就写了一个这个小库, 这个上传进度完全真实. 支持断点续传(这个有点夸大其词了, 前提是用户不能刷新网页, 毕竟数据缓存在JavaScript数组里的.).
+            </p>
+        </div>
+
+
+        <div class="col-sm-6">
+            <h3><a href="https://github.com/Allen-Wei/aUtils">aUtils</a>: JavaScript实用方法</h3>
+            <p>
+                这个是自己写的一些常用的JavaScript组件. 包括事件发布订阅(并因此写了一个<a href="http://allen-wei.github.io/aUtils/examples/TwoWayDataBind.html">数据双向绑定的小案例 </a>). 还有一些其他的, 比如文件上传, Url查询等.
+            </p>
+        </div>
+
+
+
+        <div class="col-sm-6">
+            <h3><a href="https://github.com/Allen-Wei/Alan.RepositoryGenerateToolkit">Alan.RepositoryGenerateToolkit</a>: 搭建Repository架构站点的脚手架</h3>
+            <p>
+                当时是想写一个自动生成Repository架构的网站的脚手架工具, 后来就忙别的了, 只写了一部分.
+            </p>
+        </div>
+
+
+
+        <div class="col-sm-6">
+            <h3><a href="https://github.com/Allen-Wei/Alan.Authentication.Old">Alan.Authentication.Old</a>: Asp.Net网站认证模块 </h3>
+            <p>
+                这个是Asp.Net网站的认证模块, 主要核心还是基于FormsAuthentication. 可以自己扩展, 项目里有两个扩展实现. 这个严重依赖 System.Context.HttpContext.Current, 无法跨平台, 后来开了一个Alan.Authentication的新项目, 也一直没时间写.
+            </p>
+            <p>
+                安装: <b>Install-Package Alan.Authentication</b>
+                简介看这个: <a href="https://github.com/Allen-Wei/Alan.Authentication">Alan.Authentication</a>
+            </p>
+        </div>
+
+
+
+        <div class="col-sm-6">
+            <h3><a href="https://github.com/Allen-Wei/Alan.Excel">Alan.Excel</a>: .Net Excel 导入功能</h3>
+            <p>
+                可以将一个Excel文件数据直接映射成.Net实体, 只需要写一个映射关系或者给实体的属性添加注解. <a href="https://github.com/Allen-Wei/Alan.Excel/blob/master/README.md">更多介绍</a>
+            </p>
+            <p>
+                安装: <b>Install-Package Alan.Excel</b>
+            </p>
+        </div>
+
+        <div class="col-sm-6">
+            Github里还有一些其他库, 就简单说一下吧, 想看详细信息, 可以进项目
+        </div>
+
+
+
+    </div>
+</div>
 </body>
 </html>
