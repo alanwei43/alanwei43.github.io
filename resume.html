@@ -5,6 +5,7 @@
     <style type="text/css">
     	*{font-family: 'Microsoft YaHei', sans-serif; font-size: 16px;}
     	h3{font-size: 18px; font-weight: normal;}
+    	h5{font-size: 16px; font-weight: normal;}
     </style>
 </head>
 <body>
@@ -30,8 +31,8 @@
 							<td>大专</td>
 							<td>学校</td>
 							<td>天津中德职业技术学校</td>
-							<td></td>
-							<td></td>
+							<td>专业</td>
+							<td>计算机网络技术</td>
 						</tr>
 						
 					</tbody>
@@ -56,7 +57,12 @@
 						</tr>
 						<tr>
 							<td colspan="6">
-								主要做 Asp.Net 开发.
+								<h5> 中科移信 </h5>
+								<p> 主要做CMS类型的网站开发，数据库使用SQL Server 2000, 数据库访问层使用LINQ to SQL，主要使用Web Forms生成页面，接口主要使用 Web Services，部分接口使用一般处理程序来做。尝试使用了MongoDB作为数据库，也了解了一点NodeJS。 </p>
+								<h5> 奥雅科技 </h5>
+								<p> 主要做电商网站，算是外包，面向澳大利亚客户。数据库使用的是SQL Server 2008 。数据库访问层主要使用LINQ to SQL，他们之前的开发主要使用Web Forms + Telerik服务器控件开发，后来开了一个新项目由我开发, 网站架构采用ASP.Net MVC, PC网站和移动网站前端大量使用AngularJS，使用Web API开放REST风格接口。尽量采用面向接口（API）编程，把前后端解耦，前端利用AnguarJS，开发PC和移动端公共组件和服务，移动端也采用bootstrap构造响应式界面。由于开发人员少，这些后端工作包括前端AngularJS的组件都由我来开发。 </p>
+								<h5> 华澳翼时代 </h5>
+								<p> 主要做公司内部网站，大量采用Repository模式，隔离数据库访问层和业务逻辑层。由于网站功能内容差不多，开始了服务器端模块化开发，把日志，认证，Web API自动接口文档, Excel导入等做成独立模块，放在nuget上。期间还开发了微信公众号和封装第三方支付SDK等库，也都放在了nuget上了（源码在github.com/allen-wei上）。在次期间开始了解并使用TAP异步编程模型。在给开发Android消息推送时开始了解IBM的MQTT和开源的RabbitMQ 消息队列，最后采用RabbitMQ 的消息队列向Android推送消息。后来利用RabbitMQ的队列思想(其实就是广播, 你可以把不同级别的日志写到不同的媒介上(数据库, 文件, 或者RabbitMQ的Consumer))简单改造了日志模块。 </p>
 							</td>
 						</tr>
 					</tbody>
