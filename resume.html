@@ -69,7 +69,7 @@
 				</table>
 			</div>
 			<div class="col-sm-12">
-				<h3>项目经验</h3>
+				<h3>项目/经验</h3>
 				<p> 第一次接触扩展方法时感觉它是神奇的东西，于是给.NET提供的基础类型写了一大堆扩展方法，比如值类型转换。(比如 <a href="https://github.com/Allen-Wei/Alan.Utils">Alan.Utils</a>)后来才发现这么写不好，扩展方法的最佳实践是加在接口上，LINQ技术（给IEnumerable加扩展方法）就是一个很好的例子。另外利用扩展方法可以很方便地实现Fluent风格编码。
 				</p>
 				<p> 要善于使用接口（Interface），抽象和实现能够分离，方便测试和扩展。日志模块就是一个很好的例子，一般先定义一个接口，日志模块实现接口。(比如<a href="">Alan.Log</a>，这个模块内置了几个实现(写单个文件日志，写多个文件日志，邮件日志，还扩展了两个项目，一个是RabbitMQ的日志实现, 还有一个Bmob的实现。利用RabbitMQ实现的日志，做了一个案例，利用NodeJS和Web Socket实时在网页上显示日志消息(见<a href="https://github.com/Allen-Wei/Alan.Log/tree/master/Alan.Log.RabbitMQ.Example">Alan.Log.RabbitMQ.Example</a>)))</p> 
@@ -78,6 +78,7 @@
 				<p>刚开始做无刷新的文件上传时，利用嵌套iframe来实现，后来利用JavaScript的FormData，将File对象存放到FormData里，Ajax上传文件。但这种方式都有个缺点，他们实际上还是Form表单上传文件，文件一次性传输到后端，再后来利用FileData的和slice和readAsDaraURL(见<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs">Data URI</a>)方法，将文件分割成更小的块，并转换成base64字符串异步传输到后端。这样可以一次只上传一小块数据。(自己写了一个JavaScript库<a href="https://github.com/Allen-Wei/Alan.LargeFileUpload/blob/master/Alan.LargeFileUpload/SeperateFile-2.0.js">Alan.LargeFileUpload</a>)</p>
 				<p>至于ORM框架，大部分项目使用的都是LINQ to SQL和Dapper(对Dapper二次封装，为了在Respository里的数据库访问一致CRUD方法。)</p>
 				<p>由于公司是做电商网站的，所以经常会封装一些第三方支付接口。刚开始做过Paypal之父，后来做过微信支付和国内一些不知名的第三方支付公司。对于公共的部分(比如每个接口的都有公共的请求参数: 签名，商户号，请求方法，加密类型等。也都有公共的方法：参数加密，参数签名，发送HTTP请求，反序列化响应结果，)使用继承，组合使用实用类库, 比如RSA加解密，获取证书里的私钥等）。</p>
+				<p>前段时间开始做微信公众号开发，开发完成了微信公众号的大部分功能。(见<a href="https://github.com/Allen-Wei/Alan.WeChat">Alan.WeChat</a>)</p>
 			</div>
 			<div class="col-sm-12">
 				<h3>技能简述</h3>
@@ -88,7 +89,7 @@
 						<li>了解并对JavaScript感兴趣, 熟练使用AngularJS和Bootstrap.</li>
 						<li>对JavaScript异步编程(Promise)和组件开发比较了解.</li>
 						<li>工作中为了给移动端(主要是给Android, iOS平台调用的是Apple的接口.)开发推送消息, 研究了一下基于RabbitMQ消息队列.</li>
-						<li>喜欢编程, 也很喜欢C#, 业余也搞一些Linux/NodeJS/MongoDB. 最近开始翻译国外的官网文档/教程, 前段时间把<a href="https://github.com/Allen-Wei/GitBlog/tree/master/RabbitMQ">RabbitMQ的官网教程</a>翻译完毕.</li>
+						<li>喜欢编程, 也很喜欢C#, 业余也搞一些Linux/NodeJS/MongoDB. 最近开始翻译国外的官网文档/教程, 前段时间把<a href="https://github.com/Allen-Wei/GitBlog/tree/master/RabbitMQ">RabbitMQ的官网教程</a>翻译完毕.喜欢素描, Orz 学习中.</li>
 					</ol>
 				</p>
 				<p>我的Github地址: https://github.com/allen-wei, 联系方式: <span id="mobile"></span> </p>
