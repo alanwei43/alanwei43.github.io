@@ -80,6 +80,7 @@
 				<p>前段时间开始做微信公众号开发，开发完成了微信公众号的大部分功能。(见<a href="https://github.com/Allen-Wei/Alan.WeChat">Alan.WeChat</a>) 自己也申请了一个公众号: CleverTangYuan开发着玩(不是企业公众号，权限太少。)</p>
 				<p>写网站前端数据有效性校验时和获取表单值时, 网站之前的表单时用的是easyui组件, 后来又用了其他的组件, 为了能够使用统一的方法遍历获取他们的值, 模仿了AngularJS里的在元素属性上写JS表达式的思路(其实AngularJS的那个表达式执行比较复杂, Angular内部自己实现了一个简单的AST语法解析器。)，然后利用new Function(....)执行元素上的JS表达式。具体实现看 <a href="https://github.com/Allen-Wei/GitBlog/blob/master/JavaScript/JavaScriptInnerScript.md">这儿</a>. </p>
 				<p>在使用LINQ to SQL时，动态查询是一个棘手的问题，后来发现一个<a href="http://weblogs.asp.net/scottgu/dynamic-linq-part-1-using-the-linq-dynamic-query-library">Dynamic LINQ</a>的库，很棒，也开始了解LINQ使用的查询表达式Expression。</p>
+				<p>当你开发B/S系统时，前端如果需要实时消息，传统的做法是采用长轮询，HTML5提供了Web Socket，Web Socket是个新的协议，头信息更少，比HTTP更轻量，不过如果功能很小，又是服务器端详客户端单向推送消息的话，实现一个Web Socket就显得得不偿失了。有一个更好的解决方案是采用SSH(Server Sent Event)，这个是基于HTTP协议，不过实现起来很简单。</p>
 			</div>
 			<div class="col-sm-12">
 				<h3>技能简述</h3>
