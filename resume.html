@@ -34,7 +34,6 @@
 							<td>专业</td>
 							<td>计算机网络技术</td>
 						</tr>
-						
 					</tbody>
 				</table>
 			</div>
@@ -78,7 +77,7 @@
 				<p>刚开始做无刷新的文件上传时，利用嵌套iframe来实现，后来利用JavaScript的FormData，将File对象存放到FormData里，Ajax上传文件。但这种方式都有个缺点，他们实际上还是Form表单上传文件，文件一次性传输到后端，再后来利用FileData的和slice和readAsDaraURL(见<a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/data_URIs">Data URI</a>)方法，将文件分割成更小的块，并转换成base64字符串异步传输到后端。这样可以一次只上传一小块数据。(自己写了一个JavaScript库<a href="https://github.com/Allen-Wei/Alan.LargeFileUpload/blob/master/Alan.LargeFileUpload/SeperateFile-2.0.js">Alan.LargeFileUpload</a>)</p>
 				<p>至于ORM框架，大部分项目使用的都是LINQ to SQL和Dapper(对Dapper二次封装，为了在Respository里的数据库访问一致CRUD方法。)</p>
 				<p>由于公司是做电商网站的，所以经常会封装一些第三方支付接口。刚开始做过Paypal之父，后来做过微信支付和国内一些不知名的第三方支付公司。对于公共的部分(比如每个接口的都有公共的请求参数: 签名，商户号，请求方法，加密类型等。也都有公共的方法：参数加密，参数签名，发送HTTP请求，反序列化响应结果，)使用继承，组合使用实用类库, 比如RSA加解密，获取证书里的私钥等）。</p>
-				<p>前段时间开始做微信公众号开发，开发完成了微信公众号的大部分功能。(见<a href="https://github.com/Allen-Wei/Alan.WeChat">Alan.WeChat</a>)</p>
+				<p>前段时间开始做微信公众号开发，开发完成了微信公众号的大部分功能。(见<a href="https://github.com/Allen-Wei/Alan.WeChat">Alan.WeChat</a>) 自己也申请了一个公众号: CleverTangYuan开发着玩(不是企业公众号，权限太少。)</p>
 				<p>写网站前端数据有效性校验时和获取表单值时, 网站之前的表单时用的是easyui组件, 后来又用了其他的组件, 为了能够使用统一的方法遍历获取他们的值, 模仿了AngularJS里的在元素属性上写JS表达式的思路(其实AngularJS的那个表达式执行比较复杂, Angular内部自己实现了一个简单的AST语法解析器。)，然后利用new Function(....)执行元素上的JS表达式。具体实现看 <a href="https://github.com/Allen-Wei/GitBlog/blob/master/JavaScript/JavaScriptInnerScript.md">这儿</a>. </p>
 			</div>
 			<div class="col-sm-12">
@@ -86,6 +85,7 @@
 				<p>
 					<ol>
 						<li>熟悉C#语言, 包括LINQ, TAP异步编程模型, 理解HTTP协议以及网络编程. 熟悉面向对象思想以及常用的设计模式。</li>
+						<li>了解SQL Server基本操作, 比如视图, 存储过程, 触发器, 用户自定义函数, 索引等.</li>
 						<li>熟悉Asp.Net相关开发, 了解HTTP Module管道和MVC的过滤器, 路由机制等.</li>
 						<li>了解并对JavaScript感兴趣, 熟练使用AngularJS和Bootstrap.</li>
 						<li>对JavaScript异步编程(Promise)和组件开发比较了解.</li>
