@@ -14,14 +14,20 @@
 
 <body ng-app="EditorApp">
     <div ng-controller="BodyCtrl as main">
-        <div class="container" contenteditable html="main.comment" editor></div>
-        <textarea class="container" ng-model="main.comment"></textarea>
+        <div>
+            <h3>Editable: </h3>
+            <div class="container" contenteditable html="main.comment" editor></div>
+        </div>
+        <hr />
+        <div>
+            <h3>comment in BodyCtrl</h3>
+            <textarea class="container" ng-model="main.comment"></textarea>
+        </div>
     </div>
     <script>
     angular.module("EditorApp", [])
         .controller("BodyCtrl", function() {
-            this.comment = "<b>hello</b> <i>world</i>.";
-
+            this.comment = "<b>hello</b> <i>world</i>.<hr /><h1>Please enter html under textaea.</h1>";
         })
         .directive("editor", function($timeout) {
             return {
@@ -31,14 +37,18 @@
                 },
                 link: function(scope, element, attrs) {
 
-                    element.html(scope.html);
-                    // Listen for change events to enable binding
+                    //element.html(scope.html);
+
                     element.on('blur keyup change', function() {
                         var html = element.html();
                         console.log(html);
-                        $timeout(function(){
-                        	scope.html = html;
+                        $timeout(function() {
+                            scope.html = html;
                         });
+                    });
+
+                    scope.$watch("html", function(newVal){
+                    	element.html(newVal);
                     });
                 }
             };
