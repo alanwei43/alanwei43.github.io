@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <title>ContentEditable</title>
+    <script src="../../library/angularjs-v1.3.15/angular.js"></script>
+    <style type="text/css">
+    #container {
+        height: 300px;
+        width: 400px;
+        border: 1px solid #0094ff;
+    }
+    </style>
+</head>
+
+<body ng-app="EditorApp">
+    <div ng-controller="BodyCtrl as main">
+        <div id="container" contenteditable html="main.comment" editor></div>
+        <div>{{main.comment}}</div>
+    </div>
+    <script>
+    angular.module("EditorApp", [])
+        .controller("BodyCtrl", function() {
+            this.comment = "<b>hello</b> <i>world</i>.";
+
+        })
+        .directive("editor", function($timeout) {
+            return {
+                restrict: 'A', // only activate on element attribute
+                scope: {
+                    html: "="
+                },
+                link: function(scope, element, attrs) {
+
+                    element.html(scope.html);
+                    // Listen for change events to enable binding
+                    element.on('blur keyup change', function() {
+                        var html = element.html();
+                        console.log(html);
+                        $timeout(function(){
+                        	scope.html = html;
+                        });
+                    });
+                }
+            };
+        });
+    </script>
+</body>
+
+</html>
