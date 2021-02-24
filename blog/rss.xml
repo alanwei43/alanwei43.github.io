@@ -4,9 +4,30 @@
         <title>Alan's Blog Blog</title>
         <link>https://alanwei43.github.io/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Thu, 30 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 24 Feb 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Spring Boot Hot Swapping]]></title>
+            <link>https://alanwei43.github.io/blog/2021/02/24/hot-swapping-in-spring-boot</link>
+            <guid>Spring Boot Hot Swapping</guid>
+            <pubDate>Wed, 24 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Spring Boot 应用配置 Hot Swapping]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Java 网络代理]]></title>
+            <link>https://alanwei43.github.io/blog/2021/02/17/java-network-proxy</link>
+            <guid>Java 网络代理</guid>
+            <pubDate>Wed, 17 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[设置Java程序网络代理]]></description>
+        </item>
+        <item>
+            <title><![CDATA[vimrc]]></title>
+            <link>https://alanwei43.github.io/blog/2021/02/17/vim-config</link>
+            <guid>vimrc</guid>
+            <pubDate>Wed, 17 Feb 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[_vimrc 配置:]]></description>
+        </item>
         <item>
             <title><![CDATA[Welcome]]></title>
             <link>https://alanwei43.github.io/blog/welcome</link>
