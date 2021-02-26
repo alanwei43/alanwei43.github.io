@@ -15,11 +15,11 @@
             <description><![CDATA[Spring Boot 应用配置 Hot Swapping]]></description>
         </item>
         <item>
-            <title><![CDATA[Java 网络代理]]></title>
+            <title><![CDATA[设置Java程序网络代理]]></title>
             <link>https://alanwei43.github.io/blog/2021/02/17/java-network-proxy</link>
-            <guid>Java 网络代理</guid>
+            <guid>设置Java程序网络代理</guid>
             <pubDate>Wed, 17 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[设置Java程序网络代理]]></description>
+            <description><![CDATA[配置来源]]></description>
         </item>
         <item>
             <title><![CDATA[vimrc]]></title>
@@ -48,6 +48,41 @@
             <guid>hola</guid>
             <pubDate>Tue, 28 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2016年5月22日]]></title>
+            <link>https://alanwei43.github.io/blog/2016/05/22/blog</link>
+            <guid>2016年5月22日</guid>
+            <pubDate>Sun, 22 May 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[下午读《追风筝的人》，读到哈桑为了保护帮阿米尔追到的风筝被阿塞夫凌辱， 而他一直忠诚并保护着的“主人”阿米尔看到这一幕，却因胆怯而逃跑了。之后的章节，阿米尔的一直带着这个愧疚冷落哈桑。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2015年12月 随便哪一天]]></title>
+            <link>https://alanwei43.github.io/blog/2015/12/01/blog</link>
+            <guid>2015年12月 随便哪一天</guid>
+            <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[偌大的城市，漫长的岁月，所有的错过都情有可原。囿于卑微，那些未曾说出的言语，也都得到末日审判。谁见过不朽呢？你我都不曾见过。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2015年11月04日 未完的剧本]]></title>
+            <link>https://alanwei43.github.io/blog/2015/11/04/blog</link>
+            <guid>2015年11月04日 未完的剧本</guid>
+            <pubDate>Wed, 04 Nov 2015 00:00:00 GMT</pubDate>
+            <description><![CDATA[眼前掠过的剪影，我都挥挥手。从前的纷扰奈何，我依次叹息。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[数学系和物理系学生有什么差别？]]></title>
+            <link>https://alanwei43.github.io/blog/2014/09/04/数学系和物理系学生有什么差别</link>
+            <guid>数学系和物理系学生有什么差别？</guid>
+            <pubDate>Thu, 04 Sep 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文]]></description>
+        </item>
+        <item>
+            <title><![CDATA[2013年12月31日]]></title>
+            <link>https://alanwei43.github.io/blog/2013/12/31/blog</link>
+            <guid>2013年12月31日</guid>
+            <pubDate>Tue, 31 Dec 2013 00:00:00 GMT</pubDate>
+            <description><![CDATA[岁月不饶人，我亦未曾绕过岁月。多年以后，我也许会对着这无声的聚散感慨万千，而就在许久之前，我还在跟和他们挥手说早安。]]></description>
         </item>
     </channel>
 </rss>
