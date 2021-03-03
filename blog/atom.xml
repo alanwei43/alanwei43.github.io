@@ -15,6 +15,27 @@
         <summary type="html"><![CDATA[Linux文件系统损坏修复]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[设置Mac VSC的code变量]]></title>
+        <id>设置Mac VSC的code变量</id>
+        <link href="https://alanwei43.github.io/blog/2021/03/03/mac-vsc-path"/>
+        <updated>2021-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[设置Mac系统JAVA_HOME]]></title>
+        <id>设置Mac系统JAVA_HOME</id>
+        <link href="https://alanwei43.github.io/blog/2021/03/03/mac-java-home"/>
+        <updated>2021-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node Hash计算]]></title>
+        <id>Node Hash计算</id>
+        <link href="https://alanwei43.github.io/blog/2021/02/28/node-hash"/>
+        <updated>2021-02-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[计算hash值:]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Spring Boot Hot Swapping]]></title>
         <id>Spring Boot Hot Swapping</id>
         <link href="https://alanwei43.github.io/blog/2021/02/24/hot-swapping-in-spring-boot"/>
@@ -55,13 +76,6 @@
         <link href="https://alanwei43.github.io/blog/hola"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2016年5月22日]]></title>
-        <id>2016年5月22日</id>
-        <link href="https://alanwei43.github.io/blog/2016/05/22/blog"/>
-        <updated>2016-05-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[下午读《追风筝的人》，读到哈桑为了保护帮阿米尔追到的风筝被阿塞夫凌辱， 而他一直忠诚并保护着的“主人”阿米尔看到这一幕，却因胆怯而逃跑了。之后的章节，阿米尔的一直带着这个愧疚冷落哈桑。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[2015年12月 随便哪一天]]></title>
