@@ -2,15 +2,22 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://alanwei43.github.io/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2021-03-04T00:00:00.000Z</updated>
+    <updated>2021-03-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://alanwei43.github.io/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://alanwei43.github.io/img/favicon.png</icon>
     <entry>
+        <title type="html"><![CDATA[vsc-code-snippets]]></title>
+        <id>vsc-code-snippets</id>
+        <link href="https://alanwei43.github.io/blog/2021/03/05/vsc-code-snippets"/>
+        <updated>2021-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 - Snippets in Visual Studio Code]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Mac安装Wireguard]]></title>
         <id>Mac安装Wireguard</id>
-        <link href="https://alanwei43.github.io/blog/2021/03/04/mac-wireguard"/>
+        <link href="https://alanwei43.github.io/blog/2021/03/04/mac-install-wireguard"/>
         <updated>2021-03-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文]]></summary>
     </entry>
@@ -64,11 +71,11 @@
         <summary type="html"><![CDATA[配置来源]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[vimrc]]></title>
-        <id>vimrc</id>
-        <link href="https://alanwei43.github.io/blog/2021/02/17/vim-config"/>
-        <updated>2021-02-17T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[_vimrc 配置:]]></summary>
+        <title type="html"><![CDATA[ASP.Net 身份模块介绍]]></title>
+        <id>ASP.Net 身份模块介绍</id>
+        <link href="https://alanwei43.github.io/blog/2019/05/14/身份系统"/>
+        <updated>2019-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[2015年12月 随便哪一天]]></title>

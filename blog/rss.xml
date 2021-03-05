@@ -4,12 +4,19 @@
         <title>Alan's Blog Blog</title>
         <link>https://alanwei43.github.io/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Thu, 04 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 05 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
+            <title><![CDATA[vsc-code-snippets]]></title>
+            <link>https://alanwei43.github.io/blog/2021/03/05/vsc-code-snippets</link>
+            <guid>vsc-code-snippets</guid>
+            <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文 - Snippets in Visual Studio Code]]></description>
+        </item>
+        <item>
             <title><![CDATA[Mac安装Wireguard]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/04/mac-wireguard</link>
+            <link>https://alanwei43.github.io/blog/2021/03/04/mac-install-wireguard</link>
             <guid>Mac安装Wireguard</guid>
             <pubDate>Thu, 04 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
@@ -64,11 +71,11 @@
             <description><![CDATA[配置来源]]></description>
         </item>
         <item>
-            <title><![CDATA[vimrc]]></title>
-            <link>https://alanwei43.github.io/blog/2021/02/17/vim-config</link>
-            <guid>vimrc</guid>
-            <pubDate>Wed, 17 Feb 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[_vimrc 配置:]]></description>
+            <title><![CDATA[ASP.Net 身份模块介绍]]></title>
+            <link>https://alanwei43.github.io/blog/2019/05/14/身份系统</link>
+            <guid>ASP.Net 身份模块介绍</guid>
+            <pubDate>Tue, 14 May 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文]]></description>
         </item>
         <item>
             <title><![CDATA[2015年12月 随便哪一天]]></title>
