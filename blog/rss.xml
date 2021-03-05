@@ -8,11 +8,18 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[vsc-code-snippets]]></title>
+            <title><![CDATA[VSC 代码片段介绍]]></title>
             <link>https://alanwei43.github.io/blog/2021/03/05/vsc-code-snippets</link>
-            <guid>vsc-code-snippets</guid>
+            <guid>VSC 代码片段介绍</guid>
             <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文 - Snippets in Visual Studio Code]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Markdown 智能感知插入代码片段]]></title>
+            <link>https://alanwei43.github.io/blog/2021/03/05/vsc-markdown-snippets</link>
+            <guid>Markdown 智能感知插入代码片段</guid>
+            <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[解决 Visual Studio Code Markdown 文件不能插入代码片段问题]]></description>
         </item>
         <item>
             <title><![CDATA[Mac安装Wireguard]]></title>

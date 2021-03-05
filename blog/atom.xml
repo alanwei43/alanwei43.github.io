@@ -8,11 +8,18 @@
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://alanwei43.github.io/img/favicon.png</icon>
     <entry>
-        <title type="html"><![CDATA[vsc-code-snippets]]></title>
-        <id>vsc-code-snippets</id>
+        <title type="html"><![CDATA[VSC 代码片段介绍]]></title>
+        <id>VSC 代码片段介绍</id>
         <link href="https://alanwei43.github.io/blog/2021/03/05/vsc-code-snippets"/>
         <updated>2021-03-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文 - Snippets in Visual Studio Code]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Markdown 智能感知插入代码片段]]></title>
+        <id>Markdown 智能感知插入代码片段</id>
+        <link href="https://alanwei43.github.io/blog/2021/03/05/vsc-markdown-snippets"/>
+        <updated>2021-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[解决 Visual Studio Code Markdown 文件不能插入代码片段问题]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Mac安装Wireguard]]></title>
