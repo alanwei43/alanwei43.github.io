@@ -2,147 +2,147 @@
 <rss version="2.0">
     <channel>
         <title>Alan's Blog Blog</title>
-        <link>https://alanwei43.github.io/blog</link>
+        <link>https://blog.alanwei.net/blog</link>
         <description>Alan's Blog Blog</description>
         <lastBuildDate>Sat, 06 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[IKEv2 配置和使用指南]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-ikev2</link>
+            <link>https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-ikev2</link>
             <guid>IKEv2 配置和使用指南</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文 - IKEv2 配置和使用指南]]></description>
         </item>
         <item>
-            <title><![CDATA[配置 IPsec/L2TP 客户端]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-l2tp</link>
-            <guid>配置 IPsec/L2TP 客户端</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[原文 - 配置 IPsec/L2TP 客户端]]></description>
-        </item>
-        <item>
-            <title><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-xauth</link>
-            <guid>配置 IPsec/XAuth VPN 客户端</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[原文 - 配置 IPsec/XAuth VPN 客户端]]></description>
-        </item>
-        <item>
             <title><![CDATA[搭建 IPSec 服务]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/06/ipsec-server</link>
+            <link>https://blog.alanwei.net/blog/2021/03/06/ipsec-server</link>
             <guid>搭建 IPSec 服务</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用技术:]]></description>
         </item>
         <item>
+            <title><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
+            <link>https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-xauth</link>
+            <guid>配置 IPsec/XAuth VPN 客户端</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文 - 配置 IPsec/XAuth VPN 客户端]]></description>
+        </item>
+        <item>
+            <title><![CDATA[配置 IPsec/L2TP 客户端]]></title>
+            <link>https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-l2tp</link>
+            <guid>配置 IPsec/L2TP 客户端</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文 - 配置 IPsec/L2TP 客户端]]></description>
+        </item>
+        <item>
             <title><![CDATA[搭建 Wireguard 服务]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/06/wireguard-server</link>
+            <link>https://blog.alanwei.net/blog/2021/03/06/wireguard-server</link>
             <guid>搭建 Wireguard 服务</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[服务安装Docker环境, 然后执行以下命令即可:]]></description>
         </item>
         <item>
             <title><![CDATA[VSC 代码片段介绍]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/05/vsc-code-snippets</link>
+            <link>https://blog.alanwei.net/blog/2021/03/05/vsc-code-snippets</link>
             <guid>VSC 代码片段介绍</guid>
             <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文 - Snippets in Visual Studio Code]]></description>
         </item>
         <item>
             <title><![CDATA[Markdown 智能感知插入代码片段]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/05/vsc-markdown-snippets</link>
+            <link>https://blog.alanwei.net/blog/2021/03/05/vsc-markdown-snippets</link>
             <guid>Markdown 智能感知插入代码片段</guid>
             <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[解决 Visual Studio Code Markdown 文件不能插入代码片段问题]]></description>
         </item>
         <item>
             <title><![CDATA[Mac安装Wireguard]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/04/mac-install-wireguard</link>
+            <link>https://blog.alanwei.net/blog/2021/03/04/mac-install-wireguard</link>
             <guid>Mac安装Wireguard</guid>
             <pubDate>Thu, 04 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
         </item>
         <item>
             <title><![CDATA[Sublime开启Vim模式]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/04/sublime-vim-mode</link>
+            <link>https://blog.alanwei.net/blog/2021/03/04/sublime-vim-mode</link>
             <guid>Sublime开启Vim模式</guid>
             <pubDate>Thu, 04 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文 Vintage Mode]]></description>
         </item>
         <item>
+            <title><![CDATA[Linux - Structure needs cleaning]]></title>
+            <link>https://blog.alanwei.net/blog/2021/03/03/Structure-needs-cleaning</link>
+            <guid>Linux - Structure needs cleaning</guid>
+            <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Linux文件系统损坏修复]]></description>
+        </item>
+        <item>
             <title><![CDATA[设置Mac系统JAVA_HOME]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/03/mac-java-home</link>
+            <link>https://blog.alanwei.net/blog/2021/03/03/mac-java-home</link>
             <guid>设置Mac系统JAVA_HOME</guid>
             <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
         </item>
         <item>
             <title><![CDATA[设置Mac VSC的code变量]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/03/mac-vsc-path</link>
+            <link>https://blog.alanwei.net/blog/2021/03/03/mac-vsc-path</link>
             <guid>设置Mac VSC的code变量</guid>
             <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
         </item>
         <item>
-            <title><![CDATA[Linux - Structure needs cleaning]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/03/Structure-needs-cleaning</link>
-            <guid>Linux - Structure needs cleaning</guid>
-            <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Linux文件系统损坏修复]]></description>
-        </item>
-        <item>
             <title><![CDATA[Node Hash计算]]></title>
-            <link>https://alanwei43.github.io/blog/2021/02/28/node-hash</link>
+            <link>https://blog.alanwei.net/blog/2021/02/28/node-hash</link>
             <guid>Node Hash计算</guid>
             <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[计算hash值:]]></description>
         </item>
         <item>
             <title><![CDATA[Spring Boot Hot Swapping]]></title>
-            <link>https://alanwei43.github.io/blog/2021/02/24/hot-swapping-in-spring-boot</link>
+            <link>https://blog.alanwei.net/blog/2021/02/24/hot-swapping-in-spring-boot</link>
             <guid>Spring Boot Hot Swapping</guid>
             <pubDate>Wed, 24 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Spring Boot 应用配置 Hot Swapping]]></description>
         </item>
         <item>
             <title><![CDATA[设置Java程序网络代理]]></title>
-            <link>https://alanwei43.github.io/blog/2021/02/17/java-network-proxy</link>
+            <link>https://blog.alanwei.net/blog/2021/02/17/java-network-proxy</link>
             <guid>设置Java程序网络代理</guid>
             <pubDate>Wed, 17 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[配置来源]]></description>
         </item>
         <item>
             <title><![CDATA[ASP.Net 身份模块介绍]]></title>
-            <link>https://alanwei43.github.io/blog/2019/05/14/身份系统</link>
+            <link>https://blog.alanwei.net/blog/2019/05/14/身份系统</link>
             <guid>ASP.Net 身份模块介绍</guid>
             <pubDate>Tue, 14 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
         </item>
         <item>
             <title><![CDATA[2015年12月 随便哪一天]]></title>
-            <link>https://alanwei43.github.io/blog/2015/12/01/blog</link>
+            <link>https://blog.alanwei.net/blog/2015/12/01/blog</link>
             <guid>2015年12月 随便哪一天</guid>
             <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
             <description><![CDATA[偌大的城市，漫长的岁月，所有的错过都情有可原。囿于卑微，那些未曾说出的言语，也都得到末日审判。谁见过不朽呢？你我都不曾见过。]]></description>
         </item>
         <item>
             <title><![CDATA[2015年11月04日 未完的剧本]]></title>
-            <link>https://alanwei43.github.io/blog/2015/11/04/blog</link>
+            <link>https://blog.alanwei.net/blog/2015/11/04/blog</link>
             <guid>2015年11月04日 未完的剧本</guid>
             <pubDate>Wed, 04 Nov 2015 00:00:00 GMT</pubDate>
             <description><![CDATA[眼前掠过的剪影，我都挥挥手。从前的纷扰奈何，我依次叹息。]]></description>
         </item>
         <item>
             <title><![CDATA[数学系和物理系学生有什么差别？]]></title>
-            <link>https://alanwei43.github.io/blog/2014/09/04/数学系和物理系学生有什么差别</link>
+            <link>https://blog.alanwei.net/blog/2014/09/04/数学系和物理系学生有什么差别</link>
             <guid>数学系和物理系学生有什么差别？</guid>
             <pubDate>Thu, 04 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
         </item>
         <item>
             <title><![CDATA[2013年12月31日]]></title>
-            <link>https://alanwei43.github.io/blog/2013/12/31/blog</link>
+            <link>https://blog.alanwei.net/blog/2013/12/31/blog</link>
             <guid>2013年12月31日</guid>
             <pubDate>Tue, 31 Dec 2013 00:00:00 GMT</pubDate>
             <description><![CDATA[岁月不饶人，我亦未曾绕过岁月。多年以后，我也许会对着这无声的聚散感慨万千，而就在许久之前，我还在跟和他们挥手说早安。]]></description>
