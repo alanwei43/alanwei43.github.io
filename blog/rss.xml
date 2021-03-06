@@ -8,6 +8,20 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
+            <title><![CDATA[配置 IPsec/L2TP 客户端]]></title>
+            <link>https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-l2tp</link>
+            <guid>配置 IPsec/L2TP 客户端</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文 - 配置 IPsec/L2TP 客户端]]></description>
+        </item>
+        <item>
+            <title><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
+            <link>https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-xauth</link>
+            <guid>配置 IPsec/XAuth VPN 客户端</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文 - 配置 IPsec/XAuth VPN 客户端]]></description>
+        </item>
+        <item>
             <title><![CDATA[IKEv2 配置和使用指南]]></title>
             <link>https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-ikev2</link>
             <guid>IKEv2 配置和使用指南</guid>
@@ -20,20 +34,6 @@
             <guid>搭建 IPSec 服务</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用技术:]]></description>
-        </item>
-        <item>
-            <title><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-xauth</link>
-            <guid>配置 IPsec/XAuth VPN 客户端</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[原文 - 配置 IPsec/XAuth VPN 客户端]]></description>
-        </item>
-        <item>
-            <title><![CDATA[配置 IPsec/L2TP 客户端]]></title>
-            <link>https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-l2tp</link>
-            <guid>配置 IPsec/L2TP 客户端</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[原文 - 配置 IPsec/L2TP 客户端]]></description>
         </item>
         <item>
             <title><![CDATA[搭建 Wireguard 服务]]></title>

@@ -8,6 +8,20 @@
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://alanwei43.github.io/img/favicon.png</icon>
     <entry>
+        <title type="html"><![CDATA[配置 IPsec/L2TP 客户端]]></title>
+        <id>配置 IPsec/L2TP 客户端</id>
+        <link href="https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-l2tp"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 - 配置 IPsec/L2TP 客户端]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
+        <id>配置 IPsec/XAuth VPN 客户端</id>
+        <link href="https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-xauth"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 - 配置 IPsec/XAuth VPN 客户端]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[IKEv2 配置和使用指南]]></title>
         <id>IKEv2 配置和使用指南</id>
         <link href="https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-ikev2"/>
@@ -20,20 +34,6 @@
         <link href="https://alanwei43.github.io/blog/2021/03/06/ipsec-server"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用技术:]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
-        <id>配置 IPsec/XAuth VPN 客户端</id>
-        <link href="https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-xauth"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - 配置 IPsec/XAuth VPN 客户端]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[配置 IPsec/L2TP 客户端]]></title>
-        <id>配置 IPsec/L2TP 客户端</id>
-        <link href="https://alanwei43.github.io/blog/2021/03/06/ipsec-clients-l2tp"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - 配置 IPsec/L2TP 客户端]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[搭建 Wireguard 服务]]></title>
