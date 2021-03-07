@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.net/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2021-03-06T00:00:00.000Z</updated>
+    <updated>2021-03-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.net/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.net/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[悲催的程序员，以及程序员的悲催]]></title>
+        <id>悲催的程序员，以及程序员的悲催</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/07/悲催的程序员以及程序员的悲催"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 - 悲催的程序员，以及程序员的悲催[转(http://blog.sina.cn/dpool/blog/s/blog_621a71a00100qs5r.html)]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[使用Maven创建一个Java项目]]></title>
         <id>使用Maven创建一个Java项目</id>
@@ -27,6 +34,13 @@
         <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-ikev2"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文 - IKEv2 配置和使用指南]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[配置 IPsec/L2TP 客户端]]></title>
+        <id>配置 IPsec/L2TP 客户端</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-l2tp"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 - 配置 IPsec/L2TP 客户端]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
@@ -50,25 +64,18 @@
         <summary type="html"><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[搭建 Wireguard 服务]]></title>
-        <id>搭建 Wireguard 服务</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/06/wireguard-server"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[服务安装Docker环境, 然后执行以下命令即可:]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[配置 IPsec/L2TP 客户端]]></title>
-        <id>配置 IPsec/L2TP 客户端</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-l2tp"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - 配置 IPsec/L2TP 客户端]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[VSC代码块折叠]]></title>
         <id>VSC代码块折叠</id>
         <link href="https://blog.alanwei.net/blog/2021/03/06/vsc-code-folding"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文 - Folding]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[搭建 Wireguard 服务]]></title>
+        <id>搭建 Wireguard 服务</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/06/wireguard-server"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[服务安装Docker环境, 然后执行以下命令即可:]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSC 代码片段介绍]]></title>
@@ -85,18 +92,18 @@
         <summary type="html"><![CDATA[解决 Visual Studio Code Markdown 文件不能插入代码片段问题]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mac安装Wireguard]]></title>
-        <id>Mac安装Wireguard</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/04/mac-install-wireguard"/>
-        <updated>2021-03-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Sublime开启Vim模式]]></title>
         <id>Sublime开启Vim模式</id>
         <link href="https://blog.alanwei.net/blog/2021/03/04/sublime-vim-mode"/>
         <updated>2021-03-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文 Vintage Mode]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac安装Wireguard]]></title>
+        <id>Mac安装Wireguard</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/04/mac-install-wireguard"/>
+        <updated>2021-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Linux - Structure needs cleaning]]></title>
@@ -106,16 +113,16 @@
         <summary type="html"><![CDATA[Linux文件系统损坏修复]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[设置Mac VSC的code变量]]></title>
-        <id>设置Mac VSC的code变量</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/03/mac-vsc-path"/>
+        <title type="html"><![CDATA[设置Mac系统JAVA_HOME]]></title>
+        <id>设置Mac系统JAVA_HOME</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/03/mac-java-home"/>
         <updated>2021-03-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[设置Mac系统JAVA_HOME]]></title>
-        <id>设置Mac系统JAVA_HOME</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/03/mac-java-home"/>
+        <title type="html"><![CDATA[设置Mac VSC的code变量]]></title>
+        <id>设置Mac VSC的code变量</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/03/mac-vsc-path"/>
         <updated>2021-03-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文]]></summary>
     </entry>
