@@ -4,22 +4,29 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.net/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sun, 07 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 09 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[从前慢]]></title>
-            <link>https://blog.alanwei.net/blog/2021/03/07/从前慢</link>
-            <guid>从前慢</guid>
-            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[记得早先少年时]]></description>
+            <title><![CDATA[删除HTTP请求头中的 referrer]]></title>
+            <link>https://blog.alanwei.net/blog/2021/03/09/remove-http-request-referrer</link>
+            <guid>删除HTTP请求头中的 referrer</guid>
+            <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文 - Remove http referer]]></description>
         </item>
         <item>
             <title><![CDATA[悲催的程序员，以及程序员的悲催]]></title>
-            <link>https://blog.alanwei.net/blog/2021/03/07/悲催的程序员以及程序员的悲催</link>
+            <link>https://blog.alanwei.net/blog/2021/03/07/bei-cui-cheng-xu-yuan-yi-ji-cheng-xu-yuan-be-cui</link>
             <guid>悲催的程序员，以及程序员的悲催</guid>
             <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文 - 悲催的程序员，以及程序员的悲催[转(http://blog.sina.cn/dpool/blog/s/blog_621a71a00100qs5r.html)]]></description>
+        </item>
+        <item>
+            <title><![CDATA[从前慢]]></title>
+            <link>https://blog.alanwei.net/blog/2021/03/07/cong-qian-man</link>
+            <guid>从前慢</guid>
+            <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[记得早先少年时]]></description>
         </item>
         <item>
             <title><![CDATA[使用Maven创建一个Java项目]]></title>
@@ -36,13 +43,6 @@
             <description><![CDATA[原文 - 使用Maven打包可执行JAR程序]]></description>
         </item>
         <item>
-            <title><![CDATA[IKEv2 配置和使用指南]]></title>
-            <link>https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-ikev2</link>
-            <guid>IKEv2 配置和使用指南</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[原文 - IKEv2 配置和使用指南]]></description>
-        </item>
-        <item>
             <title><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
             <link>https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-xauth</link>
             <guid>配置 IPsec/XAuth VPN 客户端</guid>
@@ -50,11 +50,25 @@
             <description><![CDATA[原文 - 配置 IPsec/XAuth VPN 客户端]]></description>
         </item>
         <item>
+            <title><![CDATA[IKEv2 配置和使用指南]]></title>
+            <link>https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-ikev2</link>
+            <guid>IKEv2 配置和使用指南</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文 - IKEv2 配置和使用指南]]></description>
+        </item>
+        <item>
             <title><![CDATA[搭建 IPSec 服务]]></title>
             <link>https://blog.alanwei.net/blog/2021/03/06/ipsec-server</link>
             <guid>搭建 IPSec 服务</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用技术:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[VSC代码块折叠]]></title>
+            <link>https://blog.alanwei.net/blog/2021/03/06/vsc-code-folding</link>
+            <guid>VSC代码块折叠</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文 - Folding]]></description>
         </item>
         <item>
             <title><![CDATA[配置 IPsec/L2TP 客户端]]></title>
@@ -69,13 +83,6 @@
             <guid>配置右击使用Sublime打开文件夹</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></description>
-        </item>
-        <item>
-            <title><![CDATA[VSC代码块折叠]]></title>
-            <link>https://blog.alanwei.net/blog/2021/03/06/vsc-code-folding</link>
-            <guid>VSC代码块折叠</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[原文 - Folding]]></description>
         </item>
         <item>
             <title><![CDATA[搭建 Wireguard 服务]]></title>
@@ -113,6 +120,13 @@
             <description><![CDATA[原文 Vintage Mode]]></description>
         </item>
         <item>
+            <title><![CDATA[设置Mac VSC的code变量]]></title>
+            <link>https://blog.alanwei.net/blog/2021/03/03/mac-vsc-path</link>
+            <guid>设置Mac VSC的code变量</guid>
+            <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文]]></description>
+        </item>
+        <item>
             <title><![CDATA[Linux - Structure needs cleaning]]></title>
             <link>https://blog.alanwei.net/blog/2021/03/03/Structure-needs-cleaning</link>
             <guid>Linux - Structure needs cleaning</guid>
@@ -123,13 +137,6 @@
             <title><![CDATA[设置Mac系统JAVA_HOME]]></title>
             <link>https://blog.alanwei.net/blog/2021/03/03/mac-java-home</link>
             <guid>设置Mac系统JAVA_HOME</guid>
-            <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[原文]]></description>
-        </item>
-        <item>
-            <title><![CDATA[设置Mac VSC的code变量]]></title>
-            <link>https://blog.alanwei.net/blog/2021/03/03/mac-vsc-path</link>
-            <guid>设置Mac VSC的code变量</guid>
             <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
         </item>
@@ -156,7 +163,7 @@
         </item>
         <item>
             <title><![CDATA[ASP.Net 身份模块介绍]]></title>
-            <link>https://blog.alanwei.net/blog/2019/05/14/身份系统</link>
+            <link>https://blog.alanwei.net/blog/2019/05/14/asp-net-identity-module</link>
             <guid>ASP.Net 身份模块介绍</guid>
             <pubDate>Tue, 14 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
@@ -184,7 +191,7 @@
         </item>
         <item>
             <title><![CDATA[数学系和物理系学生有什么差别？]]></title>
-            <link>https://blog.alanwei.net/blog/2014/09/04/数学系和物理系学生有什么差别</link>
+            <link>https://blog.alanwei.net/blog/2014/09/04/shu-xue-wu-li-xue-sheng-cha-bie</link>
             <guid>数学系和物理系学生有什么差别？</guid>
             <pubDate>Thu, 04 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>

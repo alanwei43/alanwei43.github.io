@@ -2,24 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.net/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2021-03-07T00:00:00.000Z</updated>
+    <updated>2021-03-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.net/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.net/img/favicon.png</icon>
     <entry>
-        <title type="html"><![CDATA[从前慢]]></title>
-        <id>从前慢</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/07/从前慢"/>
-        <updated>2021-03-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[记得早先少年时]]></summary>
+        <title type="html"><![CDATA[删除HTTP请求头中的 referrer]]></title>
+        <id>删除HTTP请求头中的 referrer</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/09/remove-http-request-referrer"/>
+        <updated>2021-03-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 - Remove http referer]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[悲催的程序员，以及程序员的悲催]]></title>
         <id>悲催的程序员，以及程序员的悲催</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/07/悲催的程序员以及程序员的悲催"/>
+        <link href="https://blog.alanwei.net/blog/2021/03/07/bei-cui-cheng-xu-yuan-yi-ji-cheng-xu-yuan-be-cui"/>
         <updated>2021-03-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文 - 悲催的程序员，以及程序员的悲催[转(http://blog.sina.cn/dpool/blog/s/blog_621a71a00100qs5r.html)]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[从前慢]]></title>
+        <id>从前慢</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/07/cong-qian-man"/>
+        <updated>2021-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[记得早先少年时]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用Maven创建一个Java项目]]></title>
@@ -36,13 +43,6 @@
         <summary type="html"><![CDATA[原文 - 使用Maven打包可执行JAR程序]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[IKEv2 配置和使用指南]]></title>
-        <id>IKEv2 配置和使用指南</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-ikev2"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - IKEv2 配置和使用指南]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
         <id>配置 IPsec/XAuth VPN 客户端</id>
         <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-xauth"/>
@@ -50,11 +50,25 @@
         <summary type="html"><![CDATA[原文 - 配置 IPsec/XAuth VPN 客户端]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[IKEv2 配置和使用指南]]></title>
+        <id>IKEv2 配置和使用指南</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-ikev2"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 - IKEv2 配置和使用指南]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[搭建 IPSec 服务]]></title>
         <id>搭建 IPSec 服务</id>
         <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-server"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用技术:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VSC代码块折叠]]></title>
+        <id>VSC代码块折叠</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/06/vsc-code-folding"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 - Folding]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[配置 IPsec/L2TP 客户端]]></title>
@@ -69,13 +83,6 @@
         <link href="https://blog.alanwei.net/blog/2021/03/06/sublime-right-click-open"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VSC代码块折叠]]></title>
-        <id>VSC代码块折叠</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/06/vsc-code-folding"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - Folding]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[搭建 Wireguard 服务]]></title>
@@ -113,6 +120,13 @@
         <summary type="html"><![CDATA[原文 Vintage Mode]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[设置Mac VSC的code变量]]></title>
+        <id>设置Mac VSC的code变量</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/03/mac-vsc-path"/>
+        <updated>2021-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Linux - Structure needs cleaning]]></title>
         <id>Linux - Structure needs cleaning</id>
         <link href="https://blog.alanwei.net/blog/2021/03/03/Structure-needs-cleaning"/>
@@ -123,13 +137,6 @@
         <title type="html"><![CDATA[设置Mac系统JAVA_HOME]]></title>
         <id>设置Mac系统JAVA_HOME</id>
         <link href="https://blog.alanwei.net/blog/2021/03/03/mac-java-home"/>
-        <updated>2021-03-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[设置Mac VSC的code变量]]></title>
-        <id>设置Mac VSC的code变量</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/03/mac-vsc-path"/>
         <updated>2021-03-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文]]></summary>
     </entry>
@@ -157,7 +164,7 @@
     <entry>
         <title type="html"><![CDATA[ASP.Net 身份模块介绍]]></title>
         <id>ASP.Net 身份模块介绍</id>
-        <link href="https://blog.alanwei.net/blog/2019/05/14/身份系统"/>
+        <link href="https://blog.alanwei.net/blog/2019/05/14/asp-net-identity-module"/>
         <updated>2019-05-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文]]></summary>
     </entry>
@@ -185,7 +192,7 @@
     <entry>
         <title type="html"><![CDATA[数学系和物理系学生有什么差别？]]></title>
         <id>数学系和物理系学生有什么差别？</id>
-        <link href="https://blog.alanwei.net/blog/2014/09/04/数学系和物理系学生有什么差别"/>
+        <link href="https://blog.alanwei.net/blog/2014/09/04/shu-xue-wu-li-xue-sheng-cha-bie"/>
         <updated>2014-09-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文]]></summary>
     </entry>
