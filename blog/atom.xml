@@ -47,14 +47,7 @@
         <id>IKEv2 配置和使用指南</id>
         <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-ikev2"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - IKEv2 配置和使用指南]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[配置 IPsec/L2TP 客户端]]></title>
-        <id>配置 IPsec/L2TP 客户端</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-l2tp"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - 配置 IPsec/L2TP 客户端]]></summary>
+        <summary type="html"><![CDATA[你也可以使用 IPsec/L2TP 或者 IPsec/XAuth 模式连接。]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[搭建 IPSec 服务]]></title>
@@ -64,6 +57,13 @@
         <summary type="html"><![CDATA[使用技术:]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
+        <id>配置 IPsec/XAuth VPN 客户端</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-xauth"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在成功 搭建自己的 VPN 服务器 之后，按照下面的步骤来配置你的设备。IPsec/XAuth ("Cisco IPsec") 在 Android, iOS 和 OS X 上均受支持，无需安装额外的软件。Windows 用户可以使用免费的 Shrew Soft 客户端。如果无法连接,请首先检查是否输入了正确的 VPN 登录凭证。]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[配置右击使用Sublime打开文件夹]]></title>
         <id>配置右击使用Sublime打开文件夹</id>
         <link href="https://blog.alanwei.net/blog/2021/03/06/sublime-right-click-open"/>
@@ -71,18 +71,18 @@
         <summary type="html"><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[配置 IPsec/L2TP 客户端]]></title>
+        <id>配置 IPsec/L2TP 客户端</id>
+        <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-l2tp"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在成功 搭建自己的 VPN 服务器 之后，按照下面的步骤来配置你的设备。IPsec/L2TP 在 Android, iOS, OS X 和 Windows 上均受支持，无需安装额外的软件。设置过程通常只需要几分钟。如果无法连接,请首先检查是否输入了正确的登录凭证。]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[VSC代码块折叠]]></title>
         <id>VSC代码块折叠</id>
         <link href="https://blog.alanwei.net/blog/2021/03/06/vsc-code-folding"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - Folding]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
-        <id>配置 IPsec/XAuth VPN 客户端</id>
-        <link href="https://blog.alanwei.net/blog/2021/03/06/ipsec-clients-xauth"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - 配置 IPsec/XAuth VPN 客户端]]></summary>
+        <summary type="html"><![CDATA[以下是Visual Studio Code支持的代码块折叠标记及快捷键:]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[搭建 Wireguard 服务]]></title>
@@ -96,7 +96,7 @@
         <id>VSC 代码片段介绍</id>
         <link href="https://blog.alanwei.net/blog/2021/03/05/vsc-code-snippets"/>
         <updated>2021-03-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - Snippets in Visual Studio Code]]></summary>
+        <summary type="html"><![CDATA[简介]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown 智能感知插入代码片段]]></title>
@@ -110,14 +110,14 @@
         <id>Mac安装Wireguard</id>
         <link href="https://blog.alanwei.net/blog/2021/03/04/mac-install-wireguard"/>
         <updated>2021-03-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文]]></summary>
+        <summary type="html"><![CDATA[1. 安装 WireGuard 客户端]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Sublime开启Vim模式]]></title>
         <id>Sublime开启Vim模式</id>
         <link href="https://blog.alanwei.net/blog/2021/03/04/sublime-vim-mode"/>
         <updated>2021-03-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 Vintage Mode]]></summary>
+        <summary type="html"><![CDATA[Sublime开启Vim模式]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Linux - Structure needs cleaning]]></title>
