@@ -50,18 +50,18 @@
             <description><![CDATA[记得早先少年时]]></description>
         </item>
         <item>
-            <title><![CDATA[IKEv2 配置和使用指南]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-ikev2</link>
-            <guid>IKEv2 配置和使用指南</guid>
+            <title><![CDATA[如何使用Maven创建可执行的JAR文件]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/06/how-can-i-create-an-executable-jar-with-dependencies-using-maven</link>
+            <guid>如何使用Maven创建可执行的JAR文件</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[你也可以使用 IPsec/L2TP 或者 IPsec/XAuth 模式连接。]]></description>
+            <description><![CDATA[原文 - 使用Maven打包可执行JAR程序]]></description>
         </item>
         <item>
-            <title><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-xauth</link>
-            <guid>配置 IPsec/XAuth VPN 客户端</guid>
+            <title><![CDATA[使用Maven创建一个Java项目]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/06/create-java-project-use-maven</link>
+            <guid>使用Maven创建一个Java项目</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[在成功 搭建自己的 VPN 服务器 之后，按照下面的步骤来配置你的设备。IPsec/XAuth ("Cisco IPsec") 在 Android, iOS 和 OS X 上均受支持，无需安装额外的软件。Windows 用户可以使用免费的 Shrew Soft 客户端。如果无法连接,请首先检查是否输入了正确的 VPN 登录凭证。]]></description>
+            <description><![CDATA[原文]]></description>
         </item>
         <item>
             <title><![CDATA[配置 IPsec/L2TP 客户端]]></title>
@@ -78,32 +78,18 @@
             <description><![CDATA[使用技术:]]></description>
         </item>
         <item>
+            <title><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-xauth</link>
+            <guid>配置 IPsec/XAuth VPN 客户端</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[在成功 搭建自己的 VPN 服务器 之后，按照下面的步骤来配置你的设备。IPsec/XAuth ("Cisco IPsec") 在 Android, iOS 和 OS X 上均受支持，无需安装额外的软件。Windows 用户可以使用免费的 Shrew Soft 客户端。如果无法连接,请首先检查是否输入了正确的 VPN 登录凭证。]]></description>
+        </item>
+        <item>
             <title><![CDATA[VSC代码块折叠]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/vsc-code-folding</link>
             <guid>VSC代码块折叠</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[以下是Visual Studio Code支持的代码块折叠标记及快捷键:]]></description>
-        </item>
-        <item>
-            <title><![CDATA[如何使用Maven创建可执行的JAR文件]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/06/how-can-i-create-an-executable-jar-with-dependencies-using-maven</link>
-            <guid>如何使用Maven创建可执行的JAR文件</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[原文 - 使用Maven打包可执行JAR程序]]></description>
-        </item>
-        <item>
-            <title><![CDATA[使用Maven创建一个Java项目]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/06/create-java-project-use-maven</link>
-            <guid>使用Maven创建一个Java项目</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[原文]]></description>
-        </item>
-        <item>
-            <title><![CDATA[搭建 Wireguard 服务]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/06/wireguard-server</link>
-            <guid>搭建 Wireguard 服务</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[使用Docker搭建 Wireguard 服务]]></description>
         </item>
         <item>
             <title><![CDATA[配置右击使用Sublime打开文件夹]]></title>
@@ -113,11 +99,18 @@
             <description><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></description>
         </item>
         <item>
-            <title><![CDATA[VSC 代码片段介绍]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/05/vsc-code-snippets</link>
-            <guid>VSC 代码片段介绍</guid>
-            <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[简介]]></description>
+            <title><![CDATA[IKEv2 配置和使用指南]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-ikev2</link>
+            <guid>IKEv2 配置和使用指南</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[你也可以使用 IPsec/L2TP 或者 IPsec/XAuth 模式连接。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[搭建 Wireguard 服务]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/06/wireguard-server</link>
+            <guid>搭建 Wireguard 服务</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用Docker搭建 Wireguard 服务]]></description>
         </item>
         <item>
             <title><![CDATA[Markdown 智能感知插入代码片段]]></title>
@@ -125,6 +118,13 @@
             <guid>Markdown 智能感知插入代码片段</guid>
             <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[解决 Visual Studio Code Markdown 文件不能插入代码片段问题]]></description>
+        </item>
+        <item>
+            <title><![CDATA[VSC 代码片段介绍]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/05/vsc-code-snippets</link>
+            <guid>VSC 代码片段介绍</guid>
+            <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[简介]]></description>
         </item>
         <item>
             <title><![CDATA[Mac安装Wireguard]]></title>
@@ -183,18 +183,18 @@
             <description><![CDATA[设置Java程序网络代理]]></description>
         </item>
         <item>
-            <title><![CDATA[我的 Visual Studio Code 快捷键配置]]></title>
-            <link>https://blog.alanwei.com/blog/2020/03/20/visual-studio-code-keyboard</link>
-            <guid>我的 Visual Studio Code 快捷键配置</guid>
-            <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
-            <description><![CDATA[我的 Visual Studio Code 快捷键配置]]></description>
-        </item>
-        <item>
             <title><![CDATA[我的 Visual Studio Code 配置]]></title>
             <link>https://blog.alanwei.com/blog/2020/03/20/visual-studio-code-config</link>
             <guid>我的 Visual Studio Code 配置</guid>
             <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[我的 Visual Studio Code 配置]]></description>
+        </item>
+        <item>
+            <title><![CDATA[我的 Visual Studio Code 快捷键配置]]></title>
+            <link>https://blog.alanwei.com/blog/2020/03/20/visual-studio-code-keyboard</link>
+            <guid>我的 Visual Studio Code 快捷键配置</guid>
+            <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
+            <description><![CDATA[我的 Visual Studio Code 快捷键配置]]></description>
         </item>
         <item>
             <title><![CDATA[ASP.Net 身份模块介绍]]></title>
@@ -230,6 +230,13 @@
             <guid>2015年11月04日 未完的剧本</guid>
             <pubDate>Wed, 04 Nov 2015 00:00:00 GMT</pubDate>
             <description><![CDATA[眼前掠过的剪影，我都挥挥手。从前的纷扰奈何，我依次叹息。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[哲学思维讲堂 - 卡尔·雅斯贝尔斯]]></title>
+            <link>https://blog.alanwei.com/blog/2014/09/09/哲学思维讲堂</link>
+            <guid>哲学思维讲堂 - 卡尔·雅斯贝尔斯</guid>
+            <pubDate>Tue, 09 Sep 2014 00:00:00 GMT</pubDate>
+            <description><![CDATA[《哲学思维讲堂 - 卡尔·雅斯贝尔斯》摘抄]]></description>
         </item>
         <item>
             <title><![CDATA[数学系和物理系学生有什么差别？]]></title>
