@@ -71,18 +71,18 @@
         <summary type="html"><![CDATA[你也可以使用 IPsec/L2TP 或者 IPsec/XAuth 模式连接。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[搭建 IPSec 服务]]></title>
-        <id>搭建 IPSec 服务</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/06/ipsec-server"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[使用技术:]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
         <id>配置 IPsec/XAuth VPN 客户端</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-xauth"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[在成功 搭建自己的 VPN 服务器 之后，按照下面的步骤来配置你的设备。IPsec/XAuth ("Cisco IPsec") 在 Android, iOS 和 OS X 上均受支持，无需安装额外的软件。Windows 用户可以使用免费的 Shrew Soft 客户端。如果无法连接,请首先检查是否输入了正确的 VPN 登录凭证。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[搭建 IPSec 服务]]></title>
+        <id>搭建 IPSec 服务</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/06/ipsec-server"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[使用技术:]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[配置右击使用Sublime打开文件夹]]></title>
@@ -92,18 +92,18 @@
         <summary type="html"><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[搭建 Wireguard 服务]]></title>
-        <id>搭建 Wireguard 服务</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/06/wireguard-server"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[使用Docker搭建 Wireguard 服务]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[VSC代码块折叠]]></title>
         <id>VSC代码块折叠</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/vsc-code-folding"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[以下是Visual Studio Code支持的代码块折叠标记及快捷键:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[搭建 Wireguard 服务]]></title>
+        <id>搭建 Wireguard 服务</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/06/wireguard-server"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[使用Docker搭建 Wireguard 服务]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSC 代码片段介绍]]></title>

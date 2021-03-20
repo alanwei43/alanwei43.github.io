@@ -71,18 +71,18 @@
             <description><![CDATA[你也可以使用 IPsec/L2TP 或者 IPsec/XAuth 模式连接。]]></description>
         </item>
         <item>
-            <title><![CDATA[搭建 IPSec 服务]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-server</link>
-            <guid>搭建 IPSec 服务</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[使用技术:]]></description>
-        </item>
-        <item>
             <title><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-xauth</link>
             <guid>配置 IPsec/XAuth VPN 客户端</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[在成功 搭建自己的 VPN 服务器 之后，按照下面的步骤来配置你的设备。IPsec/XAuth ("Cisco IPsec") 在 Android, iOS 和 OS X 上均受支持，无需安装额外的软件。Windows 用户可以使用免费的 Shrew Soft 客户端。如果无法连接,请首先检查是否输入了正确的 VPN 登录凭证。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[搭建 IPSec 服务]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-server</link>
+            <guid>搭建 IPSec 服务</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用技术:]]></description>
         </item>
         <item>
             <title><![CDATA[配置右击使用Sublime打开文件夹]]></title>
@@ -92,18 +92,18 @@
             <description><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></description>
         </item>
         <item>
-            <title><![CDATA[搭建 Wireguard 服务]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/06/wireguard-server</link>
-            <guid>搭建 Wireguard 服务</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[使用Docker搭建 Wireguard 服务]]></description>
-        </item>
-        <item>
             <title><![CDATA[VSC代码块折叠]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/vsc-code-folding</link>
             <guid>VSC代码块折叠</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[以下是Visual Studio Code支持的代码块折叠标记及快捷键:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[搭建 Wireguard 服务]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/06/wireguard-server</link>
+            <guid>搭建 Wireguard 服务</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用Docker搭建 Wireguard 服务]]></description>
         </item>
         <item>
             <title><![CDATA[VSC 代码片段介绍]]></title>
