@@ -8,6 +8,13 @@
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
     <entry>
+        <title type="html"><![CDATA[Chromium 所有开关列表]]></title>
+        <id>Chromium 所有开关列表</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chromium 所有开关列表]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
         <id>Docusaurus 配置 GitHub Action 自动发布</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy"/>
@@ -41,6 +48,13 @@
         <link href="https://blog.alanwei.com/blog/2021/03/21/maven-aliyun"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[阿里云Maven镜像]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解决 Node HTTP 请求出现的自签名证书校验失败问题]]></title>
+        <id>解决 Node HTTP 请求出现的自签名证书校验失败问题</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/node-tls"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[NPM的淘宝镜像]]></title>
