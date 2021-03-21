@@ -4,9 +4,23 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sat, 20 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 21 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[阿里云Maven镜像]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/maven-aliyun</link>
+            <guid>阿里云Maven镜像</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[阿里云Maven镜像]]></description>
+        </item>
+        <item>
+            <title><![CDATA[NPM的淘宝镜像]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/npm-taobao</link>
+            <guid>NPM的淘宝镜像</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[NPM的淘宝镜像]]></description>
+        </item>
         <item>
             <title><![CDATA[Visual Studio Code 侧边栏定位到当前文件]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/20/visual-studio-code-reveal</link>

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[179],{249:function(e,n,t){"use strict";t.r(n);var u=t(0),a=t.n(u),c=t(266);n.default=function(){return a.a.createElement(c.a,{title:"\u8fd9\u662f docusaurus \u4ee3\u7801\u793a\u4f8b",description:"\u8fd9\u662f docusaurus \u4ee3\u7801\u793a\u4f8b"},a.a.createElement("main",null,"\u6682\u65f6\u4e3a\u7a7a"))}}}]);
