@@ -8,6 +8,13 @@
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
     <entry>
+        <title type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
+        <id>Docusaurus 配置 GitHub Action 自动发布</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[frp连接 EOF 失败问题]]></title>
         <id>frp连接 EOF 失败问题</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/frp-eof"/>

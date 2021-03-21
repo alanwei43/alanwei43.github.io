@@ -8,6 +8,13 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
+            <title><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy</link>
+            <guid>Docusaurus 配置 GitHub Action 自动发布</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></description>
+        </item>
+        <item>
             <title><![CDATA[frp连接 EOF 失败问题]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/21/frp-eof</link>
             <guid>frp连接 EOF 失败问题</guid>
