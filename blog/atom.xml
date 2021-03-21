@@ -8,6 +8,27 @@
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
     <entry>
+        <title type="html"><![CDATA[frp连接 EOF 失败问题]]></title>
+        <id>frp连接 EOF 失败问题</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/frp-eof"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[来源: 记一次frp的被阻断的问题]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux下查看指定进程的所有连接信息]]></title>
+        <id>linux下查看指定进程的所有连接信息</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/linux-all-ps-connection"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[linux下查看指定进程的所有连接信息]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[显示Linux端口占用]]></title>
+        <id>显示Linux端口占用</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/linux-view-port-using"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[显示Linux端口占用]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[阿里云Maven镜像]]></title>
         <id>阿里云Maven镜像</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/maven-aliyun"/>
