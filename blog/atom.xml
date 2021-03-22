@@ -36,13 +36,6 @@
         <summary type="html"><![CDATA[linux下查看指定进程的所有连接信息]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[显示Linux端口占用]]></title>
-        <id>显示Linux端口占用</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/21/linux-view-port-using"/>
-        <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[显示Linux端口占用]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[阿里云Maven镜像]]></title>
         <id>阿里云Maven镜像</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/maven-aliyun"/>
@@ -62,6 +55,13 @@
         <link href="https://blog.alanwei.com/blog/2021/03/21/npm-taobao"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[NPM的淘宝镜像]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[显示Linux端口占用]]></title>
+        <id>显示Linux端口占用</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/linux-view-port-using"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[显示Linux端口占用]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Visual Studio Code 侧边栏定位到当前文件]]></title>
