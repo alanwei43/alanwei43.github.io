@@ -36,6 +36,13 @@
             <description><![CDATA[linux下查看指定进程的所有连接信息]]></description>
         </item>
         <item>
+            <title><![CDATA[显示Linux端口占用]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/linux-view-port-using</link>
+            <guid>显示Linux端口占用</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[显示Linux端口占用]]></description>
+        </item>
+        <item>
             <title><![CDATA[阿里云Maven镜像]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/21/maven-aliyun</link>
             <guid>阿里云Maven镜像</guid>
@@ -55,13 +62,6 @@
             <guid>NPM的淘宝镜像</guid>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[NPM的淘宝镜像]]></description>
-        </item>
-        <item>
-            <title><![CDATA[显示Linux端口占用]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/21/linux-view-port-using</link>
-            <guid>显示Linux端口占用</guid>
-            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[显示Linux端口占用]]></description>
         </item>
         <item>
             <title><![CDATA[Visual Studio Code 侧边栏定位到当前文件]]></title>
