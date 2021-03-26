@@ -85,6 +85,13 @@
             <description><![CDATA[Visual Studio Code 侧边栏定位到当前文件]]></description>
         </item>
         <item>
+            <title><![CDATA[Chrome flags]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/15/chrome-flags</link>
+            <guid>Chrome flags</guid>
+            <pubDate>Mon, 15 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chrome支持的flags列表]]></description>
+        </item>
+        <item>
             <title><![CDATA[Let's Encrypt证书申请及配置]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/14/lets-encrypt-ssl-certificate</link>
             <guid>Let's Encrypt证书申请及配置</guid>

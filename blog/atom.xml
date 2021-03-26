@@ -85,6 +85,13 @@
         <summary type="html"><![CDATA[Visual Studio Code 侧边栏定位到当前文件]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Chrome flags]]></title>
+        <id>Chrome flags</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/15/chrome-flags"/>
+        <updated>2021-03-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chrome支持的flags列表]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Let's Encrypt证书申请及配置]]></title>
         <id>Let's Encrypt证书申请及配置</id>
         <link href="https://blog.alanwei.com/blog/2021/03/14/lets-encrypt-ssl-certificate"/>
