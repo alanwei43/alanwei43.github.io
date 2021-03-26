@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[58],{129:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"xauth","name":"xauth","count":1,"permalink":"/blog/tags/xauth"}')}}]);

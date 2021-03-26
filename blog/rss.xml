@@ -4,9 +4,23 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sun, 21 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Docker配置镜像加速]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/26/docker-config-mirror</link>
+            <guid>Docker配置镜像加速</guid>
+            <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[修改Docker文件, 配置镜像加速]]></description>
+        </item>
+        <item>
+            <title><![CDATA[国内开源镜像站点]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/26/open-mirrors</link>
+            <guid>国内开源镜像站点</guid>
+            <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[国内开源镜像加速站点]]></description>
+        </item>
         <item>
             <title><![CDATA[Chromium 所有开关(flag)列表]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches</link>
