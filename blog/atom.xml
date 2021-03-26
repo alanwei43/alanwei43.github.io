@@ -8,8 +8,8 @@
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
     <entry>
-        <title type="html"><![CDATA[Chromium 所有开关列表]]></title>
-        <id>Chromium 所有开关列表</id>
+        <title type="html"><![CDATA[Chromium 所有开关(flag)列表]]></title>
+        <id>Chromium 所有开关(flag)列表</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chromium 所有开关列表]]></summary>

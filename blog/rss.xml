@@ -8,9 +8,9 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Chromium 所有开关列表]]></title>
+            <title><![CDATA[Chromium 所有开关(flag)列表]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches</link>
-            <guid>Chromium 所有开关列表</guid>
+            <guid>Chromium 所有开关(flag)列表</guid>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Chromium 所有开关列表]]></description>
         </item>
