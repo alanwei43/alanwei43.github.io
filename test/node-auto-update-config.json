@@ -1,0 +1,10 @@
+[
+    {
+        "name": "express-web",
+        "git": "https://gitee.com/alanway/test-node-web.git",
+        "mainJs": "src/app.js",
+        "build": [
+            "npm install"
+        ]
+    }
+]
