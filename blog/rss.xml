@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Fri, 26 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Mar 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Git Tags 使用简介]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/28/git-tags</link>
+            <guid>Git Tags 使用简介</guid>
+            <pubDate>Sun, 28 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Git Tags 常用命令简介]]></description>
+        </item>
         <item>
             <title><![CDATA[Docker配置镜像加速]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/26/docker-config-mirror</link>
