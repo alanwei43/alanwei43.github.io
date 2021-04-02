@@ -4,9 +4,23 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sun, 28 Mar 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Docker时区设置]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/02/docker-timezone</link>
+            <guid>Docker时区设置</guid>
+            <pubDate>Fri, 02 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[设置常用Docker镜像的容器时区]]></description>
+        </item>
+        <item>
+            <title><![CDATA[解决 NPM 安装应用出现 ERESOLVE 错误]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/30/npm-install-eresulve-error</link>
+            <guid>解决 NPM 安装应用出现 ERESOLVE 错误</guid>
+            <pubDate>Tue, 30 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[npm install ERESOLVE issues error npm 安装报错]]></description>
+        </item>
         <item>
             <title><![CDATA[Git Tags 使用简介]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/28/git-tags</link>
