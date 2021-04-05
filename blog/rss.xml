@@ -4,9 +4,37 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Fri, 02 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 03 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[ASP.Net 应用配置HTTP代理]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/03/asp.net-proxy-configuration</link>
+            <guid>ASP.Net 应用配置HTTP代理</guid>
+            <pubDate>Sat, 03 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[.Net Framework ASP.Net 应用配置HTTP代理 proxy configuration]]></description>
+        </item>
+        <item>
+            <title><![CDATA[how-to-create-maven-multi-module-project]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/03/how-to-create-maven-multi-module-project</link>
+            <guid>how-to-create-maven-multi-module-project</guid>
+            <pubDate>Sat, 03 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+        </item>
+        <item>
+            <title><![CDATA[解决 Windows 环境中 git log 命令中文编码问题]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/03/powershell-git-chinese-encode</link>
+            <guid>解决 Windows 环境中 git log 命令中文编码问题</guid>
+            <pubDate>Sat, 03 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[解决 Windows 10 系统中 Powershell 终端git log命令输出中文编码问题]]></description>
+        </item>
+        <item>
+            <title><![CDATA[添加Windows开启启动程序]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/03/windows-add-programs-to-startup-folder</link>
+            <guid>添加Windows开启启动程序</guid>
+            <pubDate>Sat, 03 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[设置Windows开机启动程序]]></description>
+        </item>
         <item>
             <title><![CDATA[Docker时区设置]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/02/docker-timezone</link>

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[85],{156:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"vim","name":"vim","count":1,"permalink":"/blog/tags/vim"}')}}]);
