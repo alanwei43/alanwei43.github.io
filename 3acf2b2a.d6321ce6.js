@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[65],{136:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"chrome-launcher","name":"chrome-launcher","count":1,"permalink":"/blog/tags/chrome-launcher"}')}}]);

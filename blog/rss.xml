@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sat, 03 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Node require 缓存]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/10/node-require-cache</link>
+            <guid>Node require 缓存</guid>
+            <pubDate>Sat, 10 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+        </item>
         <item>
             <title><![CDATA[ASP.Net 应用配置HTTP代理]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/03/asp.net-proxy-configuration</link>

@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2021-04-03T00:00:00.000Z</updated>
+    <updated>2021-04-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Node require 缓存]]></title>
+        <id>Node require 缓存</id>
+        <link href="https://blog.alanwei.com/blog/2021/04/10/node-require-cache"/>
+        <updated>2021-04-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ASP.Net 应用配置HTTP代理]]></title>
         <id>ASP.Net 应用配置HTTP代理</id>
