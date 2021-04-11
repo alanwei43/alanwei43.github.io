@@ -4,9 +4,100 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sat, 10 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 11 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[CentOS安装Nginx]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/centos-install-nginx</link>
+            <guid>CentOS安装Nginx</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[CentOS安装Nginx]]></description>
+        </item>
+        <item>
+            <title><![CDATA[创建Windows服务]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/create-windows-service</link>
+            <guid>创建Windows服务</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[创建Windows服务]]></description>
+        </item>
+        <item>
+            <title><![CDATA[自定义Linux Bash终端提示符]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/customize-bash-prompt</link>
+            <guid>自定义Linux Bash终端提示符</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[自定义Linux Bash终端提示符]]></description>
+        </item>
+        <item>
+            <title><![CDATA[使用 Docker 部署 Sentry]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/docker-sentry-deploy</link>
+            <guid>使用 Docker 部署 Sentry</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用 Docker 部署 Sentry]]></description>
+        </item>
+        <item>
+            <title><![CDATA[How to Setup Reverse Proxy on IIS with URL-Rewrite]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/iis-reverse-proxy-url-rewrite</link>
+            <guid>How to Setup Reverse Proxy on IIS with URL-Rewrite</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用IIS的URL Rewrite设置反向代理]]></description>
+        </item>
+        <item>
+            <title><![CDATA[配置IIS反向代理教程]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/iis-reverse-proxy</link>
+            <guid>配置IIS反向代理教程</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[IIS配置反向代理]]></description>
+        </item>
+        <item>
+            <title><![CDATA[查看当前机器的所有SSH连接]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/linux-show-ssh-connection</link>
+            <guid>查看当前机器的所有SSH连接</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[查看当前机器的所有SSH连接]]></description>
+        </item>
+        <item>
+            <title><![CDATA[使用 Node 执行命令行程序]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/node-exec-bash-cmd</link>
+            <guid>使用 Node 执行命令行程序</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用 Node 执行命令行程序]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Windows 上的TCP代理设置]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/tcp-proxy-in-windows</link>
+            <guid>Windows 上的TCP代理设置</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[目前我们出现一个需求是将外网来的TCP请求代理到内网的某个服务器上, 比如我们的 Windows 上需要部署一个 RabbitMQ 推送服务, 但因为某些原因我们无法使用 Windows 版本的 RabbitMQ, 想将 RabbitMQ 部署在Linux服务器上, 确实有很多其他方式来满足这个需求, 比如再加一个服务器, 然后分配一个公网IP, 最后我们选择在 Windows 服务器上安装 VMware 然后虚拟一个Ubuntu系统. 现在需要将外网的 RabbitMQ 请求映射到 Ubuntu 上, 大概请求途径如下:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Ubuntu 系统安装根证书]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/ubuntu-install-root-ca-certificate</link>
+            <guid>Ubuntu 系统安装根证书</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ubuntu 系统安装根证书]]></description>
+        </item>
+        <item>
+            <title><![CDATA[我的Ubuntu新系统安装脚本]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/ubuntu-starter-scripts</link>
+            <guid>我的Ubuntu新系统安装脚本</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[每次安装Ubuntu系统都要做一些初始化工作(比如安装一些工具软件), 现将我的记录如下, 方便下次使用:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[为什么 Math.Round(2.5) 返回 2]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/why-math-round-return-2-instead-3</link>
+            <guid>为什么 Math.Round(2.5) 返回 2</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[为什么 Math.Round(2.5) 返回 2]]></description>
+        </item>
+        <item>
+            <title><![CDATA[制作Windows启动盘]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/windows-bootable-device</link>
+            <guid>制作Windows启动盘</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+        </item>
         <item>
             <title><![CDATA[Node require 缓存]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/10/node-require-cache</link>
