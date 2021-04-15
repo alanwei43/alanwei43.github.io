@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[230],{299:function(p){p.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"puppeteer","name":"puppeteer","count":1,"permalink":"/blog/tags/puppeteer"}')}}]);
