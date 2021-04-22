@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[241],{314:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"net-framework","name":".net framework","count":1,"permalink":"/blog/tags/net-framework"}')}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[16],{81:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"sublime","name":"sublime","count":2,"permalink":"/blog/tags/sublime"}')}}]);
