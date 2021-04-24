@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[141],{215:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"github","name":"github","count":1,"permalink":"/blog/tags/github"}')}}]);

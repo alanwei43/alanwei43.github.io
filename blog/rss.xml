@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Thu, 15 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[语文考试可以写负能量作文吗]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/23/语文考试可以写负能量作文吗</link>
+            <guid>语文考试可以写负能量作文吗</guid>
+            <pubDate>Fri, 23 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[语文考试可以写负能量作文吗？如果不能的话又是为什么？]]></description>
+        </item>
         <item>
             <title><![CDATA[Nginx 301重定向域名]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/15/nginx-rewrite</link>

@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2021-04-15T00:00:00.000Z</updated>
+    <updated>2021-04-23T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[语文考试可以写负能量作文吗]]></title>
+        <id>语文考试可以写负能量作文吗</id>
+        <link href="https://blog.alanwei.com/blog/2021/04/23/语文考试可以写负能量作文吗"/>
+        <updated>2021-04-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[语文考试可以写负能量作文吗？如果不能的话又是为什么？]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Nginx 301重定向域名]]></title>
         <id>Nginx 301重定向域名</id>
