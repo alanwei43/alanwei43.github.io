@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2021-04-23T00:00:00.000Z</updated>
+    <updated>2021-04-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[VSC指定类库文件增强智能感知]]></title>
+        <id>VSC指定类库文件增强智能感知</id>
+        <link href="https://blog.alanwei.com/blog/2021/04/27/visual-studio-code-intelligence"/>
+        <updated>2021-04-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Termux远程访问]]></title>
+        <id>Termux远程访问</id>
+        <link href="https://blog.alanwei.com/blog/2021/04/26/termux-remote-access"/>
+        <updated>2021-04-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在电脑上远程访问Termux:]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[语文考试可以写负能量作文吗]]></title>
         <id>语文考试可以写负能量作文吗</id>
@@ -134,11 +148,11 @@
         <summary type="html"><![CDATA[.Net Framework ASP.Net 应用配置HTTP代理 proxy configuration]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[how-to-create-maven-multi-module-project]]></title>
-        <id>how-to-create-maven-multi-module-project</id>
+        <title type="html"><![CDATA[如何使用命令行创建带有多个子模块的Maven项目]]></title>
+        <id>如何使用命令行创建带有多个子模块的Maven项目</id>
         <link href="https://blog.alanwei.com/blog/2021/04/03/how-to-create-maven-multi-module-project"/>
         <updated>2021-04-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <summary type="html"><![CDATA[In this guide, we learn how to create Maven Multi-Module using Command Line with very easy steps. A multi-module project is defined by a parent POM referencing one or more sub-modules. In this example, we will create a blogger web application with different modules. Let's create a blogger as parent project and it's 3 sub-modules are blogger-core, blogger-common, blogger-web.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[解决 Windows 环境中 git log 命令中文编码问题]]></title>
@@ -208,7 +222,7 @@
         <id>frp连接 EOF 失败问题</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/frp-eof"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[来源: 记一次frp的被阻断的问题]]></summary>
+        <summary type="html"><![CDATA[为了在家调试方便，老高使用frp将自己放在公司的开发机器的ssh端口开放出来了，但是配置frp客户端的过程中总是出现下面的一句话：]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[linux下查看指定进程的所有连接信息]]></title>

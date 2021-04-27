@@ -4,9 +4,23 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Fri, 23 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[VSC指定类库文件增强智能感知]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/27/visual-studio-code-intelligence</link>
+            <guid>VSC指定类库文件增强智能感知</guid>
+            <pubDate>Tue, 27 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Termux远程访问]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/26/termux-remote-access</link>
+            <guid>Termux远程访问</guid>
+            <pubDate>Mon, 26 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[在电脑上远程访问Termux:]]></description>
+        </item>
         <item>
             <title><![CDATA[语文考试可以写负能量作文吗]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/23/语文考试可以写负能量作文吗</link>
@@ -134,11 +148,11 @@
             <description><![CDATA[.Net Framework ASP.Net 应用配置HTTP代理 proxy configuration]]></description>
         </item>
         <item>
-            <title><![CDATA[how-to-create-maven-multi-module-project]]></title>
+            <title><![CDATA[如何使用命令行创建带有多个子模块的Maven项目]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/03/how-to-create-maven-multi-module-project</link>
-            <guid>how-to-create-maven-multi-module-project</guid>
+            <guid>如何使用命令行创建带有多个子模块的Maven项目</guid>
             <pubDate>Sat, 03 Apr 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <description><![CDATA[In this guide, we learn how to create Maven Multi-Module using Command Line with very easy steps. A multi-module project is defined by a parent POM referencing one or more sub-modules. In this example, we will create a blogger web application with different modules. Let's create a blogger as parent project and it's 3 sub-modules are blogger-core, blogger-common, blogger-web.]]></description>
         </item>
         <item>
             <title><![CDATA[解决 Windows 环境中 git log 命令中文编码问题]]></title>
@@ -208,7 +222,7 @@
             <link>https://blog.alanwei.com/blog/2021/03/21/frp-eof</link>
             <guid>frp连接 EOF 失败问题</guid>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[来源: 记一次frp的被阻断的问题]]></description>
+            <description><![CDATA[为了在家调试方便，老高使用frp将自己放在公司的开发机器的ssh端口开放出来了，但是配置frp客户端的过程中总是出现下面的一句话：]]></description>
         </item>
         <item>
             <title><![CDATA[linux下查看指定进程的所有连接信息]]></title>

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[308],{380:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"chrome-flags","name":"chrome flags","count":2,"permalink":"/blog/tags/chrome-flags"}')}}]);
