@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Tue, 27 Apr 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 May 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[使用 Docusaurus 结合 GitHub 搭建个人站点]]></title>
+            <link>https://blog.alanwei.com/blog/2021/05/01/docusaurus-github-starter</link>
+            <guid>使用 Docusaurus 结合 GitHub 搭建个人站点</guid>
+            <pubDate>Sat, 01 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用Docusaurus结合GitHub搭建个人站点]]></description>
+        </item>
         <item>
             <title><![CDATA[VSC指定类库文件增强智能感知]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/27/visual-studio-code-intelligence</link>
