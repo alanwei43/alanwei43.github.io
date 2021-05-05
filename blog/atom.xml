@@ -8,6 +8,13 @@
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
     <entry>
+        <title type="html"><![CDATA[macOS 允许打开任何位置下载的App]]></title>
+        <id>macOS 允许打开任何位置下载的App</id>
+        <link href="https://blog.alanwei.com/blog/2021/05/05/macos-allow-apps-from-anywhere"/>
+        <updated>2021-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[macOS allow apps downloaded from anywhere]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[使用自定义的Spring MVC处理程序拦截器管理会话]]></title>
         <id>使用自定义的Spring MVC处理程序拦截器管理会话</id>
         <link href="https://blog.alanwei.com/blog/2021/05/05/spring-mvc-custom-handler-interceptor"/>

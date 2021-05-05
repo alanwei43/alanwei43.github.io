@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[278],{350:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"termux","name":"termux","count":1,"permalink":"/blog/tags/termux"}')}}]);

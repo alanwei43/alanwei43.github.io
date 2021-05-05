@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[186],{260:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"\u65e5\u5fd7","name":"\u65e5\u5fd7","count":2,"permalink":"/blog/tags/\u65e5\u5fd7"}')}}]);

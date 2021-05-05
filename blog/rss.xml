@@ -8,6 +8,13 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
+            <title><![CDATA[macOS 允许打开任何位置下载的App]]></title>
+            <link>https://blog.alanwei.com/blog/2021/05/05/macos-allow-apps-from-anywhere</link>
+            <guid>macOS 允许打开任何位置下载的App</guid>
+            <pubDate>Wed, 05 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[macOS allow apps downloaded from anywhere]]></description>
+        </item>
+        <item>
             <title><![CDATA[使用自定义的Spring MVC处理程序拦截器管理会话]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/05/spring-mvc-custom-handler-interceptor</link>
             <guid>使用自定义的Spring MVC处理程序拦截器管理会话</guid>
