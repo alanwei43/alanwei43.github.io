@@ -344,13 +344,6 @@
         <summary type="html"><![CDATA[记得早先少年时]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[使用Maven创建一个Java项目]]></title>
-        <id>使用Maven创建一个Java项目</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/06/create-java-project-use-maven"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[如何使用Maven创建可执行的JAR文件]]></title>
         <id>如何使用Maven创建可执行的JAR文件</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/how-can-i-create-an-executable-jar-with-dependencies-using-maven"/>
@@ -405,6 +398,13 @@
         <link href="https://blog.alanwei.com/blog/2021/03/06/wireguard-server"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用Docker搭建 Wireguard 服务]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用Maven创建一个Java项目]]></title>
+        <id>使用Maven创建一个Java项目</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/06/create-java-project-use-maven"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSC 代码片段介绍]]></title>
