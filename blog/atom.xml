@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2021-05-05T00:00:00.000Z</updated>
+    <updated>2021-05-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Bash快捷键列表]]></title>
+        <id>Bash快捷键列表</id>
+        <link href="https://blog.alanwei.com/blog/2021/05/18/bash-shortcuts"/>
+        <updated>2021-05-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[bash快捷键列表]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一个TypeScript类型复用的小技巧]]></title>
+        <id>一个TypeScript类型复用的小技巧</id>
+        <link href="https://blog.alanwei.com/blog/2021/05/09/typescript-type-reference"/>
+        <updated>2021-05-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[macOS 允许打开任何位置下载的App]]></title>
         <id>macOS 允许打开任何位置下载的App</id>
@@ -344,6 +358,13 @@
         <summary type="html"><![CDATA[记得早先少年时]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[使用Maven创建一个Java项目]]></title>
+        <id>使用Maven创建一个Java项目</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/06/create-java-project-use-maven"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[如何使用Maven创建可执行的JAR文件]]></title>
         <id>如何使用Maven创建可执行的JAR文件</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/how-can-i-create-an-executable-jar-with-dependencies-using-maven"/>
@@ -398,13 +419,6 @@
         <link href="https://blog.alanwei.com/blog/2021/03/06/wireguard-server"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用Docker搭建 Wireguard 服务]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[使用Maven创建一个Java项目]]></title>
-        <id>使用Maven创建一个Java项目</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/06/create-java-project-use-maven"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSC 代码片段介绍]]></title>

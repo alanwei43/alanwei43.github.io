@@ -4,9 +4,23 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Wed, 05 May 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 18 May 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Bash快捷键列表]]></title>
+            <link>https://blog.alanwei.com/blog/2021/05/18/bash-shortcuts</link>
+            <guid>Bash快捷键列表</guid>
+            <pubDate>Tue, 18 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[bash快捷键列表]]></description>
+        </item>
+        <item>
+            <title><![CDATA[一个TypeScript类型复用的小技巧]]></title>
+            <link>https://blog.alanwei.com/blog/2021/05/09/typescript-type-reference</link>
+            <guid>一个TypeScript类型复用的小技巧</guid>
+            <pubDate>Sun, 09 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+        </item>
         <item>
             <title><![CDATA[macOS 允许打开任何位置下载的App]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/05/macos-allow-apps-from-anywhere</link>
@@ -344,6 +358,13 @@
             <description><![CDATA[记得早先少年时]]></description>
         </item>
         <item>
+            <title><![CDATA[使用Maven创建一个Java项目]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/06/create-java-project-use-maven</link>
+            <guid>使用Maven创建一个Java项目</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[原文]]></description>
+        </item>
+        <item>
             <title><![CDATA[如何使用Maven创建可执行的JAR文件]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/how-can-i-create-an-executable-jar-with-dependencies-using-maven</link>
             <guid>如何使用Maven创建可执行的JAR文件</guid>
@@ -398,13 +419,6 @@
             <guid>搭建 Wireguard 服务</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用Docker搭建 Wireguard 服务]]></description>
-        </item>
-        <item>
-            <title><![CDATA[使用Maven创建一个Java项目]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/06/create-java-project-use-maven</link>
-            <guid>使用Maven创建一个Java项目</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[原文]]></description>
         </item>
         <item>
             <title><![CDATA[VSC 代码片段介绍]]></title>
