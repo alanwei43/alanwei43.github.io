@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Tue, 18 May 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 25 May 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[使用Docker运行Apache Kafka]]></title>
+            <link>https://blog.alanwei.com/blog/2021/05/25/kafka-docker-setup</link>
+            <guid>使用Docker运行Apache Kafka</guid>
+            <pubDate>Tue, 25 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ref Guide to Setting Up Apache Kafka Using Docker]]></description>
+        </item>
         <item>
             <title><![CDATA[Bash快捷键列表]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/18/bash-shortcuts</link>
