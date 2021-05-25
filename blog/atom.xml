@@ -15,6 +15,20 @@
         <summary type="html"><![CDATA[bash快捷键列表]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[解决 macOS 系统 xcrun error invalid active developer path 异常]]></title>
+        <id>解决 macOS 系统 xcrun error invalid active developer path 异常</id>
+        <link href="https://blog.alanwei.com/blog/2021/05/17/mac-xcrun-error"/>
+        <updated>2021-05-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ref How to fix Mac OS invalid active developer path, missing xcrun]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Termux配置清华大学开源镜像]]></title>
+        <id>Termux配置清华大学开源镜像</id>
+        <link href="https://blog.alanwei.com/blog/2021/05/17/termux-mirror"/>
+        <updated>2021-05-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[来源 Termux 镜像使用帮助]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[一个TypeScript类型复用的小技巧]]></title>
         <id>一个TypeScript类型复用的小技巧</id>
         <link href="https://blog.alanwei.com/blog/2021/05/09/typescript-type-reference"/>
