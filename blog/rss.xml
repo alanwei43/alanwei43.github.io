@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Tue, 25 May 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 27 Jun 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[JavaScript创建指定数量的重复元素]]></title>
+            <link>https://blog.alanwei.com/blog/2021/06/27/javascript-create-an-array-with-repeat-element</link>
+            <guid>JavaScript创建指定数量的重复元素</guid>
+            <pubDate>Sun, 27 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[创建一个数组，包含指定数量的重复元素 Create an array with same element repeated multiple times]]></description>
+        </item>
         <item>
             <title><![CDATA[使用Docker运行Apache Kafka]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/25/kafka-docker-setup</link>
