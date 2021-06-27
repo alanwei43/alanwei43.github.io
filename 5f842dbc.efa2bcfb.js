@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[117],{191:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"kafka","name":"kafka","count":1,"permalink":"/blog/tags/kafka"}')}}]);
