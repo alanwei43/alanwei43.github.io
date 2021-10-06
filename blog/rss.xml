@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Tue, 10 Aug 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Oct 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[DOM Attributes in React 16]]></title>
+            <link>https://blog.alanwei.com/blog/2021/10/06/dom-attributes-in-react-16</link>
+            <guid>DOM Attributes in React 16</guid>
+            <pubDate>Wed, 06 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[在过去， React通常忽略未知的DOM属性。 如果你写的JSX使用了React不能识别的属性， React将会跳过它， 比如：]]></description>
+        </item>
         <item>
             <title><![CDATA[修改火狐浏览器开发者工具字体大小]]></title>
             <link>https://blog.alanwei.com/blog/2021/08/10/mozilla-firefox-devtool-zoom</link>

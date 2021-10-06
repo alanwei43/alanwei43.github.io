@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2021-08-10T00:00:00.000Z</updated>
+    <updated>2021-10-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[DOM Attributes in React 16]]></title>
+        <id>DOM Attributes in React 16</id>
+        <link href="https://blog.alanwei.com/blog/2021/10/06/dom-attributes-in-react-16"/>
+        <updated>2021-10-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[在过去， React通常忽略未知的DOM属性。 如果你写的JSX使用了React不能识别的属性， React将会跳过它， 比如：]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[修改火狐浏览器开发者工具字体大小]]></title>
         <id>修改火狐浏览器开发者工具字体大小</id>
