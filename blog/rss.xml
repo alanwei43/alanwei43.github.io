@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sun, 04 Jul 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 10 Aug 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[修改火狐浏览器开发者工具字体大小]]></title>
+            <link>https://blog.alanwei.com/blog/2021/08/10/mozilla-firefox-devtool-zoom</link>
+            <guid>修改火狐浏览器开发者工具字体大小</guid>
+            <pubDate>Tue, 10 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[修改火狐浏览器开发者工具字体大小]]></description>
+        </item>
         <item>
             <title><![CDATA[Event Emitters in TypeScript]]></title>
             <link>https://blog.alanwei.com/blog/2021/07/04/event-emitters-typescript</link>

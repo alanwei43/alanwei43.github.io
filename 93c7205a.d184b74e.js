@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[199],{273:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"visual-studio-code","name":"visual studio code","count":4,"permalink":"/blog/tags/visual-studio-code"}')}}]);
