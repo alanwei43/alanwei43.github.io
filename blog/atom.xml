@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2021-10-06T00:00:00.000Z</updated>
+    <updated>2021-10-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[检测是否是puppeteer访问以及如何破解]]></title>
+        <id>检测是否是puppeteer访问以及如何破解</id>
+        <link href="https://blog.alanwei.com/blog/2021/10/07/detect-puppeteer-browse"/>
+        <updated>2021-10-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[使用JavaScript检测是否是puppeteer等自动化工具访问页面, 以及如何破解.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DOM Attributes in React 16]]></title>
         <id>DOM Attributes in React 16</id>

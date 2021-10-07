@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Wed, 06 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Oct 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[检测是否是puppeteer访问以及如何破解]]></title>
+            <link>https://blog.alanwei.com/blog/2021/10/07/detect-puppeteer-browse</link>
+            <guid>检测是否是puppeteer访问以及如何破解</guid>
+            <pubDate>Thu, 07 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用JavaScript检测是否是puppeteer等自动化工具访问页面, 以及如何破解.]]></description>
+        </item>
         <item>
             <title><![CDATA[DOM Attributes in React 16]]></title>
             <link>https://blog.alanwei.com/blog/2021/10/06/dom-attributes-in-react-16</link>
