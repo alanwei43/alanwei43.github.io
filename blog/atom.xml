@@ -15,6 +15,13 @@
         <summary type="html"><![CDATA[使用JavaScript检测是否是puppeteer等自动化工具访问页面, 以及如何破解.]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[如何知道 NodeJS stream pipe 完成]]></title>
+        <id>如何知道 NodeJS stream pipe 完成</id>
+        <link href="https://blog.alanwei.com/blog/2021/10/07/nodejs-stream-pipe-finish"/>
+        <updated>2021-10-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[NodeJS 的流调用 pipe 方法之后会返回一个新的流, 监听这个新流的finish事件就可以知道pipe完成了:]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[DOM Attributes in React 16]]></title>
         <id>DOM Attributes in React 16</id>
         <link href="https://blog.alanwei.com/blog/2021/10/06/dom-attributes-in-react-16"/>
