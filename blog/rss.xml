@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Thu, 07 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 Oct 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[React事件处理程序箭头函数造成的重复渲染问题]]></title>
+            <link>https://blog.alanwei.com/blog/2021/10/10/react-loop-bind-event</link>
+            <guid>React事件处理程序箭头函数造成的重复渲染问题</guid>
+            <pubDate>Sun, 10 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[React事件处理程序箭头函数造成的重复渲染问题]]></description>
+        </item>
         <item>
             <title><![CDATA[检测是否是puppeteer访问以及如何破解]]></title>
             <link>https://blog.alanwei.com/blog/2021/10/07/detect-puppeteer-browse</link>
