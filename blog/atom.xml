@@ -400,6 +400,13 @@
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[浏览器的前进后退缓存机制 Back/forward cache]]></title>
+        <id>浏览器的前进后退缓存机制 Back/forward cache</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/13/back-forward-cache"/>
+        <updated>2021-03-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Optimize your pages for instant loads when using the browser's back and forward buttons.]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[macOS - 更改功能键的默认行为]]></title>
         <id>macOS - 更改功能键的默认行为</id>
         <link href="https://blog.alanwei.com/blog/2021/03/13/macos-change-default-behavior-function-keys"/>
