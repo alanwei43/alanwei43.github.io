@@ -4,9 +4,23 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sat, 16 Oct 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[《图解HTTP》笔记]]></title>
+            <link>https://blog.alanwei.com/blog/2021/11/18/tu-jie-http</link>
+            <guid>《图解HTTP》笔记</guid>
+            <pubDate>Thu, 18 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[《图解HTTP》笔记]]></description>
+        </item>
+        <item>
+            <title><![CDATA[创建.Net Web API项目]]></title>
+            <link>https://blog.alanwei.com/blog/2021/11/13/dotnet-web-api-starter</link>
+            <guid>创建.Net Web API项目</guid>
+            <pubDate>Sat, 13 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用.Net CLI创建一个简单的 Web API 项目]]></description>
+        </item>
         <item>
             <title><![CDATA[VMware Fusion Pro 注册码 序列号]]></title>
             <link>https://blog.alanwei.com/blog/2021/10/16/VMware-fusion-pro</link>
