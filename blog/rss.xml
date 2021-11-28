@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Thu, 18 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Nov 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[TypeScript 类型定义小技巧]]></title>
+            <link>https://blog.alanwei.com/blog/2021/11/28/typescript-type-define-skills</link>
+            <guid>TypeScript 类型定义小技巧</guid>
+            <pubDate>Sun, 28 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[TypeScript 函数重载定义, 函数属性定义]]></description>
+        </item>
         <item>
             <title><![CDATA[《图解HTTP》笔记]]></title>
             <link>https://blog.alanwei.com/blog/2021/11/18/tu-jie-http</link>
