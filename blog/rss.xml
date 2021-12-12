@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sun, 28 Nov 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[API Extractor 使用]]></title>
+            <link>https://blog.alanwei.com/blog/2021/12/12/tsdoc-config</link>
+            <guid>API Extractor 使用</guid>
+            <pubDate>Sun, 12 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用API Extractor 和 tsdoc 生成 TypeScript 项目文档]]></description>
+        </item>
         <item>
             <title><![CDATA[TypeScript 类型定义小技巧]]></title>
             <link>https://blog.alanwei.com/blog/2021/11/28/typescript-type-define-skills</link>
