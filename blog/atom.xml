@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2021-12-12T00:00:00.000Z</updated>
+    <updated>2022-01-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[微软拼音输入法自定义日期时间格式]]></title>
+        <id>微软拼音输入法自定义日期时间格式</id>
+        <link href="https://blog.alanwei.com/blog/2022/01/01/microsoft-pinyin-date"/>
+        <updated>2022-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[微软拼音输入法自定义日期时间格式]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[PowerShell 常见问答]]></title>
+        <id>PowerShell 常见问答</id>
+        <link href="https://blog.alanwei.com/blog/2022/01/01/powershell-qa"/>
+        <updated>2022-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[PowerShell 常见问答]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[API Extractor 使用]]></title>
         <id>API Extractor 使用</id>

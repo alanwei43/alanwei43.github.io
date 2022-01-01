@@ -4,9 +4,23 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sun, 12 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 01 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[微软拼音输入法自定义日期时间格式]]></title>
+            <link>https://blog.alanwei.com/blog/2022/01/01/microsoft-pinyin-date</link>
+            <guid>微软拼音输入法自定义日期时间格式</guid>
+            <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[微软拼音输入法自定义日期时间格式]]></description>
+        </item>
+        <item>
+            <title><![CDATA[PowerShell 常见问答]]></title>
+            <link>https://blog.alanwei.com/blog/2022/01/01/powershell-qa</link>
+            <guid>PowerShell 常见问答</guid>
+            <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[PowerShell 常见问答]]></description>
+        </item>
         <item>
             <title><![CDATA[API Extractor 使用]]></title>
             <link>https://blog.alanwei.com/blog/2021/12/12/tsdoc-config</link>
