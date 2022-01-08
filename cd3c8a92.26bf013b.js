@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[339],{409:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"vmware","name":"vmware","count":2,"permalink":"/blog/tags/vmware"}')}}]);

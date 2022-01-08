@@ -4,9 +4,30 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sat, 01 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 08 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Ubuntu 20.04 LTS 安装多媒体解码库]]></title>
+            <link>https://blog.alanwei.com/blog/2022/01/08/ubuntu-install-multimia-codecs</link>
+            <guid>Ubuntu 20.04 LTS 安装多媒体解码库</guid>
+            <pubDate>Sat, 08 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[解决安装 Ubuntu 20.04 LTS 完成后无法播放音频视频问题]]></description>
+        </item>
+        <item>
+            <title><![CDATA[解决Ubuntu系统启动 VMware Workstation Pro 提示 Kernel Module Updater 问题]]></title>
+            <link>https://blog.alanwei.com/blog/2022/01/08/vmware-workstation-kernel-module-updater</link>
+            <guid>解决Ubuntu系统启动 VMware Workstation Pro 提示 Kernel Module Updater 问题</guid>
+            <pubDate>Sat, 08 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[解决Ubuntu系统初次安装 VMware Workstation Pro, 启动提示 kernel module updater, gcc 等问题]]></description>
+        </item>
+        <item>
+            <title><![CDATA[JDK LTS 路线图及下载地址]]></title>
+            <link>https://blog.alanwei.com/blog/2022/01/06/jdk-roadmap-download</link>
+            <guid>JDK LTS 路线图及下载地址</guid>
+            <pubDate>Thu, 06 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[JDK LTS 路线图, JDK 17 LTS下载地址]]></description>
+        </item>
         <item>
             <title><![CDATA[微软拼音输入法自定义日期时间格式]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/01/microsoft-pinyin-date</link>
