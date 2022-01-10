@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sat, 08 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Nov 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[VSC常用代码片段]]></title>
+            <link>https://blog.alanwei.com/blog/2022/11/10/visual-studio-code-snippets</link>
+            <guid>VSC常用代码片段</guid>
+            <pubDate>Thu, 10 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Visual Studio Code 常用代码片段]]></description>
+        </item>
         <item>
             <title><![CDATA[Ubuntu 20.04 LTS 安装多媒体解码库]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/08/ubuntu-install-multimia-codecs</link>
