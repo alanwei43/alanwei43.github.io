@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Thu, 10 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 15 Nov 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></title>
+            <link>https://blog.alanwei.com/blog/2022/11/15/ubuntu-ssh-connection-refused</link>
+            <guid>解决 Ubuntu/Debian SSH 连接时返回的 Connection refused</guid>
+            <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></description>
+        </item>
         <item>
             <title><![CDATA[VSC常用代码片段]]></title>
             <link>https://blog.alanwei.com/blog/2022/11/10/visual-studio-code-snippets</link>

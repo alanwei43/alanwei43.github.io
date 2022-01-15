@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[128],{200:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"jdk-8","name":"jdk8","count":1,"permalink":"/blog/tags/jdk-8"}')}}]);
