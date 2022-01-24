@@ -4,9 +4,16 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Tue, 15 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Nov 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[解决SSH no matching host key type found 问题]]></title>
+            <link>https://blog.alanwei.com/blog/2022/11/24/ssh-no-matching-host-key-type-found</link>
+            <guid>解决SSH no matching host key type found 问题</guid>
+            <pubDate>Thu, 24 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[解决通过git协议克隆仓库到本地, 或者SSH远程机器时返回的 no matching host key type found]]></description>
+        </item>
         <item>
             <title><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></title>
             <link>https://blog.alanwei.com/blog/2022/11/15/ubuntu-ssh-connection-refused</link>
