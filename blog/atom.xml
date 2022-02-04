@@ -2,11 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2022-11-24T00:00:00.000Z</updated>
+    <updated>2022-11-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Flutter 笔记]]></title>
+        <id>Flutter 笔记</id>
+        <link href="https://blog.alanwei.com/blog/2022/11/26/flutter-note"/>
+        <updated>2022-11-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Flutter 相关笔记]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flutter JSON 序列化]]></title>
+        <id>Flutter JSON 序列化</id>
+        <link href="https://blog.alanwei.com/blog/2022/11/25/flutter-json-seriealize"/>
+        <updated>2022-11-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[flutter JSON 序列化和反序列化]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[解决SSH no matching host key type found 问题]]></title>
         <id>解决SSH no matching host key type found 问题</id>

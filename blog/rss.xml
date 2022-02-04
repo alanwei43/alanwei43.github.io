@@ -4,9 +4,23 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Thu, 24 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 26 Nov 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Flutter 笔记]]></title>
+            <link>https://blog.alanwei.com/blog/2022/11/26/flutter-note</link>
+            <guid>Flutter 笔记</guid>
+            <pubDate>Sat, 26 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Flutter 相关笔记]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Flutter JSON 序列化]]></title>
+            <link>https://blog.alanwei.com/blog/2022/11/25/flutter-json-seriealize</link>
+            <guid>Flutter JSON 序列化</guid>
+            <pubDate>Fri, 25 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[flutter JSON 序列化和反序列化]]></description>
+        </item>
         <item>
             <title><![CDATA[解决SSH no matching host key type found 问题]]></title>
             <link>https://blog.alanwei.com/blog/2022/11/24/ssh-no-matching-host-key-type-found</link>
