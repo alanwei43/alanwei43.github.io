@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[365],{435:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"debian","name":"debian","count":1,"permalink":"/blog/tags/debian"}')}}]);

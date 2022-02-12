@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[373],{443:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"aosp","name":"aosp","count":1,"permalink":"/blog/tags/aosp"}')}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[50],{115:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"reverse-proxy","name":"reverse proxy","count":2,"permalink":"/blog/tags/reverse-proxy"}')}}]);
