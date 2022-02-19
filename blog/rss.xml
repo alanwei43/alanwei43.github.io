@@ -4,9 +4,30 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Wed, 14 Dec 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 18 Dec 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[GitHub QA]]></title>
+            <link>https://blog.alanwei.com/blog/2022/12/18/github-qa</link>
+            <guid>GitHub QA</guid>
+            <pubDate>Sun, 18 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[GitHub 使用介绍]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Windows 虚拟桌面快捷键]]></title>
+            <link>https://blog.alanwei.com/blog/2022/12/18/windows-virtual-desktop</link>
+            <guid>Windows 虚拟桌面快捷键</guid>
+            <pubDate>Sun, 18 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Windows 虚拟桌面快捷键列表:]]></description>
+        </item>
+        <item>
+            <title><![CDATA[解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题]]></title>
+            <link>https://blog.alanwei.com/blog/2022/12/16/ubuntu-dpkg-install-dependency</link>
+            <guid>解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题</guid>
+            <pubDate>Fri, 16 Dec 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题]]></description>
+        </item>
         <item>
             <title><![CDATA[蒲公英 X1 简介]]></title>
             <link>https://blog.alanwei.com/blog/2022/12/14/oray-box-intro</link>
@@ -19,7 +40,7 @@
             <link>https://blog.alanwei.com/blog/2022/12/12/docker-connect-host</link>
             <guid>容器内访问物理网络</guid>
             <pubDate>Mon, 12 Dec 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[结论]]></description>
+            <description><![CDATA[概述]]></description>
         </item>
         <item>
             <title><![CDATA[安装或卸载 Docker]]></title>
@@ -76,6 +97,13 @@
             <guid>VSC常用代码片段</guid>
             <pubDate>Thu, 10 Nov 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Visual Studio Code 常用代码片段]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dart Visual Studio Code 推荐设置]]></title>
+            <link>https://blog.alanwei.com/blog/2022/02/19/dart-visual-studio-code-settings</link>
+            <guid>Dart Visual Studio Code 推荐设置</guid>
+            <pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dart Visual Studio Code 推荐设置]]></description>
         </item>
         <item>
             <title><![CDATA[Ubuntu 20.04 LTS 安装多媒体解码库]]></title>
@@ -743,67 +771,18 @@
             <description><![CDATA[JavaScript]]></description>
         </item>
         <item>
-            <title><![CDATA[2015年12月 随便哪一天]]></title>
-            <link>https://blog.alanwei.com/blog/2015/12/01/blog</link>
-            <guid>2015年12月 随便哪一天</guid>
-            <pubDate>Tue, 01 Dec 2015 00:00:00 GMT</pubDate>
-            <description><![CDATA[偌大的城市，漫长的岁月，所有的错过都情有可原。囿于卑微，那些未曾说出的言语，也都得到末日审判。谁见过不朽呢？你我都不曾见过。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[2015年11月04日 未完的剧本]]></title>
-            <link>https://blog.alanwei.com/blog/2015/11/04/blog</link>
-            <guid>2015年11月04日 未完的剧本</guid>
-            <pubDate>Wed, 04 Nov 2015 00:00:00 GMT</pubDate>
-            <description><![CDATA[眼前掠过的剪影，我都挥挥手。从前的纷扰奈何，我依次叹息。]]></description>
-        </item>
-        <item>
             <title><![CDATA[哲学思维讲堂 - 卡尔·雅斯贝尔斯]]></title>
-            <link>https://blog.alanwei.com/blog/2014/09/09/哲学思维讲堂</link>
+            <link>https://blog.alanwei.com/blog/2014/09/09/philosophy-note</link>
             <guid>哲学思维讲堂 - 卡尔·雅斯贝尔斯</guid>
             <pubDate>Tue, 09 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[《哲学思维讲堂 - 卡尔·雅斯贝尔斯》摘抄]]></description>
         </item>
         <item>
             <title><![CDATA[数学系和物理系学生有什么差别？]]></title>
-            <link>https://blog.alanwei.com/blog/2014/09/04/shu-xue-wu-li-xue-sheng-cha-bie</link>
+            <link>https://blog.alanwei.com/blog/2014/09/04/math-physics-diff</link>
             <guid>数学系和物理系学生有什么差别？</guid>
             <pubDate>Thu, 04 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[我曾经最大的梦想，就是嫁给一个数学家。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[为了忘却的纪念 - 七堇年]]></title>
-            <link>https://blog.alanwei.com/blog/2010/10/27/为了忘却的纪念</link>
-            <guid>为了忘却的纪念 - 七堇年</guid>
-            <pubDate>Wed, 27 Oct 2010 00:00:00 GMT</pubDate>
-            <description><![CDATA[描述信息，默认为文章第一段]]></description>
-        </item>
-        <item>
-            <title><![CDATA[你是一只蜻蜓，点过我的湖心 - 马娟]]></title>
-            <link>https://blog.alanwei.com/blog/2010/04/11/你是一只蜻蜓点过我的湖心</link>
-            <guid>你是一只蜻蜓，点过我的湖心 - 马娟</guid>
-            <pubDate>Sun, 11 Apr 2010 00:00:00 GMT</pubDate>
-            <description><![CDATA[描述信息，默认为文章第一段]]></description>
-        </item>
-        <item>
-            <title><![CDATA[涩涩年华]]></title>
-            <link>https://blog.alanwei.com/blog/2010/01/08/涩涩年华</link>
-            <guid>涩涩年华</guid>
-            <pubDate>Fri, 08 Jan 2010 00:00:00 GMT</pubDate>
-            <description><![CDATA[（一）]]></description>
-        </item>
-        <item>
-            <title><![CDATA[幸福的味道]]></title>
-            <link>https://blog.alanwei.com/blog/2009/08/28/幸福的味道</link>
-            <guid>幸福的味道</guid>
-            <pubDate>Fri, 28 Aug 2009 00:00:00 GMT</pubDate>
-            <description><![CDATA[发表在杂志《疯狂阅读》]]></description>
-        </item>
-        <item>
-            <title><![CDATA[我的高中，我的青春]]></title>
-            <link>https://blog.alanwei.com/blog/2009/07/27/我的高中，我的青春</link>
-            <guid>我的高中，我的青春</guid>
-            <pubDate>Mon, 27 Jul 2009 00:00:00 GMT</pubDate>
-            <description><![CDATA[发表在杂志《疯狂阅读》]]></description>
         </item>
     </channel>
 </rss>
