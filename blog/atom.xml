@@ -2,108 +2,108 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2022-12-18T00:00:00.000Z</updated>
+    <updated>2022-02-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
-    <entry>
-        <title type="html"><![CDATA[GitHub QA]]></title>
-        <id>GitHub QA</id>
-        <link href="https://blog.alanwei.com/blog/2022/12/18/github-qa"/>
-        <updated>2022-12-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[GitHub 使用介绍]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 虚拟桌面快捷键]]></title>
-        <id>Windows 虚拟桌面快捷键</id>
-        <link href="https://blog.alanwei.com/blog/2022/12/18/windows-virtual-desktop"/>
-        <updated>2022-12-18T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Windows 虚拟桌面快捷键列表:]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题]]></title>
-        <id>解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题</id>
-        <link href="https://blog.alanwei.com/blog/2022/12/16/ubuntu-dpkg-install-dependency"/>
-        <updated>2022-12-16T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[蒲公英 X1 简介]]></title>
-        <id>蒲公英 X1 简介</id>
-        <link href="https://blog.alanwei.com/blog/2022/12/14/oray-box-intro"/>
-        <updated>2022-12-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[记录几个网址，方便以后忘记。]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[容器内访问物理网络]]></title>
-        <id>容器内访问物理网络</id>
-        <link href="https://blog.alanwei.com/blog/2022/12/12/docker-connect-host"/>
-        <updated>2022-12-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[概述]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[安装或卸载 Docker]]></title>
-        <id>安装或卸载 Docker</id>
-        <link href="https://blog.alanwei.com/blog/2022/12/12/install-docker"/>
-        <updated>2022-12-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[安装或者卸载Docker.]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Linux启动自动执行特定脚本]]></title>
-        <id>Linux启动自动执行特定脚本</id>
-        <link href="https://blog.alanwei.com/blog/2022/12/12/linux-startup-script-crontab"/>
-        <updated>2022-12-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[利用linux的crontab服务设置启动脚本]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Ubuntu 20.04 安装使用 SQLite]]></title>
-        <id>Ubuntu 20.04 安装使用 SQLite</id>
-        <link href="https://blog.alanwei.com/blog/2022/12/06/ubuntu-sqlite3-starter"/>
-        <updated>2022-12-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flutter 笔记]]></title>
-        <id>Flutter 笔记</id>
-        <link href="https://blog.alanwei.com/blog/2022/11/26/flutter-note"/>
-        <updated>2022-11-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Flutter 相关笔记]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Flutter JSON 序列化]]></title>
-        <id>Flutter JSON 序列化</id>
-        <link href="https://blog.alanwei.com/blog/2022/11/25/flutter-json-seriealize"/>
-        <updated>2022-11-25T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[flutter JSON 序列化和反序列化]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[解决SSH no matching host key type found 问题]]></title>
-        <id>解决SSH no matching host key type found 问题</id>
-        <link href="https://blog.alanwei.com/blog/2022/11/24/ssh-no-matching-host-key-type-found"/>
-        <updated>2022-11-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[解决通过git协议克隆仓库到本地, 或者SSH远程机器时返回的 no matching host key type found]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></title>
-        <id>解决 Ubuntu/Debian SSH 连接时返回的 Connection refused</id>
-        <link href="https://blog.alanwei.com/blog/2022/11/15/ubuntu-ssh-connection-refused"/>
-        <updated>2022-11-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VSC常用代码片段]]></title>
-        <id>VSC常用代码片段</id>
-        <link href="https://blog.alanwei.com/blog/2022/11/10/visual-studio-code-snippets"/>
-        <updated>2022-11-10T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Visual Studio Code 常用代码片段]]></summary>
-    </entry>
     <entry>
         <title type="html"><![CDATA[Dart Visual Studio Code 推荐设置]]></title>
         <id>Dart Visual Studio Code 推荐设置</id>
         <link href="https://blog.alanwei.com/blog/2022/02/19/dart-visual-studio-code-settings"/>
         <updated>2022-02-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Dart Visual Studio Code 推荐设置]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[GitHub QA]]></title>
+        <id>GitHub QA</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/18/github-qa"/>
+        <updated>2022-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[GitHub 使用介绍]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Windows 虚拟桌面快捷键]]></title>
+        <id>Windows 虚拟桌面快捷键</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/18/windows-virtual-desktop"/>
+        <updated>2022-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Windows 虚拟桌面快捷键列表:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题]]></title>
+        <id>解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/16/ubuntu-dpkg-install-dependency"/>
+        <updated>2022-02-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[蒲公英 X1 简介]]></title>
+        <id>蒲公英 X1 简介</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/14/oray-box-intro"/>
+        <updated>2022-02-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[记录几个网址，方便以后忘记。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[容器内访问物理网络]]></title>
+        <id>容器内访问物理网络</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/12/docker-connect-host"/>
+        <updated>2022-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[概述]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安装或卸载 Docker]]></title>
+        <id>安装或卸载 Docker</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/12/install-docker"/>
+        <updated>2022-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[安装或者卸载Docker.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Linux启动自动执行特定脚本]]></title>
+        <id>Linux启动自动执行特定脚本</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/12/linux-startup-script-crontab"/>
+        <updated>2022-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[利用linux的crontab服务设置启动脚本]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Ubuntu 20.04 安装使用 SQLite]]></title>
+        <id>Ubuntu 20.04 安装使用 SQLite</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/06/ubuntu-sqlite3-starter"/>
+        <updated>2022-02-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flutter 笔记]]></title>
+        <id>Flutter 笔记</id>
+        <link href="https://blog.alanwei.com/blog/2022/01/26/flutter-note"/>
+        <updated>2022-01-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Flutter 相关笔记]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flutter JSON 序列化]]></title>
+        <id>Flutter JSON 序列化</id>
+        <link href="https://blog.alanwei.com/blog/2022/01/25/flutter-json-seriealize"/>
+        <updated>2022-01-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[flutter JSON 序列化和反序列化]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解决SSH no matching host key type found 问题]]></title>
+        <id>解决SSH no matching host key type found 问题</id>
+        <link href="https://blog.alanwei.com/blog/2022/01/24/ssh-no-matching-host-key-type-found"/>
+        <updated>2022-01-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[解决通过git协议克隆仓库到本地, 或者SSH远程机器时返回的 no matching host key type found]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></title>
+        <id>解决 Ubuntu/Debian SSH 连接时返回的 Connection refused</id>
+        <link href="https://blog.alanwei.com/blog/2022/01/15/ubuntu-ssh-connection-refused"/>
+        <updated>2022-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VSC常用代码片段]]></title>
+        <id>VSC常用代码片段</id>
+        <link href="https://blog.alanwei.com/blog/2022/01/10/visual-studio-code-snippets"/>
+        <updated>2022-01-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Visual Studio Code 常用代码片段]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ubuntu 20.04 LTS 安装多媒体解码库]]></title>
@@ -386,13 +386,6 @@
         <summary type="html"><![CDATA[Spring Boot Maven 插件使用]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Windows 上的TCP代理设置]]></title>
-        <id>Windows 上的TCP代理设置</id>
-        <link href="https://blog.alanwei.com/blog/2021/04/11/tcp-proxy-in-windows"/>
-        <updated>2021-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[目前我们出现一个需求是将外网来的TCP请求代理到内网的某个服务器上, 比如我们的 Windows 上需要部署一个 RabbitMQ 推送服务, 但因为某些原因我们无法使用 Windows 版本的 RabbitMQ, 想将 RabbitMQ 部署在Linux服务器上, 确实有很多其他方式来满足这个需求, 比如再加一个服务器, 然后分配一个公网IP, 最后我们选择在 Windows 服务器上安装 VMware 然后虚拟一个Ubuntu系统. 现在需要将外网的 RabbitMQ 请求映射到 Ubuntu 上, 大概请求途径如下:]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Ubuntu 系统安装根证书]]></title>
         <id>Ubuntu 系统安装根证书</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/ubuntu-install-root-ca-certificate"/>
@@ -400,11 +393,11 @@
         <summary type="html"><![CDATA[Ubuntu 系统安装根证书]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[我的Ubuntu新系统安装脚本]]></title>
-        <id>我的Ubuntu新系统安装脚本</id>
-        <link href="https://blog.alanwei.com/blog/2021/04/11/ubuntu-starter-scripts"/>
+        <title type="html"><![CDATA[Windows 上的TCP代理设置]]></title>
+        <id>Windows 上的TCP代理设置</id>
+        <link href="https://blog.alanwei.com/blog/2021/04/11/tcp-proxy-in-windows"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[每次安装Ubuntu系统都要做一些初始化工作(比如安装一些工具软件), 现将我的记录如下, 方便下次使用:]]></summary>
+        <summary type="html"><![CDATA[目前我们出现一个需求是将外网来的TCP请求代理到内网的某个服务器上, 比如我们的 Windows 上需要部署一个 RabbitMQ 推送服务, 但因为某些原因我们无法使用 Windows 版本的 RabbitMQ, 想将 RabbitMQ 部署在Linux服务器上, 确实有很多其他方式来满足这个需求, 比如再加一个服务器, 然后分配一个公网IP, 最后我们选择在 Windows 服务器上安装 VMware 然后虚拟一个Ubuntu系统. 现在需要将外网的 RabbitMQ 请求映射到 Ubuntu 上, 大概请求途径如下:]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[为什么 Math.Round(2.5) 返回 2]]></title>
@@ -412,6 +405,13 @@
         <link href="https://blog.alanwei.com/blog/2021/04/11/why-math-round-return-2-instead-3"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[为什么 Math.Round(2.5) 返回 2]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我的Ubuntu新系统安装脚本]]></title>
+        <id>我的Ubuntu新系统安装脚本</id>
+        <link href="https://blog.alanwei.com/blog/2021/04/11/ubuntu-starter-scripts"/>
+        <updated>2021-04-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[每次安装Ubuntu系统都要做一些初始化工作(比如安装一些工具软件), 现将我的记录如下, 方便下次使用:]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[制作Windows启动盘]]></title>
@@ -491,18 +491,18 @@
         <summary type="html"><![CDATA[国内开源镜像加速站点]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Chromium 所有开关(flag)列表]]></title>
-        <id>Chromium 所有开关(flag)列表</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches"/>
-        <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Chromium 所有开关列表]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
         <id>Docusaurus 配置 GitHub Action 自动发布</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Chromium 所有开关(flag)列表]]></title>
+        <id>Chromium 所有开关(flag)列表</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chromium 所有开关列表]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[frp连接 EOF 失败问题]]></title>
@@ -526,18 +526,18 @@
         <summary type="html"><![CDATA[显示Linux端口占用]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[阿里云Maven镜像]]></title>
-        <id>阿里云Maven镜像</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/21/maven-aliyun"/>
-        <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[阿里云Maven镜像]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[解决 Node HTTP 请求出现的自签名证书校验失败问题]]></title>
         <id>解决 Node HTTP 请求出现的自签名证书校验失败问题</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/node-tls"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[阿里云Maven镜像]]></title>
+        <id>阿里云Maven镜像</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/maven-aliyun"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[阿里云Maven镜像]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[NPM的淘宝镜像]]></title>
@@ -568,18 +568,18 @@
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[浏览器的前进后退缓存机制 Back/forward cache]]></title>
-        <id>浏览器的前进后退缓存机制 Back/forward cache</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/13/back-forward-cache"/>
-        <updated>2021-03-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Optimize your pages for instant loads when using the browser's back and forward buttons.]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[macOS - 更改功能键的默认行为]]></title>
         <id>macOS - 更改功能键的默认行为</id>
         <link href="https://blog.alanwei.com/blog/2021/03/13/macos-change-default-behavior-function-keys"/>
         <updated>2021-03-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[更改 macOS 系统功能键的默认行为]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[浏览器的前进后退缓存机制 Back/forward cache]]></title>
+        <id>浏览器的前进后退缓存机制 Back/forward cache</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/13/back-forward-cache"/>
+        <updated>2021-03-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Optimize your pages for instant loads when using the browser's back and forward buttons.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[删除HTTP请求头中的 referrer]]></title>

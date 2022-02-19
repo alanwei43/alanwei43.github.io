@@ -1,2 +1,2 @@
-Sitemap: http://blog.alanwei.com/sitemap.xml
+Sitemap: https://blog.alanwei.com/sitemap.xml
 User-agent: *
