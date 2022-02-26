@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[437],{507:function(u){u.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"ubuntu","name":"ubuntu","count":7,"permalink":"/blog/tags/ubuntu"}')}}]);
