@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2022-02-24T00:00:00.000Z</updated>
+    <updated>2022-03-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Spring 响应图片等媒体数据]]></title>
+        <id>Spring 响应图片等媒体数据</id>
+        <link href="https://blog.alanwei.com/blog/2022/03/01/spring-response-image"/>
+        <updated>2022-03-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware 命令行操作虚拟机]]></title>
+        <id>VMware 命令行操作虚拟机</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/27/vmware-vmrun-cli"/>
+        <updated>2022-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[使用命令行 vmrun 操作虚拟机]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware Workstation Pro keys]]></title>
+        <id>VMware Workstation Pro keys</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/27/vmware-workstation-pro-keys"/>
+        <updated>2022-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[VMware Workstation Pro 16 许可证密钥，批量永久激活]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VMware的Windows虚拟机中因驱动签名问题无法安装 VMware Tools]]></title>
+        <id>VMware的Windows虚拟机中因驱动签名问题无法安装 VMware Tools</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/27/windows-vmware-tools-drive-fail"/>
+        <updated>2022-02-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Dockerfile 常用指令介绍]]></title>
+        <id>Dockerfile 常用指令介绍</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/26/docker-dockerfile-intro"/>
+        <updated>2022-02-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dockerfile常用指令介绍]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[解决IDEA使用低版本lombok没有get/set方法问题]]></title>
         <id>解决IDEA使用低版本lombok没有get/set方法问题</id>
@@ -505,6 +540,13 @@
         <summary type="html"><![CDATA[国内开源镜像加速站点]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Chromium 所有开关(flag)列表]]></title>
+        <id>Chromium 所有开关(flag)列表</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chromium 所有开关列表]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
         <id>Docusaurus 配置 GitHub Action 自动发布</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy"/>
@@ -524,13 +566,6 @@
         <link href="https://blog.alanwei.com/blog/2021/03/21/linux-all-ps-connection"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[linux下查看指定进程的所有连接信息]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Chromium 所有开关(flag)列表]]></title>
-        <id>Chromium 所有开关(flag)列表</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches"/>
-        <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Chromium 所有开关列表]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[显示Linux端口占用]]></title>
@@ -671,13 +706,6 @@
         <link href="https://blog.alanwei.com/blog/2021/03/06/vsc-code-folding"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[以下是Visual Studio Code支持的代码块折叠标记及快捷键:]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[搭建 Wireguard 服务]]></title>
-        <id>搭建 Wireguard 服务</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/06/wireguard-server"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[使用Docker搭建 Wireguard 服务]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSC 代码片段介绍]]></title>

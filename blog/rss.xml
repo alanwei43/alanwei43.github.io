@@ -4,9 +4,44 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Thu, 24 Feb 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 01 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Spring 响应图片等媒体数据]]></title>
+            <link>https://blog.alanwei.com/blog/2022/03/01/spring-response-image</link>
+            <guid>Spring 响应图片等媒体数据</guid>
+            <pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+        </item>
+        <item>
+            <title><![CDATA[VMware 命令行操作虚拟机]]></title>
+            <link>https://blog.alanwei.com/blog/2022/02/27/vmware-vmrun-cli</link>
+            <guid>VMware 命令行操作虚拟机</guid>
+            <pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用命令行 vmrun 操作虚拟机]]></description>
+        </item>
+        <item>
+            <title><![CDATA[VMware Workstation Pro keys]]></title>
+            <link>https://blog.alanwei.com/blog/2022/02/27/vmware-workstation-pro-keys</link>
+            <guid>VMware Workstation Pro keys</guid>
+            <pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[VMware Workstation Pro 16 许可证密钥，批量永久激活]]></description>
+        </item>
+        <item>
+            <title><![CDATA[VMware的Windows虚拟机中因驱动签名问题无法安装 VMware Tools]]></title>
+            <link>https://blog.alanwei.com/blog/2022/02/27/windows-vmware-tools-drive-fail</link>
+            <guid>VMware的Windows虚拟机中因驱动签名问题无法安装 VMware Tools</guid>
+            <pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Dockerfile 常用指令介绍]]></title>
+            <link>https://blog.alanwei.com/blog/2022/02/26/docker-dockerfile-intro</link>
+            <guid>Dockerfile 常用指令介绍</guid>
+            <pubDate>Sat, 26 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Dockerfile常用指令介绍]]></description>
+        </item>
         <item>
             <title><![CDATA[解决IDEA使用低版本lombok没有get/set方法问题]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/24/idea-lombok</link>
@@ -505,6 +540,13 @@
             <description><![CDATA[国内开源镜像加速站点]]></description>
         </item>
         <item>
+            <title><![CDATA[Chromium 所有开关(flag)列表]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches</link>
+            <guid>Chromium 所有开关(flag)列表</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chromium 所有开关列表]]></description>
+        </item>
+        <item>
             <title><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy</link>
             <guid>Docusaurus 配置 GitHub Action 自动发布</guid>
@@ -524,13 +566,6 @@
             <guid>linux下查看指定进程的所有连接信息</guid>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[linux下查看指定进程的所有连接信息]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Chromium 所有开关(flag)列表]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches</link>
-            <guid>Chromium 所有开关(flag)列表</guid>
-            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chromium 所有开关列表]]></description>
         </item>
         <item>
             <title><![CDATA[显示Linux端口占用]]></title>
@@ -671,13 +706,6 @@
             <guid>VSC代码块折叠</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[以下是Visual Studio Code支持的代码块折叠标记及快捷键:]]></description>
-        </item>
-        <item>
-            <title><![CDATA[搭建 Wireguard 服务]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/06/wireguard-server</link>
-            <guid>搭建 Wireguard 服务</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[使用Docker搭建 Wireguard 服务]]></description>
         </item>
         <item>
             <title><![CDATA[VSC 代码片段介绍]]></title>
