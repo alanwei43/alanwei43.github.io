@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[368],{440:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"spring-boot","name":"spring boot","count":6,"permalink":"/blog/tags/spring-boot"}')}}]);

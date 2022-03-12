@@ -20,3 +20,5 @@
 ## ssl
 * https://ngx.hk/2019/01/27/%E4%BD%BF%E7%94%A8acme-sh%E4%B8%8E%E9%98%BF%E9%87%8C%E4%BA%91dns%E7%AD%BE%E5%8F%91lets-encrypt%E7%9A%84%E5%85%8D%E8%B4%B9%E6%95%B0%E5%AD%97%E8%AF%81%E4%B9%A6.html
 * https://github.com/kshcherban/acme-nginx
+
+* https://www.cnblogs.com/rickiyang/p/12178644.html

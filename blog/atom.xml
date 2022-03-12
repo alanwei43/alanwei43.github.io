@@ -15,6 +15,13 @@
         <summary type="html"><![CDATA[Caddy 使用介绍]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[macOS系统安全隐私设置允许任意源下载的App]]></title>
+        <id>macOS系统安全隐私设置允许任意源下载的App</id>
+        <link href="https://blog.alanwei.com/blog/2022/03/12/macos-security-allow-apps-anywhere"/>
+        <updated>2022-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[docker history命令显示完整信息]]></title>
         <id>docker history命令显示完整信息</id>
         <link href="https://blog.alanwei.com/blog/2022/03/12/docker-history-full-command"/>
@@ -141,18 +148,18 @@
         <summary type="html"><![CDATA[记录几个网址，方便以后忘记。]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[容器内访问物理网络]]></title>
-        <id>容器内访问物理网络</id>
-        <link href="https://blog.alanwei.com/blog/2022/02/12/docker-connect-host"/>
-        <updated>2022-02-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[概述]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[安装或卸载 Docker]]></title>
         <id>安装或卸载 Docker</id>
         <link href="https://blog.alanwei.com/blog/2022/02/12/install-docker"/>
         <updated>2022-02-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[安装或者卸载Docker.]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[容器内访问物理网络]]></title>
+        <id>容器内访问物理网络</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/12/docker-connect-host"/>
+        <updated>2022-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[概述]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Linux启动自动执行特定脚本]]></title>
