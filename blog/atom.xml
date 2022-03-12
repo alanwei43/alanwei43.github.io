@@ -2,17 +2,59 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2022-03-01T00:00:00.000Z</updated>
+    <updated>2022-03-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
     <entry>
+        <title type="html"><![CDATA[Caddy 简介]]></title>
+        <id>Caddy 简介</id>
+        <link href="https://blog.alanwei.com/blog/2022/03/12/caddy-intro"/>
+        <updated>2022-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Caddy 使用介绍]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[docker history命令显示完整信息]]></title>
+        <id>docker history命令显示完整信息</id>
+        <link href="https://blog.alanwei.com/blog/2022/03/12/docker-history-full-command"/>
+        <updated>2022-03-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring 接口同时支持JSON数据和Form表单数据]]></title>
+        <id>Spring 接口同时支持JSON数据和Form表单数据</id>
+        <link href="https://blog.alanwei.com/blog/2022/03/10/spring-both-support-json-url-encoded"/>
+        <updated>2022-03-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[如何让 Spring Boot 接口同时支持JSON数据和Form表单数据]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Flutter实战 第二版 笔记]]></title>
+        <id>Flutter实战 第二版 笔记</id>
+        <link href="https://blog.alanwei.com/blog/2022/03/08/flutter-practice-note"/>
+        <updated>2022-03-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Flutter实战 第二版 笔记]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Node调整child_process内存大小]]></title>
+        <id>Node调整child_process内存大小</id>
+        <link href="https://blog.alanwei.com/blog/2022/03/08/node-child-process-memory"/>
+        <updated>2022-03-08T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Git 删除未跟踪文件]]></title>
+        <id>Git 删除未跟踪文件</id>
+        <link href="https://blog.alanwei.com/blog/2022/03/04/git-remove-untrack-files"/>
+        <updated>2022-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[via How to Remove Untracked Files in Git]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Spring 响应图片等媒体数据]]></title>
         <id>Spring 响应图片等媒体数据</id>
         <link href="https://blog.alanwei.com/blog/2022/03/01/spring-response-image"/>
         <updated>2022-03-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <summary type="html"><![CDATA[via Returning Image/Media Data with Spring MVC]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[VMware 命令行操作虚拟机]]></title>
@@ -106,18 +148,18 @@
         <summary type="html"><![CDATA[概述]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[安装或卸载 Docker]]></title>
-        <id>安装或卸载 Docker</id>
-        <link href="https://blog.alanwei.com/blog/2022/02/12/install-docker"/>
-        <updated>2022-02-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[安装或者卸载Docker.]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Linux启动自动执行特定脚本]]></title>
         <id>Linux启动自动执行特定脚本</id>
         <link href="https://blog.alanwei.com/blog/2022/02/12/linux-startup-script-crontab"/>
         <updated>2022-02-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[利用linux的crontab服务设置启动脚本]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[安装或卸载 Docker]]></title>
+        <id>安装或卸载 Docker</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/12/install-docker"/>
+        <updated>2022-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[安装或者卸载Docker.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ubuntu 20.04 安装使用 SQLite]]></title>
@@ -316,18 +358,18 @@
         <summary type="html"><![CDATA[macOS allow apps downloaded from anywhere]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[使用自定义的Spring MVC处理程序拦截器管理会话]]></title>
-        <id>使用自定义的Spring MVC处理程序拦截器管理会话</id>
-        <link href="https://blog.alanwei.com/blog/2021/05/05/spring-mvc-custom-handler-interceptor"/>
-        <updated>2021-05-05T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[原文 - Using a Custom Spring MVC’s Handler Interceptor to Manage Sessions]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Spring MVC HandlerInterceptor 简介]]></title>
         <id>Spring MVC HandlerInterceptor 简介</id>
         <link href="https://blog.alanwei.com/blog/2021/05/05/spring-mvc-handlerinterceptor"/>
         <updated>2021-05-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[使用自定义的Spring MVC处理程序拦截器管理会话]]></title>
+        <id>使用自定义的Spring MVC处理程序拦截器管理会话</id>
+        <link href="https://blog.alanwei.com/blog/2021/05/05/spring-mvc-custom-handler-interceptor"/>
+        <updated>2021-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 - Using a Custom Spring MVC’s Handler Interceptor to Manage Sessions]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring Boot 使用 JSP]]></title>
@@ -400,18 +442,18 @@
         <summary type="html"><![CDATA[使用 Docker 部署 Sentry]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[How to Setup Reverse Proxy on IIS with URL-Rewrite]]></title>
-        <id>How to Setup Reverse Proxy on IIS with URL-Rewrite</id>
-        <link href="https://blog.alanwei.com/blog/2021/04/11/iis-reverse-proxy-url-rewrite"/>
-        <updated>2021-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[使用IIS的URL Rewrite设置反向代理]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[配置IIS反向代理教程]]></title>
         <id>配置IIS反向代理教程</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/iis-reverse-proxy"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[IIS配置反向代理]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[How to Setup Reverse Proxy on IIS with URL-Rewrite]]></title>
+        <id>How to Setup Reverse Proxy on IIS with URL-Rewrite</id>
+        <link href="https://blog.alanwei.com/blog/2021/04/11/iis-reverse-proxy-url-rewrite"/>
+        <updated>2021-04-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[使用IIS的URL Rewrite设置反向代理]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[查看当前机器的所有SSH连接]]></title>
@@ -428,18 +470,18 @@
         <summary type="html"><![CDATA[使用 Node 执行命令行程序]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Spring Boot Maven 插件使用]]></title>
-        <id>Spring Boot Maven 插件使用</id>
-        <link href="https://blog.alanwei.com/blog/2021/04/11/spring-boot-maven-plugin"/>
-        <updated>2021-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Spring Boot Maven 插件使用]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Windows 上的TCP代理设置]]></title>
         <id>Windows 上的TCP代理设置</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/tcp-proxy-in-windows"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[目前我们出现一个需求是将外网来的TCP请求代理到内网的某个服务器上, 比如我们的 Windows 上需要部署一个 RabbitMQ 推送服务, 但因为某些原因我们无法使用 Windows 版本的 RabbitMQ, 想将 RabbitMQ 部署在Linux服务器上, 确实有很多其他方式来满足这个需求, 比如再加一个服务器, 然后分配一个公网IP, 最后我们选择在 Windows 服务器上安装 VMware 然后虚拟一个Ubuntu系统. 现在需要将外网的 RabbitMQ 请求映射到 Ubuntu 上, 大概请求途径如下:]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Spring Boot Maven 插件使用]]></title>
+        <id>Spring Boot Maven 插件使用</id>
+        <link href="https://blog.alanwei.com/blog/2021/04/11/spring-boot-maven-plugin"/>
+        <updated>2021-04-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Spring Boot Maven 插件使用]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ubuntu 系统安装根证书]]></title>
@@ -456,18 +498,18 @@
         <summary type="html"><![CDATA[每次安装Ubuntu系统都要做一些初始化工作(比如安装一些工具软件), 现将我的记录如下, 方便下次使用:]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[为什么 Math.Round(2.5) 返回 2]]></title>
-        <id>为什么 Math.Round(2.5) 返回 2</id>
-        <link href="https://blog.alanwei.com/blog/2021/04/11/why-math-round-return-2-instead-3"/>
-        <updated>2021-04-11T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[为什么 Math.Round(2.5) 返回 2]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[制作Windows启动盘]]></title>
         <id>制作Windows启动盘</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/windows-bootable-device"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[为什么 Math.Round(2.5) 返回 2]]></title>
+        <id>为什么 Math.Round(2.5) 返回 2</id>
+        <link href="https://blog.alanwei.com/blog/2021/04/11/why-math-round-return-2-instead-3"/>
+        <updated>2021-04-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[为什么 Math.Round(2.5) 返回 2]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Node require 缓存]]></title>
@@ -484,13 +526,6 @@
         <summary type="html"><![CDATA[.Net Framework ASP.Net 应用配置HTTP代理 proxy configuration]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[如何使用命令行创建带有多个子模块的Maven项目]]></title>
-        <id>如何使用命令行创建带有多个子模块的Maven项目</id>
-        <link href="https://blog.alanwei.com/blog/2021/04/03/how-to-create-maven-multi-module-project"/>
-        <updated>2021-04-03T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[In this guide, we learn how to create Maven Multi-Module using Command Line with very easy steps. A multi-module project is defined by a parent POM referencing one or more sub-modules. In this example, we will create a blogger web application with different modules. Let's create a blogger as parent project and it's 3 sub-modules are blogger-core, blogger-common, blogger-web.]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[解决 Windows 环境中 git log 命令中文编码问题]]></title>
         <id>解决 Windows 环境中 git log 命令中文编码问题</id>
         <link href="https://blog.alanwei.com/blog/2021/04/03/powershell-git-chinese-encode"/>
@@ -503,6 +538,13 @@
         <link href="https://blog.alanwei.com/blog/2021/04/03/windows-add-programs-to-startup-folder"/>
         <updated>2021-04-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[设置Windows开机启动程序]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[如何使用命令行创建带有多个子模块的Maven项目]]></title>
+        <id>如何使用命令行创建带有多个子模块的Maven项目</id>
+        <link href="https://blog.alanwei.com/blog/2021/04/03/how-to-create-maven-multi-module-project"/>
+        <updated>2021-04-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this guide, we learn how to create Maven Multi-Module using Command Line with very easy steps. A multi-module project is defined by a parent POM referencing one or more sub-modules. In this example, we will create a blogger web application with different modules. Let's create a blogger as parent project and it's 3 sub-modules are blogger-core, blogger-common, blogger-web.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docker时区设置]]></title>
@@ -526,13 +568,6 @@
         <summary type="html"><![CDATA[Git Tags 常用命令简介]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Docker配置镜像加速]]></title>
-        <id>Docker配置镜像加速</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/26/docker-config-mirror"/>
-        <updated>2021-03-26T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[修改Docker文件, 配置镜像加速]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[国内开源镜像站点]]></title>
         <id>国内开源镜像站点</id>
         <link href="https://blog.alanwei.com/blog/2021/03/26/open-mirrors"/>
@@ -540,18 +575,18 @@
         <summary type="html"><![CDATA[国内开源镜像加速站点]]></summary>
     </entry>
     <entry>
+        <title type="html"><![CDATA[Docker配置镜像加速]]></title>
+        <id>Docker配置镜像加速</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/26/docker-config-mirror"/>
+        <updated>2021-03-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[修改Docker文件, 配置镜像加速]]></summary>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Chromium 所有开关(flag)列表]]></title>
         <id>Chromium 所有开关(flag)列表</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chromium 所有开关列表]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
-        <id>Docusaurus 配置 GitHub Action 自动发布</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy"/>
-        <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[frp连接 EOF 失败问题]]></title>
@@ -566,6 +601,13 @@
         <link href="https://blog.alanwei.com/blog/2021/03/21/linux-all-ps-connection"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[linux下查看指定进程的所有连接信息]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
+        <id>Docusaurus 配置 GitHub Action 自动发布</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[显示Linux端口占用]]></title>
@@ -722,18 +764,18 @@
         <summary type="html"><![CDATA[解决 Visual Studio Code Markdown 文件不能插入代码片段问题]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Mac安装Wireguard]]></title>
-        <id>Mac安装Wireguard</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/04/mac-install-wireguard"/>
-        <updated>2021-03-04T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[1. 安装 WireGuard 客户端]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Sublime开启Vim模式]]></title>
         <id>Sublime开启Vim模式</id>
         <link href="https://blog.alanwei.com/blog/2021/03/04/sublime-vim-mode"/>
         <updated>2021-03-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Sublime开启Vim模式]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac安装Wireguard]]></title>
+        <id>Mac安装Wireguard</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/04/mac-install-wireguard"/>
+        <updated>2021-03-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 安装 WireGuard 客户端]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Linux - Structure needs cleaning]]></title>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>迅雷下载链接解析</title>
+    <style type="text/css">
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            display: block;
+            margin: 10px auto;
+            width: 90%;
+
+        }
+
+        form input[type=text] {
+            height: 30px;
+            display: block;
+            margin: 10px auto;
+            width: 100%;
+        }
+
+        form input[type=submit] {
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <form onsubmit="onSubmit(event); return false;">
+            <label>
+                迅雷链接: <input type="text" id="thunder"
+                    value="thunder://QUFmdHA6Ly90OnRAcGlhb2h1YTg4OC5jb206MjEyMTEv6Zeq5YWJ5bCR5aWzSETlm73or63kuK3oi7Hlj4zlrZdb6aOY6Iqxd3d3LnBpYW9odWEuY29tXS5ta3ZaWg=="
+                    placeholder="请输入 thunder:// 协议的完整链接" />
+            </label>
+            <input type="submit" value="转换" />
+            <br />
+            <br />
+            <label>
+                解析后链接:
+                <input type="text" id="link" placeholder="转换后链接" />
+            </label>
+        </form>
+    </div>
+    <script>
+        function onSubmit() {
+            var value = document.getElementById("thunder").value + "";
+            console.log("输入链接: ", value);
+            if (value.startsWith("thunder://")) {
+                value = value.substr("thunder://".length);
+                console.log("裁剪后链接: ", value);
+            }
+            var decrypt = atob(value);
+        console.log("解码后链接: ", decrypt);
+            decrypt = decrypt.substr(2, decrypt.length - 4);
+            document.querySelector("#link").value = decrypt;
+        }
+    </script>
+</body>
+
+</html>
