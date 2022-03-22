@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[65],{138:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"chromium","name":"chromium","count":1,"permalink":"/blog/tags/chromium"}')}}]);

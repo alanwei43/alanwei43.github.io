@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[452],{524:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"retrofit","name":"retrofit","count":1,"permalink":"/blog/tags/retrofit"}')}}]);
