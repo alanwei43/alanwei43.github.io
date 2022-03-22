@@ -22,3 +22,4 @@
 * https://github.com/kshcherban/acme-nginx
 
 * https://www.cnblogs.com/rickiyang/p/12178644.html
+* https://oxylabs.io/blog/curl-with-proxy

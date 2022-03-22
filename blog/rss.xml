@@ -4,9 +4,30 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sat, 12 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[dotnet script 简介]]></title>
+            <link>https://blog.alanwei.com/blog/2022/03/16/dotnet-script-intro</link>
+            <guid>dotnet script 简介</guid>
+            <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+        </item>
+        <item>
+            <title><![CDATA[.Net Core QA]]></title>
+            <link>https://blog.alanwei.com/blog/2022/03/16/dotnet-starter</link>
+            <guid>.Net Core QA</guid>
+            <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[.Net Core QA]]></description>
+        </item>
+        <item>
+            <title><![CDATA[使用curl命令行获取当前机器公网IP]]></title>
+            <link>https://blog.alanwei.com/blog/2022/03/16/get-public-ip-using-curl</link>
+            <guid>使用curl命令行获取当前机器公网IP</guid>
+            <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[使用命令行或者脚本获取当前机器的公网IP地址]]></description>
+        </item>
         <item>
             <title><![CDATA[Caddy 简介]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/12/caddy-intro</link>
@@ -274,18 +295,18 @@
             <description><![CDATA[React事件处理程序箭头函数造成的重复渲染问题]]></description>
         </item>
         <item>
-            <title><![CDATA[如何知道 NodeJS stream pipe 完成]]></title>
-            <link>https://blog.alanwei.com/blog/2021/10/07/nodejs-stream-pipe-finish</link>
-            <guid>如何知道 NodeJS stream pipe 完成</guid>
-            <pubDate>Thu, 07 Oct 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[NodeJS 的流调用 pipe 方法之后会返回一个新的流, 监听这个新流的finish事件就可以知道pipe完成了:]]></description>
-        </item>
-        <item>
             <title><![CDATA[检测是否是puppeteer访问以及如何破解]]></title>
             <link>https://blog.alanwei.com/blog/2021/10/07/detect-puppeteer-browse</link>
             <guid>检测是否是puppeteer访问以及如何破解</guid>
             <pubDate>Thu, 07 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用JavaScript检测是否是puppeteer等自动化工具访问页面, 以及如何破解.]]></description>
+        </item>
+        <item>
+            <title><![CDATA[如何知道 NodeJS stream pipe 完成]]></title>
+            <link>https://blog.alanwei.com/blog/2021/10/07/nodejs-stream-pipe-finish</link>
+            <guid>如何知道 NodeJS stream pipe 完成</guid>
+            <pubDate>Thu, 07 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[NodeJS 的流调用 pipe 方法之后会返回一个新的流, 监听这个新流的finish事件就可以知道pipe完成了:]]></description>
         </item>
         <item>
             <title><![CDATA[DOM Attributes in React 16]]></title>
@@ -449,18 +470,18 @@
             <description><![CDATA[使用IIS的URL Rewrite设置反向代理]]></description>
         </item>
         <item>
-            <title><![CDATA[查看当前机器的所有SSH连接]]></title>
-            <link>https://blog.alanwei.com/blog/2021/04/11/linux-show-ssh-connection</link>
-            <guid>查看当前机器的所有SSH连接</guid>
-            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[查看当前机器的所有SSH连接]]></description>
-        </item>
-        <item>
             <title><![CDATA[配置IIS反向代理教程]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/iis-reverse-proxy</link>
             <guid>配置IIS反向代理教程</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[IIS配置反向代理]]></description>
+        </item>
+        <item>
+            <title><![CDATA[查看当前机器的所有SSH连接]]></title>
+            <link>https://blog.alanwei.com/blog/2021/04/11/linux-show-ssh-connection</link>
+            <guid>查看当前机器的所有SSH连接</guid>
+            <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[查看当前机器的所有SSH连接]]></description>
         </item>
         <item>
             <title><![CDATA[使用 Node 执行命令行程序]]></title>
@@ -582,6 +603,13 @@
             <description><![CDATA[国内开源镜像加速站点]]></description>
         </item>
         <item>
+            <title><![CDATA[Chromium 所有开关(flag)列表]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches</link>
+            <guid>Chromium 所有开关(flag)列表</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Chromium 所有开关列表]]></description>
+        </item>
+        <item>
             <title><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy</link>
             <guid>Docusaurus 配置 GitHub Action 自动发布</guid>
@@ -593,7 +621,7 @@
             <link>https://blog.alanwei.com/blog/2021/03/21/frp-eof</link>
             <guid>frp连接 EOF 失败问题</guid>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[为了在家调试方便，老高使用frp将自己放在公司的开发机器的ssh端口开放出来了，但是配置frp客户端的过程中总是出现下面的一句话：]]></description>
+            <description><![CDATA[为了在家调试方便，老高使用frp将自己放在公司的开发机器的ssh端口开放出来了，但是配置frp客户端的过程中总是出现下面的一句话:]]></description>
         </item>
         <item>
             <title><![CDATA[linux下查看指定进程的所有连接信息]]></title>
@@ -601,13 +629,6 @@
             <guid>linux下查看指定进程的所有连接信息</guid>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[linux下查看指定进程的所有连接信息]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Chromium 所有开关(flag)列表]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches</link>
-            <guid>Chromium 所有开关(flag)列表</guid>
-            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Chromium 所有开关列表]]></description>
         </item>
         <item>
             <title><![CDATA[显示Linux端口占用]]></title>

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[155],{228:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"vmrun","name":"vmrun","count":1,"permalink":"/blog/tags/vmrun"}')}}]);
