@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[118],{192:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"cron","name":"cron","count":1,"permalink":"/blog/tags/cron"}')}}]);

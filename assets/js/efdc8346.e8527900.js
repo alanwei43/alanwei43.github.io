@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[80592],{38369:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/retrofit","name":"retrofit","count":1,"permalink":"/blog/tags/retrofit"}')}}]);

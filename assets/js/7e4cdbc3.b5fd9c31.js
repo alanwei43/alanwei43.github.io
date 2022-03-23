@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[34967],{53714:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/chrome-switches","name":"chrome switches","count":1,"permalink":"/blog/tags/chrome-switches"}')}}]);

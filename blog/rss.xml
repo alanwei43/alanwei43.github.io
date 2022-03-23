@@ -10,884 +10,1160 @@
         <item>
             <title><![CDATA[dotnet script 简介]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/16/dotnet-script-intro</link>
-            <guid>dotnet script 简介</guid>
+            <guid>/2022/03/16/dotnet-script-intro</guid>
             <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
         </item>
         <item>
             <title><![CDATA[.Net Core QA]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/16/dotnet-starter</link>
-            <guid>.Net Core QA</guid>
+            <guid>/2022/03/16/dotnet-starter</guid>
             <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[.Net Core QA]]></description>
+            <category>.net</category>
+            <category>.net core</category>
         </item>
         <item>
             <title><![CDATA[使用curl命令行获取当前机器公网IP]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/16/get-public-ip-using-curl</link>
-            <guid>使用curl命令行获取当前机器公网IP</guid>
+            <guid>/2022/03/16/get-public-ip-using-curl</guid>
             <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[使用命令行或者脚本获取当前机器的公网IP地址]]></description>
+            <category>linux</category>
+            <category>curl</category>
+            <category>cli</category>
+            <category>ip</category>
         </item>
         <item>
             <title><![CDATA[Caddy 简介]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/12/caddy-intro</link>
-            <guid>Caddy 简介</guid>
+            <guid>/2022/03/12/caddy-intro</guid>
             <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Caddy 使用介绍]]></description>
+            <category>caddy</category>
+            <category>docker</category>
+            <category>nginx</category>
+            <category>http</category>
         </item>
         <item>
             <title><![CDATA[docker history命令显示完整信息]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/12/docker-history-full-command</link>
-            <guid>docker history命令显示完整信息</guid>
+            <guid>/2022/03/12/docker-history-full-command</guid>
             <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
         </item>
         <item>
             <title><![CDATA[macOS系统安全隐私设置允许任意源下载的App]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/12/macos-security-allow-apps-anywhere</link>
-            <guid>macOS系统安全隐私设置允许任意源下载的App</guid>
+            <guid>/2022/03/12/macos-security-allow-apps-anywhere</guid>
             <pubDate>Sat, 12 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
         </item>
         <item>
             <title><![CDATA[Spring 接口同时支持JSON数据和Form表单数据]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/10/spring-both-support-json-url-encoded</link>
-            <guid>Spring 接口同时支持JSON数据和Form表单数据</guid>
+            <guid>/2022/03/10/spring-both-support-json-url-encoded</guid>
             <pubDate>Thu, 10 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[如何让 Spring Boot 接口同时支持JSON数据和Form表单数据]]></description>
+            <category>spring</category>
+            <category>spring boot</category>
         </item>
         <item>
             <title><![CDATA[Node调整child_process内存大小]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/08/node-child-process-memory</link>
-            <guid>Node调整child_process内存大小</guid>
+            <guid>/2022/03/08/node-child-process-memory</guid>
             <pubDate>Tue, 08 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
         </item>
         <item>
             <title><![CDATA[Git 删除未跟踪文件]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/04/git-remove-untrack-files</link>
-            <guid>Git 删除未跟踪文件</guid>
+            <guid>/2022/03/04/git-remove-untrack-files</guid>
             <pubDate>Fri, 04 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[via How to Remove Untracked Files in Git]]></description>
+            <category>git</category>
         </item>
         <item>
             <title><![CDATA[Spring 响应图片等媒体数据]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/01/spring-response-image</link>
-            <guid>Spring 响应图片等媒体数据</guid>
+            <guid>/2022/03/01/spring-response-image</guid>
             <pubDate>Tue, 01 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[via Returning Image/Media Data with Spring MVC]]></description>
+            <category>spring</category>
+            <category>spring boot</category>
+            <category>java</category>
         </item>
         <item>
             <title><![CDATA[VMware 命令行操作虚拟机]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/27/vmware-vmrun-cli</link>
-            <guid>VMware 命令行操作虚拟机</guid>
+            <guid>/2022/02/27/vmware-vmrun-cli</guid>
             <pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[使用命令行 vmrun 操作虚拟机]]></description>
+            <category>vmware</category>
+            <category>vmrun</category>
         </item>
         <item>
             <title><![CDATA[VMware Workstation Pro keys]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/27/vmware-workstation-pro-keys</link>
-            <guid>VMware Workstation Pro keys</guid>
+            <guid>/2022/02/27/vmware-workstation-pro-keys</guid>
             <pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[VMware Workstation Pro 16 许可证密钥，批量永久激活]]></description>
+            <category>vmware</category>
         </item>
         <item>
             <title><![CDATA[VMware的Windows虚拟机中因驱动签名问题无法安装 VMware Tools]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/27/windows-vmware-tools-drive-fail</link>
-            <guid>VMware的Windows虚拟机中因驱动签名问题无法安装 VMware Tools</guid>
+            <guid>/2022/02/27/windows-vmware-tools-drive-fail</guid>
             <pubDate>Sun, 27 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <category>vmware</category>
         </item>
         <item>
             <title><![CDATA[Dockerfile 常用指令介绍]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/26/docker-dockerfile-intro</link>
-            <guid>Dockerfile 常用指令介绍</guid>
+            <guid>/2022/02/26/docker-dockerfile-intro</guid>
             <pubDate>Sat, 26 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Dockerfile常用指令介绍]]></description>
+            <category>docker</category>
+            <category>dockerfile</category>
         </item>
         <item>
             <title><![CDATA[解决IDEA使用低版本lombok没有get/set方法问题]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/24/idea-lombok</link>
-            <guid>解决IDEA使用低版本lombok没有get/set方法问题</guid>
+            <guid>/2022/02/24/idea-lombok</guid>
             <pubDate>Thu, 24 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <category>idea</category>
+            <category>lombok</category>
         </item>
         <item>
             <title><![CDATA[Mock Retrofit http request]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/23/retrofit-mock-server</link>
-            <guid>Mock Retrofit http request</guid>
+            <guid>/2022/02/23/retrofit-mock-server</guid>
             <pubDate>Wed, 23 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <category>java</category>
+            <category>retrofit</category>
+            <category>spring boot</category>
+            <category>mock</category>
         </item>
         <item>
             <title><![CDATA[Flutter远程调试Android设备]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/20/flutter-remote-debug-android-device</link>
-            <guid>Flutter远程调试Android设备</guid>
+            <guid>/2022/02/20/flutter-remote-debug-android-device</guid>
             <pubDate>Sun, 20 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Flutter远程无线调试 zAndroid App:]]></description>
+            <category>flutter</category>
+            <category>adb</category>
+            <category>android</category>
         </item>
         <item>
             <title><![CDATA[Dart Visual Studio Code 推荐设置]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/19/dart-visual-studio-code-settings</link>
-            <guid>Dart Visual Studio Code 推荐设置</guid>
+            <guid>/2022/02/19/dart-visual-studio-code-settings</guid>
             <pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Dart Visual Studio Code 推荐设置]]></description>
+            <category>dart</category>
+            <category>vsc</category>
+            <category>visual studio code</category>
         </item>
         <item>
             <title><![CDATA[GitHub QA]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/18/github-qa</link>
-            <guid>GitHub QA</guid>
+            <guid>/2022/02/18/github-qa</guid>
             <pubDate>Fri, 18 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[GitHub 使用介绍]]></description>
+            <category>github</category>
         </item>
         <item>
             <title><![CDATA[Windows 虚拟桌面快捷键]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/18/windows-virtual-desktop</link>
-            <guid>Windows 虚拟桌面快捷键</guid>
+            <guid>/2022/02/18/windows-virtual-desktop</guid>
             <pubDate>Fri, 18 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Windows 虚拟桌面快捷键列表:]]></description>
+            <category>windows</category>
         </item>
         <item>
             <title><![CDATA[解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/16/ubuntu-dpkg-install-dependency</link>
-            <guid>解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题</guid>
+            <guid>/2022/02/16/ubuntu-dpkg-install-dependency</guid>
             <pubDate>Wed, 16 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题]]></description>
+            <category>linux</category>
+            <category>ubuntu</category>
         </item>
         <item>
             <title><![CDATA[蒲公英 X1 简介]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/14/oray-box-intro</link>
-            <guid>蒲公英 X1 简介</guid>
+            <guid>/2022/02/14/oray-box-intro</guid>
             <pubDate>Mon, 14 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[记录几个网址，方便以后忘记。]]></description>
+            <category>oray</category>
         </item>
         <item>
             <title><![CDATA[容器内访问物理网络]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/12/docker-connect-host</link>
-            <guid>容器内访问物理网络</guid>
+            <guid>/2022/02/12/docker-connect-host</guid>
             <pubDate>Sat, 12 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[概述]]></description>
+            <category>docker</category>
         </item>
         <item>
             <title><![CDATA[安装或卸载 Docker]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/12/install-docker</link>
-            <guid>安装或卸载 Docker</guid>
+            <guid>/2022/02/12/install-docker</guid>
             <pubDate>Sat, 12 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[安装或者卸载Docker.]]></description>
+            <category>docker</category>
         </item>
         <item>
             <title><![CDATA[Linux启动自动执行特定脚本]]></title>
             <link>https://blog.alanwei.com/blog/2022/02/12/linux-startup-script-crontab</link>
-            <guid>Linux启动自动执行特定脚本</guid>
+            <guid>/2022/02/12/linux-startup-script-crontab</guid>
             <pubDate>Sat, 12 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[利用linux的crontab服务设置启动脚本]]></description>
+            <category>cron</category>
+            <category>linux</category>
         </item>
         <item>
             <title><![CDATA[Ubuntu 20.04 安装使用 SQLite]]></title>
-            <link>https://blog.alanwei.com/blog/2022/02/06/ubuntu-sqlite3-starter</link>
-            <guid>Ubuntu 20.04 安装使用 SQLite</guid>
+            <link>https://blog.alanwei.com/blog/2022/02/6/ubuntu-sqlite3-starter</link>
+            <guid>/2022/02/6/ubuntu-sqlite3-starter</guid>
             <pubDate>Sun, 06 Feb 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <category>sqlite3</category>
+            <category>linux</category>
+            <category>ubuntu</category>
         </item>
         <item>
             <title><![CDATA[Flutter JSON 序列化]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/25/flutter-json-seriealize</link>
-            <guid>Flutter JSON 序列化</guid>
+            <guid>/2022/01/25/flutter-json-seriealize</guid>
             <pubDate>Tue, 25 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[flutter JSON 序列化和反序列化]]></description>
+            <category>flutter</category>
+            <category>android</category>
+            <category>ios</category>
         </item>
         <item>
             <title><![CDATA[解决SSH no matching host key type found 问题]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/24/ssh-no-matching-host-key-type-found</link>
-            <guid>解决SSH no matching host key type found 问题</guid>
+            <guid>/2022/01/24/ssh-no-matching-host-key-type-found</guid>
             <pubDate>Mon, 24 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[解决通过git协议克隆仓库到本地, 或者SSH远程机器时返回的 no matching host key type found]]></description>
+            <category>ssh</category>
+            <category>git</category>
+            <category>openssh</category>
         </item>
         <item>
             <title><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/15/ubuntu-ssh-connection-refused</link>
-            <guid>解决 Ubuntu/Debian SSH 连接时返回的 Connection refused</guid>
+            <guid>/2022/01/15/ubuntu-ssh-connection-refused</guid>
             <pubDate>Sat, 15 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></description>
+            <category>linux</category>
+            <category>ssh</category>
+            <category>ubuntu</category>
+            <category>debian</category>
         </item>
         <item>
             <title><![CDATA[VSC常用代码片段]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/10/visual-studio-code-snippets</link>
-            <guid>VSC常用代码片段</guid>
+            <guid>/2022/01/10/visual-studio-code-snippets</guid>
             <pubDate>Mon, 10 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Visual Studio Code 常用代码片段]]></description>
+            <category>vsc</category>
+            <category>visual studio code</category>
+            <category>snippets</category>
         </item>
         <item>
             <title><![CDATA[Ubuntu 20.04 LTS 安装多媒体解码库]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/08/ubuntu-install-multimia-codecs</link>
-            <guid>Ubuntu 20.04 LTS 安装多媒体解码库</guid>
+            <guid>/2022/01/08/ubuntu-install-multimia-codecs</guid>
             <pubDate>Sat, 08 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[解决安装 Ubuntu 20.04 LTS 完成后无法播放音频视频问题]]></description>
+            <category>linux</category>
+            <category>ubuntu</category>
         </item>
         <item>
             <title><![CDATA[解决Ubuntu系统启动 VMware Workstation Pro 提示 Kernel Module Updater 问题]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/08/vmware-workstation-kernel-module-updater</link>
-            <guid>解决Ubuntu系统启动 VMware Workstation Pro 提示 Kernel Module Updater 问题</guid>
+            <guid>/2022/01/08/vmware-workstation-kernel-module-updater</guid>
             <pubDate>Sat, 08 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[解决Ubuntu系统初次安装 VMware Workstation Pro, 启动提示 kernel module updater, gcc 等问题]]></description>
+            <category>linux</category>
+            <category>ubuntu</category>
+            <category>vmware</category>
         </item>
         <item>
             <title><![CDATA[JDK LTS 路线图及下载地址]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/06/jdk-roadmap-download</link>
-            <guid>JDK LTS 路线图及下载地址</guid>
+            <guid>/2022/01/06/jdk-roadmap-download</guid>
             <pubDate>Thu, 06 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[JDK LTS 路线图, JDK 17 LTS下载地址]]></description>
+            <category>java</category>
+            <category>jdk</category>
+            <category>jdk1.8</category>
+            <category>jdk8</category>
+            <category>jdk lts</category>
         </item>
         <item>
             <title><![CDATA[微软拼音输入法自定义日期时间格式]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/01/microsoft-pinyin-date</link>
-            <guid>微软拼音输入法自定义日期时间格式</guid>
+            <guid>/2022/01/01/microsoft-pinyin-date</guid>
             <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[微软拼音输入法自定义日期时间格式]]></description>
+            <category>windows</category>
         </item>
         <item>
             <title><![CDATA[PowerShell 常见问答]]></title>
             <link>https://blog.alanwei.com/blog/2022/01/01/powershell-qa</link>
-            <guid>PowerShell 常见问答</guid>
+            <guid>/2022/01/01/powershell-qa</guid>
             <pubDate>Sat, 01 Jan 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[PowerShell 常见问答]]></description>
+            <category>powershell</category>
         </item>
         <item>
             <title><![CDATA[API Extractor 使用]]></title>
             <link>https://blog.alanwei.com/blog/2021/12/12/tsdoc-config</link>
-            <guid>API Extractor 使用</guid>
+            <guid>/2021/12/12/tsdoc-config</guid>
             <pubDate>Sun, 12 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用API Extractor 和 tsdoc 生成 TypeScript 项目文档]]></description>
+            <category>typescript</category>
+            <category>tsdoc</category>
+            <category>api extractor</category>
         </item>
         <item>
             <title><![CDATA[TypeScript 类型定义小技巧]]></title>
             <link>https://blog.alanwei.com/blog/2021/11/28/typescript-type-define-skills</link>
-            <guid>TypeScript 类型定义小技巧</guid>
+            <guid>/2021/11/28/typescript-type-define-skills</guid>
             <pubDate>Sun, 28 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[TypeScript 函数重载定义, 函数属性定义]]></description>
+            <category>typescript</category>
         </item>
         <item>
             <title><![CDATA[《图解HTTP》笔记]]></title>
             <link>https://blog.alanwei.com/blog/2021/11/18/book-tu-jie-http</link>
-            <guid>《图解HTTP》笔记</guid>
+            <guid>/2021/11/18/book-tu-jie-http</guid>
             <pubDate>Thu, 18 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[《图解HTTP》笔记]]></description>
+            <category>读书笔记</category>
+            <category>http</category>
         </item>
         <item>
             <title><![CDATA[创建.Net Web API项目]]></title>
             <link>https://blog.alanwei.com/blog/2021/11/13/dotnet-web-api-starter</link>
-            <guid>创建.Net Web API项目</guid>
+            <guid>/2021/11/13/dotnet-web-api-starter</guid>
             <pubDate>Sat, 13 Nov 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用.Net CLI创建一个简单的 Web API 项目]]></description>
+            <category>.net</category>
         </item>
         <item>
             <title><![CDATA[VMware Fusion Pro 注册码 序列号]]></title>
             <link>https://blog.alanwei.com/blog/2021/10/16/VMware-fusion-pro</link>
-            <guid>VMware Fusion Pro 注册码 序列号</guid>
+            <guid>/2021/10/16/VMware-fusion-pro</guid>
             <pubDate>Sat, 16 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Fusion Pro 下载地址]]></description>
+            <category>vmware</category>
+            <category>fusion</category>
+            <category>mac</category>
+            <category>key</category>
         </item>
         <item>
             <title><![CDATA[React事件处理程序箭头函数造成的重复渲染问题]]></title>
             <link>https://blog.alanwei.com/blog/2021/10/10/react-loop-bind-event</link>
-            <guid>React事件处理程序箭头函数造成的重复渲染问题</guid>
+            <guid>/2021/10/10/react-loop-bind-event</guid>
             <pubDate>Sun, 10 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[React事件处理程序箭头函数造成的重复渲染问题]]></description>
+            <category>react</category>
+            <category>javascript</category>
         </item>
         <item>
             <title><![CDATA[检测是否是puppeteer访问以及如何破解]]></title>
             <link>https://blog.alanwei.com/blog/2021/10/07/detect-puppeteer-browse</link>
-            <guid>检测是否是puppeteer访问以及如何破解</guid>
+            <guid>/2021/10/07/detect-puppeteer-browse</guid>
             <pubDate>Thu, 07 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用JavaScript检测是否是puppeteer等自动化工具访问页面, 以及如何破解.]]></description>
+            <category>nodejs</category>
+            <category>puppeteer</category>
         </item>
         <item>
             <title><![CDATA[如何知道 NodeJS stream pipe 完成]]></title>
             <link>https://blog.alanwei.com/blog/2021/10/07/nodejs-stream-pipe-finish</link>
-            <guid>如何知道 NodeJS stream pipe 完成</guid>
+            <guid>/2021/10/07/nodejs-stream-pipe-finish</guid>
             <pubDate>Thu, 07 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[NodeJS 的流调用 pipe 方法之后会返回一个新的流, 监听这个新流的finish事件就可以知道pipe完成了:]]></description>
+            <category>ndoejs</category>
+            <category>stream</category>
         </item>
         <item>
             <title><![CDATA[DOM Attributes in React 16]]></title>
             <link>https://blog.alanwei.com/blog/2021/10/06/dom-attributes-in-react-16</link>
-            <guid>DOM Attributes in React 16</guid>
+            <guid>/2021/10/06/dom-attributes-in-react-16</guid>
             <pubDate>Wed, 06 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[在过去， React通常忽略未知的DOM属性。 如果你写的JSX使用了React不能识别的属性， React将会跳过它， 比如：]]></description>
+            <category>react</category>
+            <category>译文</category>
         </item>
         <item>
             <title><![CDATA[修改火狐浏览器开发者工具字体大小]]></title>
             <link>https://blog.alanwei.com/blog/2021/08/10/mozilla-firefox-devtool-zoom</link>
-            <guid>修改火狐浏览器开发者工具字体大小</guid>
+            <guid>/2021/08/10/mozilla-firefox-devtool-zoom</guid>
             <pubDate>Tue, 10 Aug 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[修改火狐浏览器开发者工具字体大小]]></description>
+            <category>mozilla</category>
+            <category>firefox</category>
+            <category>browser</category>
         </item>
         <item>
             <title><![CDATA[Event Emitters in TypeScript]]></title>
             <link>https://blog.alanwei.com/blog/2021/07/04/event-emitters-typescript</link>
-            <guid>Event Emitters in TypeScript</guid>
+            <guid>/2021/07/04/event-emitters-typescript</guid>
             <pubDate>Sun, 04 Jul 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Ref: Event Emitters in TypeScript]]></description>
+            <category>typescript</category>
+            <category>javascript</category>
         </item>
         <item>
             <title><![CDATA[JavaScript创建指定数量的重复元素]]></title>
             <link>https://blog.alanwei.com/blog/2021/06/27/javascript-create-an-array-with-repeat-element</link>
-            <guid>JavaScript创建指定数量的重复元素</guid>
+            <guid>/2021/06/27/javascript-create-an-array-with-repeat-element</guid>
             <pubDate>Sun, 27 Jun 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[创建一个数组，包含指定数量的重复元素 Create an array with same element repeated multiple times]]></description>
+            <category>javascript</category>
         </item>
         <item>
             <title><![CDATA[使用Docker运行Apache Kafka]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/25/kafka-docker-setup</link>
-            <guid>使用Docker运行Apache Kafka</guid>
+            <guid>/2021/05/25/kafka-docker-setup</guid>
             <pubDate>Tue, 25 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Ref Guide to Setting Up Apache Kafka Using Docker]]></description>
+            <category>kafka</category>
+            <category>docker</category>
         </item>
         <item>
             <title><![CDATA[Bash快捷键列表]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/18/bash-shortcuts</link>
-            <guid>Bash快捷键列表</guid>
+            <guid>/2021/05/18/bash-shortcuts</guid>
             <pubDate>Tue, 18 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[bash快捷键列表]]></description>
+            <category>bash</category>
         </item>
         <item>
             <title><![CDATA[解决 macOS 系统 xcrun error invalid active developer path 异常]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/17/mac-xcrun-error</link>
-            <guid>解决 macOS 系统 xcrun error invalid active developer path 异常</guid>
+            <guid>/2021/05/17/mac-xcrun-error</guid>
             <pubDate>Mon, 17 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[ref How to fix Mac OS invalid active developer path, missing xcrun]]></description>
+            <category>mac</category>
         </item>
         <item>
             <title><![CDATA[Termux配置清华大学开源镜像]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/17/termux-mirror</link>
-            <guid>Termux配置清华大学开源镜像</guid>
+            <guid>/2021/05/17/termux-mirror</guid>
             <pubDate>Mon, 17 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[来源 Termux 镜像使用帮助]]></description>
+            <category>android</category>
+            <category>termux</category>
+            <category>mirror</category>
         </item>
         <item>
             <title><![CDATA[一个TypeScript类型复用的小技巧]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/09/typescript-type-reference</link>
-            <guid>一个TypeScript类型复用的小技巧</guid>
+            <guid>/2021/05/09/typescript-type-reference</guid>
             <pubDate>Sun, 09 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
         </item>
         <item>
             <title><![CDATA[macOS 允许打开任何位置下载的App]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/05/macos-allow-apps-from-anywhere</link>
-            <guid>macOS 允许打开任何位置下载的App</guid>
+            <guid>/2021/05/05/macos-allow-apps-from-anywhere</guid>
             <pubDate>Wed, 05 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[macOS allow apps downloaded from anywhere]]></description>
+            <category>mac</category>
+            <category>macOS</category>
         </item>
         <item>
             <title><![CDATA[使用自定义的Spring MVC处理程序拦截器管理会话]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/05/spring-mvc-custom-handler-interceptor</link>
-            <guid>使用自定义的Spring MVC处理程序拦截器管理会话</guid>
+            <guid>/2021/05/05/spring-mvc-custom-handler-interceptor</guid>
             <pubDate>Wed, 05 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文 - Using a Custom Spring MVC’s Handler Interceptor to Manage Sessions]]></description>
+            <category>java</category>
+            <category>spring</category>
+            <category>转摘</category>
         </item>
         <item>
             <title><![CDATA[Spring MVC HandlerInterceptor 简介]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/05/spring-mvc-handlerinterceptor</link>
-            <guid>Spring MVC HandlerInterceptor 简介</guid>
+            <guid>/2021/05/05/spring-mvc-handlerinterceptor</guid>
             <pubDate>Wed, 05 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <category>java</category>
+            <category>spring</category>
         </item>
         <item>
             <title><![CDATA[Spring Boot 使用 JSP]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/04/spring-boot-jsp</link>
-            <guid>Spring Boot 使用 JSP</guid>
+            <guid>/2021/05/04/spring-boot-jsp</guid>
             <pubDate>Tue, 04 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Ref Spring Boot With JavaServer Pages (JSP)]]></description>
+            <category>spring</category>
+            <category>spring boot</category>
+            <category>jsp</category>
         </item>
         <item>
             <title><![CDATA[使用 Docusaurus 结合 GitHub 搭建个人站点]]></title>
             <link>https://blog.alanwei.com/blog/2021/05/01/docusaurus-github-starter</link>
-            <guid>使用 Docusaurus 结合 GitHub 搭建个人站点</guid>
+            <guid>/2021/05/01/docusaurus-github-starter</guid>
             <pubDate>Sat, 01 May 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用Docusaurus结合GitHub搭建个人站点]]></description>
+            <category>docusaurus</category>
+            <category>github</category>
         </item>
         <item>
             <title><![CDATA[VSC指定类库文件增强智能感知]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/27/visual-studio-code-intelligence</link>
-            <guid>VSC指定类库文件增强智能感知</guid>
+            <guid>/2021/04/27/visual-studio-code-intelligence</guid>
             <pubDate>Tue, 27 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <category>vsc</category>
+            <category>visual studio code</category>
+            <category>editor</category>
         </item>
         <item>
             <title><![CDATA[Termux远程访问]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/26/termux-remote-access</link>
-            <guid>Termux远程访问</guid>
+            <guid>/2021/04/26/termux-remote-access</guid>
             <pubDate>Mon, 26 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[在电脑上远程访问Termux:]]></description>
+            <category>termux</category>
+            <category>android</category>
         </item>
         <item>
             <title><![CDATA[语文考试可以写负能量作文吗]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/23/语文考试可以写负能量作文吗</link>
-            <guid>语文考试可以写负能量作文吗</guid>
+            <guid>/2021/04/23/语文考试可以写负能量作文吗</guid>
             <pubDate>Fri, 23 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[语文考试可以写负能量作文吗？如果不能的话又是为什么？]]></description>
+            <category>文章</category>
+            <category>转摘</category>
         </item>
         <item>
             <title><![CDATA[Nginx 301重定向域名]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/15/nginx-rewrite</link>
-            <guid>Nginx 301重定向域名</guid>
+            <guid>/2021/04/15/nginx-rewrite</guid>
             <pubDate>Thu, 15 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[设置Nginx 301重定向跳转]]></description>
+            <category>nginx</category>
+            <category>301</category>
+            <category>rewrite</category>
         </item>
         <item>
             <title><![CDATA[CentOS安装Nginx]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/centos-install-nginx</link>
-            <guid>CentOS安装Nginx</guid>
+            <guid>/2021/04/11/centos-install-nginx</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[CentOS安装Nginx]]></description>
+            <category>centos</category>
+            <category>linux</category>
+            <category>nginx</category>
         </item>
         <item>
             <title><![CDATA[创建Windows服务]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/create-windows-service</link>
-            <guid>创建Windows服务</guid>
+            <guid>/2021/04/11/create-windows-service</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[创建Windows服务]]></description>
+            <category>windows</category>
+            <category>serivce</category>
         </item>
         <item>
             <title><![CDATA[自定义Linux Bash终端提示符]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/customize-bash-prompt</link>
-            <guid>自定义Linux Bash终端提示符</guid>
+            <guid>/2021/04/11/customize-bash-prompt</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[自定义Linux Bash终端提示符]]></description>
+            <category>linux</category>
+            <category>bash</category>
         </item>
         <item>
             <title><![CDATA[使用 Docker 部署 Sentry]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/docker-sentry-deploy</link>
-            <guid>使用 Docker 部署 Sentry</guid>
+            <guid>/2021/04/11/docker-sentry-deploy</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用 Docker 部署 Sentry]]></description>
+            <category>docker</category>
+            <category>sentry</category>
         </item>
         <item>
             <title><![CDATA[How to Setup Reverse Proxy on IIS with URL-Rewrite]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/iis-reverse-proxy-url-rewrite</link>
-            <guid>How to Setup Reverse Proxy on IIS with URL-Rewrite</guid>
+            <guid>/2021/04/11/iis-reverse-proxy-url-rewrite</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用IIS的URL Rewrite设置反向代理]]></description>
+            <category>iis</category>
+            <category>reverse proxy</category>
+            <category>url rewrite</category>
         </item>
         <item>
             <title><![CDATA[配置IIS反向代理教程]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/iis-reverse-proxy</link>
-            <guid>配置IIS反向代理教程</guid>
+            <guid>/2021/04/11/iis-reverse-proxy</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[IIS配置反向代理]]></description>
+            <category>iis</category>
+            <category>reverse proxy</category>
         </item>
         <item>
             <title><![CDATA[查看当前机器的所有SSH连接]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/linux-show-ssh-connection</link>
-            <guid>查看当前机器的所有SSH连接</guid>
+            <guid>/2021/04/11/linux-show-ssh-connection</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[查看当前机器的所有SSH连接]]></description>
+            <category>linux</category>
+            <category>ssh</category>
         </item>
         <item>
             <title><![CDATA[使用 Node 执行命令行程序]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/node-exec-bash-cmd</link>
-            <guid>使用 Node 执行命令行程序</guid>
+            <guid>/2021/04/11/node-exec-bash-cmd</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用 Node 执行命令行程序]]></description>
         </item>
         <item>
             <title><![CDATA[Spring Boot Maven 插件使用]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/spring-boot-maven-plugin</link>
-            <guid>Spring Boot Maven 插件使用</guid>
+            <guid>/2021/04/11/spring-boot-maven-plugin</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Spring Boot Maven 插件使用]]></description>
+            <category>maven</category>
+            <category>spring</category>
+            <category>spring boot</category>
+            <category>maven plugin</category>
         </item>
         <item>
             <title><![CDATA[Windows 上的TCP代理设置]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/tcp-proxy-in-windows</link>
-            <guid>Windows 上的TCP代理设置</guid>
+            <guid>/2021/04/11/tcp-proxy-in-windows</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[目前我们出现一个需求是将外网来的TCP请求代理到内网的某个服务器上, 比如我们的 Windows 上需要部署一个 RabbitMQ 推送服务, 但因为某些原因我们无法使用 Windows 版本的 RabbitMQ, 想将 RabbitMQ 部署在Linux服务器上, 确实有很多其他方式来满足这个需求, 比如再加一个服务器, 然后分配一个公网IP, 最后我们选择在 Windows 服务器上安装 VMware 然后虚拟一个Ubuntu系统. 现在需要将外网的 RabbitMQ 请求映射到 Ubuntu 上, 大概请求途径如下:]]></description>
+            <category>windows</category>
+            <category>tcp</category>
+            <category>powershell</category>
         </item>
         <item>
             <title><![CDATA[Ubuntu 系统安装根证书]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/ubuntu-install-root-ca-certificate</link>
-            <guid>Ubuntu 系统安装根证书</guid>
+            <guid>/2021/04/11/ubuntu-install-root-ca-certificate</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Ubuntu 系统安装根证书]]></description>
         </item>
         <item>
             <title><![CDATA[我的Ubuntu新系统安装脚本]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/ubuntu-starter-scripts</link>
-            <guid>我的Ubuntu新系统安装脚本</guid>
+            <guid>/2021/04/11/ubuntu-starter-scripts</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[每次安装Ubuntu系统都要做一些初始化工作(比如安装一些工具软件), 现将我的记录如下, 方便下次使用:]]></description>
+            <category>ubuntu</category>
         </item>
         <item>
             <title><![CDATA[为什么 Math.Round(2.5) 返回 2]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/why-math-round-return-2-instead-3</link>
-            <guid>为什么 Math.Round(2.5) 返回 2</guid>
+            <guid>/2021/04/11/why-math-round-return-2-instead-3</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[为什么 Math.Round(2.5) 返回 2]]></description>
+            <category>csharp</category>
+            <category>c#</category>
         </item>
         <item>
             <title><![CDATA[制作Windows启动盘]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/11/windows-bootable-device</link>
-            <guid>制作Windows启动盘</guid>
+            <guid>/2021/04/11/windows-bootable-device</guid>
             <pubDate>Sun, 11 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <category>windows</category>
         </item>
         <item>
             <title><![CDATA[Node require 缓存]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/10/node-require-cache</link>
-            <guid>Node require 缓存</guid>
+            <guid>/2021/04/10/node-require-cache</guid>
             <pubDate>Sat, 10 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
         </item>
         <item>
             <title><![CDATA[ASP.Net 应用配置HTTP代理]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/03/asp.net-proxy-configuration</link>
-            <guid>ASP.Net 应用配置HTTP代理</guid>
+            <guid>/2021/04/03/asp.net-proxy-configuration</guid>
             <pubDate>Sat, 03 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[.Net Framework ASP.Net 应用配置HTTP代理 proxy configuration]]></description>
+            <category>asp.net</category>
+            <category>web.config</category>
+            <category>proxy</category>
+            <category>.net framework</category>
         </item>
         <item>
             <title><![CDATA[如何使用命令行创建带有多个子模块的Maven项目]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/03/how-to-create-maven-multi-module-project</link>
-            <guid>如何使用命令行创建带有多个子模块的Maven项目</guid>
+            <guid>/2021/04/03/how-to-create-maven-multi-module-project</guid>
             <pubDate>Sat, 03 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[In this guide, we learn how to create Maven Multi-Module using Command Line with very easy steps. A multi-module project is defined by a parent POM referencing one or more sub-modules. In this example, we will create a blogger web application with different modules. Let's create a blogger as parent project and it's 3 sub-modules are blogger-core, blogger-common, blogger-web.]]></description>
+            <category>maven</category>
         </item>
         <item>
             <title><![CDATA[解决 Windows 环境中 git log 命令中文编码问题]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/03/powershell-git-chinese-encode</link>
-            <guid>解决 Windows 环境中 git log 命令中文编码问题</guid>
+            <guid>/2021/04/03/powershell-git-chinese-encode</guid>
             <pubDate>Sat, 03 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[解决 Windows 10 系统中 Powershell 终端git log命令输出中文编码问题]]></description>
+            <category>git</category>
+            <category>powershell</category>
+            <category>windows</category>
         </item>
         <item>
             <title><![CDATA[添加Windows开启启动程序]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/03/windows-add-programs-to-startup-folder</link>
-            <guid>添加Windows开启启动程序</guid>
+            <guid>/2021/04/03/windows-add-programs-to-startup-folder</guid>
             <pubDate>Sat, 03 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[设置Windows开机启动程序]]></description>
+            <category>windows</category>
         </item>
         <item>
             <title><![CDATA[Docker时区设置]]></title>
             <link>https://blog.alanwei.com/blog/2021/04/02/docker-timezone</link>
-            <guid>Docker时区设置</guid>
+            <guid>/2021/04/02/docker-timezone</guid>
             <pubDate>Fri, 02 Apr 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[设置常用Docker镜像的容器时区]]></description>
+            <category>docker</category>
+            <category>timezone</category>
         </item>
         <item>
             <title><![CDATA[解决 NPM 安装应用出现 ERESOLVE 错误]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/30/npm-install-eresulve-error</link>
-            <guid>解决 NPM 安装应用出现 ERESOLVE 错误</guid>
+            <guid>/2021/03/30/npm-install-eresulve-error</guid>
             <pubDate>Tue, 30 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[npm install ERESOLVE issues error npm 安装报错]]></description>
+            <category>npm</category>
+            <category>node</category>
         </item>
         <item>
             <title><![CDATA[Git Tags 使用简介]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/28/git-tags</link>
-            <guid>Git Tags 使用简介</guid>
+            <guid>/2021/03/28/git-tags</guid>
             <pubDate>Sun, 28 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Git Tags 常用命令简介]]></description>
+            <category>git</category>
+            <category>git tags</category>
+            <category>git tag</category>
         </item>
         <item>
             <title><![CDATA[Docker配置镜像加速]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/26/docker-config-mirror</link>
-            <guid>Docker配置镜像加速</guid>
+            <guid>/2021/03/26/docker-config-mirror</guid>
             <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[修改Docker文件, 配置镜像加速]]></description>
+            <category>docker</category>
+            <category>mirror</category>
         </item>
         <item>
             <title><![CDATA[国内开源镜像站点]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/26/open-mirrors</link>
-            <guid>国内开源镜像站点</guid>
+            <guid>/2021/03/26/open-mirrors</guid>
             <pubDate>Fri, 26 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[国内开源镜像加速站点]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy</link>
-            <guid>Docusaurus 配置 GitHub Action 自动发布</guid>
-            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></description>
-        </item>
-        <item>
-            <title><![CDATA[frp连接 EOF 失败问题]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/21/frp-eof</link>
-            <guid>frp连接 EOF 失败问题</guid>
-            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[为了在家调试方便，老高使用frp将自己放在公司的开发机器的ssh端口开放出来了，但是配置frp客户端的过程中总是出现下面的一句话:]]></description>
-        </item>
-        <item>
-            <title><![CDATA[linux下查看指定进程的所有连接信息]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/21/linux-all-ps-connection</link>
-            <guid>linux下查看指定进程的所有连接信息</guid>
-            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[linux下查看指定进程的所有连接信息]]></description>
-        </item>
-        <item>
-            <title><![CDATA[显示Linux端口占用]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/21/linux-view-port-using</link>
-            <guid>显示Linux端口占用</guid>
-            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[显示Linux端口占用]]></description>
+            <category>mirror</category>
+            <category>linux</category>
+            <category>docker</category>
+            <category>android</category>
+            <category>aosp</category>
         </item>
         <item>
             <title><![CDATA[Chromium 所有开关(flag)列表]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches</link>
-            <guid>Chromium 所有开关(flag)列表</guid>
+            <guid>/2021/03/21/chromium-command-line-switches</guid>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Chromium 所有开关列表]]></description>
+            <category>chrome</category>
+            <category>chromium</category>
+            <category>chrome flags</category>
+            <category>chrome switches</category>
         </item>
         <item>
-            <title><![CDATA[解决 Node HTTP 请求出现的自签名证书校验失败问题]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/21/node-tls</link>
-            <guid>解决 Node HTTP 请求出现的自签名证书校验失败问题</guid>
+            <title><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy</link>
+            <guid>/2021/03/21/docusaurus-github-deploy</guid>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <description><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></description>
+            <category>github</category>
+            <category>Docusaurus</category>
+            <category>github action</category>
+        </item>
+        <item>
+            <title><![CDATA[frp连接 EOF 失败问题]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/frp-eof</link>
+            <guid>/2021/03/21/frp-eof</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[为了在家调试方便，老高使用frp将自己放在公司的开发机器的ssh端口开放出来了，但是配置frp客户端的过程中总是出现下面的一句话:]]></description>
+            <category>frp</category>
+        </item>
+        <item>
+            <title><![CDATA[linux下查看指定进程的所有连接信息]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/linux-all-ps-connection</link>
+            <guid>/2021/03/21/linux-all-ps-connection</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[linux下查看指定进程的所有连接信息]]></description>
+            <category>linux</category>
+        </item>
+        <item>
+            <title><![CDATA[显示Linux端口占用]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/linux-view-port-using</link>
+            <guid>/2021/03/21/linux-view-port-using</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[显示Linux端口占用]]></description>
+            <category>linux</category>
         </item>
         <item>
             <title><![CDATA[阿里云Maven镜像]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/21/maven-aliyun</link>
-            <guid>阿里云Maven镜像</guid>
+            <guid>/2021/03/21/maven-aliyun</guid>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[阿里云Maven镜像]]></description>
+            <category>maven</category>
+            <category>java</category>
+            <category>mirror</category>
+        </item>
+        <item>
+            <title><![CDATA[解决 Node HTTP 请求出现的自签名证书校验失败问题]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/21/node-tls</link>
+            <guid>/2021/03/21/node-tls</guid>
+            <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <category>node</category>
         </item>
         <item>
             <title><![CDATA[NPM的淘宝镜像]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/21/npm-taobao</link>
-            <guid>NPM的淘宝镜像</guid>
+            <guid>/2021/03/21/npm-taobao</guid>
             <pubDate>Sun, 21 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[NPM的淘宝镜像]]></description>
+            <category>npm</category>
+            <category>node</category>
+            <category>镜像</category>
         </item>
         <item>
             <title><![CDATA[Visual Studio Code 侧边栏定位到当前文件]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/20/visual-studio-code-reveal</link>
-            <guid>Visual Studio Code 侧边栏定位到当前文件</guid>
+            <guid>/2021/03/20/visual-studio-code-reveal</guid>
             <pubDate>Sat, 20 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Visual Studio Code 侧边栏定位到当前文件]]></description>
+            <category>vsc</category>
+            <category>visual studio code</category>
+            <category>editor</category>
         </item>
         <item>
             <title><![CDATA[Chrome flags]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/15/chrome-flags</link>
-            <guid>Chrome flags</guid>
+            <guid>/2021/03/15/chrome-flags</guid>
             <pubDate>Mon, 15 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Chrome支持的flags列表]]></description>
+            <category>chrome flags</category>
+            <category>chrome</category>
+            <category>puppeteer</category>
+            <category>chrome-launcher</category>
         </item>
         <item>
             <title><![CDATA[Let's Encrypt证书申请及配置]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/14/lets-encrypt-ssl-certificate</link>
-            <guid>Let's Encrypt证书申请及配置</guid>
+            <guid>/2021/03/14/lets-encrypt-ssl-certificate</guid>
             <pubDate>Sun, 14 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[描述信息，默认为文章第一段]]></description>
+            <category>ssl</category>
+            <category>nginx</category>
+            <category>let's encrypt</category>
         </item>
         <item>
             <title><![CDATA[浏览器的前进后退缓存机制 Back/forward cache]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/13/back-forward-cache</link>
-            <guid>浏览器的前进后退缓存机制 Back/forward cache</guid>
+            <guid>/2021/03/13/back-forward-cache</guid>
             <pubDate>Sat, 13 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Optimize your pages for instant loads when using the browser's back and forward buttons.]]></description>
+            <category>javascript</category>
+            <category>browser</category>
+            <category>译文</category>
         </item>
         <item>
             <title><![CDATA[macOS - 更改功能键的默认行为]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/13/macos-change-default-behavior-function-keys</link>
-            <guid>macOS - 更改功能键的默认行为</guid>
+            <guid>/2021/03/13/macos-change-default-behavior-function-keys</guid>
             <pubDate>Sat, 13 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[更改 macOS 系统功能键的默认行为]]></description>
+            <category>mac</category>
+            <category>keyboard</category>
         </item>
         <item>
             <title><![CDATA[删除HTTP请求头中的 referrer]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/09/remove-http-request-referrer</link>
-            <guid>删除HTTP请求头中的 referrer</guid>
+            <guid>/2021/03/09/remove-http-request-referrer</guid>
             <pubDate>Tue, 09 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[删除HTTP请求头中的 Referer，能解决部分防盗链问题。]]></description>
+            <category>http</category>
+            <category>web</category>
         </item>
         <item>
             <title><![CDATA[悲催的程序员，以及程序员的悲催]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/07/bei-cui-cheng-xu-yuan-yi-ji-cheng-xu-yuan-be-cui</link>
-            <guid>悲催的程序员，以及程序员的悲催</guid>
+            <guid>/2021/03/07/bei-cui-cheng-xu-yuan-yi-ji-cheng-xu-yuan-be-cui</guid>
             <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文 - 悲催的程序员，以及程序员的悲催[转(http://blog.sina.cn/dpool/blog/s/blog_621a71a00100qs5r.html)]]></description>
+            <category>日志</category>
+            <category>文章</category>
+            <category>摘抄</category>
+            <category>转摘</category>
         </item>
         <item>
             <title><![CDATA[从前慢]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/07/cong-qian-man</link>
-            <guid>从前慢</guid>
+            <guid>/2021/03/07/cong-qian-man</guid>
             <pubDate>Sun, 07 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[记得早先少年时]]></description>
+            <category>日志</category>
+            <category>文章</category>
+            <category>转摘</category>
         </item>
         <item>
             <title><![CDATA[使用Maven创建一个Java项目]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/create-java-project-use-maven</link>
-            <guid>使用Maven创建一个Java项目</guid>
+            <guid>/2021/03/06/create-java-project-use-maven</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
+            <category>java</category>
+            <category>maven</category>
         </item>
         <item>
             <title><![CDATA[如何使用Maven创建可执行的JAR文件]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/how-can-i-create-an-executable-jar-with-dependencies-using-maven</link>
-            <guid>如何使用Maven创建可执行的JAR文件</guid>
+            <guid>/2021/03/06/how-can-i-create-an-executable-jar-with-dependencies-using-maven</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文 - 使用Maven打包可执行JAR程序]]></description>
+            <category>java</category>
+            <category>maven</category>
         </item>
         <item>
             <title><![CDATA[IKEv2 配置和使用指南]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-ikev2</link>
-            <guid>IKEv2 配置和使用指南</guid>
+            <guid>/2021/03/06/ipsec-clients-ikev2</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[你也可以使用 IPsec/L2TP 或者 IPsec/XAuth 模式连接。]]></description>
+            <category>ipsec</category>
+            <category>ikev2</category>
         </item>
         <item>
             <title><![CDATA[配置 IPsec/L2TP 客户端]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-l2tp</link>
-            <guid>配置 IPsec/L2TP 客户端</guid>
+            <guid>/2021/03/06/ipsec-clients-l2tp</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[在成功 搭建自己的 VPN 服务器 之后，按照下面的步骤来配置你的设备。IPsec/L2TP 在 Android, iOS, OS X 和 Windows 上均受支持，无需安装额外的软件。设置过程通常只需要几分钟。如果无法连接,请首先检查是否输入了正确的登录凭证。]]></description>
+            <category>ipsec</category>
+            <category>l2tp</category>
         </item>
         <item>
             <title><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-xauth</link>
-            <guid>配置 IPsec/XAuth VPN 客户端</guid>
+            <guid>/2021/03/06/ipsec-clients-xauth</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[在成功 搭建自己的 VPN 服务器 之后，按照下面的步骤来配置你的设备。IPsec/XAuth ("Cisco IPsec") 在 Android, iOS 和 OS X 上均受支持，无需安装额外的软件。Windows 用户可以使用免费的 Shrew Soft 客户端。如果无法连接,请首先检查是否输入了正确的 VPN 登录凭证。]]></description>
-        </item>
-        <item>
-            <title><![CDATA[配置右击使用Sublime打开文件夹]]></title>
-            <link>https://blog.alanwei.com/blog/2021/03/06/sublime-right-click-open</link>
-            <guid>配置右击使用Sublime打开文件夹</guid>
-            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></description>
+            <category>ipsec</category>
+            <category>xauth</category>
         </item>
         <item>
             <title><![CDATA[搭建 IPSec 服务]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/ipsec-server</link>
-            <guid>搭建 IPSec 服务</guid>
+            <guid>/2021/03/06/ipsec-server</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[使用技术:]]></description>
+            <category>ipsec</category>
+        </item>
+        <item>
+            <title><![CDATA[配置右击使用Sublime打开文件夹]]></title>
+            <link>https://blog.alanwei.com/blog/2021/03/06/sublime-right-click-open</link>
+            <guid>/2021/03/06/sublime-right-click-open</guid>
+            <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></description>
+            <category>sublime</category>
+            <category>editor</category>
+            <category>windows</category>
         </item>
         <item>
             <title><![CDATA[VSC代码块折叠]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/06/vsc-code-folding</link>
-            <guid>VSC代码块折叠</guid>
+            <guid>/2021/03/06/vsc-code-folding</guid>
             <pubDate>Sat, 06 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[以下是Visual Studio Code支持的代码块折叠标记及快捷键:]]></description>
+            <category>editor</category>
+            <category>vsc</category>
         </item>
         <item>
             <title><![CDATA[VSC 代码片段介绍]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/05/vsc-code-snippets</link>
-            <guid>VSC 代码片段介绍</guid>
+            <guid>/2021/03/05/vsc-code-snippets</guid>
             <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[简介]]></description>
+            <category>vsc</category>
+            <category>editor</category>
+            <category>code snippets</category>
         </item>
         <item>
             <title><![CDATA[Markdown 智能感知插入代码片段]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/05/vsc-markdown-snippets</link>
-            <guid>Markdown 智能感知插入代码片段</guid>
+            <guid>/2021/03/05/vsc-markdown-snippets</guid>
             <pubDate>Fri, 05 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[解决 Visual Studio Code Markdown 文件不能插入代码片段问题]]></description>
+            <category>vsc</category>
+            <category>markdown</category>
+            <category>editor</category>
+            <category>code snippets</category>
         </item>
         <item>
             <title><![CDATA[Mac安装Wireguard]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/04/mac-install-wireguard</link>
-            <guid>Mac安装Wireguard</guid>
+            <guid>/2021/03/04/mac-install-wireguard</guid>
             <pubDate>Thu, 04 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[1. 安装 WireGuard 客户端]]></description>
+            <category>mac</category>
+            <category>wireguard</category>
         </item>
         <item>
             <title><![CDATA[Sublime开启Vim模式]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/04/sublime-vim-mode</link>
-            <guid>Sublime开启Vim模式</guid>
+            <guid>/2021/03/04/sublime-vim-mode</guid>
             <pubDate>Thu, 04 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Sublime开启Vim模式]]></description>
+            <category>sublime</category>
+            <category>editor</category>
         </item>
         <item>
             <title><![CDATA[Linux - Structure needs cleaning]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/03/Structure-needs-cleaning</link>
-            <guid>Linux - Structure needs cleaning</guid>
+            <guid>/2021/03/03/Structure-needs-cleaning</guid>
             <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Linux文件系统损坏修复]]></description>
+            <category>linux</category>
+            <category>ubuntu</category>
+            <category>file system</category>
         </item>
         <item>
             <title><![CDATA[设置Mac系统JAVA_HOME]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/03/mac-java-home</link>
-            <guid>设置Mac系统JAVA_HOME</guid>
+            <guid>/2021/03/03/mac-java-home</guid>
             <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
+            <category>java</category>
+            <category>mac</category>
         </item>
         <item>
             <title><![CDATA[设置Mac VSC的code变量]]></title>
             <link>https://blog.alanwei.com/blog/2021/03/03/mac-vsc-path</link>
-            <guid>设置Mac VSC的code变量</guid>
+            <guid>/2021/03/03/mac-vsc-path</guid>
             <pubDate>Wed, 03 Mar 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
+            <category>vsc</category>
+            <category>mac</category>
         </item>
         <item>
             <title><![CDATA[Node Hash计算]]></title>
             <link>https://blog.alanwei.com/blog/2021/02/28/node-hash</link>
-            <guid>Node Hash计算</guid>
+            <guid>/2021/02/28/node-hash</guid>
             <pubDate>Sun, 28 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[计算hash值:]]></description>
+            <category>node</category>
+            <category>hash</category>
         </item>
         <item>
             <title><![CDATA[Spring Boot Hot Swapping]]></title>
             <link>https://blog.alanwei.com/blog/2021/02/24/hot-swapping-in-spring-boot</link>
-            <guid>Spring Boot Hot Swapping</guid>
+            <guid>/2021/02/24/hot-swapping-in-spring-boot</guid>
             <pubDate>Wed, 24 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Spring Boot 应用配置 Hot Swapping]]></description>
+            <category>java</category>
+            <category>spring</category>
+            <category>spring boot</category>
+            <category>hot swap</category>
         </item>
         <item>
             <title><![CDATA[设置Java程序网络代理]]></title>
             <link>https://blog.alanwei.com/blog/2021/02/17/java-network-proxy</link>
-            <guid>设置Java程序网络代理</guid>
+            <guid>/2021/02/17/java-network-proxy</guid>
             <pubDate>Wed, 17 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[设置Java程序网络代理]]></description>
+            <category>java</category>
+            <category>proxy</category>
+            <category>http</category>
+            <category>network</category>
         </item>
         <item>
             <title><![CDATA[我的 Visual Studio Code 配置]]></title>
             <link>https://blog.alanwei.com/blog/2020/03/20/visual-studio-code-config</link>
-            <guid>我的 Visual Studio Code 配置</guid>
+            <guid>/2020/03/20/visual-studio-code-config</guid>
             <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[我的 Visual Studio Code 配置]]></description>
+            <category>vsc</category>
+            <category>visual studio code</category>
+            <category>editor</category>
         </item>
         <item>
             <title><![CDATA[我的 Visual Studio Code 快捷键配置]]></title>
             <link>https://blog.alanwei.com/blog/2020/03/20/visual-studio-code-keyboard</link>
-            <guid>我的 Visual Studio Code 快捷键配置</guid>
+            <guid>/2020/03/20/visual-studio-code-keyboard</guid>
             <pubDate>Fri, 20 Mar 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[我的 Visual Studio Code 快捷键配置]]></description>
+            <category>vsc</category>
+            <category>visual studio code</category>
+            <category>editor</category>
         </item>
         <item>
             <title><![CDATA[ASP.Net 身份模块介绍]]></title>
             <link>https://blog.alanwei.com/blog/2019/05/14/asp-net-identity-module</link>
-            <guid>ASP.Net 身份模块介绍</guid>
+            <guid>/2019/05/14/asp-net-identity-module</guid>
             <pubDate>Tue, 14 May 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[原文]]></description>
+            <category>.net</category>
+            <category>asp.net</category>
         </item>
         <item>
             <title><![CDATA[我的Vim配置]]></title>
             <link>https://blog.alanwei.com/blog/2019/03/20/vim-config</link>
-            <guid>我的Vim配置</guid>
+            <guid>/2019/03/20/vim-config</guid>
             <pubDate>Wed, 20 Mar 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[我的Vim配置]]></description>
+            <category>vim</category>
+            <category>editor</category>
         </item>
         <item>
             <title><![CDATA[异步编程简介]]></title>
             <link>https://blog.alanwei.com/blog/2019/03/06/async</link>
-            <guid>异步编程简介</guid>
+            <guid>/2019/03/06/async</guid>
             <pubDate>Wed, 06 Mar 2019 00:00:00 GMT</pubDate>
             <description><![CDATA[JavaScript]]></description>
+            <category>async</category>
+            <category>javascript</category>
+            <category>csharp</category>
         </item>
         <item>
             <title><![CDATA[哲学思维讲堂 - 卡尔·雅斯贝尔斯]]></title>
             <link>https://blog.alanwei.com/blog/2014/09/09/philosophy-note</link>
-            <guid>哲学思维讲堂 - 卡尔·雅斯贝尔斯</guid>
+            <guid>/2014/09/09/philosophy-note</guid>
             <pubDate>Tue, 09 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[《哲学思维讲堂 - 卡尔·雅斯贝尔斯》摘抄]]></description>
+            <category>哲学思维讲堂</category>
         </item>
         <item>
             <title><![CDATA[数学系和物理系学生有什么差别？]]></title>
             <link>https://blog.alanwei.com/blog/2014/09/04/math-physics-diff</link>
-            <guid>数学系和物理系学生有什么差别？</guid>
+            <guid>/2014/09/04/math-physics-diff</guid>
             <pubDate>Thu, 04 Sep 2014 00:00:00 GMT</pubDate>
             <description><![CDATA[我曾经最大的梦想，就是嫁给一个数学家。]]></description>
+            <category>转摘</category>
+            <category>知乎</category>
         </item>
     </channel>
 </rss>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[85099],{41401:function(l){l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/sublime","name":"sublime","count":2,"permalink":"/blog/tags/sublime"}')}}]);

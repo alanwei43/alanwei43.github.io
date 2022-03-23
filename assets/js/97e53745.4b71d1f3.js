@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[78211],{88926:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/serivce","name":"serivce","count":1,"permalink":"/blog/tags/serivce"}')}}]);

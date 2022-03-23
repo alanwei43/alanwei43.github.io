@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[39776],{85959:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/chrome-flags","name":"chrome flags","count":2,"permalink":"/blog/tags/chrome-flags"}')}}]);

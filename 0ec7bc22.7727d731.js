@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[31],{98:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"web-config","name":"web.config","count":1,"permalink":"/blog/tags/web-config"}')}}]);

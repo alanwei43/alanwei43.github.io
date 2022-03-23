@@ -9,884 +9,1654 @@
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[dotnet script 简介]]></title>
-        <id>dotnet script 简介</id>
+        <id>/2022/03/16/dotnet-script-intro</id>
         <link href="https://blog.alanwei.com/blog/2022/03/16/dotnet-script-intro"/>
         <updated>2022-03-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[.Net Core QA]]></title>
-        <id>.Net Core QA</id>
+        <id>/2022/03/16/dotnet-starter</id>
         <link href="https://blog.alanwei.com/blog/2022/03/16/dotnet-starter"/>
         <updated>2022-03-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[.Net Core QA]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label=".net" term=".net"/>
+        <category label=".net core" term=".net core"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用curl命令行获取当前机器公网IP]]></title>
-        <id>使用curl命令行获取当前机器公网IP</id>
+        <id>/2022/03/16/get-public-ip-using-curl</id>
         <link href="https://blog.alanwei.com/blog/2022/03/16/get-public-ip-using-curl"/>
         <updated>2022-03-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用命令行或者脚本获取当前机器的公网IP地址]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="linux" term="linux"/>
+        <category label="curl" term="curl"/>
+        <category label="cli" term="cli"/>
+        <category label="ip" term="ip"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Caddy 简介]]></title>
-        <id>Caddy 简介</id>
+        <id>/2022/03/12/caddy-intro</id>
         <link href="https://blog.alanwei.com/blog/2022/03/12/caddy-intro"/>
         <updated>2022-03-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Caddy 使用介绍]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="caddy" term="caddy"/>
+        <category label="docker" term="docker"/>
+        <category label="nginx" term="nginx"/>
+        <category label="http" term="http"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[docker history命令显示完整信息]]></title>
-        <id>docker history命令显示完整信息</id>
+        <id>/2022/03/12/docker-history-full-command</id>
         <link href="https://blog.alanwei.com/blog/2022/03/12/docker-history-full-command"/>
         <updated>2022-03-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[macOS系统安全隐私设置允许任意源下载的App]]></title>
-        <id>macOS系统安全隐私设置允许任意源下载的App</id>
+        <id>/2022/03/12/macos-security-allow-apps-anywhere</id>
         <link href="https://blog.alanwei.com/blog/2022/03/12/macos-security-allow-apps-anywhere"/>
         <updated>2022-03-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring 接口同时支持JSON数据和Form表单数据]]></title>
-        <id>Spring 接口同时支持JSON数据和Form表单数据</id>
+        <id>/2022/03/10/spring-both-support-json-url-encoded</id>
         <link href="https://blog.alanwei.com/blog/2022/03/10/spring-both-support-json-url-encoded"/>
         <updated>2022-03-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[如何让 Spring Boot 接口同时支持JSON数据和Form表单数据]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="spring" term="spring"/>
+        <category label="spring boot" term="spring boot"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Node调整child_process内存大小]]></title>
-        <id>Node调整child_process内存大小</id>
+        <id>/2022/03/08/node-child-process-memory</id>
         <link href="https://blog.alanwei.com/blog/2022/03/08/node-child-process-memory"/>
         <updated>2022-03-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Git 删除未跟踪文件]]></title>
-        <id>Git 删除未跟踪文件</id>
+        <id>/2022/03/04/git-remove-untrack-files</id>
         <link href="https://blog.alanwei.com/blog/2022/03/04/git-remove-untrack-files"/>
         <updated>2022-03-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[via How to Remove Untracked Files in Git]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="git" term="git"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring 响应图片等媒体数据]]></title>
-        <id>Spring 响应图片等媒体数据</id>
+        <id>/2022/03/01/spring-response-image</id>
         <link href="https://blog.alanwei.com/blog/2022/03/01/spring-response-image"/>
         <updated>2022-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[via Returning Image/Media Data with Spring MVC]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="spring" term="spring"/>
+        <category label="spring boot" term="spring boot"/>
+        <category label="java" term="java"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[VMware 命令行操作虚拟机]]></title>
-        <id>VMware 命令行操作虚拟机</id>
+        <id>/2022/02/27/vmware-vmrun-cli</id>
         <link href="https://blog.alanwei.com/blog/2022/02/27/vmware-vmrun-cli"/>
         <updated>2022-02-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用命令行 vmrun 操作虚拟机]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vmware" term="vmware"/>
+        <category label="vmrun" term="vmrun"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[VMware Workstation Pro keys]]></title>
-        <id>VMware Workstation Pro keys</id>
+        <id>/2022/02/27/vmware-workstation-pro-keys</id>
         <link href="https://blog.alanwei.com/blog/2022/02/27/vmware-workstation-pro-keys"/>
         <updated>2022-02-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[VMware Workstation Pro 16 许可证密钥，批量永久激活]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vmware" term="vmware"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[VMware的Windows虚拟机中因驱动签名问题无法安装 VMware Tools]]></title>
-        <id>VMware的Windows虚拟机中因驱动签名问题无法安装 VMware Tools</id>
+        <id>/2022/02/27/windows-vmware-tools-drive-fail</id>
         <link href="https://blog.alanwei.com/blog/2022/02/27/windows-vmware-tools-drive-fail"/>
         <updated>2022-02-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vmware" term="vmware"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Dockerfile 常用指令介绍]]></title>
-        <id>Dockerfile 常用指令介绍</id>
+        <id>/2022/02/26/docker-dockerfile-intro</id>
         <link href="https://blog.alanwei.com/blog/2022/02/26/docker-dockerfile-intro"/>
         <updated>2022-02-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Dockerfile常用指令介绍]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="docker" term="docker"/>
+        <category label="dockerfile" term="dockerfile"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[解决IDEA使用低版本lombok没有get/set方法问题]]></title>
-        <id>解决IDEA使用低版本lombok没有get/set方法问题</id>
+        <id>/2022/02/24/idea-lombok</id>
         <link href="https://blog.alanwei.com/blog/2022/02/24/idea-lombok"/>
         <updated>2022-02-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="idea" term="idea"/>
+        <category label="lombok" term="lombok"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Mock Retrofit http request]]></title>
-        <id>Mock Retrofit http request</id>
+        <id>/2022/02/23/retrofit-mock-server</id>
         <link href="https://blog.alanwei.com/blog/2022/02/23/retrofit-mock-server"/>
         <updated>2022-02-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="java" term="java"/>
+        <category label="retrofit" term="retrofit"/>
+        <category label="spring boot" term="spring boot"/>
+        <category label="mock" term="mock"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Flutter远程调试Android设备]]></title>
-        <id>Flutter远程调试Android设备</id>
+        <id>/2022/02/20/flutter-remote-debug-android-device</id>
         <link href="https://blog.alanwei.com/blog/2022/02/20/flutter-remote-debug-android-device"/>
         <updated>2022-02-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Flutter远程无线调试 zAndroid App:]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="flutter" term="flutter"/>
+        <category label="adb" term="adb"/>
+        <category label="android" term="android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Dart Visual Studio Code 推荐设置]]></title>
-        <id>Dart Visual Studio Code 推荐设置</id>
+        <id>/2022/02/19/dart-visual-studio-code-settings</id>
         <link href="https://blog.alanwei.com/blog/2022/02/19/dart-visual-studio-code-settings"/>
         <updated>2022-02-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Dart Visual Studio Code 推荐设置]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="dart" term="dart"/>
+        <category label="vsc" term="vsc"/>
+        <category label="visual studio code" term="visual studio code"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[GitHub QA]]></title>
-        <id>GitHub QA</id>
+        <id>/2022/02/18/github-qa</id>
         <link href="https://blog.alanwei.com/blog/2022/02/18/github-qa"/>
         <updated>2022-02-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[GitHub 使用介绍]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="github" term="github"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Windows 虚拟桌面快捷键]]></title>
-        <id>Windows 虚拟桌面快捷键</id>
+        <id>/2022/02/18/windows-virtual-desktop</id>
         <link href="https://blog.alanwei.com/blog/2022/02/18/windows-virtual-desktop"/>
         <updated>2022-02-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Windows 虚拟桌面快捷键列表:]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="windows" term="windows"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题]]></title>
-        <id>解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题</id>
+        <id>/2022/02/16/ubuntu-dpkg-install-dependency</id>
         <link href="https://blog.alanwei.com/blog/2022/02/16/ubuntu-dpkg-install-dependency"/>
         <updated>2022-02-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[解决Ubuntu使用dpkg安装deb软件包提示缺少依赖问题]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="linux" term="linux"/>
+        <category label="ubuntu" term="ubuntu"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[蒲公英 X1 简介]]></title>
-        <id>蒲公英 X1 简介</id>
+        <id>/2022/02/14/oray-box-intro</id>
         <link href="https://blog.alanwei.com/blog/2022/02/14/oray-box-intro"/>
         <updated>2022-02-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[记录几个网址，方便以后忘记。]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="oray" term="oray"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[容器内访问物理网络]]></title>
-        <id>容器内访问物理网络</id>
+        <id>/2022/02/12/docker-connect-host</id>
         <link href="https://blog.alanwei.com/blog/2022/02/12/docker-connect-host"/>
         <updated>2022-02-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[概述]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="docker" term="docker"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[安装或卸载 Docker]]></title>
-        <id>安装或卸载 Docker</id>
+        <id>/2022/02/12/install-docker</id>
         <link href="https://blog.alanwei.com/blog/2022/02/12/install-docker"/>
         <updated>2022-02-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[安装或者卸载Docker.]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="docker" term="docker"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Linux启动自动执行特定脚本]]></title>
-        <id>Linux启动自动执行特定脚本</id>
+        <id>/2022/02/12/linux-startup-script-crontab</id>
         <link href="https://blog.alanwei.com/blog/2022/02/12/linux-startup-script-crontab"/>
         <updated>2022-02-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[利用linux的crontab服务设置启动脚本]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="cron" term="cron"/>
+        <category label="linux" term="linux"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ubuntu 20.04 安装使用 SQLite]]></title>
-        <id>Ubuntu 20.04 安装使用 SQLite</id>
-        <link href="https://blog.alanwei.com/blog/2022/02/06/ubuntu-sqlite3-starter"/>
+        <id>/2022/02/6/ubuntu-sqlite3-starter</id>
+        <link href="https://blog.alanwei.com/blog/2022/02/6/ubuntu-sqlite3-starter"/>
         <updated>2022-02-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>author</name>
+        </author>
+        <category label="sqlite3" term="sqlite3"/>
+        <category label="linux" term="linux"/>
+        <category label="ubuntu" term="ubuntu"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Flutter JSON 序列化]]></title>
-        <id>Flutter JSON 序列化</id>
+        <id>/2022/01/25/flutter-json-seriealize</id>
         <link href="https://blog.alanwei.com/blog/2022/01/25/flutter-json-seriealize"/>
         <updated>2022-01-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[flutter JSON 序列化和反序列化]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="flutter" term="flutter"/>
+        <category label="android" term="android"/>
+        <category label="ios" term="ios"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[解决SSH no matching host key type found 问题]]></title>
-        <id>解决SSH no matching host key type found 问题</id>
+        <id>/2022/01/24/ssh-no-matching-host-key-type-found</id>
         <link href="https://blog.alanwei.com/blog/2022/01/24/ssh-no-matching-host-key-type-found"/>
         <updated>2022-01-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[解决通过git协议克隆仓库到本地, 或者SSH远程机器时返回的 no matching host key type found]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="ssh" term="ssh"/>
+        <category label="git" term="git"/>
+        <category label="openssh" term="openssh"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></title>
-        <id>解决 Ubuntu/Debian SSH 连接时返回的 Connection refused</id>
+        <id>/2022/01/15/ubuntu-ssh-connection-refused</id>
         <link href="https://blog.alanwei.com/blog/2022/01/15/ubuntu-ssh-connection-refused"/>
         <updated>2022-01-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[解决 Ubuntu/Debian SSH 连接时返回的 Connection refused]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="linux" term="linux"/>
+        <category label="ssh" term="ssh"/>
+        <category label="ubuntu" term="ubuntu"/>
+        <category label="debian" term="debian"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSC常用代码片段]]></title>
-        <id>VSC常用代码片段</id>
+        <id>/2022/01/10/visual-studio-code-snippets</id>
         <link href="https://blog.alanwei.com/blog/2022/01/10/visual-studio-code-snippets"/>
         <updated>2022-01-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Visual Studio Code 常用代码片段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vsc" term="vsc"/>
+        <category label="visual studio code" term="visual studio code"/>
+        <category label="snippets" term="snippets"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ubuntu 20.04 LTS 安装多媒体解码库]]></title>
-        <id>Ubuntu 20.04 LTS 安装多媒体解码库</id>
+        <id>/2022/01/08/ubuntu-install-multimia-codecs</id>
         <link href="https://blog.alanwei.com/blog/2022/01/08/ubuntu-install-multimia-codecs"/>
         <updated>2022-01-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[解决安装 Ubuntu 20.04 LTS 完成后无法播放音频视频问题]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="linux" term="linux"/>
+        <category label="ubuntu" term="ubuntu"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[解决Ubuntu系统启动 VMware Workstation Pro 提示 Kernel Module Updater 问题]]></title>
-        <id>解决Ubuntu系统启动 VMware Workstation Pro 提示 Kernel Module Updater 问题</id>
+        <id>/2022/01/08/vmware-workstation-kernel-module-updater</id>
         <link href="https://blog.alanwei.com/blog/2022/01/08/vmware-workstation-kernel-module-updater"/>
         <updated>2022-01-08T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[解决Ubuntu系统初次安装 VMware Workstation Pro, 启动提示 kernel module updater, gcc 等问题]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="linux" term="linux"/>
+        <category label="ubuntu" term="ubuntu"/>
+        <category label="vmware" term="vmware"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[JDK LTS 路线图及下载地址]]></title>
-        <id>JDK LTS 路线图及下载地址</id>
+        <id>/2022/01/06/jdk-roadmap-download</id>
         <link href="https://blog.alanwei.com/blog/2022/01/06/jdk-roadmap-download"/>
         <updated>2022-01-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[JDK LTS 路线图, JDK 17 LTS下载地址]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="java" term="java"/>
+        <category label="jdk" term="jdk"/>
+        <category label="jdk1.8" term="jdk1.8"/>
+        <category label="jdk8" term="jdk8"/>
+        <category label="jdk lts" term="jdk lts"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[微软拼音输入法自定义日期时间格式]]></title>
-        <id>微软拼音输入法自定义日期时间格式</id>
+        <id>/2022/01/01/microsoft-pinyin-date</id>
         <link href="https://blog.alanwei.com/blog/2022/01/01/microsoft-pinyin-date"/>
         <updated>2022-01-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[微软拼音输入法自定义日期时间格式]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="windows" term="windows"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[PowerShell 常见问答]]></title>
-        <id>PowerShell 常见问答</id>
+        <id>/2022/01/01/powershell-qa</id>
         <link href="https://blog.alanwei.com/blog/2022/01/01/powershell-qa"/>
         <updated>2022-01-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[PowerShell 常见问答]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="powershell" term="powershell"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[API Extractor 使用]]></title>
-        <id>API Extractor 使用</id>
+        <id>/2021/12/12/tsdoc-config</id>
         <link href="https://blog.alanwei.com/blog/2021/12/12/tsdoc-config"/>
         <updated>2021-12-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用API Extractor 和 tsdoc 生成 TypeScript 项目文档]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="typescript" term="typescript"/>
+        <category label="tsdoc" term="tsdoc"/>
+        <category label="api extractor" term="api extractor"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[TypeScript 类型定义小技巧]]></title>
-        <id>TypeScript 类型定义小技巧</id>
+        <id>/2021/11/28/typescript-type-define-skills</id>
         <link href="https://blog.alanwei.com/blog/2021/11/28/typescript-type-define-skills"/>
         <updated>2021-11-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TypeScript 函数重载定义, 函数属性定义]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="typescript" term="typescript"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[《图解HTTP》笔记]]></title>
-        <id>《图解HTTP》笔记</id>
+        <id>/2021/11/18/book-tu-jie-http</id>
         <link href="https://blog.alanwei.com/blog/2021/11/18/book-tu-jie-http"/>
         <updated>2021-11-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[《图解HTTP》笔记]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="读书笔记" term="读书笔记"/>
+        <category label="http" term="http"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[创建.Net Web API项目]]></title>
-        <id>创建.Net Web API项目</id>
+        <id>/2021/11/13/dotnet-web-api-starter</id>
         <link href="https://blog.alanwei.com/blog/2021/11/13/dotnet-web-api-starter"/>
         <updated>2021-11-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用.Net CLI创建一个简单的 Web API 项目]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label=".net" term=".net"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[VMware Fusion Pro 注册码 序列号]]></title>
-        <id>VMware Fusion Pro 注册码 序列号</id>
+        <id>/2021/10/16/VMware-fusion-pro</id>
         <link href="https://blog.alanwei.com/blog/2021/10/16/VMware-fusion-pro"/>
         <updated>2021-10-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Fusion Pro 下载地址]]></summary>
+        <category label="vmware" term="vmware"/>
+        <category label="fusion" term="fusion"/>
+        <category label="mac" term="mac"/>
+        <category label="key" term="key"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[React事件处理程序箭头函数造成的重复渲染问题]]></title>
-        <id>React事件处理程序箭头函数造成的重复渲染问题</id>
+        <id>/2021/10/10/react-loop-bind-event</id>
         <link href="https://blog.alanwei.com/blog/2021/10/10/react-loop-bind-event"/>
         <updated>2021-10-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[React事件处理程序箭头函数造成的重复渲染问题]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="react" term="react"/>
+        <category label="javascript" term="javascript"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[检测是否是puppeteer访问以及如何破解]]></title>
-        <id>检测是否是puppeteer访问以及如何破解</id>
+        <id>/2021/10/07/detect-puppeteer-browse</id>
         <link href="https://blog.alanwei.com/blog/2021/10/07/detect-puppeteer-browse"/>
         <updated>2021-10-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用JavaScript检测是否是puppeteer等自动化工具访问页面, 以及如何破解.]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="nodejs" term="nodejs"/>
+        <category label="puppeteer" term="puppeteer"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[如何知道 NodeJS stream pipe 完成]]></title>
-        <id>如何知道 NodeJS stream pipe 完成</id>
+        <id>/2021/10/07/nodejs-stream-pipe-finish</id>
         <link href="https://blog.alanwei.com/blog/2021/10/07/nodejs-stream-pipe-finish"/>
         <updated>2021-10-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[NodeJS 的流调用 pipe 方法之后会返回一个新的流, 监听这个新流的finish事件就可以知道pipe完成了:]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="ndoejs" term="ndoejs"/>
+        <category label="stream" term="stream"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[DOM Attributes in React 16]]></title>
-        <id>DOM Attributes in React 16</id>
+        <id>/2021/10/06/dom-attributes-in-react-16</id>
         <link href="https://blog.alanwei.com/blog/2021/10/06/dom-attributes-in-react-16"/>
         <updated>2021-10-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[在过去， React通常忽略未知的DOM属性。 如果你写的JSX使用了React不能识别的属性， React将会跳过它， 比如：]]></summary>
+        <author>
+            <name>Dan Abramov</name>
+            <uri>https://twitter.com/dan_abramov</uri>
+        </author>
+        <category label="react" term="react"/>
+        <category label="译文" term="译文"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[修改火狐浏览器开发者工具字体大小]]></title>
-        <id>修改火狐浏览器开发者工具字体大小</id>
+        <id>/2021/08/10/mozilla-firefox-devtool-zoom</id>
         <link href="https://blog.alanwei.com/blog/2021/08/10/mozilla-firefox-devtool-zoom"/>
         <updated>2021-08-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[修改火狐浏览器开发者工具字体大小]]></summary>
+        <category label="mozilla" term="mozilla"/>
+        <category label="firefox" term="firefox"/>
+        <category label="browser" term="browser"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Event Emitters in TypeScript]]></title>
-        <id>Event Emitters in TypeScript</id>
+        <id>/2021/07/04/event-emitters-typescript</id>
         <link href="https://blog.alanwei.com/blog/2021/07/04/event-emitters-typescript"/>
         <updated>2021-07-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Ref: Event Emitters in TypeScript]]></summary>
+        <author>
+            <name>rjzaworski.com</name>
+            <uri>https://rjzaworski.com/2019/10/event-emitters-in-typescript</uri>
+        </author>
+        <category label="typescript" term="typescript"/>
+        <category label="javascript" term="javascript"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[JavaScript创建指定数量的重复元素]]></title>
-        <id>JavaScript创建指定数量的重复元素</id>
+        <id>/2021/06/27/javascript-create-an-array-with-repeat-element</id>
         <link href="https://blog.alanwei.com/blog/2021/06/27/javascript-create-an-array-with-repeat-element"/>
         <updated>2021-06-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[创建一个数组，包含指定数量的重复元素 Create an array with same element repeated multiple times]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="javascript" term="javascript"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用Docker运行Apache Kafka]]></title>
-        <id>使用Docker运行Apache Kafka</id>
+        <id>/2021/05/25/kafka-docker-setup</id>
         <link href="https://blog.alanwei.com/blog/2021/05/25/kafka-docker-setup"/>
         <updated>2021-05-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Ref Guide to Setting Up Apache Kafka Using Docker]]></summary>
+        <author>
+            <name>Baedldung</name>
+            <uri>https://www.baeldung.com/ops/kafka-docker-setup</uri>
+        </author>
+        <category label="kafka" term="kafka"/>
+        <category label="docker" term="docker"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Bash快捷键列表]]></title>
-        <id>Bash快捷键列表</id>
+        <id>/2021/05/18/bash-shortcuts</id>
         <link href="https://blog.alanwei.com/blog/2021/05/18/bash-shortcuts"/>
         <updated>2021-05-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[bash快捷键列表]]></summary>
+        <author>
+            <name>tuxfight3r</name>
+            <uri>https://gist.github.com/tuxfight3r</uri>
+        </author>
+        <category label="bash" term="bash"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[解决 macOS 系统 xcrun error invalid active developer path 异常]]></title>
-        <id>解决 macOS 系统 xcrun error invalid active developer path 异常</id>
+        <id>/2021/05/17/mac-xcrun-error</id>
         <link href="https://blog.alanwei.com/blog/2021/05/17/mac-xcrun-error"/>
         <updated>2021-05-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ref How to fix Mac OS invalid active developer path, missing xcrun]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="mac" term="mac"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Termux配置清华大学开源镜像]]></title>
-        <id>Termux配置清华大学开源镜像</id>
+        <id>/2021/05/17/termux-mirror</id>
         <link href="https://blog.alanwei.com/blog/2021/05/17/termux-mirror"/>
         <updated>2021-05-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[来源 Termux 镜像使用帮助]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="android" term="android"/>
+        <category label="termux" term="termux"/>
+        <category label="mirror" term="mirror"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[一个TypeScript类型复用的小技巧]]></title>
-        <id>一个TypeScript类型复用的小技巧</id>
+        <id>/2021/05/09/typescript-type-reference</id>
         <link href="https://blog.alanwei.com/blog/2021/05/09/typescript-type-reference"/>
         <updated>2021-05-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[macOS 允许打开任何位置下载的App]]></title>
-        <id>macOS 允许打开任何位置下载的App</id>
+        <id>/2021/05/05/macos-allow-apps-from-anywhere</id>
         <link href="https://blog.alanwei.com/blog/2021/05/05/macos-allow-apps-from-anywhere"/>
         <updated>2021-05-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[macOS allow apps downloaded from anywhere]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="mac" term="mac"/>
+        <category label="macOS" term="macOS"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用自定义的Spring MVC处理程序拦截器管理会话]]></title>
-        <id>使用自定义的Spring MVC处理程序拦截器管理会话</id>
+        <id>/2021/05/05/spring-mvc-custom-handler-interceptor</id>
         <link href="https://blog.alanwei.com/blog/2021/05/05/spring-mvc-custom-handler-interceptor"/>
         <updated>2021-05-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文 - Using a Custom Spring MVC’s Handler Interceptor to Manage Sessions]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="java" term="java"/>
+        <category label="spring" term="spring"/>
+        <category label="转摘" term="转摘"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring MVC HandlerInterceptor 简介]]></title>
-        <id>Spring MVC HandlerInterceptor 简介</id>
+        <id>/2021/05/05/spring-mvc-handlerinterceptor</id>
         <link href="https://blog.alanwei.com/blog/2021/05/05/spring-mvc-handlerinterceptor"/>
         <updated>2021-05-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="java" term="java"/>
+        <category label="spring" term="spring"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring Boot 使用 JSP]]></title>
-        <id>Spring Boot 使用 JSP</id>
+        <id>/2021/05/04/spring-boot-jsp</id>
         <link href="https://blog.alanwei.com/blog/2021/05/04/spring-boot-jsp"/>
         <updated>2021-05-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Ref Spring Boot With JavaServer Pages (JSP)]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="spring" term="spring"/>
+        <category label="spring boot" term="spring boot"/>
+        <category label="jsp" term="jsp"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用 Docusaurus 结合 GitHub 搭建个人站点]]></title>
-        <id>使用 Docusaurus 结合 GitHub 搭建个人站点</id>
+        <id>/2021/05/01/docusaurus-github-starter</id>
         <link href="https://blog.alanwei.com/blog/2021/05/01/docusaurus-github-starter"/>
         <updated>2021-05-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用Docusaurus结合GitHub搭建个人站点]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="docusaurus" term="docusaurus"/>
+        <category label="github" term="github"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSC指定类库文件增强智能感知]]></title>
-        <id>VSC指定类库文件增强智能感知</id>
+        <id>/2021/04/27/visual-studio-code-intelligence</id>
         <link href="https://blog.alanwei.com/blog/2021/04/27/visual-studio-code-intelligence"/>
         <updated>2021-04-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vsc" term="vsc"/>
+        <category label="visual studio code" term="visual studio code"/>
+        <category label="editor" term="editor"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Termux远程访问]]></title>
-        <id>Termux远程访问</id>
+        <id>/2021/04/26/termux-remote-access</id>
         <link href="https://blog.alanwei.com/blog/2021/04/26/termux-remote-access"/>
         <updated>2021-04-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[在电脑上远程访问Termux:]]></summary>
+        <author>
+            <name>Termux Wiki</name>
+            <uri>https://wiki.termux.com/wiki/Main_Page</uri>
+        </author>
+        <category label="termux" term="termux"/>
+        <category label="android" term="android"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[语文考试可以写负能量作文吗]]></title>
-        <id>语文考试可以写负能量作文吗</id>
+        <id>/2021/04/23/语文考试可以写负能量作文吗</id>
         <link href="https://blog.alanwei.com/blog/2021/04/23/语文考试可以写负能量作文吗"/>
         <updated>2021-04-23T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[语文考试可以写负能量作文吗？如果不能的话又是为什么？]]></summary>
+        <author>
+            <name>红护</name>
+            <uri>https://www.zhihu.com/people/tian-yuan-nan-quan-51</uri>
+        </author>
+        <category label="文章" term="文章"/>
+        <category label="转摘" term="转摘"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Nginx 301重定向域名]]></title>
-        <id>Nginx 301重定向域名</id>
+        <id>/2021/04/15/nginx-rewrite</id>
         <link href="https://blog.alanwei.com/blog/2021/04/15/nginx-rewrite"/>
         <updated>2021-04-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[设置Nginx 301重定向跳转]]></summary>
+        <author>
+            <name>郭振斌</name>
+            <uri>https://www.cnblogs.com/benio/archive/2010/08/16/1800584.html</uri>
+        </author>
+        <category label="nginx" term="nginx"/>
+        <category label="301" term="301"/>
+        <category label="rewrite" term="rewrite"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[CentOS安装Nginx]]></title>
-        <id>CentOS安装Nginx</id>
+        <id>/2021/04/11/centos-install-nginx</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/centos-install-nginx"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[CentOS安装Nginx]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="centos" term="centos"/>
+        <category label="linux" term="linux"/>
+        <category label="nginx" term="nginx"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[创建Windows服务]]></title>
-        <id>创建Windows服务</id>
+        <id>/2021/04/11/create-windows-service</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/create-windows-service"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[创建Windows服务]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="windows" term="windows"/>
+        <category label="serivce" term="serivce"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[自定义Linux Bash终端提示符]]></title>
-        <id>自定义Linux Bash终端提示符</id>
+        <id>/2021/04/11/customize-bash-prompt</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/customize-bash-prompt"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[自定义Linux Bash终端提示符]]></summary>
+        <author>
+            <name>网络</name>
+            <uri>https://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html</uri>
+        </author>
+        <category label="linux" term="linux"/>
+        <category label="bash" term="bash"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用 Docker 部署 Sentry]]></title>
-        <id>使用 Docker 部署 Sentry</id>
+        <id>/2021/04/11/docker-sentry-deploy</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/docker-sentry-deploy"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用 Docker 部署 Sentry]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="docker" term="docker"/>
+        <category label="sentry" term="sentry"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[How to Setup Reverse Proxy on IIS with URL-Rewrite]]></title>
-        <id>How to Setup Reverse Proxy on IIS with URL-Rewrite</id>
+        <id>/2021/04/11/iis-reverse-proxy-url-rewrite</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/iis-reverse-proxy-url-rewrite"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用IIS的URL Rewrite设置反向代理]]></summary>
+        <author>
+            <name>转摘</name>
+            <uri>https://tecadmin.net/set-up-reverse-proxy-using-iis/</uri>
+        </author>
+        <category label="iis" term="iis"/>
+        <category label="reverse proxy" term="reverse proxy"/>
+        <category label="url rewrite" term="url rewrite"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[配置IIS反向代理教程]]></title>
-        <id>配置IIS反向代理教程</id>
+        <id>/2021/04/11/iis-reverse-proxy</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/iis-reverse-proxy"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[IIS配置反向代理]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="iis" term="iis"/>
+        <category label="reverse proxy" term="reverse proxy"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[查看当前机器的所有SSH连接]]></title>
-        <id>查看当前机器的所有SSH连接</id>
+        <id>/2021/04/11/linux-show-ssh-connection</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/linux-show-ssh-connection"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[查看当前机器的所有SSH连接]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="linux" term="linux"/>
+        <category label="ssh" term="ssh"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用 Node 执行命令行程序]]></title>
-        <id>使用 Node 执行命令行程序</id>
+        <id>/2021/04/11/node-exec-bash-cmd</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/node-exec-bash-cmd"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用 Node 执行命令行程序]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring Boot Maven 插件使用]]></title>
-        <id>Spring Boot Maven 插件使用</id>
+        <id>/2021/04/11/spring-boot-maven-plugin</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/spring-boot-maven-plugin"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Spring Boot Maven 插件使用]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="maven" term="maven"/>
+        <category label="spring" term="spring"/>
+        <category label="spring boot" term="spring boot"/>
+        <category label="maven plugin" term="maven plugin"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Windows 上的TCP代理设置]]></title>
-        <id>Windows 上的TCP代理设置</id>
+        <id>/2021/04/11/tcp-proxy-in-windows</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/tcp-proxy-in-windows"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[目前我们出现一个需求是将外网来的TCP请求代理到内网的某个服务器上, 比如我们的 Windows 上需要部署一个 RabbitMQ 推送服务, 但因为某些原因我们无法使用 Windows 版本的 RabbitMQ, 想将 RabbitMQ 部署在Linux服务器上, 确实有很多其他方式来满足这个需求, 比如再加一个服务器, 然后分配一个公网IP, 最后我们选择在 Windows 服务器上安装 VMware 然后虚拟一个Ubuntu系统. 现在需要将外网的 RabbitMQ 请求映射到 Ubuntu 上, 大概请求途径如下:]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="windows" term="windows"/>
+        <category label="tcp" term="tcp"/>
+        <category label="powershell" term="powershell"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ubuntu 系统安装根证书]]></title>
-        <id>Ubuntu 系统安装根证书</id>
+        <id>/2021/04/11/ubuntu-install-root-ca-certificate</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/ubuntu-install-root-ca-certificate"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Ubuntu 系统安装根证书]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[我的Ubuntu新系统安装脚本]]></title>
-        <id>我的Ubuntu新系统安装脚本</id>
+        <id>/2021/04/11/ubuntu-starter-scripts</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/ubuntu-starter-scripts"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[每次安装Ubuntu系统都要做一些初始化工作(比如安装一些工具软件), 现将我的记录如下, 方便下次使用:]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="ubuntu" term="ubuntu"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[为什么 Math.Round(2.5) 返回 2]]></title>
-        <id>为什么 Math.Round(2.5) 返回 2</id>
+        <id>/2021/04/11/why-math-round-return-2-instead-3</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/why-math-round-return-2-instead-3"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[为什么 Math.Round(2.5) 返回 2]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="csharp" term="csharp"/>
+        <category label="c#" term="c#"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[制作Windows启动盘]]></title>
-        <id>制作Windows启动盘</id>
+        <id>/2021/04/11/windows-bootable-device</id>
         <link href="https://blog.alanwei.com/blog/2021/04/11/windows-bootable-device"/>
         <updated>2021-04-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="windows" term="windows"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Node require 缓存]]></title>
-        <id>Node require 缓存</id>
+        <id>/2021/04/10/node-require-cache</id>
         <link href="https://blog.alanwei.com/blog/2021/04/10/node-require-cache"/>
         <updated>2021-04-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[ASP.Net 应用配置HTTP代理]]></title>
-        <id>ASP.Net 应用配置HTTP代理</id>
+        <id>/2021/04/03/asp.net-proxy-configuration</id>
         <link href="https://blog.alanwei.com/blog/2021/04/03/asp.net-proxy-configuration"/>
         <updated>2021-04-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[.Net Framework ASP.Net 应用配置HTTP代理 proxy configuration]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="asp.net" term="asp.net"/>
+        <category label="web.config" term="web.config"/>
+        <category label="proxy" term="proxy"/>
+        <category label=".net framework" term=".net framework"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[如何使用命令行创建带有多个子模块的Maven项目]]></title>
-        <id>如何使用命令行创建带有多个子模块的Maven项目</id>
+        <id>/2021/04/03/how-to-create-maven-multi-module-project</id>
         <link href="https://blog.alanwei.com/blog/2021/04/03/how-to-create-maven-multi-module-project"/>
         <updated>2021-04-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this guide, we learn how to create Maven Multi-Module using Command Line with very easy steps. A multi-module project is defined by a parent POM referencing one or more sub-modules. In this example, we will create a blogger web application with different modules. Let's create a blogger as parent project and it's 3 sub-modules are blogger-core, blogger-common, blogger-web.]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="maven" term="maven"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[解决 Windows 环境中 git log 命令中文编码问题]]></title>
-        <id>解决 Windows 环境中 git log 命令中文编码问题</id>
+        <id>/2021/04/03/powershell-git-chinese-encode</id>
         <link href="https://blog.alanwei.com/blog/2021/04/03/powershell-git-chinese-encode"/>
         <updated>2021-04-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[解决 Windows 10 系统中 Powershell 终端git log命令输出中文编码问题]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="git" term="git"/>
+        <category label="powershell" term="powershell"/>
+        <category label="windows" term="windows"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[添加Windows开启启动程序]]></title>
-        <id>添加Windows开启启动程序</id>
+        <id>/2021/04/03/windows-add-programs-to-startup-folder</id>
         <link href="https://blog.alanwei.com/blog/2021/04/03/windows-add-programs-to-startup-folder"/>
         <updated>2021-04-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[设置Windows开机启动程序]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="windows" term="windows"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docker时区设置]]></title>
-        <id>Docker时区设置</id>
+        <id>/2021/04/02/docker-timezone</id>
         <link href="https://blog.alanwei.com/blog/2021/04/02/docker-timezone"/>
         <updated>2021-04-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[设置常用Docker镜像的容器时区]]></summary>
+        <author>
+            <name>不才老黄</name>
+            <uri>https://mp.weixin.qq.com/s/uO0nqNnWMqeQU8EyQYhllQ</uri>
+        </author>
+        <category label="docker" term="docker"/>
+        <category label="timezone" term="timezone"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[解决 NPM 安装应用出现 ERESOLVE 错误]]></title>
-        <id>解决 NPM 安装应用出现 ERESOLVE 错误</id>
+        <id>/2021/03/30/npm-install-eresulve-error</id>
         <link href="https://blog.alanwei.com/blog/2021/03/30/npm-install-eresulve-error"/>
         <updated>2021-03-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[npm install ERESOLVE issues error npm 安装报错]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="npm" term="npm"/>
+        <category label="node" term="node"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Git Tags 使用简介]]></title>
-        <id>Git Tags 使用简介</id>
+        <id>/2021/03/28/git-tags</id>
         <link href="https://blog.alanwei.com/blog/2021/03/28/git-tags"/>
         <updated>2021-03-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Git Tags 常用命令简介]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="git" term="git"/>
+        <category label="git tags" term="git tags"/>
+        <category label="git tag" term="git tag"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Docker配置镜像加速]]></title>
-        <id>Docker配置镜像加速</id>
+        <id>/2021/03/26/docker-config-mirror</id>
         <link href="https://blog.alanwei.com/blog/2021/03/26/docker-config-mirror"/>
         <updated>2021-03-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[修改Docker文件, 配置镜像加速]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="docker" term="docker"/>
+        <category label="mirror" term="mirror"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[国内开源镜像站点]]></title>
-        <id>国内开源镜像站点</id>
+        <id>/2021/03/26/open-mirrors</id>
         <link href="https://blog.alanwei.com/blog/2021/03/26/open-mirrors"/>
         <updated>2021-03-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[国内开源镜像加速站点]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
-        <id>Docusaurus 配置 GitHub Action 自动发布</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy"/>
-        <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[frp连接 EOF 失败问题]]></title>
-        <id>frp连接 EOF 失败问题</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/21/frp-eof"/>
-        <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[为了在家调试方便，老高使用frp将自己放在公司的开发机器的ssh端口开放出来了，但是配置frp客户端的过程中总是出现下面的一句话:]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[linux下查看指定进程的所有连接信息]]></title>
-        <id>linux下查看指定进程的所有连接信息</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/21/linux-all-ps-connection"/>
-        <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[linux下查看指定进程的所有连接信息]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[显示Linux端口占用]]></title>
-        <id>显示Linux端口占用</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/21/linux-view-port-using"/>
-        <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[显示Linux端口占用]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="mirror" term="mirror"/>
+        <category label="linux" term="linux"/>
+        <category label="docker" term="docker"/>
+        <category label="android" term="android"/>
+        <category label="aosp" term="aosp"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chromium 所有开关(flag)列表]]></title>
-        <id>Chromium 所有开关(flag)列表</id>
+        <id>/2021/03/21/chromium-command-line-switches</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/chromium-command-line-switches"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chromium 所有开关列表]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="chrome" term="chrome"/>
+        <category label="chromium" term="chromium"/>
+        <category label="chrome flags" term="chrome flags"/>
+        <category label="chrome switches" term="chrome switches"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[解决 Node HTTP 请求出现的自签名证书校验失败问题]]></title>
-        <id>解决 Node HTTP 请求出现的自签名证书校验失败问题</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/21/node-tls"/>
+        <title type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></title>
+        <id>/2021/03/21/docusaurus-github-deploy</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/docusaurus-github-deploy"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <summary type="html"><![CDATA[Docusaurus 配置 GitHub Action 自动发布]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="github" term="github"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="github action" term="github action"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[frp连接 EOF 失败问题]]></title>
+        <id>/2021/03/21/frp-eof</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/frp-eof"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[为了在家调试方便，老高使用frp将自己放在公司的开发机器的ssh端口开放出来了，但是配置frp客户端的过程中总是出现下面的一句话:]]></summary>
+        <author>
+            <name>老高</name>
+            <uri>https://blog.phpgao.com/author/1/</uri>
+        </author>
+        <category label="frp" term="frp"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux下查看指定进程的所有连接信息]]></title>
+        <id>/2021/03/21/linux-all-ps-connection</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/linux-all-ps-connection"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[linux下查看指定进程的所有连接信息]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="linux" term="linux"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[显示Linux端口占用]]></title>
+        <id>/2021/03/21/linux-view-port-using</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/linux-view-port-using"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[显示Linux端口占用]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="linux" term="linux"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[阿里云Maven镜像]]></title>
-        <id>阿里云Maven镜像</id>
+        <id>/2021/03/21/maven-aliyun</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/maven-aliyun"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[阿里云Maven镜像]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="maven" term="maven"/>
+        <category label="java" term="java"/>
+        <category label="mirror" term="mirror"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[解决 Node HTTP 请求出现的自签名证书校验失败问题]]></title>
+        <id>/2021/03/21/node-tls</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/21/node-tls"/>
+        <updated>2021-03-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="node" term="node"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[NPM的淘宝镜像]]></title>
-        <id>NPM的淘宝镜像</id>
+        <id>/2021/03/21/npm-taobao</id>
         <link href="https://blog.alanwei.com/blog/2021/03/21/npm-taobao"/>
         <updated>2021-03-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[NPM的淘宝镜像]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="npm" term="npm"/>
+        <category label="node" term="node"/>
+        <category label="镜像" term="镜像"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Visual Studio Code 侧边栏定位到当前文件]]></title>
-        <id>Visual Studio Code 侧边栏定位到当前文件</id>
+        <id>/2021/03/20/visual-studio-code-reveal</id>
         <link href="https://blog.alanwei.com/blog/2021/03/20/visual-studio-code-reveal"/>
         <updated>2021-03-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Visual Studio Code 侧边栏定位到当前文件]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vsc" term="vsc"/>
+        <category label="visual studio code" term="visual studio code"/>
+        <category label="editor" term="editor"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Chrome flags]]></title>
-        <id>Chrome flags</id>
+        <id>/2021/03/15/chrome-flags</id>
         <link href="https://blog.alanwei.com/blog/2021/03/15/chrome-flags"/>
         <updated>2021-03-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Chrome支持的flags列表]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="chrome flags" term="chrome flags"/>
+        <category label="chrome" term="chrome"/>
+        <category label="puppeteer" term="puppeteer"/>
+        <category label="chrome-launcher" term="chrome-launcher"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Let's Encrypt证书申请及配置]]></title>
-        <id>Let's Encrypt证书申请及配置</id>
+        <id>/2021/03/14/lets-encrypt-ssl-certificate</id>
         <link href="https://blog.alanwei.com/blog/2021/03/14/lets-encrypt-ssl-certificate"/>
         <updated>2021-03-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[描述信息，默认为文章第一段]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="ssl" term="ssl"/>
+        <category label="nginx" term="nginx"/>
+        <category label="let's encrypt" term="let's encrypt"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[浏览器的前进后退缓存机制 Back/forward cache]]></title>
-        <id>浏览器的前进后退缓存机制 Back/forward cache</id>
+        <id>/2021/03/13/back-forward-cache</id>
         <link href="https://blog.alanwei.com/blog/2021/03/13/back-forward-cache"/>
         <updated>2021-03-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Optimize your pages for instant loads when using the browser's back and forward buttons.]]></summary>
+        <author>
+            <name>Philip Walton</name>
+            <uri>https://github.com/philipwalton</uri>
+        </author>
+        <category label="javascript" term="javascript"/>
+        <category label="browser" term="browser"/>
+        <category label="译文" term="译文"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[macOS - 更改功能键的默认行为]]></title>
-        <id>macOS - 更改功能键的默认行为</id>
+        <id>/2021/03/13/macos-change-default-behavior-function-keys</id>
         <link href="https://blog.alanwei.com/blog/2021/03/13/macos-change-default-behavior-function-keys"/>
         <updated>2021-03-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[更改 macOS 系统功能键的默认行为]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="mac" term="mac"/>
+        <category label="keyboard" term="keyboard"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[删除HTTP请求头中的 referrer]]></title>
-        <id>删除HTTP请求头中的 referrer</id>
+        <id>/2021/03/09/remove-http-request-referrer</id>
         <link href="https://blog.alanwei.com/blog/2021/03/09/remove-http-request-referrer"/>
         <updated>2021-03-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[删除HTTP请求头中的 Referer，能解决部分防盗链问题。]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="http" term="http"/>
+        <category label="web" term="web"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[悲催的程序员，以及程序员的悲催]]></title>
-        <id>悲催的程序员，以及程序员的悲催</id>
+        <id>/2021/03/07/bei-cui-cheng-xu-yuan-yi-ji-cheng-xu-yuan-be-cui</id>
         <link href="https://blog.alanwei.com/blog/2021/03/07/bei-cui-cheng-xu-yuan-yi-ji-cheng-xu-yuan-be-cui"/>
         <updated>2021-03-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文 - 悲催的程序员，以及程序员的悲催[转(http://blog.sina.cn/dpool/blog/s/blog_621a71a00100qs5r.html)]]></summary>
+        <author>
+            <name>苏鹏</name>
+            <uri>http://blog.sina.cn/dpool/blog/u/1645900192#type=-1</uri>
+        </author>
+        <category label="日志" term="日志"/>
+        <category label="文章" term="文章"/>
+        <category label="摘抄" term="摘抄"/>
+        <category label="转摘" term="转摘"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[从前慢]]></title>
-        <id>从前慢</id>
+        <id>/2021/03/07/cong-qian-man</id>
         <link href="https://blog.alanwei.com/blog/2021/03/07/cong-qian-man"/>
         <updated>2021-03-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[记得早先少年时]]></summary>
+        <author>
+            <name>木心</name>
+        </author>
+        <category label="日志" term="日志"/>
+        <category label="文章" term="文章"/>
+        <category label="转摘" term="转摘"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[使用Maven创建一个Java项目]]></title>
-        <id>使用Maven创建一个Java项目</id>
+        <id>/2021/03/06/create-java-project-use-maven</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/create-java-project-use-maven"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="java" term="java"/>
+        <category label="maven" term="maven"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[如何使用Maven创建可执行的JAR文件]]></title>
-        <id>如何使用Maven创建可执行的JAR文件</id>
+        <id>/2021/03/06/how-can-i-create-an-executable-jar-with-dependencies-using-maven</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/how-can-i-create-an-executable-jar-with-dependencies-using-maven"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文 - 使用Maven打包可执行JAR程序]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="java" term="java"/>
+        <category label="maven" term="maven"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[IKEv2 配置和使用指南]]></title>
-        <id>IKEv2 配置和使用指南</id>
+        <id>/2021/03/06/ipsec-clients-ikev2</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-ikev2"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[你也可以使用 IPsec/L2TP 或者 IPsec/XAuth 模式连接。]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="ipsec" term="ipsec"/>
+        <category label="ikev2" term="ikev2"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[配置 IPsec/L2TP 客户端]]></title>
-        <id>配置 IPsec/L2TP 客户端</id>
+        <id>/2021/03/06/ipsec-clients-l2tp</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-l2tp"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[在成功 搭建自己的 VPN 服务器 之后，按照下面的步骤来配置你的设备。IPsec/L2TP 在 Android, iOS, OS X 和 Windows 上均受支持，无需安装额外的软件。设置过程通常只需要几分钟。如果无法连接,请首先检查是否输入了正确的登录凭证。]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="ipsec" term="ipsec"/>
+        <category label="l2tp" term="l2tp"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[配置 IPsec/XAuth VPN 客户端]]></title>
-        <id>配置 IPsec/XAuth VPN 客户端</id>
+        <id>/2021/03/06/ipsec-clients-xauth</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/ipsec-clients-xauth"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[在成功 搭建自己的 VPN 服务器 之后，按照下面的步骤来配置你的设备。IPsec/XAuth ("Cisco IPsec") 在 Android, iOS 和 OS X 上均受支持，无需安装额外的软件。Windows 用户可以使用免费的 Shrew Soft 客户端。如果无法连接,请首先检查是否输入了正确的 VPN 登录凭证。]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[配置右击使用Sublime打开文件夹]]></title>
-        <id>配置右击使用Sublime打开文件夹</id>
-        <link href="https://blog.alanwei.com/blog/2021/03/06/sublime-right-click-open"/>
-        <updated>2021-03-06T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="ipsec" term="ipsec"/>
+        <category label="xauth" term="xauth"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[搭建 IPSec 服务]]></title>
-        <id>搭建 IPSec 服务</id>
+        <id>/2021/03/06/ipsec-server</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/ipsec-server"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[使用技术:]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="ipsec" term="ipsec"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[配置右击使用Sublime打开文件夹]]></title>
+        <id>/2021/03/06/sublime-right-click-open</id>
+        <link href="https://blog.alanwei.com/blog/2021/03/06/sublime-right-click-open"/>
+        <updated>2021-03-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[将以下代码保存到bat文件中, 然后执行:]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="sublime" term="sublime"/>
+        <category label="editor" term="editor"/>
+        <category label="windows" term="windows"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSC代码块折叠]]></title>
-        <id>VSC代码块折叠</id>
+        <id>/2021/03/06/vsc-code-folding</id>
         <link href="https://blog.alanwei.com/blog/2021/03/06/vsc-code-folding"/>
         <updated>2021-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[以下是Visual Studio Code支持的代码块折叠标记及快捷键:]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="editor" term="editor"/>
+        <category label="vsc" term="vsc"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[VSC 代码片段介绍]]></title>
-        <id>VSC 代码片段介绍</id>
+        <id>/2021/03/05/vsc-code-snippets</id>
         <link href="https://blog.alanwei.com/blog/2021/03/05/vsc-code-snippets"/>
         <updated>2021-03-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[简介]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vsc" term="vsc"/>
+        <category label="editor" term="editor"/>
+        <category label="code snippets" term="code snippets"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Markdown 智能感知插入代码片段]]></title>
-        <id>Markdown 智能感知插入代码片段</id>
+        <id>/2021/03/05/vsc-markdown-snippets</id>
         <link href="https://blog.alanwei.com/blog/2021/03/05/vsc-markdown-snippets"/>
         <updated>2021-03-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[解决 Visual Studio Code Markdown 文件不能插入代码片段问题]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vsc" term="vsc"/>
+        <category label="markdown" term="markdown"/>
+        <category label="editor" term="editor"/>
+        <category label="code snippets" term="code snippets"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Mac安装Wireguard]]></title>
-        <id>Mac安装Wireguard</id>
+        <id>/2021/03/04/mac-install-wireguard</id>
         <link href="https://blog.alanwei.com/blog/2021/03/04/mac-install-wireguard"/>
         <updated>2021-03-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[1. 安装 WireGuard 客户端]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="mac" term="mac"/>
+        <category label="wireguard" term="wireguard"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Sublime开启Vim模式]]></title>
-        <id>Sublime开启Vim模式</id>
+        <id>/2021/03/04/sublime-vim-mode</id>
         <link href="https://blog.alanwei.com/blog/2021/03/04/sublime-vim-mode"/>
         <updated>2021-03-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Sublime开启Vim模式]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="sublime" term="sublime"/>
+        <category label="editor" term="editor"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Linux - Structure needs cleaning]]></title>
-        <id>Linux - Structure needs cleaning</id>
+        <id>/2021/03/03/Structure-needs-cleaning</id>
         <link href="https://blog.alanwei.com/blog/2021/03/03/Structure-needs-cleaning"/>
         <updated>2021-03-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Linux文件系统损坏修复]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="linux" term="linux"/>
+        <category label="ubuntu" term="ubuntu"/>
+        <category label="file system" term="file system"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[设置Mac系统JAVA_HOME]]></title>
-        <id>设置Mac系统JAVA_HOME</id>
+        <id>/2021/03/03/mac-java-home</id>
         <link href="https://blog.alanwei.com/blog/2021/03/03/mac-java-home"/>
         <updated>2021-03-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="java" term="java"/>
+        <category label="mac" term="mac"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[设置Mac VSC的code变量]]></title>
-        <id>设置Mac VSC的code变量</id>
+        <id>/2021/03/03/mac-vsc-path</id>
         <link href="https://blog.alanwei.com/blog/2021/03/03/mac-vsc-path"/>
         <updated>2021-03-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vsc" term="vsc"/>
+        <category label="mac" term="mac"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Node Hash计算]]></title>
-        <id>Node Hash计算</id>
+        <id>/2021/02/28/node-hash</id>
         <link href="https://blog.alanwei.com/blog/2021/02/28/node-hash"/>
         <updated>2021-02-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[计算hash值:]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="node" term="node"/>
+        <category label="hash" term="hash"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Spring Boot Hot Swapping]]></title>
-        <id>Spring Boot Hot Swapping</id>
+        <id>/2021/02/24/hot-swapping-in-spring-boot</id>
         <link href="https://blog.alanwei.com/blog/2021/02/24/hot-swapping-in-spring-boot"/>
         <updated>2021-02-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Spring Boot 应用配置 Hot Swapping]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="java" term="java"/>
+        <category label="spring" term="spring"/>
+        <category label="spring boot" term="spring boot"/>
+        <category label="hot swap" term="hot swap"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[设置Java程序网络代理]]></title>
-        <id>设置Java程序网络代理</id>
+        <id>/2021/02/17/java-network-proxy</id>
         <link href="https://blog.alanwei.com/blog/2021/02/17/java-network-proxy"/>
         <updated>2021-02-17T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[设置Java程序网络代理]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="java" term="java"/>
+        <category label="proxy" term="proxy"/>
+        <category label="http" term="http"/>
+        <category label="network" term="network"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[我的 Visual Studio Code 配置]]></title>
-        <id>我的 Visual Studio Code 配置</id>
+        <id>/2020/03/20/visual-studio-code-config</id>
         <link href="https://blog.alanwei.com/blog/2020/03/20/visual-studio-code-config"/>
         <updated>2020-03-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[我的 Visual Studio Code 配置]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vsc" term="vsc"/>
+        <category label="visual studio code" term="visual studio code"/>
+        <category label="editor" term="editor"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[我的 Visual Studio Code 快捷键配置]]></title>
-        <id>我的 Visual Studio Code 快捷键配置</id>
+        <id>/2020/03/20/visual-studio-code-keyboard</id>
         <link href="https://blog.alanwei.com/blog/2020/03/20/visual-studio-code-keyboard"/>
         <updated>2020-03-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[我的 Visual Studio Code 快捷键配置]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vsc" term="vsc"/>
+        <category label="visual studio code" term="visual studio code"/>
+        <category label="editor" term="editor"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[ASP.Net 身份模块介绍]]></title>
-        <id>ASP.Net 身份模块介绍</id>
+        <id>/2019/05/14/asp-net-identity-module</id>
         <link href="https://blog.alanwei.com/blog/2019/05/14/asp-net-identity-module"/>
         <updated>2019-05-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[原文]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label=".net" term=".net"/>
+        <category label="asp.net" term="asp.net"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[我的Vim配置]]></title>
-        <id>我的Vim配置</id>
+        <id>/2019/03/20/vim-config</id>
         <link href="https://blog.alanwei.com/blog/2019/03/20/vim-config"/>
         <updated>2019-03-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[我的Vim配置]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="vim" term="vim"/>
+        <category label="editor" term="editor"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[异步编程简介]]></title>
-        <id>异步编程简介</id>
+        <id>/2019/03/06/async</id>
         <link href="https://blog.alanwei.com/blog/2019/03/06/async"/>
         <updated>2019-03-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[JavaScript]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="async" term="async"/>
+        <category label="javascript" term="javascript"/>
+        <category label="csharp" term="csharp"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[哲学思维讲堂 - 卡尔·雅斯贝尔斯]]></title>
-        <id>哲学思维讲堂 - 卡尔·雅斯贝尔斯</id>
+        <id>/2014/09/09/philosophy-note</id>
         <link href="https://blog.alanwei.com/blog/2014/09/09/philosophy-note"/>
         <updated>2014-09-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[《哲学思维讲堂 - 卡尔·雅斯贝尔斯》摘抄]]></summary>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="哲学思维讲堂" term="哲学思维讲堂"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[数学系和物理系学生有什么差别？]]></title>
-        <id>数学系和物理系学生有什么差别？</id>
+        <id>/2014/09/04/math-physics-diff</id>
         <link href="https://blog.alanwei.com/blog/2014/09/04/math-physics-diff"/>
         <updated>2014-09-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[我曾经最大的梦想，就是嫁给一个数学家。]]></summary>
+        <author>
+            <name>唐知Tata</name>
+            <uri>http://www.zhihu.com/people/tang-zhi-tata</uri>
+        </author>
+        <category label="转摘" term="转摘"/>
+        <category label="知乎" term="知乎"/>
     </entry>
 </feed>

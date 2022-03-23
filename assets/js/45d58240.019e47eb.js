@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[87816],{120:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/maven-plugin","name":"maven plugin","count":1,"permalink":"/blog/tags/maven-plugin"}')}}]);

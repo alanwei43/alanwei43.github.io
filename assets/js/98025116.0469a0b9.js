@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[9315],{80399:function(l){l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/l-2-tp","name":"l2tp","count":1,"permalink":"/blog/tags/l-2-tp"}')}}]);

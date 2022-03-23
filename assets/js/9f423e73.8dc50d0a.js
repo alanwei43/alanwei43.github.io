@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[68318],{74738:function(l){l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/lombok","name":"lombok","count":1,"permalink":"/blog/tags/lombok"}')}}]);
