@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[90692],{64161:function(l){l.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/flutter","name":"flutter","count":3,"permalink":"/blog/tags/flutter"}')}}]);

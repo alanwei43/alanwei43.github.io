@@ -4,9 +4,17 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Wed, 16 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Flutter QA]]></title>
+            <link>https://blog.alanwei.com/blog/2022/03/24/flutter-qa</link>
+            <guid>/2022/03/24/flutter-qa</guid>
+            <pubDate>Thu, 24 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[QA]]></description>
+            <category>flutter</category>
+        </item>
         <item>
             <title><![CDATA[dotnet script 简介]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/16/dotnet-script-intro</link>
