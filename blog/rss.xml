@@ -4,9 +4,18 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Thu, 31 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[JavaScript滚动到页面顶部]]></title>
+            <link>https://blog.alanwei.com/blog/2022/04/4/javascript-scroll-top-smooth</link>
+            <guid>/2022/04/4/javascript-scroll-top-smooth</guid>
+            <pubDate>Mon, 04 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[原生滚动到页面顶部的动画效果]]></description>
+            <category>web</category>
+            <category>javascript</category>
+        </item>
         <item>
             <title><![CDATA[如何用形象的比喻描述大数据的技术生态？Hadoop、Hive、Spark 之间是什么关系？]]></title>
             <link>https://blog.alanwei.com/blog/2022/03/31/hadoop-hive-spark-intro</link>
