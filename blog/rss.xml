@@ -4,9 +4,18 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Mon, 04 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[JavaScript 取消事件绑定]]></title>
+            <link>https://blog.alanwei.com/blog/2022/04/6/javascript-cancel-event</link>
+            <guid>/2022/04/6/javascript-cancel-event</guid>
+            <pubDate>Wed, 06 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[JavaScript 取消事件绑定]]></description>
+            <category>javascript</category>
+            <category>web</category>
+        </item>
         <item>
             <title><![CDATA[JavaScript滚动到页面顶部]]></title>
             <link>https://blog.alanwei.com/blog/2022/04/4/javascript-scroll-top-smooth</link>
