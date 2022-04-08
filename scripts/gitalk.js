@@ -4,6 +4,10 @@
   script.defer = true;
   script.async = true;
   script.addEventListener("load", function () {
+    if (!document.querySelector("#gitalk-container")) {
+      return;
+    }
+
     const gitalk = new Gitalk({
       clientID: '23c4db407bb2651297c5',
       clientSecret: 'fc3130cc8193193e948f4230a1ee5ebdf17ae55f',
