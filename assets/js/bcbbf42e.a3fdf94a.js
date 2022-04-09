@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[52606],{26090:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/typescript","name":"typescript","count":4,"permalink":"/blog/tags/typescript"}')}}]);
