@@ -1,7 +1,7 @@
 var _hmt = _hmt || [];
 (function () {
-  if (location.hostname === "localhost") {
-    console.log("ignore baidu hm.js");
+  if (location.hostname === "localhost" || location.hostname === "blog.online.alanwei.com") {
+    console.log("ignore @baidu.js");
     return;
   }
   var hm = document.createElement("script");
