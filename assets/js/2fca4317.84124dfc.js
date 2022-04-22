@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[23206],{74517:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/ndoejs","name":"ndoejs","count":1,"permalink":"/blog/tags/ndoejs"}')}}]);
