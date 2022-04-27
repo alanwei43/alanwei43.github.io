@@ -4,9 +4,18 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Mon, 25 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[埋点使用Gif图片的优点]]></title>
+            <link>https://blog.alanwei.com/blog/2022/04/27/front-end-pv-gif</link>
+            <guid>/2022/04/27/front-end-pv-gif</guid>
+            <pubDate>Wed, 27 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[埋点使用Gif图片的优点 埋点使用Gif图片的优点]]></description>
+            <content:encoded><![CDATA[<blockquote><p>原文摘自: <a href="https://www.cnblogs.com/songyao666/p/15899263.html" target="_blank" rel="noopener noreferrer">为什么大厂前端监控都在用GIF做埋点？</a></p></blockquote><h2 class="anchor anchorWithHideOnScrollNavbar_R0VQ" id="防止跨域">防止跨域<a class="hash-link" href="#防止跨域" title="Direct link to heading">​</a></h2><p>如果调用接口上报数据, 需要处理跨域问题. 图片的<code>src</code>属性并不会跨域, 并且同样可以发起请求.</p><h2 class="anchor anchorWithHideOnScrollNavbar_R0VQ" id="防止阻塞页面加载">防止阻塞页面加载<a class="hash-link" href="#防止阻塞页面加载" title="Direct link to heading">​</a></h2><p>通常, 创建资源节点后只有将对象注入到浏览器DOM树后, 浏览器才会实际发送资源请求. 反复操作DOM不仅会引发性能问题, 而且载入js/css资源还会阻塞页面渲染, 影响用户体验. </p><p>但是图片请求例外. 构造图片打点不仅不用插入DOM, 只要在js中new出Image对象就能发起请求, 而且还没有阻塞问题. </p><h2 class="anchor anchorWithHideOnScrollNavbar_R0VQ" id="gif的体积更小">GIF的体积更小<a class="hash-link" href="#gif的体积更小" title="Direct link to heading">​</a></h2><p>最小的BMP文件需要74个字节, PNG需要67个字节, 而合法的GIF, 只需要43个字节.  同样的响应, GIF可以比BMP节约41%的流量, 比PNG节约35%的流量. 并且大多采用的是1*1像素的透明GIF来上报, 1x1像素是最小的合法图片.</p>]]></content:encoded>
+            <category>web</category>
+        </item>
         <item>
             <title><![CDATA[查看Linux系统开机时间]]></title>
             <link>https://blog.alanwei.com/blog/2022/04/25/linux-reboot-time</link>
