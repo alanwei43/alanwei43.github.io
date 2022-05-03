@@ -4,9 +4,20 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Wed, 27 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Windows 10 密钥查看及备份]]></title>
+            <link>https://blog.alanwei.com/blog/2022/05/03/windows-10-key-backup</link>
+            <guid>/2022/05/03/windows-10-key-backup</guid>
+            <pubDate>Tue, 03 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Windows 10 密钥查看及备份, 激活]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_R0VQ" id="查看当前系统激活密钥">查看当前系统激活密钥<a class="hash-link" href="#查看当前系统激活密钥" title="Direct link to heading">​</a></h2><p>打开注册表( Win+R &gt; regedit ), 定位到 <em>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform</em>, 然后查看 <strong>BackupProductKeyDefault</strong> 的值即可</p><h2 class="anchor anchorWithHideOnScrollNavbar_R0VQ" id="vk7jg-nphtm-c97jm-9mpgt-3v66t">VK7JG-NPHTM-C97JM-9MPGT-3V66T<a class="hash-link" href="#vk7jg-nphtm-c97jm-9mpgt-3v66t" title="Direct link to heading">​</a></h2><p><a href="http://www.winwin7.com/JC/8567.html" target="_blank" rel="noopener noreferrer">为什么Win10激活密钥都是VK7JG-NPHTM-C97JM-9MPGT-3V66T</a></p><p>其实<code>VK7JG-NPHTM-C97JM-9MPGT-3V66T</code>这个产品秘钥并不能称为激活秘钥，只不过Win7、Win8.1系统升级Win10的用户微软都会默认使用这个秘钥，对于激活win10使用的是数字权利激活方试，3v66t是大批量许可 使用它并不会对大家造成影响。</p><p>Win10政府版产品通用密钥：<code>YYVX9-NTFWV-6MDM3-9PT4T-4M68B</code> ，来源 <a href="http://www.winwin7.com/JC/8511.html" target="_blank" rel="noopener noreferrer">winwin7</a></p>]]></content:encoded>
+            <category>windows</category>
+            <category>windows 10</category>
+            <category>key</category>
+        </item>
         <item>
             <title><![CDATA[埋点使用Gif图片的优点]]></title>
             <link>https://blog.alanwei.com/blog/2022/04/27/front-end-pv-gif</link>
