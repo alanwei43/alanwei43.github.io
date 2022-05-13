@@ -3,27 +3,57 @@ document.querySelector("input[type=file]").addEventListener("change", e => {
    * 添加视频
    */
   const video = e.target.files[0];
-
-  const ele = document.createElement("video");
-  ele.controls = true;
-  ele.style.height = "200px";
-  ele.style.width = "200px";
-  const source = document.createElement("source");
-  source.src = URL.createObjectURL(video);
-  source.type = video.type;
-  ele.appendChild(source);
-
-  document.body.append(ele);
+  readVideoAlbum({
+    video: video,
+  }).then(img => document.querySelector("img").src = img);
 });
 
-document.querySelector("button").addEventListener("click", () => {
-  /**
-   * 截图
-   */
-  const video = document.querySelector("video");
-  const canvas = document.getElementById("screenshot");
-  const ctx = canvas.getContext("2d");
-  ctx.drawImage(video, 0, 0, 200, 200);
-  const imgData = canvas.toDataURL();
-  document.querySelector("img").src = imgData;
-});
+
+/**
+ * 
+ * @param {{video: File}} params 
+ */
+function readVideoAlbum(params) {
+  return new Promise((resolve, reject) => {
+    const eleVideo = document.createElement("video");
+    eleVideo.style.display = "none";
+    eleVideo.controls = true;
+    eleVideo.autoplay = false;
+    eleVideo.muted = true;
+    eleVideo.playsInline = true;
+    eleVideo.style.height = "auto";
+    eleVideo.style.width = "auto";
+    const source = document.createElement("source");
+    source.src = URL.createObjectURL(params.video);
+    source.type = params.video.type;
+    eleVideo.appendChild(source);
+    document.body.append(eleVideo);
+    let canvas;
+    eleVideo.play()
+      .then(() => {
+        canvas = document.createElement("canvas");
+        canvas.width = eleVideo.videoWidth;
+        canvas.height = eleVideo.videoHeight;
+        canvas.style.display = "none";
+        document.body.append(canvas);
+        const ctx = canvas.getContext("2d");
+        if (!ctx) {
+          throw new Error("canvas.getContext 异常");
+        }
+        ctx.drawImage(eleVideo, 0, 0, eleVideo.videoWidth, eleVideo.videoHeight);
+        const base64 = canvas.toDataURL();
+        resolve(base64);
+        eleVideo.pause();
+      })
+      .catch(err => reject(err))
+      .then(() => {
+        setTimeout(() => {
+          /**
+           * 销毁创建的元素
+           */
+          canvas && document.body.removeChild(canvas);
+          document.body.removeChild(eleVideo);
+        }, 500);
+      });
+  });
+}
