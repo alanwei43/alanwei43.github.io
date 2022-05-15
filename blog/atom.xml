@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2022-05-14T00:00:00.000Z</updated>
+    <updated>2022-05-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Dockerfile 指定 entrypoint 之后运行报 exec format error 错误]]></title>
+        <id>/2022/05/15/docker-entrypoint-exec-format-error</id>
+        <link href="https://blog.alanwei.com/blog/2022/05/15/docker-entrypoint-exec-format-error"/>
+        <updated>2022-05-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Dockerfile 指定 entrypoint 脚本后, 运行提示一下错误:]]></summary>
+        <content type="html"><![CDATA[<p><code>Dockerfile</code> 指定 <code>entrypoint</code> 脚本后, 运行提示一下错误:</p><div class="codeBlockContainer_I0IT theme-code-block"><div class="codeBlockContent_wNvx"><pre tabindex="0" class="prism-code language-text codeBlock_jd64 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#393A34"><span class="token plain">standard_init_linux.go:228: exec user process caused: exec format error</span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_wuS7 clean-btn">Copy</button></div></div><p>这种情况尝试给 <code>entrypoint</code> 指定的shell脚本添加shebang:</p><div class="codeBlockContainer_I0IT language-bash theme-code-block"><div style="color:#393A34;background-color:#f6f8fa" class="codeBlockTitle_BvAR">entrypoint.sh</div><div class="codeBlockContent_wNvx bash"><pre tabindex="0" class="prism-code language-bash codeBlock_jd64 thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_mRuA"><span class="token-line" style="color:#393A34"><span class="token shebang important">#!/bin/bash</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">code-server --config /code-server/config.yaml /app </span><span class="token comment" style="color:#999988;font-style:italic"># 你的脚本内容</span><br></span></code></pre><button type="button" aria-label="Copy code to clipboard" class="copyButton_wuS7 clean-btn">Copy</button></div></div><blockquote><p>来源: <a href="https://bobcares.com/blog/docker-exec-format-error/" target="_blank" rel="noopener noreferrer">Docker exec format error – How we sort it out?</a>: </p></blockquote><blockquote><p>The shebang is always on the first line of the script, and is composed of <code>#!</code> Characters. So the Shebang (<code>#!/bin/bash</code>) should be put on the first line of the script because the first bytes were checked by kernel. So we add the shebang in the script.</p></blockquote>]]></content>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="docker" term="docker"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[开放 docker daemon TCP 端口号 2375]]></title>
         <id>/2022/05/14/docker-daemon-tcp-port</id>
