@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[14167],{85602:function(a){a.exports=JSON.parse('{"label":".net framework","permalink":"/blog/tags/net-framework","allTagsPath":"/blog/tags","count":1}')}}]);

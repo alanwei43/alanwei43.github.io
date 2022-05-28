@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[1],{31748:function(a){a.exports=JSON.parse('{"permalink":"/blog/tags/\u8bd1\u6587","page":1,"postsPerPage":15,"totalPages":1,"totalCount":2,"blogDescription":"Alan\u7684\u535a\u6587\u5217\u8868","blogTitle":"\u535a\u5ba2"}')}}]);

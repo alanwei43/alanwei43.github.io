@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[17434],{394:function(a){a.exports=JSON.parse('{"label":"kafka","permalink":"/blog/tags/kafka","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[33791],{63514:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/git-tag","name":"git tag","count":1,"permalink":"/blog/tags/git-tag"}')}}]);

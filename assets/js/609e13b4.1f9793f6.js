@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[48566],{39695:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/asp-net","name":"asp.net","count":2,"permalink":"/blog/tags/asp-net"}')}}]);

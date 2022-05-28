@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[15209],{69096:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/web-config","name":"web.config","count":1,"permalink":"/blog/tags/web-config"}')}}]);

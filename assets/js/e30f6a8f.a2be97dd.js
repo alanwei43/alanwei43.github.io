@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[79664],{7563:function(a){a.exports=JSON.parse('{"label":"undici","permalink":"/blog/tags/undici","allTagsPath":"/blog/tags","count":1}')}}]);

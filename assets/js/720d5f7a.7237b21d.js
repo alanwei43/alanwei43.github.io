@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[14687],{3162:function(a){a.exports=JSON.parse('{"label":"spark","permalink":"/blog/tags/spark","allTagsPath":"/blog/tags","count":1}')}}]);

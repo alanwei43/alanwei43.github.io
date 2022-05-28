@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[34074],{64786:function(a){a.exports=JSON.parse('{"label":"jdk1.8","permalink":"/blog/tags/jdk-1-8","allTagsPath":"/blog/tags","count":1}')}}]);

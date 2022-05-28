@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[4705],{54289:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/chrome-launcher","name":"chrome-launcher","count":1,"permalink":"/blog/tags/chrome-launcher"}')}}]);

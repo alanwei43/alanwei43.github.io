@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[47021],{40657:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/mac-os","name":"macOS","count":2,"permalink":"/blog/tags/mac-os"}')}}]);

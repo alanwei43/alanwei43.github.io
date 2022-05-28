@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[80965],{46639:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/vsc","name":"vsc","count":10,"permalink":"/blog/tags/vsc"}')}}]);

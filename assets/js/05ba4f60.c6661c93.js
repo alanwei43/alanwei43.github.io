@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[97459],{75554:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/proxy","name":"proxy","count":2,"permalink":"/blog/tags/proxy"}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[21095],{74364:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/spring-boot","name":"spring boot","count":6,"permalink":"/blog/tags/spring-boot"}')}}]);

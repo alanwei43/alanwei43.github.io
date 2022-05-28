@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[97113],{35597:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/\u65e5\u5fd7","name":"\u65e5\u5fd7","count":2,"permalink":"/blog/tags/\u65e5\u5fd7"}')}}]);

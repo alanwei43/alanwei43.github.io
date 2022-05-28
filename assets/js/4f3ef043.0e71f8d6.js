@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[85589],{90349:function(a){a.exports=JSON.parse('{"label":"ipsec","permalink":"/blog/tags/ipsec","allTagsPath":"/blog/tags","count":4}')}}]);

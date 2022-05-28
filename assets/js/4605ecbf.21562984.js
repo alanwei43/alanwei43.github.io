@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[37084],{6770:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/csharp","name":"csharp","count":2,"permalink":"/blog/tags/csharp"}')}}]);
