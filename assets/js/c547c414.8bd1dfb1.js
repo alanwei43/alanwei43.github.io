@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[88082],{63673:function(a){a.exports=JSON.parse('{"label":"async","permalink":"/blog/tags/async","allTagsPath":"/blog/tags","count":1}')}}]);
