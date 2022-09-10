@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[12124],{22618:function(l){l.exports=JSON.parse('{"label":"mozilla","permalink":"/blog/tags/mozilla","allTagsPath":"/blog/tags","count":1}')}}]);

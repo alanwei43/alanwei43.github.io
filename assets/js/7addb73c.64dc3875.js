@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[61195],{44441:function(a){a.exports=JSON.parse('{"label":"windows 10","permalink":"/blog/tags/windows-10","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[96590],{74313:l=>{l.exports=JSON.parse('{"label":"dockerfile","permalink":"/blog/tags/dockerfile","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[24157],{54918:a=>{a.exports=JSON.parse('{"label":"dart","permalink":"/blog/tags/dart","allTagsPath":"/blog/tags","count":1}')}}]);

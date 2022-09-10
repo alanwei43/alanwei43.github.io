@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[74186],{46274:l=>{l.exports=JSON.parse('{"label":"intel","permalink":"/blog/tags/intel","allTagsPath":"/blog/tags","count":1}')}}]);

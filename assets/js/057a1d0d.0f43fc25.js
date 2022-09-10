@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[32359],{81161:function(a){a.exports=JSON.parse('{"label":"ikev2","permalink":"/blog/tags/ikev-2","allTagsPath":"/blog/tags","count":1}')}}]);

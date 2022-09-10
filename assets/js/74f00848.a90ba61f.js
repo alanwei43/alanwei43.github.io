@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[71091],{41012:l=>{l.exports=JSON.parse('{"label":"url rewrite","permalink":"/blog/tags/url-rewrite","allTagsPath":"/blog/tags","count":1}')}}]);
