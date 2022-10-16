@@ -641,7 +641,7 @@ iso文件下载地址: </p><ul><li>天翼云盘 <a href="https://cloud.189.cn/t/
         <link href="https://blog.alanwei.com/blog/2022/02/24/idea-lombok"/>
         <updated>2022-02-24T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[依次打开IDEA设置:]]></summary>
-        <content type="html"><![CDATA[<p>依次打开IDEA设置:</p><p><code>Settings &gt; Build, Execution, Deployment &gt; Compiler</code></p><p>然后在 <code>Shared build process VM options</code> 增加 <code>-Djps.track.ap.dependencies=false</code> 即可.</p><p>也可以针对项目设置. 原理就是使用增加JVM环境变量.</p>]]></content>
+        <content type="html"><![CDATA[<p>依次打开IDEA设置:</p><p><code>Settings &gt; Build, Execution, Deployment &gt; Compiler</code></p><p>然后在 <code>Shared build process VM options</code> 增加 <code>-Djps.track.ap.dependencies=false</code> 即可.</p><p>也可以针对项目设置. 原理就是使用增加JVM环境变量.</p><p>如果还未生效, 需要执行以下<code>mvn clean</code>命令清理 <em>target</em></p>]]></content>
         <author>
             <name>Alan</name>
             <uri>https://github.com/alanwei43</uri>
