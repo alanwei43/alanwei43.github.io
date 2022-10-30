@@ -1,0 +1,52 @@
+.container {
+  max-width: 960px;
+  margin: 10px auto;
+}
+
+hr.splitor {
+  margin: 20px auto;
+  border: none;
+  border-top: 1px dashed gray;
+}
+
+legend {
+  background-color: #000;
+  color: #fff;
+  padding: 3px 6px;
+}
+
+form>div {
+  margin: 10px auto;
+}
+
+#todo-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#todo-list li {
+  margin: 0 auto;
+  color: #0094ff;
+  font-size: 1em;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+#todo-list li:hover,
+#todo-list li.done:hover,
+#todo-list li:hover button {
+  color: green;
+}
+
+#todo-list li button {
+  margin-left: 10px;
+  float: right;
+  border: none;
+  padding: 5px 10px;
+}
+
+#todo-list li.done {
+  text-decoration: line-through;
+  color: red;
+}
