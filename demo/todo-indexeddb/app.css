@@ -36,7 +36,6 @@ form>div {
 #todo-list li:hover,
 #todo-list li.done:hover,
 #todo-list li:hover button {
-  color: green;
 }
 
 #todo-list li button {
