@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2022-09-04T00:00:00.000Z</updated>
+    <updated>2022-11-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[google.cn 资源整理]]></title>
+        <id>/2022/11/13/google-cn-resources</id>
+        <link href="https://blog.alanwei.com/blog/2022/11/13/google-cn-resources"/>
+        <updated>2022-11-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[* Google Developers]]></summary>
+        <content type="html"><![CDATA[<ul><li><a href="https://developers.google.cn/" target="_blank" rel="noopener noreferrer">Google Developers</a></li><li>Chrome下载地址<ul><li><a href="https://www.google.cn/intl/en_us/chrome/" target="_blank" rel="noopener noreferrer">Chrome</a></li><li><a href="https://www.google.cn/intl/en_us/chrome/beta/" target="_blank" rel="noopener noreferrer">Chrome beta</a></li></ul></li><li><a href="https://developer.android.google.cn/" target="_blank" rel="noopener noreferrer">Android Developer</a></li></ul>]]></content>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="google" term="google"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[解决nuxt依赖Node原生模块导致构建失败问题]]></title>
         <id>/2022/09/04/fix-nuxt-node-fs-resolver-problem</id>

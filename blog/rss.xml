@@ -4,10 +4,19 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Sun, 04 Sep 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 13 Nov 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[google.cn 资源整理]]></title>
+            <link>https://blog.alanwei.com/blog/2022/11/13/google-cn-resources</link>
+            <guid>/2022/11/13/google-cn-resources</guid>
+            <pubDate>Sun, 13 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[* Google Developers]]></description>
+            <content:encoded><![CDATA[<ul><li><a href="https://developers.google.cn/" target="_blank" rel="noopener noreferrer">Google Developers</a></li><li>Chrome下载地址<ul><li><a href="https://www.google.cn/intl/en_us/chrome/" target="_blank" rel="noopener noreferrer">Chrome</a></li><li><a href="https://www.google.cn/intl/en_us/chrome/beta/" target="_blank" rel="noopener noreferrer">Chrome beta</a></li></ul></li><li><a href="https://developer.android.google.cn/" target="_blank" rel="noopener noreferrer">Android Developer</a></li></ul>]]></content:encoded>
+            <category>google</category>
+        </item>
         <item>
             <title><![CDATA[解决nuxt依赖Node原生模块导致构建失败问题]]></title>
             <link>https://blog.alanwei.com/blog/2022/09/04/fix-nuxt-node-fs-resolver-problem</link>
