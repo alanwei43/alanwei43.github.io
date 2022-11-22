@@ -2,11 +2,26 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2022-11-13T00:00:00.000Z</updated>
+    <updated>2022-11-18T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[以非root账号方式运行Docker]]></title>
+        <id>/2022/11/18/docker-run-as-non-root-user</id>
+        <link href="https://blog.alanwei.com/blog/2022/11/18/docker-run-as-non-root-user"/>
+        <updated>2022-11-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 Manage Docker as a non-root user]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://docs.docker.com/engine/install/linux-postinstall/" target="_blank" rel="noopener noreferrer">原文 Manage Docker as a non-root user</a></p><p>Docker daemon 绑定到 Unix socket, 而不是 TCP Port. 默认情况下只有 <code>root</code> 账号可以访问 Unix socket, 所以一般需要操作Docker时需要使用 <code>sudo docker</code> 的方式.</p><p>下面介绍如果使用docker命令而不需要root账号:</p><div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token comment" style="color:#999988;font-style:italic"># 创建 docker group</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">sudo</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">groupadd</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">docker</span><span class="token plain"> </span><span class="token comment" style="color:#999988;font-style:italic"># 如果是使用包管理器安装docker, 有可能已经创建了这个group</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># 把当前用户添加到该 group</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token function" style="color:#d73a49">sudo</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">usermod</span><span class="token plain"> -aG </span><span class="token function" style="color:#d73a49">docker</span><span class="token plain"> </span><span class="token environment constant" style="color:#36acaa">$USER</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain"></span><span class="token comment" style="color:#999988;font-style:italic"># 使用以下命令激活该组, 或者退出重新登陆</span><span class="token plain"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">newgrp </span><span class="token function" style="color:#d73a49">docker</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>然后执行docker命令就不需要借助sudo了, Visual Studio Code 也可以正常使用容器开发了.</p>]]></content>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="docker" term="docker"/>
+        <category label="vsc" term="vsc"/>
+        <category label="visual studio code" term="visual studio code"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[google.cn 资源整理]]></title>
         <id>/2022/11/13/google-cn-resources</id>
@@ -619,19 +634,6 @@ Undici 是意大利语中的 11 的意思: HTTP/1.1 -&gt; 11 -&gt; Eleven -&gt; 
         </author>
         <category label="vmware" term="vmware"/>
         <category label="vmrun" term="vmrun"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[VMware Workstation Pro keys]]></title>
-        <id>/2022/02/27/vmware-workstation-pro-keys</id>
-        <link href="https://blog.alanwei.com/blog/2022/02/27/vmware-workstation-pro-keys"/>
-        <updated>2022-02-27T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[VMware Workstation Pro 16 许可证密钥，批量永久激活]]></summary>
-        <content type="html"><![CDATA[<p>VMware Workstation Pro 16 许可证密钥，批量永久激活: </p><ul><li>ZF3R0-FHED2-M80TY-8QYGC-NPKYF</li><li>YF390-0HF8P-M81RQ-2DXQE-M2UT6</li><li>ZF71R-DMX85-08DQY-8YMNC-PPHV8</li></ul>]]></content>
-        <author>
-            <name>Alan</name>
-            <uri>https://github.com/alanwei43</uri>
-        </author>
-        <category label="vmware" term="vmware"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[VMware的Windows虚拟机中因驱动签名问题无法安装 VMware Tools]]></title>
