@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>摇一摇 Demo</title>
+    <script src="https://x.autoimg.cn/app/scripts/ahapp-2.0.js"></script>
+    <script src="https://x.autoimg.cn/dealer/dealerm/dist/0_dev/ics-yhz-fe/ics-yhz-fe.umd.js?v=2023-01-06&beta=2"></script>
+    <style type="text/css">
+        button {
+            display: block;
+            padding: 20px 25px;
+        }
+        span {
+            padding: 10px 15px;
+            border: 1px solid gray;
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>v2023-01-06-1</div>
+    <span id="stop">stop</span>
+    <span onclick="location.reload()">刷新页面</span>
+    <ol id="log"></ol>
+    <script>
+        function log(txt) {
+            const eleLi = document.createElement("li");
+            eleLi.textContent = JSON.stringify(txt || "");
+            const ele = document.querySelector("#log");
+            ele.appendChild(eleLi)
+        }
+        window.IcsYhzFe.watchAppShake({
+            watch: (args) => {
+                log("[v1] on shake " + JSON.stringify(args))
+            }
+        });
+        
+        window.IcsYhzFe.watchAppShake({
+            watch: (args) => {
+                log("[v2] on shake " + JSON.stringify(args))
+            }
+        });
+        const result = window.IcsYhzFe.watchAppShake({
+            watch: (args) => {
+                log("[v3] on shake " + JSON.stringify(args))
+            }
+        });
+        document.querySelector("#stop").addEventListener("click", () => {
+            log(result)
+            result.result.stopShake();
+        })
+    </script>
+</body>
+
+</html>
