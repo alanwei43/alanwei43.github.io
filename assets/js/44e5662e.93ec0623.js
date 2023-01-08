@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[49344],{82782:l=>{l.exports=JSON.parse('{"label":"vlc","permalink":"/blog/tags/vlc","allTagsPath":"/blog/tags","count":1}')}}]);
