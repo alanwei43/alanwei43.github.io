@@ -4,10 +4,27 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Mon, 09 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 04 Feb 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Ubuntu启动Chrome去掉每次输入密码]]></title>
+            <link>https://blog.alanwei.com/blog/2023/02/04/linux-chrome-disable-password</link>
+            <guid>/2023/02/04/linux-chrome-disable-password</guid>
+            <pubDate>Sat, 04 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[ref Q&A: How can I make Chrome stop asking for a password on my Linux laptop?]]></description>
+            <content:encoded><![CDATA[<blockquote><p>ref <a href="https://www.ricksdailytips.com/prevent-chrome-from-asking-for-a-password-with-ubuntu" target="_blank" rel="noopener noreferrer">Q&amp;A: How can I make Chrome stop asking for a password on my Linux laptop?</a></p></blockquote><ol><li><p>Ubuntu 搜索 <code>seahorse</code>, 然后打开<code>Passwords and Keys</code>:
+<img loading="lazy" alt="passwords and keys" src="/assets/images/2023-02-04_21-00-7c8106b9bb1ffa65ef6687053a0354a6.png" width="391" height="271" class="img_ev3q"></p></li><li><p>然后右击 <code>Login</code>, 选择 <code>Change password</code>:
+<img loading="lazy" alt="Change password" src="/assets/images/change-password-b5750fa9c70bcdd4f11826fa3919f028.png" width="736" height="331" class="img_ev3q"></p></li><li><p>输入当前账号登陆密码之后, 点击 <code>Continue</code>,
+<img loading="lazy" alt="input system login password" src="/assets/images/input-system-login-password-b0f83ec77ce01c4a2853ba7bb504efb8.png" width="736" height="328" class="img_ev3q"></p></li><li><p>在 <code>Choose a new password for a 'Login'...</code> 对话框里的两个密码输入框留空, 点击 <code>Continue</code>
+<img loading="lazy" alt="empty new password" src="/assets/images/empty-new-password-8916d06f0983d296d7a25e613a4003e9.png" width="735" height="354" class="img_ev3q">
+<img loading="lazy" alt="continue" src="/assets/images/continue-c8f26a6129e45752222534feb68b05d9.png" width="735" height="354" class="img_ev3q"></p></li></ol><p>以后再启动 Google Chrome 或者 Microsoft Edge 之后就不需要密码了.</p>]]></content:encoded>
+            <category>ubuntu</category>
+            <category>linux</category>
+            <category>chrome</category>
+            <category>microsoft edge</category>
+        </item>
         <item>
             <title><![CDATA[Awesome Code Snippet]]></title>
             <link>https://blog.alanwei.com/blog/2023/01/09/awesome-code-snippet</link>
