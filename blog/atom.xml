@@ -2,11 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2023-02-12T00:00:00.000Z</updated>
+    <updated>2023-02-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[解决 Chrome 记住 HTTP 自动跳转 HTTPS]]></title>
+        <id>https://blog.alanwei.com/blog/2023/02/21/chrome-redirect-https-from-http</id>
+        <link href="https://blog.alanwei.com/blog/2023/02/21/chrome-redirect-https-from-http"/>
+        <updated>2023-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Chrome 为了用户安全, 在检测到网站支持HTTPS协议之后, 会记住该行为, 下次自动使用HTTPS协议, 即便手动输入 http:// 强制访问HTTP也不行.]]></summary>
+        <content type="html"><![CDATA[<p>Chrome 为了用户安全, 在检测到网站支持HTTPS协议之后, 会记住该行为, 下次自动使用HTTPS协议, 即便手动输入 <code>http://</code> 强制访问HTTP也不行. </p><p>这时候可以使用无痕模式访问, 或者通过清理 Chrome 对应域名的安全缓存, 解决该问题:</p><ol><li>使用Chrome打开地址 <code>chrome://net-internals/#hsts</code></li><li>在 <code>Delete domain security policies</code> 文本框输入要清理的域名, 然后点击 <em>Delete</em> 按钮即可.
+<img loading="lazy" alt="clear-security-policies" src="/assets/images/clear-security-policies-5f05f32703c12e99b46120bb0c47f7df.png" width="718" height="413" class="img_ev3q"></li><li>使用Chrome打开 <code>chrome://settings/clearBrowserData</code>, 在 <code>Basic</code> 标签里仅勾选 <code>Cached images and files</code> 然后点击 <em>Clear data</em> 清理缓存数据
+<img loading="lazy" alt="chrome-clear-browser-data" src="/assets/images/chrome-clear-browser-data-2c01fff437b149358c0f6b7389878936.png" width="513" height="492" class="img_ev3q"></li></ol><div class="theme-admonition theme-admonition-info alert alert--info admonition_LlT9"><div class="admonitionHeading_tbUL"><span class="admonitionIcon_kALy"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_S0QG"><p>引用原文:</p><ul><li><a href="https://superuser.com/questions/1400200/chrome-persistently-redirecting-to-https-for-http-site" target="_blank" rel="noopener noreferrer">Chrome persistently redirecting to HTTPS for HTTP site</a></li><li><a href="https://superuser.com/questions/565409/how-to-stop-an-automatic-redirect-from-http-to-https-in-chrome" target="_blank" rel="noopener noreferrer">How to stop an automatic redirect from “http://” to “https://” in Chrome</a></li></ul></div></div>]]></content>
+        <author>
+            <name>Alan</name>
+            <uri>https://github.com/alanwei43</uri>
+        </author>
+        <category label="chrome" term="chrome"/>
+        <category label="https" term="https"/>
+        <category label="http" term="http"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Docusaurus 多个文档]]></title>
         <id>https://blog.alanwei.com/blog/2023/02/12/docusaurus-multi-documents</id>
