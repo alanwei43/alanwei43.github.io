@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[30374],{90754:a=>{a.exports=JSON.parse('{"label":"es5","permalink":"/blog/tags/es-5","allTagsPath":"/blog/tags","count":1}')}}]);
