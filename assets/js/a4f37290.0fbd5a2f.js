@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[79088],{41195:l=>{l.exports=JSON.parse('{"label":"gnome shell","permalink":"/blog/tags/gnome-shell","allTagsPath":"/blog/tags","count":1}')}}]);

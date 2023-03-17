@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[99081],{95297:a=>{a.exports=JSON.parse('{"label":"gnome","permalink":"/blog/tags/gnome","allTagsPath":"/blog/tags","count":1}')}}]);
