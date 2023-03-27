@@ -2,11 +2,20 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2023-03-17T00:00:00.000Z</updated>
+    <updated>2023-03-27T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[NGINX location 指令示例]]></title>
+        <id>https://blog.alanwei.com/blog/2023/03/27/nginx-location-directive</id>
+        <link href="https://blog.alanwei.com/blog/2023/03/27/nginx-location-directive"/>
+        <updated>2023-03-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原文 Nginx location directive examples]]></summary>
+        <content type="html"><![CDATA[<p>原文 <a href="https://www.digitalocean.com/community/tutorials/nginx-location-directive" target="_blank" rel="noopener noreferrer">Nginx location directive examples</a></p><p>Nginx server 块的 location 指令用来nginx如何根据URL寻找资源.</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="语法">语法<a href="#语法" class="hash-link" aria-label="Direct link to 语法" title="Direct link to 语法">​</a></h2><p>nginx location directive 语法如下:</p><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">location [modifier] [URI] {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    ...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg class="copyButtonIcon_y97N" viewBox="0 0 24 24"><path d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg class="copyButtonSuccessIcon_LjdS" viewBox="0 0 24 24"><path d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div><p>nginx location block 可以出现在 server block 内, 或者带有特定限制出现在另一个 location block 内.</p><p><em>[modifier]</em>  是可选的, 不同的 <em>[modifier]</em> 让nginx对待URL的行为不一样, 比较常用的 <em>[modifier]</em> 如下:</p><table><thead><tr><th>modifier</th><th>description</th></tr></thead><tbody><tr><td><strong>none</strong></td><td>如果没有 <em>[modifier]</em>, 该 location block 将会匹配所有以 <em>[URI]</em> 开头的请求URL.</td></tr><tr><td><strong>=</strong></td><td>等于号, 表示该 location block 只会匹配和 <em>[URI]</em> 完全相同的请求URL.(区分大小写)</td></tr><tr><td><strong>^~</strong></td><td>表示普通字符串匹配成功后, 不再进行其他 location 的匹配</td></tr><tr><td><strong>~</strong></td><td>波浪号, 表示 <em>[URI]</em> 是区分大小写的正则表达式, 如果请求URL和该正则匹配, 则命中该 location block</td></tr><tr><td><strong>~*</strong></td><td>表示 <em>[URI]</em> 是忽略大小写的正则表达式</td></tr></tbody></table>]]></content>
+        <category label="nginx" term="nginx"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Ubuntu install gnome]]></title>
         <id>https://blog.alanwei.com/blog/2023/03/17/gnome-shell</id>
