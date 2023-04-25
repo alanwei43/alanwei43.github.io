@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[59606],{11674:a=>{a.exports=JSON.parse('{"label":".vimrc","permalink":"/docs/articles/tags/vimrc","allTagsPath":"/docs/articles/tags","count":1,"items":[{"id":"vim/README","title":"Vim \u6280\u5de7\u68b3\u7406","description":"* VSCode Vim","permalink":"/docs/articles/vim/"}]}')}}]);
