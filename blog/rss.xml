@@ -19,20 +19,14 @@
             <category>linux</category>
         </item>
         <item>
-            <title><![CDATA[Device install CA credentials]]></title>
-            <link>https://blog.alanwei.com/blog/2023/05/14/install-CA-credentials</link>
-            <guid>https://blog.alanwei.com/blog/2023/05/14/install-CA-credentials</guid>
-            <pubDate>Sun, 14 May 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[https://learning.postman.com/docs/sending-requests/capturing-request-data/capturing-https-traffic/#android]]></description>
-            <content:encoded><![CDATA[<p><a href="https://learning.postman.com/docs/sending-requests/capturing-request-data/capturing-https-traffic/#android" target="_blank" rel="noopener noreferrer">https://learning.postman.com/docs/sending-requests/capturing-request-data/capturing-https-traffic/#android</a></p>]]></content:encoded>
-        </item>
-        <item>
             <title><![CDATA[Vim format JSON]]></title>
             <link>https://blog.alanwei.com/blog/2023/05/11/vim-json</link>
             <guid>https://blog.alanwei.com/blog/2023/05/11/vim-json</guid>
             <pubDate>Thu, 11 May 2023 00:00:00 GMT</pubDate>
-            <description><![CDATA[https://lloydrochester.com/post/vim/format_json/]]></description>
-            <content:encoded><![CDATA[<p><a href="https://lloydrochester.com/post/vim/format_json/" target="_blank" rel="noopener noreferrer">https://lloydrochester.com/post/vim/format_json/</a></p>]]></content:encoded>
+            <description><![CDATA[原文 Vim 格式化JSON]]></description>
+            <content:encoded><![CDATA[<p><a href="https://lloydrochester.com/post/vim/format_json/" target="_blank" rel="noopener noreferrer">原文 Vim 格式化JSON</a></p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="步骤">步骤<a href="#步骤" class="hash-link" aria-label="Direct link to 步骤" title="Direct link to 步骤">​</a></h2><ol><li>使用Vim打开JSON文件 <code>vim hello.json</code></li><li>调用外部命令格式化JSON: <code>:%!jq . -</code></li><li>保存文件并退出: <code>:wq</code></li></ol><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="解释">解释<a href="#解释" class="hash-link" aria-label="Direct link to 解释" title="Direct link to 解释">​</a></h2><p><code>:%!jq . -</code> 命令解释:</p><ul><li><code>:</code> 表示运行后面的命令</li><li><code>%</code> 将后面的命令作用于整个文件</li><li><code>!</code> 表示执行的是外部命令(即系统命令)</li><li><code>jq .</code> 是一个Linux命令(外部命令)</li><li><code>-</code> 是内容缓冲区</li></ul>]]></content:encoded>
+            <category>vim</category>
+            <category>json</category>
         </item>
         <item>
             <title><![CDATA[钉钉 Ubuntu/Debian 下载地址]]></title>
