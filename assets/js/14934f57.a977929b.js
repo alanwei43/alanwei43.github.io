@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[13924],{65704:a=>{a.exports=JSON.parse('{"label":"bashrc","permalink":"/blog/tags/bashrc","allTagsPath":"/blog/tags","count":1}')}}]);
