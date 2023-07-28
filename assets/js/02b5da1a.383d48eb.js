@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[18427],{19811:a=>{a.exports=JSON.parse('{"label":"wechat","permalink":"/blog/tags/wechat","allTagsPath":"/blog/tags","count":1}')}}]);

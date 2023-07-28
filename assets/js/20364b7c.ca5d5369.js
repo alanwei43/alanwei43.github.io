@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[32691],{57837:a=>{a.exports=JSON.parse('{"label":"touch event","permalink":"/blog/tags/touch-event","allTagsPath":"/blog/tags","count":1}')}}]);
