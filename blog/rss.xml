@@ -37,6 +37,8 @@
             <category>javascript</category>
             <category>web</category>
             <category>touch event</category>
+            <category>touch-action</category>
+            <category>passive</category>
         </item>
         <item>
             <title><![CDATA[macOS 系统微信聊天记录备份目录]]></title>

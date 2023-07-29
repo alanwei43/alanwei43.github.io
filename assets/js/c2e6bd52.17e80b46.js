@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[68537],{11979:a=>{a.exports=JSON.parse('{"label":"touch-action","permalink":"/blog/tags/touch-action","allTagsPath":"/blog/tags","count":1}')}}]);
