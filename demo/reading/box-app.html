@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box App</title>
+    <style type="text/css">
+        .margginBox {
+            position: absolute;
+            top: 100px;
+            padding-left: 7px;
+            padding-right: 7px;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 400px;
+            height: 400px;
+            background-color: #0094ffee;
+            color: white;
+        }
+
+        .margin {
+            position: absolute;
+            top: 0;
+        }
+
+        .top,
+        .left-right,
+        .bottom {
+            flex: 1;
+            text-align: center;
+            border: 1px dashed #aaa;
+        }
+
+        .left-right {
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .left,
+        .right {
+            flex: 1;
+            border: 1px solid green;
+        }
+
+        .content {
+            flex: 2;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="margginBox">
+        <span class="box">
+            <span class="margin">margin</span>
+            <span class="top">top</span>
+            <span class="left-right">
+                <span class="left">left</span>
+                <span class="content"></span>
+                <span class="right">right</span>
+            </span>
+            <span class="bottom">bottom</span>
+        </span>
+    </span>
+</body>
+
+</html>

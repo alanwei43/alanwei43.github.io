@@ -1,0 +1,122 @@
+[
+    {
+        "platform": "Windows x64 System installer",
+        "link": "https://update.code.visualstudio.com/{version}/win32-x64/stable"
+    },
+    {
+        "platform": "Windows x64 User installer",
+        "link": "https://update.code.visualstudio.com/{version}/win32-x64-user/stable"
+    },
+    {
+        "platform": "Windows x64 zip",
+        "link": "https://update.code.visualstudio.com/{version}/win32-x64-archive/stable"
+    },
+    {
+        "platform": "Windows x64 CLI",
+        "link": "https://update.code.visualstudio.com/{version}/cli-win32-x64/stable"
+    },
+    {
+        "platform": "Windows Arm64 System installer",
+        "link": "https://update.code.visualstudio.com/{version}/win32-arm64/stable"
+    },
+    {
+        "platform": "Windows Arm64 User installer",
+        "link": "https://update.code.visualstudio.com/{version}/win32-arm64-user/stable"
+    },
+    {
+        "platform": "Windows Arm64 zip",
+        "link": "https://update.code.visualstudio.com/{version}/win32-arm64-archive/stable"
+    },
+    {
+        "platform": "Windows Arm64 CLI",
+        "link": "https://update.code.visualstudio.com/{version}/cli-win32-arm64/stable"
+    },
+    {
+        "platform": "Windows x86 System installer",
+        "link": "https://update.code.visualstudio.com/{version}/win32/stable"
+    },
+    {
+        "platform": "Windows x86 User installer",
+        "link": "https://update.code.visualstudio.com/{version}/win32-user/stable"
+    },
+    {
+        "platform": "Windows x86 zip",
+        "link": "https://update.code.visualstudio.com/{version}/win32-archive/stable"
+    },
+    {
+        "platform": "Windows x86 CLI",
+        "link": "https://update.code.visualstudio.com/{version}/cli-win32-ia32/stable"
+    },
+    {
+        "platform": "macOS Universal",
+        "link": "https://update.code.visualstudio.com/{version}/darwin-universal/stable"
+    },
+    {
+        "platform": "macOS Intel chip",
+        "link": "https://update.code.visualstudio.com/{version}/darwin/stable"
+    },
+    {
+        "platform": "macOS Intel chip CLI",
+        "link": "https://update.code.visualstudio.com/{version}/cli-darwin-x64/stable"
+    },
+    {
+        "platform": "macOS Apple silicon",
+        "link": "https://update.code.visualstudio.com/{version}/darwin-arm64/stable"
+    },
+    {
+        "platform": "macOS Apple silicon CLI",
+        "link": "https://update.code.visualstudio.com/{version}/cli-darwin-arm64/stable"
+    },
+    {
+        "platform": "Linux x64",
+        "link": "https://update.code.visualstudio.com/{version}/linux-x64/stable"
+    },
+    {
+        "platform": "Linux x64 debian",
+        "link": "https://update.code.visualstudio.com/{version}/linux-deb-x64/stable"
+    },
+    {
+        "platform": "Linux x64 rpm",
+        "link": "https://update.code.visualstudio.com/{version}/linux-rpm-x64/stable"
+    },
+    {
+        "platform": "Linux x64 snap",
+        "link": "https://update.code.visualstudio.com/{version}/linux-snap-x64/stable"
+    },
+    {
+        "platform": "Linux Arm32 CLI",
+        "link": "https://update.code.visualstudio.com/{version}/cli-linux-x64/stable"
+    },
+    {
+        "platform": "Linux Arm32",
+        "link": "https://update.code.visualstudio.com/{version}/linux-armhf/stable"
+    },
+    {
+        "platform": "Linux Arm32 debian",
+        "link": "https://update.code.visualstudio.com/{version}/linux-deb-armhf/stable"
+    },
+    {
+        "platform": "Linux Arm32 rpm",
+        "link": "https://update.code.visualstudio.com/{version}/linux-rpm-armhf/stable"
+    },
+    {
+        "platform": "Linux Arm32 CLI ",
+        "link": "https://update.code.visualstudio.com/{version}/cli-linux-armhf/stable"
+    },
+    {
+        "platform": "Linux Arm64",
+        "link": "https://update.code.visualstudio.com/{version}/linux-arm64/stable"
+    },
+    {
+        "platform": "Linux Arm64 debian",
+        "link": "https://update.code.visualstudio.com/{version}/linux-deb-arm64/stable"
+    },
+    {
+        "platform": "Linux Arm64 rpm",
+        "link": "https://update.code.visualstudio.com/{version}/linux-rpm-arm64/stable"
+    },
+    {
+        "platform": "Linux Arm64 CLI",
+        "link": "https://update.code.visualstudio.com/{version}/cli-linux-arm64/stable"
+    }
+]
