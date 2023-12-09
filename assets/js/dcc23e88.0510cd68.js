@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[42634],{75130:a=>{a.exports=JSON.parse('{"label":"node-sass","permalink":"/blog/tags/node-sass","allTagsPath":"/blog/tags","count":1}')}}]);
