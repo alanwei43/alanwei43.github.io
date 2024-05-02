@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[48680],{92976:a=>{a.exports=JSON.parse('{"label":"bootstrap","permalink":"/blog/tags/bootstrap","allTagsPath":"/blog/tags","count":1}')}}]);

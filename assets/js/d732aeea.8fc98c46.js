@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[57322],{1600:a=>{a.exports=JSON.parse('{"label":"nextjs","permalink":"/blog/tags/nextjs","allTagsPath":"/blog/tags","count":1}')}}]);
