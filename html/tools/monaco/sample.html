@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    html,
+    body,
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <script>
+    (function () {
+      const frame = document.createElement("iframe");
+      frame.src = "./index.html";
+      frame.addEventListener("load", function () {
+        frame.contentWindow.postMessage({
+          action: "create",
+          payload: {
+            value: `{ "fn": "Alan", "ln": "Wei" }`,
+            language: 'json'
+          }
+        }, {
+          "targetOrigin": "*"
+        });
+      });
+      document.body.appendChild(frame);
+
+      window.addEventListener("message", ({ data }) => {
+        if (data && data.action) {
+          console.log("parent receive message data: ", data);
+        }
+      })
+    })();
+  </script>
+</body>
+
+</html>
