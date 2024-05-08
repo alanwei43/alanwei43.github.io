@@ -23,6 +23,7 @@
       frame.src = "./index.html";
       frame.addEventListener("load", function () {
         frame.contentWindow.postMessage({
+          source: "monaco-editor",
           action: "create",
           payload: {
             value: `{ "fn": "Alan", "ln": "Wei" }`,
