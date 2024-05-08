@@ -1,44 +1,46 @@
-require.config({ paths: { vs: './monaco-editor/min/vs' } });
-window.monaco_editor = null;
-
-window.addEventListener("message", function (e) {
+(function () {
+  require.config({ paths: { vs: './monaco-editor/min/vs' } });
   const source = "monaco-editor";
-  const data = e.data;
-  console.log("child receive message event: ", data);
-  if (data && data.source === source && data.action === "create") {
+  const params = new URLSearchParams(location.search);
+
+  /**
+   * @type {Promise<monaco.editor.IStandaloneCodeEditor>}
+   */
+  const monaco_editor = new Promise(resolve => {
     require(['vs/editor/editor.main'], function () {
       const container = document.getElementById('container');
-      if (window.monaco_editor) {
-        // 已经初始化过
-        window.monaco_editor.setValue(data.payload.value);
-        return;
-      }
-      window.monaco_editor = monaco.editor.create(container, data.payload);
+      const options = JSON.parse(params.get("create") || "{}");
+      const editor = monaco.editor.create(container, options);
+      resolve(editor);
 
-      window.addEventListener("resize", function () {
-        resetStates();
-        window.monaco_editor.layout();
-      });
-
-      window.monaco_editor.onDidChangeModelContent(function () {
+      editor.onDidChangeModelContent(function () {
         window.parent.postMessage({
           source: source,
-          action: "update",
-          payload: {
-            value: window.monaco_editor.getValue()
-          }
+          action: "change",
+          payload: editor.getValue()
         }, "*");
       });
     });
+  });
+
+  function resetStates() {
+    // reset state
   }
-})
 
+  window.addEventListener("resize", function () {
+    resetStates();
+    monaco_editor.then(editor => {
+      editor.layout();
+    });
+  });
 
-function resetStates() {
-  // reset state
-}
-
-window.addEventListener("DOMContentLoaded", function () {
-  resetStates();
-});
-
+  window.addEventListener("message", function (e) {
+    const data = e.data;
+    console.log("child receive message event: ", data);
+    if (data && data.source === source && data.action === "update") {
+      monaco_editor.then(editor => {
+        editor.setValue(data.payload);
+      })
+    }
+  });
+})();
