@@ -16,14 +16,14 @@ window.addEventListener("message", function (e) {
 
       window.addEventListener("resize", function () {
         resetStates();
-        editor.layout();
+        window.monaco_editor.layout();
       });
 
-      editor.onDidChangeModelContent(function () {
+      window.monaco_editor.onDidChangeModelContent(function () {
         window.parent.postMessage({
           action: "update",
           payload: {
-            value: editor.getValue()
+            value: window.monaco_editor.getValue()
           }
         });
       });
