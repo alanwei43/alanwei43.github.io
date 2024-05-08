@@ -45,7 +45,7 @@
     isDebug && console.log("child receive message event: ", data);
     if (data && data.source === source && data.action === "update") {
       monaco_editor.then(editor => {
-        editor.setValue(data.payload);
+        editor.setValue(data.payload || "");
       })
     }
   });
