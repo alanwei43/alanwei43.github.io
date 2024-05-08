@@ -2,9 +2,10 @@ require.config({ paths: { vs: './monaco-editor/min/vs' } });
 window.monaco_editor = null;
 
 window.addEventListener("message", function (e) {
+  const source = "monaco-editor";
   console.log("child receive message event: ", e);
   const data = e.data;
-  if (data && data.action === "create") {
+  if (data && data.source === source && data.action === "create") {
     require(['vs/editor/editor.main'], function () {
       const container = document.getElementById('container');
       if (window.monaco_editor) {
@@ -21,6 +22,7 @@ window.addEventListener("message", function (e) {
 
       window.monaco_editor.onDidChangeModelContent(function () {
         window.parent.postMessage({
+          source: source,
           action: "update",
           payload: {
             value: window.monaco_editor.getValue()
