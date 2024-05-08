@@ -1,4 +1,5 @@
 require.config({ paths: { vs: './monaco-editor/min/vs' } });
+window.monaco_editor = null;
 
 window.addEventListener("message", function (e) {
   console.log("child receive message event: ", e);
@@ -6,7 +7,12 @@ window.addEventListener("message", function (e) {
   if (data && data.action === "create") {
     require(['vs/editor/editor.main'], function () {
       const container = document.getElementById('container');
-      const editor = monaco.editor.create(container, data.payload);
+      if (window.monaco_editor) {
+        // 已经初始化过
+        window.monaco_editor.setValue(data.payload.value);
+        return;
+      }
+      window.monaco_editor = monaco.editor.create(container, data.payload);
 
       window.addEventListener("resize", function () {
         resetStates();
@@ -33,3 +39,4 @@ function resetStates() {
 window.addEventListener("DOMContentLoaded", function () {
   resetStates();
 });
+
