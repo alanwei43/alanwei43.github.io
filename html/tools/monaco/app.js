@@ -25,7 +25,7 @@ window.addEventListener("message", function (e) {
           payload: {
             value: window.monaco_editor.getValue()
           }
-        });
+        }, "*");
       });
     });
   }
