@@ -3,8 +3,8 @@ window.monaco_editor = null;
 
 window.addEventListener("message", function (e) {
   const source = "monaco-editor";
-  console.log("child receive message event: ", e);
   const data = e.data;
+  console.log("child receive message event: ", data);
   if (data && data.source === source && data.action === "create") {
     require(['vs/editor/editor.main'], function () {
       const container = document.getElementById('container');
