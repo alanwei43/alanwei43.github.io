@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[3881],{62969:a=>{a.exports=JSON.parse('{"label":"jdk","permalink":"/blog/tags/jdk","allTagsPath":"/blog/tags","count":1}')}}]);

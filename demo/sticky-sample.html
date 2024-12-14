@@ -1,0 +1,2073 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="referrer" content="no-referrer" />
+  <meta charset="utf-8">
+
+  <title>这是一个示例文章,用于演示 position: sticky</title>
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="//static001.infoq.cn/static/write/img/write-favicon.jpg">
+  <link rel="icon" type="image/png" sizes="16x16" href="//static001.infoq.cn/static/write/img/write-favicon.jpg">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="applicable-device" content="pc,mobile">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <link rel="canonical" href="https://xie.infoq.cn/article/3f68cde0163b359b13fa1a8f0">
+
+
+
+
+
+
+
+
+
+  <script src="https://probe.bjmantis.net/chat/jquery-1.12.4.min.js"></script>
+
+
+  <script type="text/javascript">
+    if (!('flex' in document.documentElement.style) && !navigator.userAgent.match(/spider|googlebot|bingbot|geekbang|yahoo! Slurp/i)) {
+      window.location.href = '//static001.geekbang.org/static/common/browser_update/index.html'
+    }
+  </script>
+
+  <link href="https://static001.geekbang.org/static/infoq/www/css/app.f787f7a6.css" rel="stylesheet">
+
+  <meta name="referrer" content="no-referrer-when-downgrade">
+
+  <link rel="stylesheet" type="text/css"
+    href="https://static001.geekbang.org/static/infoq/www/css/chunk-katex.ce0dccd9.css">
+
+  <link rel="stylesheet" type="text/css"
+    href="https://static001.geekbang.org/static/infoq/www/css/chunk-geek-editor.b88154cf.css">
+
+  <link rel="stylesheet" type="text/css"
+    href="https://static001.geekbang.org/static/infoq/www/css/chunk-12b29e91.053549ea.css">
+
+  <link rel="stylesheet" type="text/css"
+    href="https://static001.geekbang.org/static/infoq/www/css/PageArticle.76a73b25.css">
+
+</head>
+
+<body class="ios">
+  <div data-v-b110a92e="" data-v-4a1c10f0="" id="layout" layout="" style="padding-bottom: 60px;"
+    class="page-article-layout ready skin-base size-base">
+    <div data-v-b110a92e="" layout-header-wrap="" class="layout-header-wrap">
+      <div data-v-06557665="" data-v-b110a92e="" class="common-header-wap">
+        <div data-v-06557665="" class="shim"></div>
+      </div>
+    </div>
+    <div data-v-b110a92e="" inner-content="" class="inner-content"><!---->
+      <div data-v-6d1036b3="" data-v-4a1c10f0="" class="nav-menu" data-v-b110a92e="">
+        <ul data-v-6d1036b3="">
+          <li data-v-6d1036b3=""><span data-v-6d1036b3="" class="">首页</span></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="https://xie.infoq.cn/square/10" class=""> 热门活动 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/3" class=""> Java </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/211" class=""> 开源 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/238" class=""> 架构 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/9434" class=""> OpenHarmony </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/303" class=""> 算法 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/14135" class=""> 元宇宙 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/84" class=""> MySQL </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/5237" class=""> 移动开发 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/221" class=""> 学习方法 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/221" class=""> 学习方法 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/17178" class=""> Web3.0 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/203" class=""> 高效工作 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/92" class=""> 数据库 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/8" class=""> Python </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/661" class=""> 音视频 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/371" class=""> 前端 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/242" class=""> AI </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/143" class=""> 大数据 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/204" class=""> 团队管理 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/232" class=""> 程序员 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/317" class=""> 运维 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/200" class=""> 深度思考 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/1081" class=""> 低代码 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/97" class=""> redis </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/19" class=""> golang </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/294" class=""> 微服务架构 </a></li>
+          <li data-v-6d1036b3=""><a data-v-6d1036b3="" href="/tag/21" class=""> flutter </a></li>
+        </ul>
+      </div>
+      <div data-v-4a1c10f0="" data-v-b110a92e="" class="layout-content article-content"><!---->
+        <div data-v-4a1c10f0="" data-v-b110a92e="" class="main"><!----><!---->
+          <h1 data-v-4a1c10f0="" data-v-b110a92e="" class="article-title">WireGuard 教程：使用 DNS-SD 进行 NAT-to-NAT 穿透</h1>
+          <div data-v-4a1c10f0="" data-v-b110a92e="" class="author-information">
+            <div data-v-4a1c10f0="" data-v-b110a92e="" class="row">
+              <div data-v-4a1c10f0="" data-v-b110a92e="" class="author-name"> 作者：<span data-v-3bc80670=""
+                  data-v-4a1c10f0="" class="ctn" data-v-b110a92e=""><a data-v-3bc80670="" rel="nofollow"
+                    com-author-name="" class="com-author-name"> 米开朗基杨 </a><!----></span></div>
+            </div>
+            <div data-v-4a1c10f0="" data-v-b110a92e="" class="row article-head">
+              <ul data-v-4a1c10f0="" data-v-b110a92e="" class="read-time">
+                <li data-v-4a1c10f0="" data-v-b110a92e="">2021-02-01 <!----></li>
+                <li data-v-4a1c10f0="" data-v-b110a92e="">
+                  <p data-v-4a1c10f0="" data-v-b110a92e="" class="">本文字数：10877 字 </p>
+                  <p data-v-4a1c10f0="" data-v-b110a92e=""></p>
+                  <p data-v-4a1c10f0="" data-v-b110a92e="" class="">阅读完需：约 36 分钟</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div data-v-4a1c10f0="" data-v-b110a92e="" class="article-cover"><img data-v-4a1c10f0="" data-v-b110a92e=""
+              src="https://static001.geekbang.org/infoq/9b/9b12afea912c1ce996c39c24a33b91b5.png"
+              alt="WireGuard 教程：使用 DNS-SD 进行 NAT-to-NAT 穿透"></div>
+          <div data-v-4a1c10f0="" data-v-b110a92e="" class="article-detaile">
+            <div data-v-fbbc0218="" data-v-4a1c10f0="" class="article-preview-content size-base" data-v-b110a92e="">
+              <div data-v-fbbc0218="" data-type="doc" class="article-preview">
+                <div contenteditable="false" translate="no" class="ProseMirror">
+                  <blockquote data-type="blockquote">
+                    <p data-type="paragraph">原文链接：<a
+                        href="https://xie.infoq.cn/link?target=https%3A%2F%2Ffuckcloudnative.io%2Fposts%2Fwireguard-endpoint-discovery-nat-traversal%2F"
+                        title=""
+                        data-type="link">https://fuckcloudnative.io/posts/wireguard-endpoint-discovery-nat-traversal/</a><br
+                        class="ProseMirror-trailingBreak"></p>
+                  </blockquote>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div id="sticky2" data-type="image">
+                    <div data-content="" data-style-width="75%" data-style-bordertype="none"><img
+                        src="https://static001.geekbang.org/infoq/db/db250ea02b54a2d1fb3b7a4367d4925c.png"> <!---->
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph"><code data-type="codeinline">WireGuard</code> 是由 Jason A. Donenfeld
+                    等人创建的下一代开源 VPN 协议，旨在解决许多困扰 <code data-type="codeinline">IPSec/IKEv2</code>、<code
+                      data-type="codeinline">OpenVPN</code> 或 <code data-type="codeinline">L2TP</code> 等其他 VPN
+                    协议的问题。2020 年 1 月 29 日，WireGuard 正式合并进入 <code data-type="codeinline">Linux 5.6</code> 内核主线。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="image">
+                    <div data-content="" data-style-width="75%" data-style-bordertype="none"><img
+                        src="https://static001.geekbang.org/infoq/9a/9a7604922db99b771f3cc0b141875427.png"> <!---->
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">利用 WireGuard 我们可以实现很多非常奇妙的功能，比如跨公有云组建 Kubernetes 集群，本地直接访问公有云 <code
+                      data-type="codeinline">Kubernetes</code> 集群中的 Pod IP 和 Service IP，在家中没有公网 IP 的情况下直连家中的设备，等等。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">如果你是第一次听说 WireGuard，建议你花点时间看看我之前写的 WireGuard <a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Ffuckcloudnative.io%2Fposts%2Fwireguard-docs-theory%2F"
+                      title="" data-type="link">工作原理</a>。然后可以参考下面两篇文章来快速上手：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <ul data-type="bulletedlist">
+                    <li>
+                      <p data-type="paragraph"><a
+                          href="https://xie.infoq.cn/link?target=https%3A%2F%2Ffuckcloudnative.io%2Fposts%2Fwireguard-install%2F"
+                          title="" data-type="link">WireGuard 快速安装教程</a><br class="ProseMirror-trailingBreak"></p>
+                    </li>
+                    <li>
+                      <p data-type="paragraph"><a
+                          href="https://xie.infoq.cn/link?target=https%3A%2F%2Ffuckcloudnative.io%2Fposts%2Fconfigure-wireguard-using-wg-gen-web%2F"
+                          title="" data-type="link">WireGuard 配置教程：使用 wg-gen-web 来管理 WireGuard 的配置</a><br
+                          class="ProseMirror-trailingBreak"></p>
+                    </li>
+                  </ul>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">如果遇到某些细节不太明白的，再去参考 <a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Ffuckcloudnative.io%2Fposts%2Fwireguard-docs-practice%2F"
+                      title="" data-type="link">WireGuard 配置详解</a>。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">本文将探讨 WireGuard 使用过程中遇到的一个重大难题：<strong data-type="strong">如何使两个位于 NAT
+                      后面（且没有指定公网出口）的客户端之间直接建立连接。</strong></p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">WireGuard 不区分服务端和客户端，大家都是客户端，与自己连接的所有客户端都被称之为 <code
+                      data-type="codeinline">Peer</code>。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h2 data-id="heading0" data-type="heading" top="-95.30000305175781">1. IP 不固定的 Peer</h2>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">WireGuard 的核心部分是<a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fwww.wireguard.com%2F%23cryptokey-routing"
+                      title="" data-type="link">加密密钥路由（Cryptokey Routing）</a>，它的工作原理是将公钥和 IP 地址列表（<code
+                      data-type="codeinline">AllowedIPs</code>）关联起来。每一个网络接口都有一个私钥和一个 Peer 列表，每一个 Peer 都有一个公钥和 IP
+                    地址列表。发送数据时，可以把 IP 地址列表看成路由表；接收数据时，可以把 IP 地址列表看成访问控制列表。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">公钥和 IP 地址列表的关联组成了 Peer 的必要配置，从隧道验证的角度看，根本不需要 Peer 具备静态 IP 地址。理论上，如果 Peer 的 IP
+                    地址不同时发生变化，WireGuard 是可以实现 IP 漫游的。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">现在回到最初的问题：<strong data-type="strong">假设两个 Peer 都在 NAT 后面，且这个 NAT 不受我们控制，无法配置
+                      UDP 端口转发，即无法指定公网出口，要想建立连接，不仅要动态发现 Peer 的 IP 地址，还要发现 Peer 的端口。</strong></p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">找了一圈下来，现有的工具根本无法实现这个需求，本文将致力于不对 WireGuard 源码做任何改动的情况下实现上述需求。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h2 data-id="heading1" data-type="heading" top="731.7000122070312">2. 中心辐射型网络拓扑</h2>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">你可能会问我为什么不使用<a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FSpoke%25E2%2580%2593hub%253Ci%253Edistribution%253C%2Fi%253Eparadigm"
+                      title="" data-type="link">中心辐射型（hub-and-spoke）网络拓扑</a>？中心辐射型网络有一个 VPN 网关，这个网关通常都有一个静态 IP
+                    地址，其他所有的客户端都需要连接这个 VPN 网关，再由网关将流量转发到其他的客户端。假设 <code data-type="codeinline">Alice</code> 和 <code
+                      data-type="codeinline">Bob</code> 都位于 NAT 后面，那么 <code data-type="codeinline">Alice</code> 和 <code
+                      data-type="codeinline">Bob</code> 都要和网关建立隧道，然后 <code data-type="codeinline">Alice</code> 和 <code
+                      data-type="codeinline">Bob</code> 之间就可以通过 VPN 网关转发流量来实现相互通信。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="image">
+                    <div data-content="" data-style-width="75%" data-style-bordertype="none"><img
+                        src="https://static001.geekbang.org/infoq/e0/e0cdfb11ab8d04279f3e917a8dea9bb5.png"> <!---->
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">其实这个方法是如今大家都在用的方法，已经没什么可说的了，缺点相当明显：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <ul data-type="bulletedlist">
+                    <li>
+                      <p data-type="paragraph">当 Peer 越来越多时，VPN 网关就会变成垂直扩展的瓶颈。</p>
+                    </li>
+                    <li>
+                      <p data-type="paragraph">通过 VPN 网关转发流量的成本很高，毕竟云服务器的流量很贵。</p>
+                    </li>
+                    <li>
+                      <p data-type="paragraph">通过 VPN 网关转发流量会带来很高的延迟。</p>
+                    </li>
+                  </ul>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">本文想探讨的是 <code data-type="codeinline">Alice</code> 和 <code
+                      data-type="codeinline">Bob</code> 之间直接建立隧道，中心辐射型（hub-and-spoke）网络拓扑是无法做到的。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h2 data-id="heading2" data-type="heading">3. NAT 穿透</h2>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">要想在 <code data-type="codeinline">Alice</code> 和 <code
+                      data-type="codeinline">Bob</code> 之间直接建立一个 WireGuard 隧道，就需要它们能够穿过挡在它们面前的 NAT。由于 WireGuard 是通过
+                    <code data-type="codeinline">UDP</code> 来相互通信的，所以理论上 <a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FUDP%253Ci%253Ehole%253C%2Fi%253Epunching"
+                      title="" data-type="link">UDP 打洞（UDP hole punching）</a> 是最佳选择。
+                  </p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">UDP 打洞（UDP hole punching）利用了这样一个事实：大多数 NAT
+                    在将入站数据包与现有的连接进行匹配时都很宽松。这样就可以重复使用端口状态来打洞，因为 NAT 路由器不会限制只接收来自原始目的地址（信使服务器）的流量，其他客户端的流量也可以接收。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">举个例子，假设 <code data-type="codeinline">Alice</code> 向新主机 <code
+                      data-type="codeinline">Carol</code> 发送一个 UDP 数据包，而 <code data-type="codeinline">Bob</code>
+                    此时通过某种方法获取到了 <code data-type="codeinline">Alice</code> 的 NAT 在地址转换过程中使用的出站源 <code
+                      data-type="codeinline">IP:Port</code>，<code data-type="codeinline">Bob</code> 就可以向这个 <code
+                      data-type="codeinline">IP:Port</code>（2.2.2.2:7777） 发送 UDP 数据包来和 <code
+                      data-type="codeinline">Alice</code> 建立联系。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div id="sticky-img" data-type="image">
+                    <div data-content="" data-style-width="75%" data-style-bordertype="none"><img
+                        src="https://static001.geekbang.org/infoq/f8/f8c269adc62944888f84dc2cd0d0c00e.png"> <!---->
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">其实上面讨论的就是<strong data-type="strong">完全圆锥型 NAT</strong>（Full cone
+                    NAT），即一对一（one-to-one）NAT。它具有以下特点：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <ul data-type="bulletedlist">
+                    <li>
+                      <p data-type="paragraph">一旦内部地址（iAddr:iPort）映射到外部地址（eAddr:ePort），所有发自 iAddr:iPort 的数据包都经由
+                        eAddr:ePort 向外发送。</p>
+                    </li>
+                    <li>
+                      <p data-type="paragraph">任意外部主机都能经由发送数据包给 eAddr:ePort 到达 iAddr:iPort。</p>
+                    </li>
+                  </ul>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">大部分的 NAT 都是这种 NAT，对于其他少数不常见的 NAT，这种打洞方法有一定的局限性，无法顺利使用。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h2 data-id="heading3" data-type="heading" top="2828.949951171875">4. STUN</h2>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">回到上面的例子，UDP 打洞过程中有几个问题至关重要：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <ul data-type="bulletedlist">
+                    <li>
+                      <p data-type="paragraph">Alice 如何才能知道自己的公网 <code data-type="codeinline">IP:Port</code>？</p>
+                    </li>
+                    <li>
+                      <p data-type="paragraph">Alice 如何与 Bob 建立连接？</p>
+                    </li>
+                    <li>
+                      <p data-type="paragraph">在 WireGuard 中如何利用 UDP 打洞？</p>
+                    </li>
+                  </ul>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph"><a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc5389" title=""
+                      data-type="link">RFC5389</a> 关于 <strong data-type="strong">STUN</strong>（*<i
+                      data-type="italic">Session Traversal Utilities for NAT</i>*，NAT
+                    会话穿越应用程序）的详细描述中定义了一个协议回答了上面的一部分问题，这是一篇内容很长的 RFC，所以我将尽我所能对其进行总结。先提醒一下，<code
+                      data-type="codeinline">STUN</code> 并不能直接解决上面的问题，它只是个扳手，你还得拿他去打造一个称手的工具：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <blockquote data-type="blockquote">
+                    <p data-type="paragraph">STUN 本身并不是 NAT 穿透问题的解决方案，它只是定义了一个机制，你可以用这个机制来组建实际的解决方案。</p>
+                    <p data-type="paragraph">— <a
+                        href="https://xie.infoq.cn/link?target=https%3A%2F%2Fwww.jordanwhited.com%2Fposts%2Fwireguard-endpoint-discovery-nat-traversal%2F%23fn%3A1"
+                        title="" data-type="link">RFC5389</a><br class="ProseMirror-trailingBreak"></p>
+                  </blockquote>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph"><a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2FSTUN" title=""
+                      data-type="link">STUN（*<i data-type="italic">Session Traversal Utilities for
+                        NAT</i>*，NAT会话穿越应用程序）</a>是一种网络协议，它允许位于 NAT（或多重 NAT）后的客户端找出自己的公网地址，查出自己位于哪种类型的 NAT 之后以及 NAT
+                    为某一个本地端口所绑定的公网端口。这些信息被用来在两个同时处于 NAT 路由器之后的主机之间建立 UDP 通信。该协议由 RFC 5389 定义。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="image">
+                    <div data-content="" data-style-width="75%" data-style-bordertype="none"><img
+                        src="https://static001.geekbang.org/infoq/60/60716c762178c146bceb8f0e41faee44.png"> <!---->
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">STUN 是一个客户端－服务端协议，在上图的例子中，<code data-type="codeinline">Alice</code>
+                    是客户端，<code data-type="codeinline">Carol</code> 是服务端。<code data-type="codeinline">Alice</code> 向
+                    <code data-type="codeinline">Carol</code> 发送一个 <code data-type="codeinline">STUN Binding</code> 请求，当
+                    Binding 请求通过 <code data-type="codeinline">Alice</code> 的 NAT 时，源 <code
+                      data-type="codeinline">IP:Port</code> 会被重写。当 <code data-type="codeinline">Carol</code> 收到 Binding
+                    请求后，会将三层和四层的源 <code data-type="codeinline">IP:Port</code> 复制到 Binding 响应的有效载荷中，并将其发送给 <code
+                      data-type="codeinline">Alice</code>。Binding 响应通过 Alice 的 NAT 转发到内网的 <code
+                      data-type="codeinline">Alice</code>，此时的目标 IP:Port 被重写成了内网地址，但有效载荷保持不变。<code
+                      data-type="codeinline">Alice</code> 收到 Binding 响应后，就会意识到这个 Socket 的公网 IP:Port 是 <code
+                      data-type="codeinline">2.2.2.2:7777</code>。
+                  </p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">然而，<code data-type="codeinline">STUN</code>
+                    并不是一个完整的解决方案，它只是提供了这么一种机制，让应用程序获取到它的公网 <code data-type="codeinline">IP:Port</code>，但 STUN
+                    并没有提供具体的方法来向相关方向发出信号。如果要重头编写一个具有 NAT 穿透功能的应用，肯定要利用 STUN 来实现。当然，明智的做法是不修改 WireGuard 的源码，最好是借鉴 STUN
+                    的概念来实现。总之，不管如何，都需要一个拥有静态公网地址的主机来充当<strong data-type="strong">信使服务器</strong>。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h2 data-id="heading4" data-type="heading" top="4596.9501953125">5. NAT 穿透示例</h2>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">早在 2016 年 8 月份，WireGuard 的创建者就在 <a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Flists.zx2c4.com%2Fpipermail%2Fwireguard%2F2016-August%2F000372.html"
+                      title="" data-type="link">WireGuard 邮件列表</a>上分享了一个 [NAT 穿透示例](<a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fgit.zx2c4.com%2Fwireguard-tools%2Ftree%2Fcontrib%2Fnat-hole-punching)"
+                      title=""
+                      data-type="link">https://git.zx2c4.com/wireguard-tools/tree/contrib/nat-hole-punching)</a>。Jason
+                    的示例包含了客户端应用和服务端应用，其中客户端应用于 WireGuard 一起运行，服务端运行在拥有静态地址的主机上用来发现各个 Peer 的 <code
+                      data-type="codeinline">IP:Port</code>，客户端使用[原始套接字（raw socket）](<a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2F%25E5%258E%259F%25E5%25A7%258B%25E5%25A5%2597%25E6%258E%25A5%25E5%25AD%2597)"
+                      title=""
+                      data-type="link">https://zh.wikipedia.org/wiki/%E5%8E%9F%E5%A7%8B%E5%A5%97%E6%8E%A5%E5%AD%97)</a>与服务端进行通信。
+                  </p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="c"><code data-type="codeline"><span data-type="markclass" class="hljs-comment">/* We use raw sockets so that the WireGuard interface can actually own the real socket. */</span></code><code data-type="codeline">sock = socket(AF_INET, SOCK_RAW, IPPROTO_UDP);</code><code data-type="codeline"><span data-type="markclass" class="hljs-keyword">if</span> (sock &lt; <span data-type="markclass" class="hljs-number">0</span>) {</code><code data-type="codeline">	perror(<span data-type="markclass" class="hljs-string">"socket"</span>);</code><code data-type="codeline">	<span data-type="markclass" class="hljs-keyword">return</span> errno;</code><code data-type="codeline">}</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 130px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 104px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">正如评论中指出的，WireGuard 拥有“真正的套接字”。通过使用原始套接字（raw socket），客户端能够向服务端伪装本地 WireGuard
+                    的源端口，这样就确保了在服务端返回响应经过 NAT 时目标 <code data-type="codeinline">IP:Port</code> 会被映射到 WireGuard 套接字上。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">客户端在其原始套接字上使用一个<a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fwww.kernel.org%2Fdoc%2FDocumentation%2Fnetworking%2Ffilter.txt"
+                      title="" data-type="link">经典的 BPF 过滤器</a>来过滤服务端发往 WireGuard 端口的回复。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="c"><code data-type="codeline"><span data-type="markclass" class="hljs-type">static</span> <span data-type="markclass" class="hljs-type">void</span> <span data-type="markclass" class="hljs-title function_">apply_bpf</span><span data-type="markclass" class="hljs-params">(</span><span data-type="markclass" class="hljs-type"><span data-type="markclass" class="hljs-params">int</span></span><span data-type="markclass" class="hljs-params"> sock, </span><span data-type="markclass" class="hljs-type"><span data-type="markclass" class="hljs-params">uint16_t</span></span><span data-type="markclass" class="hljs-params"> port, </span><span data-type="markclass" class="hljs-type"><span data-type="markclass" class="hljs-params">uint32_t</span></span><span data-type="markclass" class="hljs-params"> ip)</span></code><code data-type="codeline">{</code><code data-type="codeline">	<span data-type="markclass" class="hljs-keyword"><span data-type="markclass" class="hljs-class">struct</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">sock_filter</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">filter</span></span><span data-type="markclass" class="hljs-class">[] =</span> {</code><code data-type="codeline">		BPF_STMT(BPF_LD + BPF_W + BPF_ABS, <span data-type="markclass" class="hljs-number">12</span> <span data-type="markclass" class="hljs-comment">/* src ip */</span>),</code><code data-type="codeline">		BPF_JUMP(BPF_JMP + BPF_JEQ + BPF_K, ip, <span data-type="markclass" class="hljs-number">0</span>, <span data-type="markclass" class="hljs-number">5</span>),</code><code data-type="codeline">		BPF_STMT(BPF_LD + BPF_H + BPF_ABS, <span data-type="markclass" class="hljs-number">20</span> <span data-type="markclass" class="hljs-comment">/* src port */</span>),</code><code data-type="codeline">		BPF_JUMP(BPF_JMP + BPF_JEQ + BPF_K, PORT, <span data-type="markclass" class="hljs-number">0</span>, <span data-type="markclass" class="hljs-number">3</span>),</code><code data-type="codeline">		BPF_STMT(BPF_LD + BPF_H + BPF_ABS, <span data-type="markclass" class="hljs-number">22</span> <span data-type="markclass" class="hljs-comment">/* dst port */</span>),</code><code data-type="codeline">		BPF_JUMP(BPF_JMP + BPF_JEQ + BPF_K, port, <span data-type="markclass" class="hljs-number">0</span>, <span data-type="markclass" class="hljs-number">1</span>),</code><code data-type="codeline">		BPF_STMT(BPF_RET + BPF_K, <span data-type="markclass" class="hljs-number">-1</span>),</code><code data-type="codeline">		BPF_STMT(BPF_RET + BPF_K, <span data-type="markclass" class="hljs-number">0</span>)</code><code data-type="codeline">	};</code><code data-type="codeline">	<span data-type="markclass" class="hljs-keyword"><span data-type="markclass" class="hljs-class">struct</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">sock_fprog</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">filter_prog</span></span><span data-type="markclass" class="hljs-class"> =</span> {</code><code data-type="codeline">		.len = <span data-type="markclass" class="hljs-keyword">sizeof</span>(filter) / <span data-type="markclass" class="hljs-keyword">sizeof</span>(filter[<span data-type="markclass" class="hljs-number">0</span>]),</code><code data-type="codeline">		.filter = filter</code><code data-type="codeline">	};</code><code data-type="codeline">	<span data-type="markclass" class="hljs-keyword">if</span> (setsockopt(sock, SOL_SOCKET, SO_ATTACH_FILTER, &amp;filter_prog, <span data-type="markclass" class="hljs-keyword">sizeof</span>(filter_prog)) &lt; <span data-type="markclass" class="hljs-number">0</span>) {</code><code data-type="codeline">		perror(<span data-type="markclass" class="hljs-string">"setsockopt(bpf)"</span>);</code><code data-type="codeline">		<span data-type="markclass" class="hljs-built_in">exit</span>(errno);</code><code data-type="codeline">	}</code><code data-type="codeline">}</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 430px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 93px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                        <div data-codeblock-number="8"></div>
+                        <div data-codeblock-number="9"></div>
+                        <div data-codeblock-number="10"></div>
+                        <div data-codeblock-number="11"></div>
+                        <div data-codeblock-number="12"></div>
+                        <div data-codeblock-number="13"></div>
+                        <div data-codeblock-number="14"></div>
+                        <div data-codeblock-number="15"></div>
+                        <div data-codeblock-number="16"></div>
+                        <div data-codeblock-number="17"></div>
+                        <div data-codeblock-number="18"></div>
+                        <div data-codeblock-number="19"></div>
+                        <div data-codeblock-number="20"></div>
+                        <div data-codeblock-number="21"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">客户端与服务端的通信数据都被定义在 <code data-type="codeinline">packet</code> 和 <code
+                      data-type="codeinline">reply</code> 这两个结构体中：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="c"><code data-type="codeline"><span data-type="markclass" class="hljs-keyword"><span data-type="markclass" class="hljs-class">struct</span></span><span data-type="markclass" class="hljs-class"> {</span></code><code data-type="codeline">    <span data-type="markclass" class="hljs-keyword"><span data-type="markclass" class="hljs-class">struct</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">udphdr</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">udp</span></span><span data-type="markclass" class="hljs-class">;</span></code><code data-type="codeline">    <span data-type="markclass" class="hljs-type">uint8_t</span> my_pubkey[<span data-type="markclass" class="hljs-number">32</span>];</code><code data-type="codeline">    <span data-type="markclass" class="hljs-type">uint8_t</span> their_pubkey[<span data-type="markclass" class="hljs-number">32</span>];</code><code data-type="codeline">} __attribute__((packed)) packet = {</code><code data-type="codeline">    .udp = {</code><code data-type="codeline">        .len = htons(<span data-type="markclass" class="hljs-keyword">sizeof</span>(packet)),</code><code data-type="codeline">        .dest = htons(PORT)</code><code data-type="codeline">    }</code><code data-type="codeline">};</code><code data-type="codeline"><span data-type="markclass" class="hljs-keyword"><span data-type="markclass" class="hljs-class">struct</span></span><span data-type="markclass" class="hljs-class"> {</span></code><code data-type="codeline">    <span data-type="markclass" class="hljs-keyword"><span data-type="markclass" class="hljs-class">struct</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">iphdr</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">iphdr</span></span><span data-type="markclass" class="hljs-class">;</span></code><code data-type="codeline">    <span data-type="markclass" class="hljs-keyword"><span data-type="markclass" class="hljs-class">struct</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">udphdr</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">udp</span></span><span data-type="markclass" class="hljs-class">;</span></code><code data-type="codeline">    <span data-type="markclass" class="hljs-type">uint32_t</span> ip;</code><code data-type="codeline">    <span data-type="markclass" class="hljs-type">uint16_t</span> port;</code><code data-type="codeline">} __attribute__((packed)) reply;</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 330px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 253px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                        <div data-codeblock-number="8"></div>
+                        <div data-codeblock-number="9"></div>
+                        <div data-codeblock-number="10"></div>
+                        <div data-codeblock-number="11"></div>
+                        <div data-codeblock-number="12"></div>
+                        <div data-codeblock-number="13"></div>
+                        <div data-codeblock-number="14"></div>
+                        <div data-codeblock-number="15"></div>
+                        <div data-codeblock-number="16"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">客户端会遍历配置好的 WireGuard Peer（<code
+                      data-type="codeinline">wg show &lt;interface&gt; peers</code>），并为每一个 Peer 发送一个数据包给服务端，其中 <code
+                      data-type="codeinline">my_pubkey</code> 和 <code data-type="codeinline">their_pubkey</code>
+                    字段会被适当填充。当服务端收到来自客户端的数据包时，它会向以公钥为密钥的 Peer 内存表中插入或更新一个 <code
+                      data-type="codeinline">pubkey=my_pubkey</code> 的 <code
+                      data-type="codeinline">entry</code>，然后再从该表中查找 <code
+                      data-type="codeinline">pubkey=their_pubkey</code> 的 <code data-type="codeinline">entry</code>，一但发现
+                    <code data-type="codeinline">entry</code> 存在，就会将其中的 <code data-type="codeinline">IP:Port</code>
+                    发送给客户端。当客户端收到回复时，会将 IP 和端口从数据包中解包，并配置 Peer 的 endpoint 地址（<code
+                      data-type="codeinline">wg set &lt;interface&gt; peer &lt;key&gt; &lt;options...&gt; endpoint &lt;ip&gt;:&lt;port&gt;</code>）。
+                  </p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph"><code data-type="codeinline">entry</code> 结构体源码：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="c"><code data-type="codeline"><span data-type="markclass" class="hljs-keyword"><span data-type="markclass" class="hljs-class">struct</span></span><span data-type="markclass" class="hljs-class"> </span><span data-type="markclass" class="hljs-title"><span data-type="markclass" class="hljs-class">entry</span></span><span data-type="markclass" class="hljs-class"> {</span></code><code data-type="codeline">	<span data-type="markclass" class="hljs-type">uint8_t</span> pubkey[<span data-type="markclass" class="hljs-number">32</span>];</code><code data-type="codeline">	<span data-type="markclass" class="hljs-type">uint32_t</span> ip;</code><code data-type="codeline">	<span data-type="markclass" class="hljs-type">uint16_t</span> port;</code><code data-type="codeline">};</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 110px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="width: 0px; display: none;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph"><code data-type="codeinline">entry</code> 结构体中的 <code
+                      data-type="codeinline">ip</code> 和 <code data-type="codeinline">port</code> 字段是从客户端收到的数据包中提取的 IP 和
+                    UDP 头部，每次客户端请求 Peer 的 IP 和端口信息时，都会在 Peer 列表中刷新自己的 IP 和端口信息。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">上面的例子展示了 WireGuard 如何实现 UDP 打洞，但还是太复杂了，因为并不是所有的 Peer 端都能打开原始套接字（raw
+                    socket），也并不是所有的 Peer 端都能利用 BPF 过滤器。而且这里还用到了自定义的 <a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWire_protocol"
+                      title="" data-type="link">wire protocol</a>，代码层面的数据（链表、队列、二叉树）都是结构化的，但网络层看到的都是二进制流，所谓 <code
+                      data-type="codeinline">wire protocol</code>
+                    就是把结构化的数据序列化为二进制流发送出去，并且对方也能以同样的格式反序列化出来。这种方式是很难调试的，所以我们需要另辟蹊径，利用现有的成熟工具来达到目的。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h2 data-id="heading5" data-type="heading" top="6872.2001953125">6. WireGuard NAT 穿透的正解</h2>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">其实完全没必要这么麻烦，我们可以直接利用 WireGuard 本身的特性来实现 UDP 打洞，直接看图：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="image">
+                    <div data-content="" data-style-width="75%" data-style-bordertype="none"><img
+                        src="https://static001.geekbang.org/infoq/06/06b68296769acbb67f2d0ed93658dabf.png"> <!---->
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">你可能会认为这是个中心辐射型（hub-and-spoke）网络拓扑，但实际上还是有些区别的，这里的 Registry Peer
+                    不会充当网关的角色，因为它没有相应的路由，不会转发流量。Registry 的 WireGuard 接口地址为 <code
+                      data-type="codeinline">10.0.0.254/32</code>，Alice 和 Bob 的 <code
+                      data-type="codeinline">AllowedIPs</code> 中只包含了 <code
+                      data-type="codeinline">10.0.0.254/32</code>，表示只接收来自 <code data-type="codeinline">Registry</code>
+                    的流量，所以 Alice 和 Bob 之间无法通过 Registry 来进行通信。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">这里有一点至关重要，<code data-type="codeinline">Registry</code> 分别和 Alice 与 Bob
+                    建立了两个隧道，这就会在 Alice 和 Bob 的 NAT 上打开一个洞，我们需要找到一种方法来从 Registry Peer 中查询这些洞的 <code
+                      data-type="codeinline">IP:Port</code>，自然而然就想到了 <code data-type="codeinline">DNS</code> 协议。DNS
+                    的优势很明显，它比较简单、成熟，还跨平台。有一种 DNS 记录类型叫 <a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fzh.wikipedia.org%2Fwiki%2FSRV%25E8%25AE%25B0%25E5%25BD%2595"
+                      title="" data-type="link">SRV记录（Service Record，服务定位记录）</a>，它用来记录服务器提供的服务，即识别服务的 IP
+                    和端口，[RFC6763](<a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Ftools.ietf.org%2Fhtml%2Frfc6763)" title=""
+                      data-type="link">https://tools.ietf.org/html/rfc6763)</a>
+                    用具体的结构和查询模式对这种记录类型进行了扩展，用于发现给定域下的服务，我们可以直接利用这些扩展语义。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h2 data-id="heading6" data-type="heading" top="7919.7001953125">7. CoreDNS</h2>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">选好了服务发现协议后，还需要一种方法来将其与 WireGuard 对接。<a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fgithub.com%2Fcoredns%2Fcoredns" title=""
+                      data-type="link">CoreDNS</a> 是 Golang 编写的一个插件式 DNS 服务器，是目前 Kubernetes 内置的默认 DNS 服务器，并且已从 [CNCF](<a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fcncf.io%2F)" title=""
+                      data-type="link">https://cncf.io/)</a> 毕业。我们可以直接写一个 CoreDNS 插件，用来接受 <code
+                      data-type="codeinline">DNS-SD</code>（DNS-based Service Discovery）查询并返回相关 WireGuard Peer
+                    的信息，其中公钥作为记录名称，fuckcloudnative.io 作为域。如果你熟悉 bind 风格的域文件，可以想象一个类似这样的域数据：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">_wireguard._udp         IN PTR          alice._wireguard._udp.fuckcloudnative.io.</code><code data-type="codeline">_wireguard._udp         IN PTR          bob._wireguard._udp.fuckcloudnative.io.</code><code data-type="codeline">alice._wireguard._udp   IN SRV 0 1 7777 alice.fuckcloudnative.io.</code><code data-type="codeline">alice                   IN A            2.2.2.2</code><code data-type="codeline">bob._wireguard._udp     IN SRV 0 1 8888 bob.fuckcloudnative.io.</code><code data-type="codeline">bob                     IN A            3.3.3.3</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 130px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 115px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h3 data-id="heading7" data-type="heading" top="8447.4501953125">公钥使用 Base64 还是 Base32 ？</h3>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">到目前为止，我们一直使用别名 Alice 和 Bob 来替代其对应的 WireGuard 公钥。WireGuard 公钥是 <code
+                      data-type="codeinline">Base64</code> 编码的，长度为 <code data-type="codeinline">44</code> 字节：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ wg genkey | wg pubkey</code><code data-type="codeline">UlVJVmPSwuG4U9BwyVILFDNlM+Gk9nQ7444HimPPgQg=</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 50px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 212px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <blockquote data-type="blockquote">
+                    <p data-type="paragraph">Base 64 编码的设计是为了以一种允许使用大写字母和小写字母的形式来表示任意的八位字节序列。</p>
+                    <p data-type="paragraph">— <a
+                        href="https://xie.infoq.cn/link?target=https%3A%2F%2Fwww.jordanwhited.com%2Fposts%2Fwireguard-endpoint-discovery-nat-traversal%2F%23fn%3A2"
+                        title="" data-type="link">RFC4648</a><br class="ProseMirror-trailingBreak"></p>
+                  </blockquote>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">不幸的是，DNS 的 SRV 记录的服务名称是不区分大小写的：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <blockquote data-type="blockquote">
+                    <p data-type="paragraph">DNS 树中的每个节点都有一个由零个或多个标签组成的名称 [STD13, RFC1591, RFC2606]，这些标签不区分大小写。</p>
+                    <p data-type="paragraph">— <a
+                        href="https://xie.infoq.cn/link?target=https%3A%2F%2Fwww.jordanwhited.com%2Fposts%2Fwireguard-endpoint-discovery-nat-traversal%2F%23fn%3A3"
+                        title="" data-type="link">RFC4343</a><br class="ProseMirror-trailingBreak"></p>
+                  </blockquote>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph"><code data-type="codeinline">Base32</code> 虽然产生了一个稍长的字符串（<code
+                      data-type="codeinline">56</code> 字节），但它的表现形式允许我们在 DNS 内部表示 WireGuard 公钥：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <blockquote data-type="blockquote">
+                    <p data-type="paragraph">Base32 编码的目的是为了表示任意八位字节序列，其形式必须不区分大小写。</p>
+                  </blockquote>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">我们可以使用 <code data-type="codeinline">base64</code> 和 <code
+                      data-type="codeinline">base32</code> 命令来回转换编码格式，例如：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ wg genkey | wg pubkey &gt; pub.txt</code><code data-type="codeline">$ <span data-type="markclass" class="hljs-built_in">cat</span> pub.txt</code><code data-type="codeline">O9rAAiO5qTejOEtFbsQhCl745ovoM9coTGiprFTaHUE=</code><code data-type="codeline">$ <span data-type="markclass" class="hljs-built_in">cat</span> pub.txt | base64 -D | base32</code><code data-type="codeline">HPNMAARDXGUTPIZYJNCW5RBBBJPPRZUL5AZ5OKCMNCU2YVG2DVAQ====</code><code data-type="codeline">$ <span data-type="markclass" class="hljs-built_in">cat</span> pub.txt | base64 -D | base32 | base32 -d | base64</code><code data-type="codeline">O9rAAiO5qTejOEtFbsQhCl745ovoM9coTGiprFTaHUE=</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 150px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 167px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">我们可以直接使用 <code data-type="codeinline">base32</code> 这种不区分大小写的公钥编码，来使其与 DNS
+                    兼容。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h3 data-id="heading8" data-type="heading" top="9678.4501953125">编译插件</h3>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">CoreDNS 提供了<a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fcoredns.io%2Fmanual%2Ftoc%2F%23writing-plugins"
+                      title="" data-type="link">编写插件的文档</a>，插件必须要实现 <code data-type="codeinline">plugin.Handler</code>
+                    接口：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="go"><code data-type="codeline"><span data-type="markclass" class="hljs-keyword">type</span> Handler <span data-type="markclass" class="hljs-keyword">interface</span> {</code><code data-type="codeline">    ServeDNS(context.Context, dns.ResponseWriter, *dns.Msg) (<span data-type="markclass" class="hljs-type">int</span>, <span data-type="markclass" class="hljs-type">error</span>)</code><code data-type="codeline">    Name() <span data-type="markclass" class="hljs-type">string</span></code><code data-type="codeline">}</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 90px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 130px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">我自己已经写好了插件，通过 <code data-type="codeinline">DNS-SD</code>（DNS-based Service
+                    Discovery）语义来提供 WireGuard 的 Peer 信息，该插件名就叫 <a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fgithub.com%2Fjwhited%2Fwgsd" title=""
+                      data-type="link">wgsd</a>。自己编写的插件不属于官方内置插件，从 CoreDNS 官方下载页下载的可执行程序并不包括这两个插件，所以需要自己编译 CoreDNS。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">编译 CoreDNS 并不复杂，在没有外部插件的情况下可以这么编译：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ git <span data-type="markclass" class="hljs-built_in">clone</span> https://github.com/coredns/coredns.git</code><code data-type="codeline">$ <span data-type="markclass" class="hljs-built_in">cd</span> coredns</code><code data-type="codeline">$ make</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 70px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 187px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">如果要加上 wgsd 插件，则在 <code data-type="codeinline">make</code> 前，要修改 <code
+                      data-type="codeinline">plugin.cfg</code> 文件，加入以下一行：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">wgsd:github.com/jwhited/wgsd</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 30px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="width: 0px; display: none;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">然后开始编译：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ go generate</code><code data-type="codeline">$ go build</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 50px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="width: 0px; display: none;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">查看编译好的二进制文件是否包含该插件：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ ./coredns -plugins | grep wgsd</code><code data-type="codeline">  dns.wgsd</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 50px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="width: 0px; display: none;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">编译完成后，就可以在配置文件中启用 <code data-type="codeinline">wgsd</code> 插件了：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">.:53 {</code><code data-type="codeline">  wgsd &lt;zone&gt; &lt;wg device&gt;</code><code data-type="codeline">}</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 70px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="width: 0px; display: none;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">可以来测试一下，配置文件如下：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="bash"><code data-type="codeline">$ <span data-type="markclass" class="hljs-built_in">cat</span> Corefile</code><code data-type="codeline">.:53 {</code><code data-type="codeline">  debug</code><code data-type="codeline">  wgsd fuckcloudnative.io. wg0</code><code data-type="codeline">}</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 110px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="width: 0px; display: none;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">运行 CoreDNS：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: hidden scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ ./coredns -conf Corefile</code><code data-type="codeline">.:53</code><code data-type="codeline">CoreDNS-1.8.1</code><code data-type="codeline">linux/amd64, go1.15,</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 110px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: hidden;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="width: 0px; display: none;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">当前节点的 WireGuard 信息：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ sudo wg show</code><code data-type="codeline">interface: wg0</code><code data-type="codeline">  listening port: 52022</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: mvplwow3agnGM8G78+BiJ3tmlPf9gDtbJ2NdxqV44D8=</code><code data-type="codeline">  endpoint: 3.3.3.3:8888</code><code data-type="codeline">  allowed ips: 10.0.0.2/32</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 150px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 187px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">下面就是见证奇迹的时候，列出所有 Peer：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ dig @127.0.0.1 _wireguard._udp.fuckcloudnative.io. PTR +noall +answer +additional</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">; &lt;&lt;&gt;&gt; DiG 9.10.6 &lt;&lt;&gt;&gt; @127.0.0.1 _wireguard._udp.fuckcloudnative.io. PTR +noall +answer +additional</code><code data-type="codeline">; (1 server found)</code><code data-type="codeline">;; global options: +cmd</code><code data-type="codeline">_wireguard._udp.fuckcloudnative.io. 0 IN  PTR     TL5GLQUMG5VATRRTYG57HYDCE55WNFHX7WADWWZHMNO4NJLY4A7Q====._wireguard._udp.fuckcloudnative.io.</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 130px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 66px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">查询每个 Peer 的 IP 和端口：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ dig @127.0.0.1 TL5GLQUMG5VATRRTYG57HYDCE55WNFHX7WADWWZHMNO4NJLY4A7Q====._wireguard._udp.fuckcloudnative.io. SRV +noall +answer +additional</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">; &lt;&lt;&gt;&gt; DiG 9.10.6 &lt;&lt;&gt;&gt; @127.0.0.1 TL5GLQUMG5VATRRTYG57HYDCE55WNFHX7WADWWZHMNO4NJLY4A7Q====._wireguard._udp.fuckcloudnative.io. SRV +noall +answer +additional</code><code data-type="codeline">; (1 server found)</code><code data-type="codeline">;; global options: +cmd</code><code data-type="codeline">tl5glqumg5vatrrtyg57hydce55wnfhx7wadwwzhmno4njly4a7q====._wireguard._udp.fuckcloudnative.io. 0 IN SRV 0 0 8888 TL5GLQUMG5VATRRTYG57HYDCE55WNFHX7WADWWZHMNO4NJLY4A7Q====.fuckcloudnative.io.</code><code data-type="codeline">TL5GLQUMG5VATRRTYG57HYDCE55WNFHX7WADWWZHMNO4NJLY4A7Q====.fuckcloudnative.io. 0 IN A 3.3.3.3</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 150px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 50px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">🎉 🎉 🎉 完美！🎉 🎉 🎉</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">验证公钥是否匹配：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ wg show wg0 peers</code><code data-type="codeline">mvplwow3agnGM8G78+BiJ3tmlPf9gDtbJ2NdxqV44D8=</code><code data-type="codeline">$ dig @127.0.0.1 _wireguard._udp.fuckcloudnative.io. PTR +short | <span data-type="markclass" class="hljs-built_in">cut</span> -d. -f1 | base32 -d | base64</code><code data-type="codeline">mvplwow3agnGM8G78+BiJ3tmlPf9gDtbJ2NdxqV44D8=</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 90px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 95px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">👍 👍 👍</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h2 data-id="heading9" data-type="heading" top="12061.2001953125">8. 最终通信流程</h2>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">最终实现的通信流程如下：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="image">
+                    <div data-content="" data-style-width="75%" data-style-bordertype="none"><img
+                        src="https://static001.geekbang.org/infoq/22/225708131ebe58d635de0a28a5e36b5e.png"> <!---->
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">一开始，Alice 和 Bob 分别与 Registry 建立了隧道；接下来，Alice 上的 <code
+                      data-type="codeinline">wgsd-client</code> 向 Registry 节点上运行的 CoreDNS 插件（<code
+                      data-type="codeinline">wgsd</code>）发起查询请求，该插件从 WireGuard 信息中检索 <code
+                      data-type="codeinline">Bob</code> 的 endpoint 信息，并将其返回给 <code
+                      data-type="codeinline">wgsd-client</code>；然后 <code data-type="codeinline">wgsd-client</code> 开始设置
+                    Bob 的 endpoint；最后 Alice 和 Bob 之间直接建立了一条隧道。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">任何提及 "建立隧道 "的地方都只是意味着发生了握手，数据包可以在 Peer 之间传输。虽然 WireGuard
+                    确实有一个握手机制，但它比你想象的更像是一个无连接的协议。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <blockquote data-type="blockquote">
+                    <p data-type="paragraph">
+                      任何安全协议都需要保持一些状态，所以最初的握手是非常简单的，只是建立用于数据传输的对称密钥。这种握手每隔几分钟就会发生一次，以提供轮换密钥来实现完美的前向保密。它是根据时间来完成的，而不是根据之前数据包的内容来完成的，因为它的设计是为了优雅地处理数据包丢失的问题。
+                    </p>
+                    <p data-type="paragraph">— <a
+                        href="https://xie.infoq.cn/link?target=https%3A%2F%2Fwww.jordanwhited.com%2Fposts%2Fwireguard-endpoint-discovery-nat-traversal%2F%23fn%3A5"
+                        title="" data-type="link">wireguard.com/protocol</a><br class="ProseMirror-trailingBreak"></p>
+                  </blockquote>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">现在万事俱备，只欠东风，只需要实现 <code data-type="codeinline">wgsd-client</code> 就完事了。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h2 data-id="heading10" data-type="heading" top="13126.4501953125">9. 实现 wgsd-client</h2>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph"><code data-type="codeinline">wgsd-client</code> 负责使 Peer 的 endpoint
+                    配置保持最新状态，它会检索配置中的 Peer 列表，查询 CoreDNS 中与之匹配的公钥，然后在需要时为相应的 Peer 更新 endpoint
+                    的值。最初的实现方式是以定时任务或者类似的调度机制运行，以序列化的方式检查所有 Peer，设置 endpoint，然后退出。目前它还不是一个守护进程，后续会继续改进优化。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph"><code data-type="codeinline">wgsd-client</code> 的源码位于 wgsd 仓库中的 <a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fgithub.com%2Fjwhited%2Fwgsd%2Ftree%2Fmaster%2Fcmd%2Fwgsd-client"
+                      title="" data-type="link">cmd/wgsd-client</a> 目录。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">下面开始进行最终的测试。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">Alice 和 Bob 都在 NAT 后面，Registry 没有 NAT，且有固定的公网地址。这三个 Peer 的信息如下：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">| Peer | Public Key | Tunnel Address |</p>
+                  <p data-type="paragraph">| -------- | -------------------------------------------- | -------------- |
+                  </p>
+                  <p data-type="paragraph">| Alice | xScVkH3fUGUv4RrJFfmcqm8rs3SEHr41km6+yffAHw4= | 10.0.0.1 |</p>
+                  <p data-type="paragraph">| Bob | syKB97XhGnvC+kynh2KqQJPXoOoOpx/HmpMRTc+r4js= | 10.0.0.2 |</p>
+                  <p data-type="paragraph">| Registry | JeZlz14G8tg1Bqh6apteFCwVhNhpexJ19FDPfuxQtUY= | 10.0.0.254 |</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">它们各自的初始配置：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h3 data-id="heading11" data-type="heading" top="14193.9501953125">Alice</h3>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ <span data-type="markclass" class="hljs-built_in">cat</span> /etc/wireguard/wg0.conf</code><code data-type="codeline">[Interface]</code><code data-type="codeline">Address = 10.0.0.1/32</code><code data-type="codeline">PrivateKey = 0CtieMOYKa2RduPbJss/Um9BiQPSjgvHW+B7Mor5OnE=</code><code data-type="codeline">ListenPort = 51820</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline"><span data-type="markclass" class="hljs-comment"># Registry</span></code><code data-type="codeline">[Peer]</code><code data-type="codeline">PublicKey = JeZlz14G8tg1Bqh6apteFCwVhNhpexJ19FDPfuxQtUY=</code><code data-type="codeline">Endpoint = 4.4.4.4:51820</code><code data-type="codeline">PersistentKeepalive = 5</code><code data-type="codeline">AllowedIPs = 10.0.0.254/32</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline"><span data-type="markclass" class="hljs-comment"># Bob</span></code><code data-type="codeline">[Peer]</code><code data-type="codeline">PublicKey = syKB97XhGnvC+kynh2KqQJPXoOoOpx/HmpMRTc+r4js=</code><code data-type="codeline">PersistentKeepalive = 5</code><code data-type="codeline">AllowedIPs = 10.0.0.2/32</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">$ wg show</code><code data-type="codeline">interface: wg0</code><code data-type="codeline">  public key: xScVkH3fUGUv4RrJFfmcqm8rs3SEHr41km6+yffAHw4=</code><code data-type="codeline">  private key: (hidden)</code><code data-type="codeline">  listening port: 51820</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: JeZlz14G8tg1Bqh6apteFCwVhNhpexJ19FDPfuxQtUY=</code><code data-type="codeline">  endpoint: 4.4.4.4:51820</code><code data-type="codeline">  allowed ips: 10.0.0.254/32</code><code data-type="codeline">  latest handshake: 48 seconds ago</code><code data-type="codeline">  transfer: 1.67 KiB received, 11.99 KiB sent</code><code data-type="codeline">  persistent keepalive: every 5 seconds</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: syKB97XhGnvC+kynh2KqQJPXoOoOpx/HmpMRTc+r4js=</code><code data-type="codeline">  allowed ips: 10.0.0.2/32</code><code data-type="codeline">  persistent keepalive: every 5 seconds</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 710px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 161px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                        <div data-codeblock-number="8"></div>
+                        <div data-codeblock-number="9"></div>
+                        <div data-codeblock-number="10"></div>
+                        <div data-codeblock-number="11"></div>
+                        <div data-codeblock-number="12"></div>
+                        <div data-codeblock-number="13"></div>
+                        <div data-codeblock-number="14"></div>
+                        <div data-codeblock-number="15"></div>
+                        <div data-codeblock-number="16"></div>
+                        <div data-codeblock-number="17"></div>
+                        <div data-codeblock-number="18"></div>
+                        <div data-codeblock-number="19"></div>
+                        <div data-codeblock-number="20"></div>
+                        <div data-codeblock-number="21"></div>
+                        <div data-codeblock-number="22"></div>
+                        <div data-codeblock-number="23"></div>
+                        <div data-codeblock-number="24"></div>
+                        <div data-codeblock-number="25"></div>
+                        <div data-codeblock-number="26"></div>
+                        <div data-codeblock-number="27"></div>
+                        <div data-codeblock-number="28"></div>
+                        <div data-codeblock-number="29"></div>
+                        <div data-codeblock-number="30"></div>
+                        <div data-codeblock-number="31"></div>
+                        <div data-codeblock-number="32"></div>
+                        <div data-codeblock-number="33"></div>
+                        <div data-codeblock-number="34"></div>
+                        <div data-codeblock-number="35"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h3 data-id="heading12" data-type="heading" top="14385.9501953125">Bob</h3>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ <span data-type="markclass" class="hljs-built_in">cat</span> /etc/wireguard/wg0.conf</code><code data-type="codeline">[Interface]</code><code data-type="codeline">Address = 10.0.0.2/32</code><code data-type="codeline">PrivateKey = cIN5NqeWcbreXoaIhR/4wgrrQJGym/E7WrTttMtK8Gc=</code><code data-type="codeline">ListenPort = 51820</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline"><span data-type="markclass" class="hljs-comment"># Registry</span></code><code data-type="codeline">[Peer]</code><code data-type="codeline">PublicKey = JeZlz14G8tg1Bqh6apteFCwVhNhpexJ19FDPfuxQtUY=</code><code data-type="codeline">Endpoint = 4.4.4.4:51820</code><code data-type="codeline">PersistentKeepalive = 5</code><code data-type="codeline">AllowedIPs = 10.0.0.254/32</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline"><span data-type="markclass" class="hljs-comment"># Alice</span></code><code data-type="codeline">[Peer]</code><code data-type="codeline">PublicKey = xScVkH3fUGUv4RrJFfmcqm8rs3SEHr41km6+yffAHw4=</code><code data-type="codeline">PersistentKeepalive = 5</code><code data-type="codeline">AllowedIPs = 10.0.0.1/32</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">$ wg show</code><code data-type="codeline">interface: wg0</code><code data-type="codeline">  public key: syKB97XhGnvC+kynh2KqQJPXoOoOpx/HmpMRTc+r4js=</code><code data-type="codeline">  private key: (hidden)</code><code data-type="codeline">  listening port: 51820</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: JeZlz14G8tg1Bqh6apteFCwVhNhpexJ19FDPfuxQtUY=</code><code data-type="codeline">  endpoint: 4.4.4.4:51820</code><code data-type="codeline">  allowed ips: 10.0.0.254/32</code><code data-type="codeline">  latest handshake: 26 seconds ago</code><code data-type="codeline">  transfer: 1.54 KiB received, 11.75 KiB sent</code><code data-type="codeline">  persistent keepalive: every 5 seconds</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: xScVkH3fUGUv4RrJFfmcqm8rs3SEHr41km6+yffAHw4=</code><code data-type="codeline">  allowed ips: 10.0.0.1/32</code><code data-type="codeline">  persistent keepalive: every 5 seconds</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 710px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 161px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                        <div data-codeblock-number="8"></div>
+                        <div data-codeblock-number="9"></div>
+                        <div data-codeblock-number="10"></div>
+                        <div data-codeblock-number="11"></div>
+                        <div data-codeblock-number="12"></div>
+                        <div data-codeblock-number="13"></div>
+                        <div data-codeblock-number="14"></div>
+                        <div data-codeblock-number="15"></div>
+                        <div data-codeblock-number="16"></div>
+                        <div data-codeblock-number="17"></div>
+                        <div data-codeblock-number="18"></div>
+                        <div data-codeblock-number="19"></div>
+                        <div data-codeblock-number="20"></div>
+                        <div data-codeblock-number="21"></div>
+                        <div data-codeblock-number="22"></div>
+                        <div data-codeblock-number="23"></div>
+                        <div data-codeblock-number="24"></div>
+                        <div data-codeblock-number="25"></div>
+                        <div data-codeblock-number="26"></div>
+                        <div data-codeblock-number="27"></div>
+                        <div data-codeblock-number="28"></div>
+                        <div data-codeblock-number="29"></div>
+                        <div data-codeblock-number="30"></div>
+                        <div data-codeblock-number="31"></div>
+                        <div data-codeblock-number="32"></div>
+                        <div data-codeblock-number="33"></div>
+                        <div data-codeblock-number="34"></div>
+                        <div data-codeblock-number="35"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h3 data-id="heading13" data-type="heading" top="14577.9501953125">Registry</h3>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ <span data-type="markclass" class="hljs-built_in">cat</span> /etc/wireguard/wg0.conf</code><code data-type="codeline">[Interface]</code><code data-type="codeline">Address = 10.0.0.254/32</code><code data-type="codeline">PrivateKey = wLw2ja5AapryT+3SsBiyYVNVDYABJiWfPxLzyuiy5nE=</code><code data-type="codeline">ListenPort = 51820</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline"><span data-type="markclass" class="hljs-comment"># Alice</span></code><code data-type="codeline">[Peer]</code><code data-type="codeline">PublicKey = xScVkH3fUGUv4RrJFfmcqm8rs3SEHr41km6+yffAHw4=</code><code data-type="codeline">AllowedIPs = 10.0.0.1/32</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline"><span data-type="markclass" class="hljs-comment"># Bob</span></code><code data-type="codeline">[Peer]</code><code data-type="codeline">PublicKey = syKB97XhGnvC+kynh2KqQJPXoOoOpx/HmpMRTc+r4js=</code><code data-type="codeline">AllowedIPs = 10.0.0.2/32</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">$ wg show</code><code data-type="codeline">interface: wg0</code><code data-type="codeline">  public key: JeZlz14G8tg1Bqh6apteFCwVhNhpexJ19FDPfuxQtUY=</code><code data-type="codeline">  private key: (hidden)</code><code data-type="codeline">  listening port: 51820</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: xScVkH3fUGUv4RrJFfmcqm8rs3SEHr41km6+yffAHw4=</code><code data-type="codeline">  endpoint: 2.2.2.2:41424</code><code data-type="codeline">  allowed ips: 10.0.0.1/32</code><code data-type="codeline">  latest handshake: 6 seconds ago</code><code data-type="codeline">  transfer: 510.29 KiB received, 52.11 KiB sent</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: syKB97XhGnvC+kynh2KqQJPXoOoOpx/HmpMRTc+r4js=</code><code data-type="codeline">  endpoint: 3.3.3.3:51820</code><code data-type="codeline">  allowed ips: 10.0.0.2/32</code><code data-type="codeline">  latest handshake: 1 minute, 46 seconds ago</code><code data-type="codeline">  transfer: 498.04 KiB received, 50.59 KiB sent</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 670px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 161px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                        <div data-codeblock-number="8"></div>
+                        <div data-codeblock-number="9"></div>
+                        <div data-codeblock-number="10"></div>
+                        <div data-codeblock-number="11"></div>
+                        <div data-codeblock-number="12"></div>
+                        <div data-codeblock-number="13"></div>
+                        <div data-codeblock-number="14"></div>
+                        <div data-codeblock-number="15"></div>
+                        <div data-codeblock-number="16"></div>
+                        <div data-codeblock-number="17"></div>
+                        <div data-codeblock-number="18"></div>
+                        <div data-codeblock-number="19"></div>
+                        <div data-codeblock-number="20"></div>
+                        <div data-codeblock-number="21"></div>
+                        <div data-codeblock-number="22"></div>
+                        <div data-codeblock-number="23"></div>
+                        <div data-codeblock-number="24"></div>
+                        <div data-codeblock-number="25"></div>
+                        <div data-codeblock-number="26"></div>
+                        <div data-codeblock-number="27"></div>
+                        <div data-codeblock-number="28"></div>
+                        <div data-codeblock-number="29"></div>
+                        <div data-codeblock-number="30"></div>
+                        <div data-codeblock-number="31"></div>
+                        <div data-codeblock-number="32"></div>
+                        <div data-codeblock-number="33"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">Registry 与 Alice 和 Bob 都建立了连接，可以直接查询它们的 endpoint 信息：</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline">$ dig @4.4.4.4 -p 53 _wireguard._udp.fuckcloudnative.io. PTR +noall +answer +additional</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">; &lt;&lt;&gt;&gt; DiG 9.10.6 &lt;&lt;&gt;&gt; @4.4.4.4 -p 53 _wireguard._udp.fuckcloudnative.io. PTR +noall +answer +additional</code><code data-type="codeline">; (1 server found)</code><code data-type="codeline">;; global options: +cmd</code><code data-type="codeline">_wireguard._udp.fuckcloudnative.io. 0 IN  PTR     YUTRLED535IGKL7BDLERL6M4VJXSXM3UQQPL4NMSN27MT56AD4HA====._wireguard._udp.fuckcloudnative.io.</code><code data-type="codeline">_wireguard._udp.fuckcloudnative.io. 0 IN  PTR     WMRID55V4ENHXQX2JSTYOYVKICJ5PIHKB2TR7R42SMIU3T5L4I5Q====._wireguard._udp.fuckcloudnative.io.</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">$ dig @4.4.4.4 -p 53 YUTRLED535IGKL7BDLERL6M4VJXSXM3UQQPL4NMSN27MT56AD4HA====._wireguard._udp.fuckcloudnative.io. SRV +noall +answer +additional</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">; &lt;&lt;&gt;&gt; DiG 9.10.6 &lt;&lt;&gt;&gt; @4.4.4.4 -p 53 YUTRLED535IGKL7BDLERL6M4VJXSXM3UQQPL4NMSN27MT56AD4HA====._wireguard._udp.fuckcloudnative.io. SRV +noall +answer +additional</code><code data-type="codeline">; (1 server found)</code><code data-type="codeline">;; global options: +cmd</code><code data-type="codeline">yutrled535igkl7bdlerl6m4vjxsxm3uqqpl4nmsn27mt56ad4ha====._wireguard._udp.fuckcloudnative.io. 0 IN SRV 0 0 41424 YUTRLED535IGKL7BDLERL6M4VJXSXM3UQQPL4NMSN27MT56AD4HA====.fuckcloudnative.io.</code><code data-type="codeline">YUTRLED535IGKL7BDLERL6M4VJXSXM3UQQPL4NMSN27MT56AD4HA====.fuckcloudnative.io. 0 IN A 2.2.2.2</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 310px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 49px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                        <div data-codeblock-number="8"></div>
+                        <div data-codeblock-number="9"></div>
+                        <div data-codeblock-number="10"></div>
+                        <div data-codeblock-number="11"></div>
+                        <div data-codeblock-number="12"></div>
+                        <div data-codeblock-number="13"></div>
+                        <div data-codeblock-number="14"></div>
+                        <div data-codeblock-number="15"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">完美，下面分别在 Alice 和 Bob 上启动 <code data-type="codeinline">wgsd-client</code> 试试：
+                  </p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline"><span data-type="markclass" class="hljs-comment"># Alice</span></code><code data-type="codeline">$ ./wgsd-client -device=wg0 -dns=4.4.4.4:53 -zone=fuckcloudnative.io.</code><code data-type="codeline">2020/05/20 13:24:02 [JeZlz14G8tg1Bqh6apteFCwVhNhpexJ19FDPfuxQtUY=] no SRV records found</code><code data-type="codeline">jwhited@Alice:~$ ping 10.0.0.2</code><code data-type="codeline">PING 10.0.0.2 (10.0.0.2): 56 data bytes</code><code data-type="codeline">64 bytes from 10.0.0.2: icmp_seq=0 ttl=64 time=173.260 ms</code><code data-type="codeline">^C</code><code data-type="codeline">jwhited@Alice:~$ wg show</code><code data-type="codeline">interface: wg0</code><code data-type="codeline">  public key: xScVkH3fUGUv4RrJFfmcqm8rs3SEHr41km6+yffAHw4=</code><code data-type="codeline">  private key: (hidden)</code><code data-type="codeline">  listening port: 51820</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: syKB97XhGnvC+kynh2KqQJPXoOoOpx/HmpMRTc+r4js=</code><code data-type="codeline">  endpoint: 3.3.3.3:51820</code><code data-type="codeline">  allowed ips: 10.0.0.2/32</code><code data-type="codeline">  latest handshake: 2 seconds ago</code><code data-type="codeline">  transfer: 252 B received, 264 B sent</code><code data-type="codeline">  persistent keepalive: every 5 seconds</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: JeZlz14G8tg1Bqh6apteFCwVhNhpexJ19FDPfuxQtUY=</code><code data-type="codeline">  endpoint: 4.4.4.4:51820</code><code data-type="codeline">  allowed ips: 10.0.0.254/32</code><code data-type="codeline">  latest handshake: 1 minute, 19 seconds ago</code><code data-type="codeline">  transfer: 184 B received, 1.57 KiB sent</code><code data-type="codeline">  persistent keepalive: every 5 seconds</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 530px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 107px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                        <div data-codeblock-number="8"></div>
+                        <div data-codeblock-number="9"></div>
+                        <div data-codeblock-number="10"></div>
+                        <div data-codeblock-number="11"></div>
+                        <div data-codeblock-number="12"></div>
+                        <div data-codeblock-number="13"></div>
+                        <div data-codeblock-number="14"></div>
+                        <div data-codeblock-number="15"></div>
+                        <div data-codeblock-number="16"></div>
+                        <div data-codeblock-number="17"></div>
+                        <div data-codeblock-number="18"></div>
+                        <div data-codeblock-number="19"></div>
+                        <div data-codeblock-number="20"></div>
+                        <div data-codeblock-number="21"></div>
+                        <div data-codeblock-number="22"></div>
+                        <div data-codeblock-number="23"></div>
+                        <div data-codeblock-number="24"></div>
+                        <div data-codeblock-number="25"></div>
+                        <div data-codeblock-number="26"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="codeblock">
+                    <div data-codeblock-wrap="">
+                      <div data-codeblock-codes="">
+                        <div class="simplebar" data-simplebar="init">
+                          <div class="simplebar-wrapper" style="margin: 0px;">
+                            <div class="simplebar-height-auto-observer-wrapper">
+                              <div class="simplebar-height-auto-observer"></div>
+                            </div>
+                            <div class="simplebar-mask">
+                              <div class="simplebar-offset" style="right: 0px; bottom: 0px;">
+                                <div class="simplebar-content-wrapper" style="height: auto; overflow: scroll;">
+                                  <div class="simplebar-content" style="padding: 0px;">
+                                    <div>
+                                      <pre data-origin="pm_code_preview"
+                                        lang="shell"><code data-type="codeline"><span data-type="markclass" class="hljs-comment"># Bob</span></code><code data-type="codeline">$ ./wgsd-client -device=wg0 -dns=4.4.4.4:53 -zone=fuckcloudnative.io.</code><code data-type="codeline">2020/05/20 13:24:04 [JeZlz14G8tg1Bqh6apteFCwVhNhpexJ19FDPfuxQtUY=] no SRV records found</code><code data-type="codeline">jwhited@Bob:~$ wg show</code><code data-type="codeline">interface: wg0</code><code data-type="codeline">  public key: syKB97XhGnvC+kynh2KqQJPXoOoOpx/HmpMRTc+r4js=</code><code data-type="codeline">  private key: (hidden)</code><code data-type="codeline">  listening port: 51820</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: xScVkH3fUGUv4RrJFfmcqm8rs3SEHr41km6+yffAHw4=</code><code data-type="codeline">  endpoint: 2.2.2.2:41424</code><code data-type="codeline">  allowed ips: 10.0.0.1/32</code><code data-type="codeline">  latest handshake: 22 seconds ago</code><code data-type="codeline">  transfer: 392 B received, 9.73 KiB sent</code><code data-type="codeline">  persistent keepalive: every 5 seconds</code><code data-type="codeline"><br class="ProseMirror-trailingBreak"></code><code data-type="codeline">peer: JeZlz14G8tg1Bqh6apteFCwVhNhpexJ19FDPfuxQtUY=</code><code data-type="codeline">  endpoint: 4.4.4.4:51820</code><code data-type="codeline">  allowed ips: 10.0.0.254/32</code><code data-type="codeline">  latest handshake: 1 minute, 14 seconds ago</code><code data-type="codeline">  transfer: 2.08 KiB received, 17.59 KiB sent</code><code data-type="codeline">  persistent keepalive: every 5 seconds</code></pre>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="simplebar-placeholder" style="width: 271px; height: 450px;"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-horizontal" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible"
+                              style="width: 107px; display: block; transform: translate3d(0px, 0px, 0px);"></div>
+                          </div>
+                          <div class="simplebar-track simplebar-vertical" style="visibility: visible;">
+                            <div class="simplebar-scrollbar simplebar-visible" style="height: 0px; display: none;">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div data-codeblock-copy="">复制代码</div>
+                      <div data-codeblock-index="">
+                        <div data-codeblock-number="1"></div>
+                        <div data-codeblock-number="2"></div>
+                        <div data-codeblock-number="3"></div>
+                        <div data-codeblock-number="4"></div>
+                        <div data-codeblock-number="5"></div>
+                        <div data-codeblock-number="6"></div>
+                        <div data-codeblock-number="7"></div>
+                        <div data-codeblock-number="8"></div>
+                        <div data-codeblock-number="9"></div>
+                        <div data-codeblock-number="10"></div>
+                        <div data-codeblock-number="11"></div>
+                        <div data-codeblock-number="12"></div>
+                        <div data-codeblock-number="13"></div>
+                        <div data-codeblock-number="14"></div>
+                        <div data-codeblock-number="15"></div>
+                        <div data-codeblock-number="16"></div>
+                        <div data-codeblock-number="17"></div>
+                        <div data-codeblock-number="18"></div>
+                        <div data-codeblock-number="19"></div>
+                        <div data-codeblock-number="20"></div>
+                        <div data-codeblock-number="21"></div>
+                        <div data-codeblock-number="22"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph"><code data-type="codeinline">wgsd-client</code> 成功发现了 Peer 的 endpoint 地址并更新了
+                    WireGuard 的配置，最终 Alice 和 Bob 之间直接建立了一条隧道！</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <h2 data-id="heading14" data-type="heading" top="15351.2001953125">总结</h2>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <div data-type="image">
+                    <div data-content="" data-style-width="75%" data-style-bordertype="none"><img
+                        src="https://static001.geekbang.org/infoq/cb/cb1e746804743436ea6f13490926b2ef.png"> <!---->
+                    </div>
+                  </div>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">本文探讨了如何在受 NAT 限制的两个 Peer 之间直接建立一条 WireGuard
+                    隧道。本文提供的解决方案都是使用现有的协议和服务发现技术，以及自己写了个可插拔的插件，你可以直接使用 <code data-type="codeinline">dig</code> 或 <code
+                      data-type="codeinline">nslookup</code> 来进行调试，不需要干扰或修改 WireGuard 本身。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph">当然，这个 CoreDNS 插件肯定还可以优化，<code data-type="codeinline">wgsd-client</code>
+                    也需要继续优化。比如，CoreDNS 服务器是否应该限制只在 Registry 的隧道中可用？是否应该对域进行签名？每次查询 DNS 时是否都需要查询一次 WireGuard 的 Peer
+                    信息，还是说可以用缓存来解决？这些都是值得思考的问题。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                  <p data-type="paragraph"><a
+                      href="https://xie.infoq.cn/link?target=https%3A%2F%2Fgithub.com%2Fjwhited%2Fwgsd" title=""
+                      data-type="link">wgsd 插件</a>的代码是开源的，欢迎大家踊跃贡献。</p>
+                  <p data-type="paragraph"><br class="ProseMirror-trailingBreak"></p>
+                </div>
+              </div>
+              <div data-v-759cadff="" data-v-fbbc0218="" class="selection-operation-bar note-bar popup-note-menu down">
+                <div data-v-759cadff="" class="arrow down"></div>
+                <div data-v-759cadff="" class="main">
+                  <div data-v-759cadff="" class="menu line"><i data-v-a949bb52="" data-v-759cadff=""
+                      class="com-icon iconfont icon-hover"
+                      style="font-size: 20px; color: rgb(255, 255, 255);"></i><span data-v-759cadff=""
+                      class="text">划线</span></div><!---->
+                  <div data-v-759cadff="" class="menu comment"><i data-v-a949bb52="" data-v-759cadff=""
+                      class="com-icon iconfont icon-hover"
+                      style="font-size: 20px; color: rgb(255, 255, 255);"></i><span data-v-759cadff=""
+                      class="text">评论</span></div>
+                  <div data-v-759cadff="" class="menu copy"><i data-v-a949bb52="" data-v-759cadff=""
+                      class="com-icon iconfont icon-hover"
+                      style="font-size: 20px; color: rgb(255, 255, 255);"></i><span data-v-759cadff=""
+                      class="text">复制</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div data-v-4a1c10f0="" data-v-b110a92e="" class="author-information after-content">
+            <div data-v-4a1c10f0="" data-v-b110a92e="" class="row"><span data-v-4a1c10f0="" data-v-b110a92e=""
+                class="date">发布于: 2021-02-01</span><span data-v-4a1c10f0="" data-v-b110a92e="" class="views">阅读数:
+                5488</span></div>
+          </div>
+          <div data-v-4a1c10f0="" data-v-b110a92e="" class="copyright">
+            <p data-v-4a1c10f0="" data-v-b110a92e="">版权声明: 本文为 InfoQ 作者【米开朗基杨】的原创文章。</p>
+            <p data-v-4a1c10f0="" data-v-b110a92e="">原文链接:【<a
+                href="https://xie.infoq.cn/article/3f68cde0163b359b13fa1a8f0"
+                target="_blank">https://xie.infoq.cn/article/3f68cde0163b359b13fa1a8f0</a>】。文章转载请联系作者。</p>
+          </div>
+          <div data-v-4a1c10f0="" data-v-b110a92e="" class="feedback-block"> 如对本文有异议，可<span data-v-4a1c10f0=""
+              data-v-b110a92e="" class="feedback">点此反馈</span></div>
+          <div data-v-4300d745="" data-v-4a1c10f0="" class="com-label-list tag-list" data-v-b110a92e=""><a
+              data-v-4426e0e8="" data-v-4300d745="" href="https://xie.infoq.cn/tag/2653" com-label-title=""
+              class="com-label-title">wireguard</a></div>
+          <div data-v-affe19d2="" data-v-4a1c10f0="" author-card="" class="com-author-card author-info"
+            data-v-b110a92e="">
+            <div data-v-affe19d2="" class="author-card">
+              <div data-v-affe19d2="" class="top">
+                <div data-v-affe19d2="" class="avatar">
+                  <div data-v-7b3025e7="" data-v-affe19d2="" class="com-avatar-wrap"><img data-v-7b3025e7=""
+                      src="//static001.geekbang.org/account/avatar/00/10/7c/e7/47429b6c.jpg?x-oss-process=image/resize,w_200,h_200"
+                      alt="用户头像" class="com-avatar" style="width: 40px; height: 40px;"><!----></div>
+                </div>
+                <div data-v-affe19d2="" class="info">
+                  <div data-v-affe19d2="" class="top">
+                    <h3 data-v-affe19d2="" class="author-name"><span data-v-3bc80670="" data-v-affe19d2=""
+                        class="ctn"><a data-v-3bc80670="" rel="nofollow" com-author-name="" class="com-author-name">
+                          米开朗基杨 </a><!----></span></h3>
+                    <div data-v-d2847db8="" data-v-affe19d2="" gk-button="" gkbtn-color="unfollow" gkbtn-size="small"
+                      class="geek-foll-btn Button_button_3onsJ" follow-button="" data-follow="0"><i data-v-affe19d2=""
+                        class="iconfont"></i>关注</div>
+                  </div><!---->
+                </div>
+              </div>
+              <p data-v-affe19d2="" class="mood"><span data-v-affe19d2="" class="mood-wrap">云原生宝藏男孩</span><span
+                  data-v-affe19d2="" class="dot"></span><span data-v-affe19d2="" class="date-wrap">2018-03-30 加入</span>
+              </p>
+              <p data-v-affe19d2="" class="intro">我是一名在上海工作的 Cloud Native 工程师，目前就职于
+                IBM，是一名云原生技术爱好者，专注于云原生领域，我的个人网站：https://fuckcloudnative.io，同时还运营了一个云原生技术公众号『云原生实验室』。</p>
+            </div>
+          </div><!----><!---->
+          <div data-v-b7e0eae6="" data-v-4a1c10f0="" class="article-comment-block comment-list-wrap" data-v-b110a92e="">
+            <div data-v-b7e0eae6="" class="comment-list">
+              <h2 data-v-b7e0eae6="">评论 <span data-v-b7e0eae6="" class="comment-number">(2 条评论)</span></h2><!---->
+              <div data-v-b7e0eae6="" class="list"><!---->
+                <div data-v-fcafb8d2="" data-v-54bade26="" data-v-b7e0eae6="" class="reply-item comment-item">
+                  <div data-v-54bade26="" data-v-fcafb8d2="" class="comment-avatar">
+                    <div data-v-7b3025e7="" data-v-54bade26="" class="com-avatar-wrap" data-v-fcafb8d2=""><img
+                        data-v-7b3025e7=""
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAYAAABwWUfkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDI1RjA3RkVCQ0ExMTFFODkyQTY4NDdDNjQ4Q0I3Q0QiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDI1RjA3RkRCQ0ExMTFFODkyQTY4NDdDNjQ4Q0I3Q0QiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNDQ5RjBBQUI4QzIxMUU4OEM2QkI5MDlENENEOUU3NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNDQ5RjBBQkI4QzIxMUU4OEM2QkI5MDlENENEOUU3NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjC0dCMAAAp5SURBVHja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"
+                        alt="用户头像" class="com-avatar" style="width: 30px; height: 30px;"><!----></div>
+                  </div>
+                  <div data-v-fcafb8d2="" class="reply-author"><span data-v-3bc80670="" data-v-fcafb8d2=""
+                      class="ctn reply-user"><a data-v-3bc80670="" rel="nofollow" com-author-name=""
+                        class="com-author-name"> yturing </a><!----></span><!----></div>
+                  <div data-v-fcafb8d2="" class="reply-content"><span data-v-fcafb8d2=""
+                      class="">这个和frp的xtcp点对点穿透有何区别？</span><!----></div>
+                  <div data-v-fcafb8d2="" class="reply-operation">
+                    <div data-v-fcafb8d2="" class="date">2021-04-14 21:20 <!----></div>
+                    <div data-v-fcafb8d2="" class="reply-action"><span data-v-fcafb8d2="" class="like-btn"><i
+                          data-v-fcafb8d2="" class="iconfont"></i> 0 </span><span data-v-fcafb8d2=""
+                        class="reply-btn"><i data-v-fcafb8d2="" class="iconfont"></i><em
+                          data-v-fcafb8d2="">回复</em></span></div>
+                  </div><!---->
+                </div>
+                <div data-v-fcafb8d2="" data-v-54bade26="" data-v-b7e0eae6="" class="reply-item comment-item">
+                  <div data-v-54bade26="" data-v-fcafb8d2="" class="comment-avatar">
+                    <div data-v-7b3025e7="" data-v-54bade26="" class="com-avatar-wrap" data-v-fcafb8d2=""><img
+                        data-v-7b3025e7=""
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAYAAABwWUfkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDI1RjA3RkVCQ0ExMTFFODkyQTY4NDdDNjQ4Q0I3Q0QiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDI1RjA3RkRCQ0ExMTFFODkyQTY4NDdDNjQ4Q0I3Q0QiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTcgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozNDQ5RjBBQUI4QzIxMUU4OEM2QkI5MDlENENEOUU3NiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozNDQ5RjBBQkI4QzIxMUU4OEM2QkI5MDlENENEOUU3NiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PjC0dCMAAAp5SURBVHja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"
+                        alt="用户头像" class="com-avatar" style="width: 30px; height: 30px;"><!----></div>
+                  </div>
+                  <div data-v-fcafb8d2="" class="reply-author"><span data-v-3bc80670="" data-v-fcafb8d2=""
+                      class="ctn reply-user"><a data-v-3bc80670="" rel="nofollow" com-author-name=""
+                        class="com-author-name"> yturing </a><!----></span><!----></div>
+                  <div data-v-fcafb8d2="" class="reply-content"><span data-v-fcafb8d2="" class="">NB plus</span><!---->
+                  </div>
+                  <div data-v-fcafb8d2="" class="reply-operation">
+                    <div data-v-fcafb8d2="" class="date">2021-04-14 21:19 <!----></div>
+                    <div data-v-fcafb8d2="" class="reply-action"><span data-v-fcafb8d2="" class="like-btn"><i
+                          data-v-fcafb8d2="" class="iconfont"></i> 0 </span><span data-v-fcafb8d2=""
+                        class="reply-btn"><i data-v-fcafb8d2="" class="iconfont"></i><em
+                          data-v-fcafb8d2="">回复</em></span></div>
+                  </div><!---->
+                </div>
+                <div data-v-4c7bd645="" data-v-b7e0eae6="" class="com-more-button loading-btn"><span data-v-4c7bd645=""
+                    class="finish-label">没有更多了</span></div>
+              </div>
+            </div>
+          </div><!---->
+        </div><!---->
+        <div data-v-4449d9fe="" data-v-4a1c10f0="" id="gk-layer" gkmodal-color="common"
+          class="report-modal Modal_gk-modal_3ly5T" data-v-b110a92e=""><!----><!----></div>
+        <div data-v-355438c6="" data-v-4a1c10f0="" id="gk-layer" gkmodal-color="base"
+          class="share-weixin-modal Modal_gk-modal_3ly5T" data-v-b110a92e=""><!----><!----></div>
+        <div data-v-4b5aad81="" data-v-4a1c10f0="" id="gk-layer" gkmodal-color="base"
+          class="modal-share-horde Modal_gk-modal_3ly5T" data-v-b110a92e=""><!----><!----></div>
+        <div data-v-210a8399="" data-v-4a1c10f0="" class="bottom-comment-bar" data-v-b110a92e="">
+          <div data-v-210a8399="" class="text-border">写下你的想法，一起交流</div>
+          <div data-v-210a8399="" class="btns-wrap">
+            <div data-v-210a8399="" class="comment btn"><i data-v-210a8399="" class="iconfont"></i><span
+                data-v-210a8399="" class="comment-count">2</span></div>
+            <div data-v-210a8399="" class="like btn"><i data-v-210a8399="" class="iconfont"></i></div>
+            <div data-v-210a8399="" class="favorite btn"><i data-v-210a8399="" class="iconfont"></i></div>
+            <div data-v-210a8399="" class="share btn"><i data-v-210a8399="" class="iconfont"></i></div>
+          </div>
+        </div><!----><!---->
+      </div><!---->
+      <div data-v-0dc6ee4d="" data-v-4a1c10f0="" class="nps-score" data-v-b110a92e="">
+        <div data-v-0dc6ee4d="" id="gk-layer" gkmodal-color="common" class="nps-modal Modal_gk-modal_3ly5T">
+          <!----><!---->
+        </div>
+        <div data-v-0dc6ee4d="" id="gk-layer" gkmodal-color="common" class="nps-modal-thank Modal_gk-modal_3ly5T">
+          <!----><!---->
+        </div>
+      </div>
+    </div>
+    <div data-v-b110a92e="" id="check-bottom-bar"></div>
+    <div data-v-b110a92e="" layout-footer-wrap="" class="layout-footer-wrap">
+      <div data-v-14cb9978="" data-v-b110a92e=""
+        bus="[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]"
+        nav="[object Object],[object Object],[object Object],[object Object]" class="layout-footer">
+        <div data-v-14cb9978="" class="copyright"> Copyright © 2024, Geekbang Technology Ltd. All rights reserved.
+          极客邦控股（北京）有限公司<br data-v-14cb9978=""><a data-v-14cb9978="" target="_blank" href="http://www.beian.miit.gov.cn"
+            class="icp">京 ICP 备 16027448 号 - 5</a><a data-v-14cb9978="" target="_blank"
+            href="https://time.geekbang.org/hybrid/certificates" class="icp"><br data-v-14cb9978="">产品资质</a>
+          <div data-v-14cb9978="" style="width: 270px; margin: 0px auto; padding: 20px 0px;"><a data-v-14cb9978=""
+              target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502039052"
+              style="display: inline-block; text-decoration: none; height: 20px; line-height: 20px;"><img
+                data-v-14cb9978="" src="https://static001.geekbang.org/static/infoq/www/img/beian.d0289dc0.png"
+                alt="京公网安备" style="float: left;">
+              <p data-v-14cb9978=""
+                style="float: left; height: 20px; line-height: 20px; margin: 0px 0px 0px 5px; color: rgb(209, 214, 225);">
+                京公网安备 11010502039052号</p>
+            </a></div>
+        </div>
+      </div>
+    </div>
+    <div data-v-b110a92e="" id="gk-layer" gkmodal-color="common" class="offline-modal Modal_gk-modal_3ly5T">
+      <!----><!---->
+    </div>
+  </div>
+  <img src="https://static001.infoq.cn/static/infoq/img/logo-121-75.yuij86g.png"
+    alt="WireGuard 教程：使用 DNS-SD 进行 NAT-to-NAT 穿透_wireguard_米开朗基杨_InfoQ写作社区" style="display: none;">
+
+
+
+
+
+
+
+
+
+
+
+  <div id="mantisImgViewBg" style="display: none">
+    <div id="mantisImgView_header">
+      <img src="https://probe.bjmantis.net/chat/img/rotateIcon.png" alt="" id="leftTurn">
+      <img src="https://probe.bjmantis.net/chat/img/rotateIcon.png" alt="" id="rightTurn">
+      <img src="https://probe.bjmantis.net/chat/img/blowUpIcon.png" alt="" id="blowUp">
+      <img src="https://probe.bjmantis.net/chat/img/minificationIcon.png" alt="" id="minification">
+    </div>
+    <div id="imgBox">
+      <img id="viewImg" src="" alt="">
+    </div>
+  </div>
+  <div id="mantisChatBox" style="position:fixed;display:none"></div><iframe id="MANTIS-CHAT-DIV" frameborder="no"
+    style="z-index: 2147483646; position: fixed; width: 100%; height: 85%;left:0;right:0;bottom:0;display:none;"></iframe>
+  <div data-v-742c2edc="" id="gkui-message-list" style="top: 24px;"><span data-v-742c2edc=""></span></div>
+  <div id="gkui-modal-controller"><!----></div>
+  <div class="common-login-modal">
+    <div data-v-66e08e49="" id="gk-layer" gkmodal-color="base" class="modal-login Modal_gk-modal_3ly5T"><!----><!---->
+    </div>
+    <div data-v-95b8db28="" id="gk-layer" gkmodal-color="base" class="modal-guide Modal_gk-modal_3ly5T"><!----><!---->
+    </div>
+    <div data-v-0b61e37e="" id="gk-layer" gkmodal-color="base" class="modal-receive-success Modal_gk-modal_3ly5T">
+      <!----><!---->
+    </div>
+    <div data-v-de1e5142="" id="gk-layer" gkmodal-color="base" class="modal-rebind Modal_gk-modal_3ly5T"><!----><!---->
+    </div>
+  </div>
+  <div tabindex="-1" role="dialog" aria-hidden="true" class="pswp pswp--zoom-allowed">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+      <div class="pswp__container">
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+        <div class="pswp__item"></div>
+      </div>
+      <div class="pswp__ui pswp__ui--hidden">
+        <div class="pswp__top-bar">
+          <div class="pswp__counter"></div><button title="Close (Esc)"
+            class="pswp__button pswp__button--close"></button><button title="Share"
+            class="pswp__button pswp__button--share"></button><button title="Toggle fullscreen"
+            class="pswp__button pswp__button--fs"></button><button title="Zoom in/out"
+            class="pswp__button pswp__button--zoom"></button>
+          <div class="pswp__preloader">
+            <div class="pswp__preloader__icn">
+              <div class="pswp__preloader__cut">
+                <div class="pswp__preloader__donut"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+          <div class="pswp__share-tooltip"></div>
+        </div><button title="Previous (arrow left)" class="pswp__button pswp__button--arrow--left"></button><button
+          title="Next (arrow right)" class="pswp__button pswp__button--arrow--right"></button>
+        <div class="pswp__caption">
+          <div class="pswp__caption__center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div id="gk-layer" gkmodal-color="logPhone" class="Modal_gk-modal_90vUO"><!----><!----></div>
+  </div>
+  <link type="text/css" rel="stylesheet" href="https://pg-chatn4.bjmantis.net/chat/css/mbody.css">
+  <div id="minimizeBox" class="minimizeBoxMinimalism" style="background: rgb(12, 204, 151);"><span id="minimizeIcon"
+      onclick="mantis.requestChat()" class="iconFont icon-fankuixinxi" style="color: rgb(255, 255, 255);"></span>
+    <div id="receiveMsg" style="display: none;">
+      <div id="minimizeNum" onclick="mantis.requestChat()" style="color: rgb(255, 255, 255);"></div>
+      <div id="animation"></div>
+    </div>
+  </div>
+  <div id="mantisMinimizeMsg" style="display: none">
+    <div id="minimizeMsgTop"><span id="minimizeGB" onclick="mantisOnCloseMsgList()"><img
+          src="https://probe.bjmantis.net/chat/img/close.png" alt="" style="width:100%;"></span><img id="minimizeHeader"
+        src="https://probe.bjmantis.net/chat/img/8888/10003/pc/img/default_counselor.jpg" width="25" height="25"><span
+        id="mantisNickname"></span></div>
+    <div id="minimizeMsgList" onclick="mantis.requestChat()"></div>
+  </div>
+  <script src="./sticky.js"></script>
+  <script>
+    stickyElement(document.querySelector("#sticky2"), {
+      onStickyChange: data => {
+        if (data.sticky) {
+          data.element.style.background = "white";
+          data.element.style.boxShadow = "3px 3px 5px #aaa";
+          data.element.style.zIndex = "99";
+        } else {
+          data.element.style.background = "none";
+          data.element.style.boxShadow = "none";
+          data.element.style.zIndex = "auto";
+        }
+      }
+    });
+  </script>
+</body>
+
+</html>
