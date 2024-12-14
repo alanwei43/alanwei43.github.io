@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[96891],{45752:a=>{a.exports=JSON.parse('{"label":"tailwindcss","permalink":"/blog/tags/tailwindcss","allTagsPath":"/blog/tags","count":2}')}}]);
