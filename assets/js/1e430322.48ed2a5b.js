@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[16993],{54300:a=>{a.exports=JSON.parse('{"label":"FSLegacyMainResolve","permalink":"/blog/tags/fs-legacy-main-resolve","allTagsPath":"/blog/tags","count":1}')}}]);
