@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vue 3 Default</title>
+</head>
+
+<body>
+  <script src="./vue.global.js"></script>
+
+  <div id="app">
+    <div>{{ message }}</div>
+    <div>
+      <input type="checkbox" v-model="data.agree" />
+      {{data.agree}}
+    </div>
+    <a href="./demo-esm.html">Go To ESM</a> <br />
+    <a href="./demo-import.html">Go To Import</a> <br />
+    <span @click="doPrint">Print Data</span>
+  </div>
+
+  <script>
+    const { createApp, ref } = Vue
+
+    createApp({
+      setup() {
+        const message = ref('Hello vue!')
+        const data = ref({
+          agree: false
+        });
+        return {
+          message,
+          data,
+          doPrint: () => {
+            console.log(JSON.stringify(data.value));
+          }
+        }
+      }
+    }).mount('#app')
+  </script>
+</body>
+
+</html>
