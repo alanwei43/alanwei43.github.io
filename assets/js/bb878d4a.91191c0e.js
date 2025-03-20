@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[19332],{82990:e=>{e.exports=JSON.parse('{"label":"puppeteer","permalink":"/blog/tags/puppeteer","allTagsPath":"/blog/tags","count":2}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[18950],{96917:a=>{a.exports=JSON.parse('{"label":"cpu","permalink":"/blog/tags/cpu","allTagsPath":"/blog/tags","count":1}')}}]);

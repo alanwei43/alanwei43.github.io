@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[45480],{68960:a=>{a.exports=JSON.parse('{"label":"ebook","permalink":"/blog/tags/ebook","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkalan_blog=self.webpackChunkalan_blog||[]).push([[71368],{62174:a=>{a.exports=JSON.parse('{"label":".net core","permalink":"/blog/tags/net-core","allTagsPath":"/blog/tags","count":2}')}}]);
