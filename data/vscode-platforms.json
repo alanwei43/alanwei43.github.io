@@ -84,7 +84,7 @@
         "link": "https://update.code.visualstudio.com/{version}/linux-snap-x64/stable"
     },
     {
-        "platform": "Linux Arm32 CLI",
+        "platform": "Linux x64 CLI",
         "link": "https://update.code.visualstudio.com/{version}/cli-linux-x64/stable"
     },
     {
