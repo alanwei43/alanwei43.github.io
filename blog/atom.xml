@@ -8,7 +8,7 @@
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
     <entry>
-        <title type="html"><![CDATA[使用Whistle代理抓取JVM HTTP请求]]></title>
+        <title type="html"><![CDATA[使用 Whistle 代理抓取JVM HTTP请求]]></title>
         <id>https://blog.alanwei.com/blog/2025/08/31/jvm-https-proxy</id>
         <link href="https://blog.alanwei.com/blog/2025/08/31/jvm-https-proxy"/>
         <updated>2025-08-31T00:00:00.000Z</updated>
