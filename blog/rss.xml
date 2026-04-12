@@ -4,10 +4,38 @@
         <title>Alan's Blog Blog</title>
         <link>https://blog.alanwei.com/blog</link>
         <description>Alan's Blog Blog</description>
-        <lastBuildDate>Fri, 27 Mar 2026 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 12 Apr 2026 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Windows 系统开启锁屏日志]]></title>
+            <link>https://blog.alanwei.com/blog/2026/04/12/windows-lock-event</link>
+            <guid>https://blog.alanwei.com/blog/2026/04/12/windows-lock-event</guid>
+            <pubDate>Sun, 12 Apr 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[开启锁屏/解锁日志]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="开启锁屏解锁日志">开启锁屏/解锁日志<a href="https://blog.alanwei.com/blog/2026/04/12/windows-lock-event#%E5%BC%80%E5%90%AF%E9%94%81%E5%B1%8F%E8%A7%A3%E9%94%81%E6%97%A5%E5%BF%97" class="hash-link" aria-label="Direct link to 开启锁屏/解锁日志" title="Direct link to 开启锁屏/解锁日志">​</a></h2>
+<ol>
+<li>运行(<code>Win + R</code>)输入 <code>gpedit.msc</code> 打开组策略</li>
+<li>依次展开 <strong>Local Computer Policy &gt; Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Advanced Audit Policy Configuration &gt; System Audit Policies - Local Group Policy Object &gt; Logon/Logoff</strong></li>
+<li>开启一下配置<!-- -->
+<ul>
+<li><strong>Audit Logoff</strong></li>
+<li><strong>Audit Logon</strong></li>
+<li><strong>Audit Other Logon/Logoff Events</strong></li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="查看日志">查看日志<a href="https://blog.alanwei.com/blog/2026/04/12/windows-lock-event#%E6%9F%A5%E7%9C%8B%E6%97%A5%E5%BF%97" class="hash-link" aria-label="Direct link to 查看日志" title="Direct link to 查看日志">​</a></h2>
+<ol>
+<li>运行(<code>Win + R</code>)输入 <code>eventvwr.msc</code> 打开事件日志</li>
+<li>找到 <strong>Windows Logs &gt; Security</strong></li>
+<li>点击右侧的 <strong>Filter Current Log</strong></li>
+<li>在 <code>&lt;All Event IDs&gt;</code> 输入项里输入 <code>4800,4801</code>(分别对应: 锁屏日志事件ID 和 解锁日志事件ID)，然后点击 <strong>OK</strong> 进行搜索</li>
+</ol>
+<p>也可以创建一个自定义filter, 不用每次都查询一遍</p>]]></content:encoded>
+            <category>windows</category>
+        </item>
         <item>
             <title><![CDATA[智谱 GLM-5.1 模型公布，所有 Coding Plan 用户均可调用]]></title>
             <link>https://blog.alanwei.com/blog/2026/03/27/glm-5.1</link>
@@ -648,23 +676,6 @@ After the software is installed, you can delete the .dmg or .tar.gz file if you 
 <div class="language-vue codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockTitle_Ktv7">Parent.vue</div><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-vue codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">&lt;template&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &lt;div&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    &lt;h1&gt;这是父组件组件&lt;/h1&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    &lt;Child&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">      &lt;template v-slot:default="slotProps"&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        默认插槽: {{ slotProps.person.firstName }}</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">      &lt;/template&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">      &lt;template #bottom="{ personName, fnGreet }"&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">        &lt;button @click="fnGreet"&gt;打印&lt;/button&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">      &lt;/template&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    &lt;/Child&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  &lt;/div&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&lt;/template&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&lt;script&gt;</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">import Child from "./Child.vue";</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">export default {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  components: { Child }, </span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  data() {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    return {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">      city: { cityName: "北京" }</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    };</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  },</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  methods: {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    </span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  }</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">}</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&lt;script&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
             <category>vue</category>
             <category>vue2</category>
-        </item>
-        <item>
-            <title><![CDATA[Windows 10/11 自动登录]]></title>
-            <link>https://blog.alanwei.com/blog/2024/02/24/windows-10-autologin</link>
-            <guid>https://blog.alanwei.com/blog/2024/02/24/windows-10-autologin</guid>
-            <pubDate>Sat, 24 Feb 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[打开运行(Win + R) 输入 netplwiz 打开以下对话框, 取消勾选 要使用本计算机，用户必须输入用户名和密码 并点击 确定:]]></description>
-            <content:encoded><![CDATA[<p>打开运行(<code>Win + R</code>) 输入 <code>netplwiz</code> 打开以下对话框, 取消勾选 <em>要使用本计算机，用户必须输入用户名和密码</em> 并点击 <em>确定</em>:</p>
-<p><img decoding="async" loading="lazy" alt="netplwiz" src="https://blog.alanwei.com/assets/images/windows-10-netplwiz-10614fd2d713f06a990328fa9e302537.png" width="461" height="577" class="img_ev3q"></p>
-<p>如果没有看到该选项, 需要修改注册表实现:</p>
-<p>打开运行(<code>Win + R</code>) 输入 <code>regedit</code> 打开注册编辑表, 定位到 <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\PasswordLess\Device</code> (可以直接在地址栏输入并回车跳转), 然后修改 <code>DevicePasswordLessBuildVersion</code> 的值为 <code>0</code>:
-<img decoding="async" loading="lazy" alt="regedit" src="https://blog.alanwei.com/assets/images/windows-10-regedit-5ba2bdb4db115380cba66cf7bf1018e5.png" width="776" height="456" class="img_ev3q"></p>
-<p>引用文档:</p>
-<blockquote>
-<p><a href="https://www.wintips.org/fix-users-must-enter-a-username-password-to-use-this-computer-missing/" target="_blank" rel="noopener noreferrer">FIX: 'Users must enter a user name and password to use this computer' option is Missing.</a></p>
-</blockquote>]]></content:encoded>
-            <category>Windows</category>
         </item>
     </channel>
 </rss>

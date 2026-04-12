@@ -2,11 +2,39 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2026-03-27T00:00:00.000Z</updated>
+    <updated>2026-04-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Windows 系统开启锁屏日志]]></title>
+        <id>https://blog.alanwei.com/blog/2026/04/12/windows-lock-event</id>
+        <link href="https://blog.alanwei.com/blog/2026/04/12/windows-lock-event"/>
+        <updated>2026-04-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[开启锁屏/解锁日志]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="开启锁屏解锁日志">开启锁屏/解锁日志<a href="https://blog.alanwei.com/blog/2026/04/12/windows-lock-event#%E5%BC%80%E5%90%AF%E9%94%81%E5%B1%8F%E8%A7%A3%E9%94%81%E6%97%A5%E5%BF%97" class="hash-link" aria-label="Direct link to 开启锁屏/解锁日志" title="Direct link to 开启锁屏/解锁日志">​</a></h2>
+<ol>
+<li>运行(<code>Win + R</code>)输入 <code>gpedit.msc</code> 打开组策略</li>
+<li>依次展开 <strong>Local Computer Policy &gt; Computer Configuration &gt; Windows Settings &gt; Security Settings &gt; Advanced Audit Policy Configuration &gt; System Audit Policies - Local Group Policy Object &gt; Logon/Logoff</strong></li>
+<li>开启一下配置<!-- -->
+<ul>
+<li><strong>Audit Logoff</strong></li>
+<li><strong>Audit Logon</strong></li>
+<li><strong>Audit Other Logon/Logoff Events</strong></li>
+</ul>
+</li>
+</ol>
+<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="查看日志">查看日志<a href="https://blog.alanwei.com/blog/2026/04/12/windows-lock-event#%E6%9F%A5%E7%9C%8B%E6%97%A5%E5%BF%97" class="hash-link" aria-label="Direct link to 查看日志" title="Direct link to 查看日志">​</a></h2>
+<ol>
+<li>运行(<code>Win + R</code>)输入 <code>eventvwr.msc</code> 打开事件日志</li>
+<li>找到 <strong>Windows Logs &gt; Security</strong></li>
+<li>点击右侧的 <strong>Filter Current Log</strong></li>
+<li>在 <code>&lt;All Event IDs&gt;</code> 输入项里输入 <code>4800,4801</code>(分别对应: 锁屏日志事件ID 和 解锁日志事件ID)，然后点击 <strong>OK</strong> 进行搜索</li>
+</ol>
+<p>也可以创建一个自定义filter, 不用每次都查询一遍</p>]]></content>
+        <category label="windows" term="windows"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[智谱 GLM-5.1 模型公布，所有 Coding Plan 用户均可调用]]></title>
         <id>https://blog.alanwei.com/blog/2026/03/27/glm-5.1</id>
@@ -659,22 +687,5 @@ After the software is installed, you can delete the .dmg or .tar.gz file if you 
         </author>
         <category label="vue" term="vue"/>
         <category label="vue2" term="vue2"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Windows 10/11 自动登录]]></title>
-        <id>https://blog.alanwei.com/blog/2024/02/24/windows-10-autologin</id>
-        <link href="https://blog.alanwei.com/blog/2024/02/24/windows-10-autologin"/>
-        <updated>2024-02-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[打开运行(Win + R) 输入 netplwiz 打开以下对话框, 取消勾选 要使用本计算机，用户必须输入用户名和密码 并点击 确定:]]></summary>
-        <content type="html"><![CDATA[<p>打开运行(<code>Win + R</code>) 输入 <code>netplwiz</code> 打开以下对话框, 取消勾选 <em>要使用本计算机，用户必须输入用户名和密码</em> 并点击 <em>确定</em>:</p>
-<p><img decoding="async" loading="lazy" alt="netplwiz" src="https://blog.alanwei.com/assets/images/windows-10-netplwiz-10614fd2d713f06a990328fa9e302537.png" width="461" height="577" class="img_ev3q"></p>
-<p>如果没有看到该选项, 需要修改注册表实现:</p>
-<p>打开运行(<code>Win + R</code>) 输入 <code>regedit</code> 打开注册编辑表, 定位到 <code>HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\PasswordLess\Device</code> (可以直接在地址栏输入并回车跳转), 然后修改 <code>DevicePasswordLessBuildVersion</code> 的值为 <code>0</code>:
-<img decoding="async" loading="lazy" alt="regedit" src="https://blog.alanwei.com/assets/images/windows-10-regedit-5ba2bdb4db115380cba66cf7bf1018e5.png" width="776" height="456" class="img_ev3q"></p>
-<p>引用文档:</p>
-<blockquote>
-<p><a href="https://www.wintips.org/fix-users-must-enter-a-username-password-to-use-this-computer-missing/" target="_blank" rel="noopener noreferrer">FIX: 'Users must enter a user name and password to use this computer' option is Missing.</a></p>
-</blockquote>]]></content>
-        <category label="Windows" term="Windows"/>
     </entry>
 </feed>
