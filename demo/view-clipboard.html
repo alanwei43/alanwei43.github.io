@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>剪切板查看器</title>
+    <style>
+        :root {
+            color-scheme: light;
+            --bg: #f3f5f8;
+            --card: #ffffff;
+            --text: #1f2937;
+            --muted: #6b7280;
+            --border: #d9e1ec;
+            --primary: #2563eb;
+            --primary-soft: #dbeafe;
+            --success: #15803d;
+            --warning: #b45309;
+            --danger: #dc2626;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(180deg, #eef4ff 0%, var(--bg) 220px);
+            color: var(--text);
+        }
+
+        .page {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 24px 16px 40px;
+        }
+
+        .hero,
+        .panel,
+        .item-card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+        }
+
+        .hero {
+            padding: 24px;
+            margin-bottom: 16px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            margin: 0;
+        }
+
+        .hero h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            line-height: 1.7;
+            color: var(--muted);
+        }
+
+        .actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-top: 18px;
+        }
+
+        button {
+            appearance: none;
+            border: 0;
+            border-radius: 999px;
+            padding: 12px 18px;
+            font-size: 14px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+        }
+
+        button:hover {
+            transform: translateY(-1px);
+        }
+
+        .primary-btn {
+            background: var(--primary);
+            color: #fff;
+            box-shadow: 0 8px 18px rgba(37, 99, 235, 0.24);
+        }
+
+        .secondary-btn {
+            background: var(--primary-soft);
+            color: var(--primary);
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .panel {
+            padding: 18px;
+        }
+
+        .panel h2 {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .panel .value {
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--muted);
+            word-break: break-word;
+        }
+
+        .tag-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            min-height: 28px;
+            padding: 0 10px;
+            border-radius: 999px;
+            background: #eef2ff;
+            color: #4338ca;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        .tag-success {
+            background: #dcfce7;
+            color: var(--success);
+        }
+
+        .tag-warning {
+            background: #ffedd5;
+            color: var(--warning);
+        }
+
+        .tag-danger {
+            background: #fee2e2;
+            color: var(--danger);
+        }
+
+        .list {
+            display: grid;
+            gap: 14px;
+        }
+
+        .item-card {
+            overflow: hidden;
+        }
+
+        .item-head {
+            padding: 16px 18px;
+            border-bottom: 1px solid var(--border);
+            background: #f8fafc;
+        }
+
+        .item-head h3 {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        .item-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .item-body {
+            padding: 18px;
+            display: grid;
+            gap: 14px;
+        }
+
+        .content-block {
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 14px;
+            background: #fbfdff;
+        }
+
+        .content-title {
+            font-size: 13px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: #111827;
+        }
+
+        pre {
+            margin: 0;
+            white-space: pre-wrap;
+            word-break: break-word;
+            font-family: Consolas, Monaco, monospace;
+            font-size: 13px;
+            line-height: 1.6;
+        }
+
+        .image-preview {
+            max-width: 100%;
+            border-radius: 10px;
+            display: block;
+            border: 1px solid var(--border);
+            background: #fff;
+        }
+
+        iframe {
+            width: 100%;
+            min-height: 220px;
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            background: #fff;
+        }
+
+        .empty {
+            padding: 32px 18px;
+            text-align: center;
+            color: var(--muted);
+            background: var(--card);
+            border: 1px dashed var(--border);
+            border-radius: 16px;
+        }
+
+        .tips {
+            margin-top: 16px;
+            padding: 16px 18px;
+            border-radius: 16px;
+            background: #0f172a;
+            color: #dbe4f5;
+            line-height: 1.7;
+            font-size: 14px;
+        }
+
+        .tips code {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <section class="hero">
+            <h1>剪切板查看器</h1>
+            <p>
+                页面会在加载后自动尝试读取系统剪切板，并在窗口重新获得焦点时再次读取。下方会展示剪切板中的条目数量、每个条目的 MIME 类型，以及对应内容。
+            </p>
+            <div class="actions">
+                <button id="refreshBtn" class="primary-btn" type="button">立即重新读取</button>
+                <button id="clearBtn" class="secondary-btn" type="button">清空展示结果</button>
+            </div>
+        </section>
+
+        <section class="status-grid">
+            <div class="panel">
+                <h2>读取状态</h2>
+                <div id="statusText" class="value">等待读取剪切板...</div>
+                <div id="statusTags" class="tag-row"></div>
+            </div>
+            <div class="panel">
+                <h2>最近读取时间</h2>
+                <div id="readTime" class="value">暂无</div>
+            </div>
+            <div class="panel">
+                <h2>剪切板条目数</h2>
+                <div id="itemCount" class="value">0</div>
+            </div>
+        </section>
+
+        <section id="resultList" class="list">
+            <div class="empty">暂未读取到剪切板内容。</div>
+        </section>
+
+        <section class="tips">
+            某些浏览器会限制自动读取剪切板：需要 <code>HTTPS</code>、用户授权，或必须由点击等用户操作触发。如果自动读取失败，可点击“立即重新读取”重试。
+        </section>
+    </div>
+
+    <script>
+        (function () {
+            var refreshBtn = document.getElementById('refreshBtn');
+            var clearBtn = document.getElementById('clearBtn');
+            var statusText = document.getElementById('statusText');
+            var statusTags = document.getElementById('statusTags');
+            var readTime = document.getElementById('readTime');
+            var itemCount = document.getElementById('itemCount');
+            var resultList = document.getElementById('resultList');
+            var objectUrls = [];
+
+            function escapeHtml(value) {
+                return String(value)
+                    .replace(/&/g, '&amp;')
+                    .replace(/</g, '&lt;')
+                    .replace(/>/g, '&gt;')
+                    .replace(/"/g, '&quot;')
+                    .replace(/'/g, '&#39;');
+            }
+
+            function formatBytes(bytes) {
+                if (!bytes && bytes !== 0) {
+                    return '--';
+                }
+                var units = ['B', 'KB', 'MB', 'GB'];
+                var index = 0;
+                var size = bytes;
+                while (size >= 1024 && index < units.length - 1) {
+                    size = size / 1024;
+                    index += 1;
+                }
+                return size.toFixed(size >= 10 || index === 0 ? 0 : 2) + ' ' + units[index];
+            }
+
+            function setTags(tags) {
+                statusTags.innerHTML = '';
+                tags.forEach(function (tag) {
+                    var span = document.createElement('span');
+                    span.className = 'tag ' + (tag.className || '');
+                    span.textContent = tag.text;
+                    statusTags.appendChild(span);
+                });
+            }
+
+            function setStatus(message, tags) {
+                statusText.textContent = message;
+                setTags(tags || []);
+            }
+
+            function updateReadTime() {
+                readTime.textContent = new Date().toLocaleString();
+            }
+
+            function cleanupObjectUrls() {
+                objectUrls.forEach(function (url) {
+                    URL.revokeObjectURL(url);
+                });
+                objectUrls = [];
+            }
+
+            function clearResults() {
+                cleanupObjectUrls();
+                resultList.innerHTML = '<div class="empty">暂未读取到剪切板内容。</div>';
+                itemCount.textContent = '0';
+                readTime.textContent = '暂无';
+                setStatus('已清空展示结果。', [
+                    { text: '空闲', className: 'tag-warning' }
+                ]);
+            }
+
+            function createTextBlock(title, text) {
+                var block = document.createElement('div');
+                block.className = 'content-block';
+
+                var blockTitle = document.createElement('div');
+                blockTitle.className = 'content-title';
+                blockTitle.textContent = title;
+
+                var pre = document.createElement('pre');
+                pre.textContent = text || '(空内容)';
+
+                block.appendChild(blockTitle);
+                block.appendChild(pre);
+                return block;
+            }
+
+            function createHtmlPreviewBlock(html) {
+                var block = document.createElement('div');
+                block.className = 'content-block';
+
+                var blockTitle = document.createElement('div');
+                blockTitle.className = 'content-title';
+                blockTitle.textContent = 'HTML 预览';
+
+                var iframe = document.createElement('iframe');
+                iframe.setAttribute('sandbox', '');
+                iframe.srcdoc = html;
+
+                block.appendChild(blockTitle);
+                block.appendChild(iframe);
+                return block;
+            }
+
+            function createImageBlock(blob) {
+                var block = document.createElement('div');
+                block.className = 'content-block';
+
+                var blockTitle = document.createElement('div');
+                blockTitle.className = 'content-title';
+                blockTitle.textContent = '图片预览';
+
+                var img = document.createElement('img');
+                var objectUrl = URL.createObjectURL(blob);
+                objectUrls.push(objectUrl);
+                img.src = objectUrl;
+                img.className = 'image-preview';
+                img.alt = 'clipboard image preview';
+
+                block.appendChild(blockTitle);
+                block.appendChild(img);
+                return block;
+            }
+
+            function createItemCard(index, item, blocks) {
+                var card = document.createElement('article');
+                card.className = 'item-card';
+
+                var head = document.createElement('div');
+                head.className = 'item-head';
+
+                var title = document.createElement('h3');
+                title.textContent = '条目 ' + (index + 1);
+                head.appendChild(title);
+
+                var meta = document.createElement('div');
+                meta.className = 'item-meta';
+                item.types.forEach(function (type) {
+                    var tag = document.createElement('span');
+                    tag.className = 'tag';
+                    tag.textContent = type;
+                    meta.appendChild(tag);
+                });
+                head.appendChild(meta);
+
+                var body = document.createElement('div');
+                body.className = 'item-body';
+                blocks.forEach(function (block) {
+                    body.appendChild(block);
+                });
+
+                card.appendChild(head);
+                card.appendChild(body);
+                return card;
+            }
+
+            async function readClipboard(source) {
+                cleanupObjectUrls();
+                setStatus('正在读取剪切板...', [
+                    { text: source, className: '' },
+                    { text: '读取中', className: 'tag-warning' }
+                ]);
+
+                if (!window.isSecureContext) {
+                    setStatus('当前页面不是安全上下文，浏览器通常不允许读取剪切板。', [
+                        { text: '失败', className: 'tag-danger' },
+                        { text: '需要 HTTPS', className: 'tag-danger' }
+                    ]);
+                    return;
+                }
+
+                if (!navigator.clipboard) {
+                    setStatus('当前浏览器不支持 Clipboard API。', [
+                        { text: '失败', className: 'tag-danger' },
+                        { text: '不支持 API', className: 'tag-danger' }
+                    ]);
+                    return;
+                }
+
+                if (typeof navigator.clipboard.read !== 'function') {
+                    try {
+                        var text = await navigator.clipboard.readText();
+                        renderTextOnly(text, source);
+                    } catch (error) {
+                        renderError(error, source);
+                    }
+                    return;
+                }
+
+                try {
+                    var items = await navigator.clipboard.read();
+                    await renderClipboardItems(items, source);
+                } catch (error) {
+                    renderError(error, source);
+                }
+            }
+
+            function renderTextOnly(text, source) {
+                resultList.innerHTML = '';
+                itemCount.textContent = text ? '1' : '0';
+                updateReadTime();
+
+                if (!text) {
+                    resultList.innerHTML = '<div class="empty">剪切板为空，或当前浏览器只能读取文本但未读取到内容。</div>';
+                    setStatus('已完成读取，但没有可展示的文本内容。', [
+                        { text: source, className: '' },
+                        { text: '成功', className: 'tag-success' },
+                        { text: '仅文本', className: 'tag-warning' }
+                    ]);
+                    return;
+                }
+
+                var card = createItemCard(0, { types: ['text/plain'] }, [
+                    createTextBlock('文本内容', text)
+                ]);
+                resultList.appendChild(card);
+
+                setStatus('已读取文本剪切板内容。', [
+                    { text: source, className: '' },
+                    { text: '成功', className: 'tag-success' },
+                    { text: '仅文本', className: 'tag-warning' }
+                ]);
+            }
+
+            async function renderClipboardItems(items, source) {
+                resultList.innerHTML = '';
+                itemCount.textContent = String(items.length);
+                updateReadTime();
+
+                if (!items.length) {
+                    resultList.innerHTML = '<div class="empty">剪切板中没有可读取的条目。</div>';
+                    setStatus('已读取完成，但剪切板为空。', [
+                        { text: source, className: '' },
+                        { text: '成功', className: 'tag-success' }
+                    ]);
+                    return;
+                }
+
+                for (var i = 0; i < items.length; i += 1) {
+                    var item = items[i];
+                    var blocks = [];
+
+                    for (var j = 0; j < item.types.length; j += 1) {
+                        var type = item.types[j];
+                        var blob = await item.getType(type);
+
+                        blocks.push(createTextBlock('类型信息', 'MIME 类型: ' + type + '\n数据大小: ' + formatBytes(blob.size)));
+
+                        if (type === 'text/plain') {
+                            blocks.push(createTextBlock('文本内容', await blob.text()));
+                            continue;
+                        }
+
+                        if (type === 'text/html') {
+                            var html = await blob.text();
+                            blocks.push(createTextBlock('HTML 源码', html));
+                            blocks.push(createHtmlPreviewBlock(html));
+                            continue;
+                        }
+
+                        if (type.indexOf('image/') === 0) {
+                            blocks.push(createImageBlock(blob));
+                            continue;
+                        }
+
+                        if (type.indexOf('text/') === 0) {
+                            blocks.push(createTextBlock('文本内容', await blob.text()));
+                            continue;
+                        }
+
+                        blocks.push(createTextBlock('内容说明', '该类型暂不支持直接预览，但已读取到对应二进制数据。'));
+                    }
+
+                    resultList.appendChild(createItemCard(i, item, blocks));
+                }
+
+                setStatus('剪切板读取成功。', [
+                    { text: source, className: '' },
+                    { text: '成功', className: 'tag-success' },
+                    { text: items.length + ' 个条目', className: '' }
+                ]);
+            }
+
+            function renderError(error, source) {
+                var message = error && error.message ? error.message : '未知错误';
+                var permissionHint = message.toLowerCase().indexOf('permission') >= 0 ||
+                    message.toLowerCase().indexOf('denied') >= 0;
+
+                resultList.innerHTML = '<div class="empty">读取失败：' + escapeHtml(message) + '</div>';
+                itemCount.textContent = '0';
+                updateReadTime();
+
+                setStatus('读取剪切板失败：' + message, [
+                    { text: source, className: '' },
+                    { text: '失败', className: 'tag-danger' },
+                    { text: permissionHint ? '可能未授权' : '请重试', className: 'tag-warning' }
+                ]);
+            }
+
+            refreshBtn.addEventListener('click', function () {
+                readClipboard('手动触发');
+            });
+
+            clearBtn.addEventListener('click', function () {
+                clearResults();
+            });
+
+            window.addEventListener('focus', function () {
+                readClipboard('窗口聚焦');
+            });
+
+            document.addEventListener('visibilitychange', function () {
+                if (document.visibilityState === 'visible') {
+                    readClipboard('页面可见');
+                }
+            });
+
+            readClipboard('页面初始化');
+        })();
+    </script>
+</body>
+</html>
