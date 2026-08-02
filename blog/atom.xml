@@ -163,11 +163,12 @@
 <div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain"># Linux/macOS</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">netstat -tlnp | grep 8080</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">lsof -i :8080</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"># Windows</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">netstat -ano | findstr 8080</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
 <hr>
 <h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="排查端口号转发失败">排查端口号转发失败<a href="https://blog.alanwei.com/blog/2026/07/21/ssh-port-forward#%E6%8E%92%E6%9F%A5%E7%AB%AF%E5%8F%A3%E5%8F%B7%E8%BD%AC%E5%8F%91%E5%A4%B1%E8%B4%A5" class="hash-link" aria-label="Direct link to 排查端口号转发失败" title="Direct link to 排查端口号转发失败">​</a></h2>
-<ol>
+<ul>
 <li>本地执行命令 <code>ssh -L 0.0.0.0:3011:localhost:8080 lecoo</code> 执行端口号转发, 然后本地访问 <code>localhost:3011</code></li>
 <li>查看SSH日志文件 <code>/var/log/auth.log</code>, 可使用 <code>sudo tail -f /var/log/auth.log</code> 监控文件内容变化</li>
 <li>SSH配置文件 <code>/etc/ssh/sshd_config</code> 和目录 <code>/etc/ssh/sshd_config.d/</code></li>
-</ol>
+<li>执行 <code>systemctl restart sshd</code> 重启服务</li>
+</ul>
 <p>如果日志显示类似这种日志 <code>2026-07-21T21:20:08.436499+08:00 lecoo sshd[2465243]: refused local port forward: originator 127.0.0.1 port 55609, target localhost port 5556</code> 表示端口号转发被禁用，需要修改 SSH 对应配置文件, 检查配置项 <code>AllowTcpForwarding yes</code> 是否设置成了 <code>yes</code>, 注意要检查所有配置项及子目录下的配置项.</p>]]></content>
         <category label="ssh" term="ssh"/>
         <category label="linux" term="linux"/>
