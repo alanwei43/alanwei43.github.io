@@ -2,11 +2,85 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://blog.alanwei.com/blog</id>
     <title>Alan's Blog Blog</title>
-    <updated>2026-08-26T00:00:00.000Z</updated>
+    <updated>2026-09-20T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://blog.alanwei.com/blog"/>
     <subtitle>Alan's Blog Blog</subtitle>
     <icon>https://blog.alanwei.com/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[出口IP归属查询]]></title>
+        <id>https://blog.alanwei.com/blog/2026/09/20/index</id>
+        <link href="https://blog.alanwei.com/blog/2026/09/20/index"/>
+        <updated>2026-09-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[查询出口 IP（公网 IP）及其归属地、DNS 泄漏或代理伪装度的常用在线网站如下，按使用场景分类整理：]]></summary>
+        <content type="html"><![CDATA[<p>查询出口 IP（公网 IP）及其归属地、DNS 泄漏或代理伪装度的常用在线网站如下，按使用场景分类整理：</p>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="1-综合隐私与代理伪装度检测适合检测代理节点">1. 综合隐私与代理伪装度检测（适合检测代理/节点）<a href="https://blog.alanwei.com/blog/2026/09/20/index#1-%E7%BB%BC%E5%90%88%E9%9A%90%E7%A7%81%E4%B8%8E%E4%BB%A3%E7%90%86%E4%BC%AA%E8%A3%85%E5%BA%A6%E6%A3%80%E6%B5%8B%E9%80%82%E5%90%88%E6%A3%80%E6%B5%8B%E4%BB%A3%E7%90%86%E8%8A%82%E7%82%B9" class="hash-link" aria-label="Direct link to 1. 综合隐私与代理伪装度检测（适合检测代理/节点）" title="Direct link to 1. 综合隐私与代理伪装度检测（适合检测代理/节点）">​</a></h3>
+<p>这类网站不仅显示 IP 归属地，还能检测 DNS 泄漏、系统时区/语言是否与 IP 匹配等。</p>
+<ul>
+<li>
+<p><strong><a href="https://whoer.net/zh" target="_blank" rel="noopener noreferrer">Whoer.net</a></strong></p>
+</li>
+<li>
+<p><strong>特点：</strong> 计算“伪装度评分”（0% - 100%），会比对 IP 所在地与系统时区、语言、WebRTC、DNS 是否一致。</p>
+</li>
+<li>
+<p><strong><a href="https://ip.sb/" target="_blank" rel="noopener noreferrer">IPiPGO / ip.sb</a></strong></p>
+</li>
+<li>
+<p><strong>特点：</strong> 界面极简、加载极快，支持 IPv4 / IPv6 自动切换显示，包含 ASN 及运营商信息。</p>
+</li>
+<li>
+<p><strong><a href="https://www.browserscan.net/" target="_blank" rel="noopener noreferrer">BrowserScan</a></strong></p>
+</li>
+<li>
+<p><strong>特点：</strong> 专门检测浏览器指纹、代理类型（数据中心/住宅 IP）、DNS 及 WebRTC 泄漏。</p>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="2-精准国内全球-ip-数据库适合运维与常规检测">2. 精准国内/全球 IP 数据库（适合运维与常规检测）<a href="https://blog.alanwei.com/blog/2026/09/20/index#2-%E7%B2%BE%E5%87%86%E5%9B%BD%E5%86%85%E5%85%A8%E7%90%83-ip-%E6%95%B0%E6%8D%AE%E5%BA%93%E9%80%82%E5%90%88%E8%BF%90%E7%BB%B4%E4%B8%8E%E5%B8%B8%E8%A7%84%E6%A3%80%E6%B5%8B" class="hash-link" aria-label="Direct link to 2. 精准国内/全球 IP 数据库（适合运维与常规检测）" title="Direct link to 2. 精准国内/全球 IP 数据库（适合运维与常规检测）">​</a></h3>
+<p>这类网站接入了国内或国际专业的 IP 数据库，定位精度较高。</p>
+<ul>
+<li>
+<p><strong><a href="https://www.ipip.net/" target="_blank" rel="noopener noreferrer">IPIP.net</a></strong></p>
+</li>
+<li>
+<p><strong>特点：</strong> 国内老牌专业的 IP 数据库服务商，定位精准；其纯文本接口 <code>myip.ipip.net</code> 常用于命令行终端查询。</p>
+</li>
+<li>
+<p><strong><a href="https://ipinfo.io/" target="_blank" rel="noopener noreferrer">IPInfo.io</a></strong></p>
+</li>
+<li>
+<p><strong>特点：</strong> 国际上非常流行的 IP 查询工具，详细展示 ISP 运营商、ASN 编号、托管机房类型及地理坐标。</p>
+</li>
+<li>
+<p><strong><a href="https://www.ip138.com/" target="_blank" rel="noopener noreferrer">IP138</a></strong> / <strong><a href="https://ip.tool.chinaz.com/" target="_blank" rel="noopener noreferrer">站长工具 IP 查询</a></strong></p>
+</li>
+<li>
+<p><strong>特点：</strong> 国内用户常用的基础 IP 查询工具，同时结合多家数据库进行归属地比对。</p>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="3-开源与轻量级检测网站">3. 开源与轻量级检测网站<a href="https://blog.alanwei.com/blog/2026/09/20/index#3-%E5%BC%80%E6%BA%90%E4%B8%8E%E8%BD%BB%E9%87%8F%E7%BA%A7%E6%A3%80%E6%B5%8B%E7%BD%91%E7%AB%99" class="hash-link" aria-label="Direct link to 3. 开源与轻量级检测网站" title="Direct link to 3. 开源与轻量级检测网站">​</a></h3>
+<p>界面干净无广告，非常适合开发者或日常快速打开查看。</p>
+<ul>
+<li>
+<p><strong><a href="https://ipcheck.ing/" target="_blank" rel="noopener noreferrer">MyIP (IPCheck)</a></strong></p>
+</li>
+<li>
+<p><strong>特点：</strong> 极受欢迎的开源 IP 检测工具，同时检测原生 IP/广播 IP、WebRTC 泄漏、DNS 泄漏以及对各大流媒体（Netflix、Disney+ 等）的解锁状态。</p>
+</li>
+<li>
+<p><strong><a href="https://www.iplocation.net/" target="_blank" rel="noopener noreferrer">IPLocation.net</a></strong></p>
+</li>
+<li>
+<p><strong>特点：</strong> 汇总 MaxMind、IP2Location、DB-IP 等多个主流国际 IP 数据库的查询结果，方便互相印证。</p>
+</li>
+</ul>
+<hr>
+<h3 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="-快捷命令行查询适合终端运维">💡 快捷命令行查询（适合终端/运维）<a href="https://blog.alanwei.com/blog/2026/09/20/index#-%E5%BF%AB%E6%8D%B7%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%9F%A5%E8%AF%A2%E9%80%82%E5%90%88%E7%BB%88%E7%AB%AF%E8%BF%90%E7%BB%B4" class="hash-link" aria-label="Direct link to 💡 快捷命令行查询（适合终端/运维）" title="Direct link to 💡 快捷命令行查询（适合终端/运维）">​</a></h3>
+<p>如果你习惯使用终端或脚本，可以直接在命令行中运行以下指令：</p>
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain"># 返回格式化的 IP 及地理位置文本</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">curl myip.ipip.net</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain"># 返回 JSON 格式的详细 IP 信息（包含运营商和城市）</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">curl ipinfo.io</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain" style="display:inline-block"></span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Tmux 使用教程]]></title>
         <id>https://blog.alanwei.com/blog/2026/08/26/tmux-tutorial</id>
@@ -841,30 +915,5 @@
         <category label="css" term="css"/>
         <category label="sticky" term="sticky"/>
         <category label="position" term="position"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Node esBuild suddenly failing with FSLegacyMainResolve problem]]></title>
-        <id>https://blog.alanwei.com/blog/2024/12/14/node-esbuild-FSLegacyMainResolve</id>
-        <link href="https://blog.alanwei.com/blog/2024/12/14/node-esbuild-FSLegacyMainResolve"/>
-        <updated>2024-12-14T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[ref Node esBuild suddenly failing with FSLegacyMainResolve problem]]></summary>
-        <content type="html"><![CDATA[<p><a href="https://stackoverflow.com/questions/77630548/node-esbuild-suddenly-failing-with-fslegacymainresolve-problem" target="_blank" rel="noopener noreferrer">ref Node esBuild suddenly failing with FSLegacyMainResolve problem</a></p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="question">Question<a href="https://blog.alanwei.com/blog/2024/12/14/node-esbuild-FSLegacyMainResolve#question" class="hash-link" aria-label="Direct link to Question" title="Direct link to Question">​</a></h2>
-<p>I have a Node project that builds fine locally, and has historically built with no problems on the GitLab CI/CD server. However, suddenly, the pipeline build fails on the server with no changes to the code. I even opened several branches for past commits that previously built fine, and they also fail on the server.</p>
-<p>I'm mostly trying to understand what this error "means":</p>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">const resolvedOption = FSLegacyMainResolve(packageJsonUrlString, packageConfig.main, baseStringified);</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                         ^</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">TypeError: The URL must be of scheme file: &lt;etc...&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>I have to assume something changed in the build environment, it's not able to pull down a package suddenly, or similar, but there's nothing really specific about what the problem might be. I'm looking for pointers about why this is occurring, and possibly how to troubleshoot.</p>
-<p>Relevant error from the log on the build server is:</p>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#bfc7d5;--prism-background-color:#292d3e"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#bfc7d5;background-color:#292d3e"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ npm install</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">added 362 packages, and audited 363 packages in 17s</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">47 packages are looking for funding</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  run `npm fund` for details</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">found 0 vulnerabilities</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ echo "Compile complete."</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Compile complete.</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">$ npm run build</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&gt; my-project@1.0.0 build</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">&gt; tsc -skipLibCheck &amp;&amp; node esbuild.config.mjs production &amp;&amp; npm pack</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">node:internal/modules/esm/resolve:205</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  const resolvedOption = FSLegacyMainResolve(packageJsonUrlString, packageConfig.main, baseStringified);</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">                         ^</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">TypeError: The URL must be of scheme file:</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    at legacyMainResolve (node:internal/modules/esm/resolve:205:26)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    at packageResolve (node:internal/modules/esm/resolve:831:14)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    at moduleResolve (node:internal/modules/esm/resolve:901:20)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    at defaultResolve (node:internal/modules/esm/resolve:1121:11)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:396:12)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    at ModuleLoader.resolve (node:internal/modules/esm/loader:365:25)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:240:38)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    at ModuleWrap.&lt;anonymous&gt; (node:internal/modules/esm/module_job:85:39)</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">    at link (node:internal/modules/esm/module_job:84:36) {</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">  code: 'ERR_INVALID_URL_SCHEME'</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">}</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Node.js v20.10.0</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">Cleaning up project directory and file based variables 00:01</span><br></span><span class="token-line" style="color:#bfc7d5"><span class="token plain">ERROR: Job failed: exit code 1</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>Again, this runs just fine locally, same version of Node.js, etc. I've cleared local npm cache, deleted node_modules, etc, all in an attempt to potentially replicate the server-side state, but still everything works fine locally.</p>
-<h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="answer">Answer<a href="https://blog.alanwei.com/blog/2024/12/14/node-esbuild-FSLegacyMainResolve#answer" class="hash-link" aria-label="Direct link to Answer" title="Direct link to Answer">​</a></h2>
-<p>I was facing the same issue, but this worked for me</p>
-<ol>
-<li>Delete the node_modules directory: <code>rm -rf node_modules</code></li>
-<li>Install dependencies with the --legacy-peer-deps flag: <code>npm install --legacy-peer-deps</code></li>
-</ol>]]></content>
-        <category label="nodejs" term="nodejs"/>
-        <category label="esbuild" term="esbuild"/>
-        <category label="FSLegacyMainResolve" term="FSLegacyMainResolve"/>
     </entry>
 </feed>
